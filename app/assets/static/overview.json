@@ -1,0 +1,22 @@
+[
+  {
+    "commitment": "61.85",
+    "name": "facebook",
+    "privacy": "36.31",
+    "telco": "false",
+    "freedom": "35.28",
+    "total": "41.07",
+    "id": "facebook",
+    "display": "Facebook"
+  },
+  {
+    "commitment": "74.63",
+    "name": "vodafone",
+    "privacy": "48.71",
+    "telco": "true",
+    "freedom": "46.67",
+    "total": "53.53",
+    "id": "vodafone",
+    "display": "Vodafone"
+  }
+]

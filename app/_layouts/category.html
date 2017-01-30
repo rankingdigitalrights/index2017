@@ -1,0 +1,79 @@
+<!doctype html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+{% include head.html %}
+
+<body>
+  <!--[if lt IE 10]>
+    <div id="nocando">
+      <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    </div>
+  <![endif]-->
+
+  {% include banner.html %}
+
+  {% for topic in site.topics %}
+    {% if topic.entity == page.entity %}
+      {% if forloop.last %}
+        {% assign next = site.topics[0] %}
+      {% else %}
+        {% assign next = site.topics[forloop.index] %}
+      {% endif %}
+      {% if forloop.first %}
+        {% assign prev = site.topics | last %}
+      {% else %}
+        {% assign prev = previous %}
+      {% endif %}
+    {% endif %}
+    {% assign previous = topic %}
+  {% endfor %}
+
+  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+
+    <div class="row contain spaced-row">
+
+      <span class="right--nav">
+        {% include subnav.html %}
+        <div class="next">
+          <div class="next--item">
+            <span class="collecticon collecticon-arrow-left"></span>&nbsp;<a href="{{ site.baseurl }}/categories/{{ prev.entity }}/"><span class="not-small">Previous: </span>{{ prev.display }}</a>
+          </div>
+          <div class="next--item">
+            <a href="{{ site.baseurl }}/categories/{{ next.entity }}/"><span class="not-small">Next: </span>{{ next.display }}</a>&nbsp;<span class="collecticon collecticon-arrow-right"></span>
+          </div>
+        </div>
+      </span>
+
+      <p class="breadcrumbs">
+        <a href="{{ site.baseurl }}/all-indicators/">All Indicators</a>
+        <span class="collecticon collecticon-sm-triangle-right"></span>
+      </p>
+      <h1 class="comp--title">{{ page.display }}</h1>
+
+      <div class="displaytext">
+        <p>{{ page.introduction }}</p>
+
+        <div class="trigger">
+          <a class="js--expand">Show full analysis <span class="collecticon collecticon-sm-triangle-down"></span></a>
+          <a class="js--collapse">Hide full analysis <span class="collecticon collecticon-sm-triangle-down"></span></a>
+        </div>
+
+        <div class="collapse--target">
+          {{ content }}
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="category--overview_chart" class="row spaced-row contain"></div>
+    <div id="category--indicators" class="row-contained spaced-row contain">
+      <label><i>Select an indicator for detailed results.</i></label>
+    </div>
+  </div>
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
+
+</body>
+</html>

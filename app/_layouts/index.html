@@ -1,0 +1,31 @@
+<!doctype html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+{% include head.html %}
+
+<body>
+  <!--[if lt IE 10]>
+    <div id="nocando">
+      <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    </div>
+  <![endif]-->
+
+  {% include banner.html %}
+
+  <div class="index--intro">
+    <div class="row contain">{{ content }}</div>
+  </div>
+  <div class="right--nav_inline">
+    {% include subnav.html %}
+  </div>
+  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain">
+    <div id="category--internet"></div>
+    <div id="category--telco"></div>
+  </div>
+
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
+
+</body>
+</html>

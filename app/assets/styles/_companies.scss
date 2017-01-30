@@ -1,0 +1,9 @@
+.companies--intro {
+  line-height: 1.25em;
+  padding: 1.5em 0;
+  color: $black;
+  @include media(large-up) {
+    font-size: 1.25em;
+  }
+  line-height: 140%;
+}

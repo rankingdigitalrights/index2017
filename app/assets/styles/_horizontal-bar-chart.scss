@@ -1,0 +1,166 @@
+$bar-height: 1.5em;
+$title-width: 15%;
+$score-width: 8%;
+$bar-width: 100% - $title-width - $score-width;
+$title-width-sm: 25%;
+$score-width-sm: 15%;
+$bar-width-sm: 100% - $title-width-sm - $score-width-sm;
+
+#index--viz_container {
+  @extend .contain;
+}
+
+#category--internet,
+#category--telco {
+  @include noselect;
+}
+
+.vis--row {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: .25em;
+  padding-bottom: 0;
+  line-height: 1.4em;
+  cursor: default;
+}
+
+.vis--row_title {
+  width: $title-width-sm;
+  @include media(medium-up) {
+    width: $title-width;
+  }
+  text-align: left;
+}
+
+.vis--category_score {
+  width: $score-width-sm;
+  @include media(medium-up) {
+    width: $score-width;
+  }
+  font-family: $simplon;
+  color: $black;
+  text-align: center;
+}
+
+.vis--type {
+  text-transform: uppercase;
+  color: $gray;
+}
+
+.vis--header {
+  border-bottom: .1em solid $light;
+  font-size: .75em;
+  margin-top: 1em;
+  align-items: flex-end;
+}
+
+#category--internet .vis--header {
+  margin-top: 0;
+}
+
+.vis--header_item {
+  line-height: 1em;
+  font-size: 1em;
+  background: transparent;
+  color: $black;
+  text-transform: uppercase;
+  font-family: $simplon;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  overflow: hidden;
+
+  > a {
+    color: $black;
+    text-decoration: none;
+    transition: color .2s ease-out;
+    display: block;
+
+    &:hover {
+      color: $base-color;
+    }
+  }
+}
+
+.sort > .collecticon { margin-left: .25em; }
+.sort-asc > .collecticon:before { content: "\EA73"; }
+.sort-desc > .collecticon:before { content: "\EA74"; }
+.sort-none > .collecticon:before { content: "\EA75"; }
+.sort-sort > .collecticon:before { content: "\EA76"; }
+
+.vis--header_score {
+  width: $score-width-sm;
+  @include media(medium-up) {
+    width: $score-width;
+  }
+  text-align: center;
+}
+
+.vis--row_bars {
+  width: $bar-width-sm;
+  @include media(medium-up) {
+    width: $bar-width;
+  }
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.vis--row_bar {
+  width: 100%;
+  text-align: center;
+  @include media(medium-up) {
+    width: 22%;
+  }
+}
+
+.bar--count_1,
+.bar--count_2,
+.bar--count_3 {
+  display: none;
+  @include media(medium-up) {
+    display: block;
+  }
+}
+
+.vis--horiz_bar_container {
+  position: relative;
+  height: $bar-height;
+  background: $beige;
+  overflow: hidden;
+  transition: background .2s ease-in
+}
+
+.vis--horiz_bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: $bar-height;
+  display: block;
+  background: black;
+}
+
+.vis--bar_total {
+  background: $cat-total;
+  transition: background .2s ease-in;
+}
+.vis--bar_commitment {
+  background: $cat-commitment;
+  transition: background .2s ease-in
+}
+.vis--bar_freedom {
+  background: $cat-freedom;
+  transition: background .2s ease-in
+}
+.vis--bar_privacy {
+  background: $cat-privacy;
+  transition: background .2s ease-in
+}
+
+.vis--horiz_bar_container:hover {
+  background: darken($beige, 3%);
+  .vis--bar_total { background: darken($cat-total, 20%); }
+  .vis--bar_commitment { background: darken($cat-commitment, 20%); }
+  .vis--bar_freedom { background: darken($cat-freedom, 20%); }
+  .vis--bar_privacy { background: darken($cat-privacy, 20%); }
+}

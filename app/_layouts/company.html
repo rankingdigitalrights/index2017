@@ -1,0 +1,136 @@
+<!doctype html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+{% include head.html %}
+
+<body>
+  <!--[if lt IE 10]>
+    <div id="nocando">
+      <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    </div>
+  <![endif]-->
+
+  {% include banner.html %}
+
+  {% for company in site.companies %}
+    {% if company.id == page.id %}
+      {% if forloop.last %}
+        {% assign next = site.companies[0] %}
+      {% else %}
+        {% assign next = site.companies[forloop.index] %}
+      {% endif %}
+      {% if forloop.first %}
+        {% assign prev = site.companies | last %}
+      {% else %}
+        {% assign prev = previous %}
+      {% endif %}
+    {% endif %}
+    {% assign previous = company %}
+  {% endfor %}
+
+  {% if page.telco == true %}
+    {% assign company_type = "Telecommunications" %}
+  {% else %}
+    {% assign company_type = "Internet" %}
+  {% endif %}
+
+  <div id="site-canvas" data-type="company" data-id="{{ page.entity }}">
+    <div class="contain spaced-row row">
+
+      <span class="right--nav">
+        {% include subnav.html %}
+        <div class="next">
+          <div class="next--item">
+            <span class="collecticon collecticon-arrow-left"></span>&nbsp;<a href="{{ site.baseurl }}/companies/{{ prev.id }}/"><span class="not-small">Previous: </span>{{ prev.next }}</a>
+          </div>
+          <div class="next--item">
+            <a href="{{ site.baseurl }}/companies/{{ next.id }}/"><span class="not-small">Next: </span>{{ next.next }}</a>&nbsp;<span class="collecticon collecticon-arrow-right"></span>
+          </div>
+        </div>
+      </span>
+
+      <p class="breadcrumbs">
+        <a href="{{ site.baseurl }}">All Companies</a>
+        <span class="collecticon collecticon-sm-triangle-right"></span>
+      </p>
+      <label class="blocklabel">{{ company_type }}</label>
+      <h1 class="comp--title">{{ page.display }} <span class="score--tier score--tier_t">{{ page.total }}%</span></h1>
+
+      <p class="comp--sub_website">
+        <a href="{{ page.website }}" target="_blank">{{ page.website }}
+          <span class="collecticon collecticon-pop-up"></span>
+        </a> </p>
+      <p>
+Download the Complete Report: <a href="{{ site.baseurl }}/assets/static/download/RDRindex2015report.pdf">English</a> | <a href="{{ site.baseurl }}/assets/static/download/RDRindex2015reportSpanish.pdf">Spanish</a> <hr>
+      </p>
+
+      <p class="comp-sub_blurb">{{ page.description }}</p>
+    </div>
+
+    <div id="comp--circle_chart" class="row spaced-row contain"></div>
+
+    <div class="inverted row spaced-row">
+      <div class="contain">
+        <div id="comp--dot_chart" class="comp--dot_chart"></div>
+        <div class="comp--about">
+
+          <h3>Company Statistics</h3>
+            {% if page.stats %}
+              {% for item in page.stats %}
+                <p class="comp--stat"><span class="stat--key">{{ item.key }}</span>{{ item.value }}</p>
+              {% endfor %}
+            {% endif %}
+
+          <div class="about--subsection displaytext">
+
+            {% if page.telco == true %}
+              {% if page.operating_company != "" %}
+                <p><b>Operating company evaluated:</b> {{ page.operating_company }}</p>
+              {% endif %}
+              <p><b>Services evaluated:</b></p>
+              <ul>
+                {% for service in page.services_evaluated %}
+                  <li>{{ service }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <p><b>Services evaluated:</b></p>
+              <ul>
+                {% for service in page.services_evaluated %}
+                  <li>{{ service }}</li>
+                {% endfor %}
+              </ul>
+              {% if page.operating_company != "" %}
+                <p><b>Operating company evaluated:</b> {{ page.operating_company }}</p>
+              {% endif %}
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="spaced-row row-contained contain">
+      <div id="analysis" class="displaytext comp--analysis">
+        <h2>Analysis</h2>
+        <label class="label">Click a category to expand</label>
+        <div id="js--analysis_inner" class="spaced-row">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row spaced-row contain">
+      <div id="comp--score-table" class="comp--scores">
+        <h2>Indicator Results</h2>
+      </div>
+    </div>
+
+  </div>
+
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
+
+</body>
+</html>

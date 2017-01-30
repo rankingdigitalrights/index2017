@@ -1,0 +1,112 @@
+$label-padding: .5em .5725em .4em;
+
+
+.comp--title {
+  margin-top: .4em;
+  margin-bottom: .325em;
+  text-transform: uppercase;
+  color: $black;
+  display: flex;
+  align-items: center;
+
+  .score--tier {
+    font-size: .8em;
+    margin-left: .5em;
+    padding: .15em .4em .1em;
+
+  }
+}
+
+.comp--company_link {
+  // @extend .vis--row_item;
+  display: inline-block;
+}
+
+.comp--type {
+  margin-left: 1em;
+  padding: $label-padding;
+  background: $beige;
+  display: none;
+  @include media(large-up) {
+    display: inline-block;
+  }
+}
+
+.comp--sub_website {
+  color: $base-color;
+}
+
+.comp--about {
+  @include media(medium-up) {
+    @include span-columns(5);
+  }
+}
+
+.about--subsection {
+  margin-top: 1em;
+  @include media(medium-up) {
+    margin-top: 2em;
+  }
+
+  ul {
+    list-style: initial;
+
+    li {
+      margin-left: 1em;
+    }
+  }
+}
+
+.comp--stat {
+  margin-top: 1.5em;
+  line-height: 1em;
+}
+
+.stat--key {
+  text-transform: uppercase;
+  font-size: .75em;
+  color: lighten($dark, 5%);
+  display: block;
+}
+
+.comp--dot_chart {
+  @include media(medium-up) {
+    @include span-columns(7);
+  }
+}
+
+.comp--analysis {
+
+  h3 {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    border-bottom: 1px solid $beige;
+    margin-bottom: 1em;
+    position: relative;
+    cursor: pointer;
+    transition: border-color .2s ease-out;
+
+    &:hover {
+      border-bottom: 1px solid $dark;
+    }
+
+    @include noselect;
+
+    &:after {
+      content: 'Show ▼';
+      position: absolute;
+      right: 1em;
+    }
+
+    &.expanded  {
+      border-bottom: 1px solid $dark;
+      &:after {
+        content: 'Hide ▲';
+      }
+    }
+  }
+
+  p {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.secondary-navigation {
+	background-color: $dark-grey;
+	padding: 16px 0 14px 0;
+	.medium-up {
+		float: right;
+		ul.nav {
+			margin-left: 0;
+			text-align: right;
+			li {
+				text-transform: uppercase;
+				a {
+					color: $black;
+				}
+			}
+		}
+	}
+}

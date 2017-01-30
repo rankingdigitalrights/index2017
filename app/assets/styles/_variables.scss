@@ -1,0 +1,55 @@
+$platform: 'Platform', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$simplon: 'Simplon', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$simplon-bold: 'Simplon-bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Light blue
+$base-color: #4D9ECF;
+// Deep orange
+$primary-color: #9B2523;
+// Light red
+$secondary-color: #FFD0BF;
+// Light green
+$tertiary-color: #C3D500;
+// Green
+$success-color: #77bc1f;
+// Grey
+$light-grey: #D4D2C9;
+// Dark grey
+$dark-grey: #CBCBCB;
+
+$dropdown-bg: #F5F5F5;
+
+// Grayscales
+$black: #313131;
+$dark: lighten($black, 15%);
+$gray: lighten($black, 50%);
+$light: lighten($black, 70%);
+$white: #FFFAEF;
+
+$beige: #E5DCD2;
+
+// Category colors
+$cat-total: #457CA4;
+$cat-commitment: #57A8D5;
+$cat-freedom: #21BCB3;
+$cat-privacy: #238E88;
+
+// We use these to make sure border radius matches unless we want it different.
+$global-radius: 0.5em;
+$semi-radius: $global-radius/2;
+$global-rounded: 60rem;
+
+// We use this set site row's min and max width
+$row-min-width: 768px;
+$row-max-width: 1280px;
+
+// Media query ranges
+$xsmall-range: (0, 543px);
+$small-range: (544px, 767px);
+$medium-range: (768px, 991px);
+$large-range: (992px, 1199px);
+$xlarge-range: (1200px);
+
+$screen: "only screen";
+
+$prose-width: 860px;

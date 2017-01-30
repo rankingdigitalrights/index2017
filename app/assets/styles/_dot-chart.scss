@@ -1,0 +1,102 @@
+$dc-height: 5em;
+$dc-baseline-top: $dc-height / 2 - .05em;
+
+$dc-dot-height: .9em;
+$dc-dot-top: $dc-height / 2 - $dc-dot-height / 2;
+
+$dc-active-dot-height: 1.2em;
+$dc-active-dot-top: $dc-height / 2 - $dc-active-dot-height / 2;
+
+@mixin dot-color($color) {
+  background-color: $color;
+  &:hover {
+    background-color: shade($color, 15%);
+  }
+}
+
+.dotchart {
+  position: relative;
+  overflow: visible;
+  margin: 0 0 3em;
+  height: $dc-height;
+  @include media(medium-up) {
+    margin: 0 1em 3em;
+  }
+}
+
+.dotchart--label {
+  position: absolute;
+  top: $dc-baseline-top + .5em;
+  font-size: 1em;
+  color: $dark;
+}
+
+.dotchart--label_left {
+  left: 0;
+}
+
+.dotchart--label_right {
+  right: 0;
+}
+
+.dotchart--label_highlight {
+  top: $dc-baseline-top - $dc-active-dot-height * 2;
+  margin-left: -$dc-active-dot-height/2 + .1em;
+}
+
+.dotchart--baseline {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0;
+  top: $dc-baseline-top;
+  border-bottom: 2px solid $gray;
+}
+
+.dot {
+  display: inline-block;
+  position: absolute;
+  width: $dc-dot-height;
+  height: $dc-dot-height;
+  top: $dc-dot-top;
+  margin-left: -$dc-dot-height / 2;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+
+  cursor: pointer;
+  transition: background .4s ease-out, border-color .4s ease-out;
+  @include dot-color($dark);
+  border-color: $light;
+}
+
+
+.dotchart--total .highlight { @include dot-color($cat-total); }
+.dotchart--privacy .highlight { @include dot-color($cat-privacy); }
+.dotchart--commitment .highlight { @include dot-color($cat-commitment); }
+.dotchart--freedom .highlight { @include dot-color($cat-freedom); }
+.dotchart .highlight { border-color: $light; }
+
+.dot.highlight {
+  width: $dc-active-dot-height;
+  height: $dc-active-dot-height;
+  top: $dc-active-dot-top;
+  margin-left: -$dc-active-dot-height / 2;
+}
+
+.dotchart--tooltip {
+  position: absolute;
+  text-align: center;
+  padding: .8em 1em .6em;
+  background-color: $black;
+  color: $white;
+  bottom: $dc-dot-top + 2em;
+  opacity: 0;
+  transition: bottom .2s ease-out, opacity .2s ease-out;
+
+  &.active {
+    opacity: 1;
+    bottom: $dc-dot-top + 2.5em;
+  }
+}

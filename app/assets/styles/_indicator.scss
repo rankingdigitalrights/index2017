@@ -1,0 +1,16 @@
+.indicator--sub_text {
+  line-height: 1.8em;
+}
+
+.indicator--choices,
+.indicator--sub_choices {
+  margin-top: 1em;
+  list-style: initial;
+
+  li {
+    margin-left: 1em;
+    @include media(large-up) {
+      margin-left: 2em;
+    }
+  }
+}

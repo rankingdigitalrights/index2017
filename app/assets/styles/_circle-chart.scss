@@ -1,0 +1,39 @@
+.circle--charts_container {
+  width: 100%;
+  @include media (medium-up) {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.circle--chart {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2em;
+  @include media (medium-up) {
+    width: 33%;
+    margin-bottom: 0;
+  }
+}
+
+.circle--label_val,
+.circle--label_name {
+  cursor: default;
+  @include media(large-up) {
+    font-size: 1.2em;
+  }
+}
+
+.circle--label_name {
+  cursor: pointer;
+  fill: $base-color;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.circle--arc_remainder { fill: $beige; }
+.circle--arc_commitment { fill: $cat-commitment; }
+.circle--arc_freedom { fill: $cat-freedom; }
+.circle--arc_privacy { fill: $cat-privacy; }
