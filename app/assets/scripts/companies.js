@@ -1,25 +1,25 @@
 var $ = require('jquery');
 var Overview = require('./collections/overview');
-var Index = require('./views/index');
+var Companies = require('./views/companies');
 
 module.exports = function () {
   var $parent = $('#site-canvas');
   var overview = new Overview();
-  var Internet = new Index({
+  var Internet = new Companies({
     collection: overview,
     telco: false,
     parent: '#category--internet'
   });
-  var Telco = new Index({
+  var Telco = new Companies({
     collection: overview,
     telco: true,
     parent: '#category--telco'
   });
+
   overview.fetch({
     success: function () {
       Internet.render();
       Telco.render();
-      // Telco.render('category--telco');
     }
   });
 };

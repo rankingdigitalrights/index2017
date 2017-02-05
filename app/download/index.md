@@ -1,5 +1,5 @@
 ---
-layout: survey
+layout: download
 visualization: none
 entity: downloads
 header: Download the Data

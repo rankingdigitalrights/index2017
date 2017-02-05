@@ -1,6 +1,6 @@
 module.exports = {
   t: 'total',
-  c: 'commitment',
-  f: 'freedom',
-  p: 'privacy'
+  //c: 'commitment',
+  //f: 'freedom',
+  //p: 'privacy'
 };

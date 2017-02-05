@@ -12,13 +12,15 @@
 
   {% include banner.html %}
 
-  <div class="right--nav_inline">
-    {% include subnav.html %}
+  <div class="companies--intro">
+    <h1 class="comp--title">{{ page.header }}</h1>
+    <div class="row contain">{{ content }}</div>
   </div>
+  
+  <div class="row contain">[Content]</div>
+  
   <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain">
-    <h1 class="comp--title">All Indicators</h1>
-
-    {{ content }}
+    
   </div>
 
   {% include footer.html %}

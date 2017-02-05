@@ -12,16 +12,16 @@
 
   {% include banner.html %}
 
+
+  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain">
+    
+  </div>
+
   <div class="index--intro">
     <div class="row contain">{{ content }}</div>
   </div>
-  <div class="right--nav_inline">
-    {% include subnav.html %}
-  </div>
-  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain">
-    <div id="category--internet"></div>
-    <div id="category--telco"></div>
-  </div>
+
+  <div id="simple-bar-chart" class="row contain">[Content]</div>
 
   {% include footer.html %}
 

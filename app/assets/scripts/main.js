@@ -2,12 +2,13 @@ var $ = require('jquery');
 var _ = require('underscore');
 var renderCompanyPage = require('./company');
 var renderIndicatorPage = require('./single-indicator');
-var renderAllIndicators = require('./all-indicators');
+var renderAllIndicators = require('./indicators');
 var renderCategoryPage = require('./category');
 var renderIndexPage = require('./index');
 var baseurl = require('./util/base-url');
 var dropdownFn = require('./util/dropdown');
 
+/* Companies page */
 var renderCompaniesPage = require('./companies');
 
 require('typeahead.js/dist/typeahead.jquery.min.js');

@@ -2,7 +2,7 @@ var _ = require('underscore');
 var $ = require('jquery');
 var Tooltip = require('tether-tooltip');
 var HorizontalRow = require('./horizontal-row');
-var template = require('../templates/index.tpl');
+var template = require('../templates/companies.tpl');
 
 var BaseChart = require('./base-chart');
 
@@ -59,7 +59,7 @@ module.exports = BaseChart.extend({
   },
 
   category: 'total',
-  direction: -1,
+  direction: -1, // 1 ascending
 
   render: function () {
     let {

@@ -110,3 +110,45 @@ $label-padding: .5em .5725em .4em;
     display: none;
   }
 }
+
+#page--company {
+
+  .row--1 {
+    .container--left {
+      @include media(medium-up) {
+        @include span-columns(6);
+      }
+    }
+    .container--right {
+      margin-right: 0;
+      @include media(medium-up) {
+        @include span-columns(6);
+      }
+      .comp--score {
+        @include media(medium-up) {
+          @include span-columns(3);
+        }   
+      }
+      .comp--among {
+        @include media(medium-up) {
+          @include span-columns(9);
+        }   
+      }
+    }
+  }
+
+  .row--2 {
+    .container--left {
+      @include media(medium-up) {
+        @include span-columns(6);
+      }
+    }
+    .container--right {
+      @include media(medium-up) {
+        @include span-columns(6);
+      }
+    }
+  }
+
+
+}
