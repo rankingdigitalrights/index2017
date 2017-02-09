@@ -520,10 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/assets/scripts/util/categories.js",
+			"file": "app/assets/static/overview.json",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 4260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/static/facebook.json",
+			"settings":
+			{
+				"buffer_size": 195315,
 				"line_ending": "Unix"
 			}
 		},
@@ -536,26 +544,26 @@
 			}
 		},
 		{
-			"file": "app/assets/scripts/index.js",
+			"file": "app/assets/scripts/company.js",
 			"settings":
 			{
-				"buffer_size": 586,
+				"buffer_size": 2579,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/_layouts/index.html",
+			"file": "app/_layouts/company.html",
 			"settings":
 			{
-				"buffer_size": 842,
+				"buffer_size": 4050,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/scripts/views/companies.js",
+			"file": "app/assets/static/indicator-overview.json",
 			"settings":
 			{
-				"buffer_size": 2377,
+				"buffer_size": 20339,
 				"line_ending": "Unix"
 			}
 		}
@@ -584,43 +592,55 @@
 	},
 	"file_history":
 	[
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/util/categories.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.bak.json",
+		"/var/www/rankingdigitalrights-2016/RDR/RDR Scores Step 7.csv",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.json",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/companies.json",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/horizontal-row.js",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/stories.html",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/services.html",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/companies.html",
+		"/var/www/rankingdigitalrights-2016/app/companies/index.html",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/index.html",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/download.html",
+		"/var/www/rankingdigitalrights-2016/app/download/index.md",
+		"/var/www/rankingdigitalrights-2016/app/stories/index.md",
+		"/var/www/rankingdigitalrights-2016/app/index.html",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/main.js",
+		"/var/www/rankingdigitalrights/index2015/_site/indicators/p10/index.html",
+		"/var/www/rankingdigitalrights-2016/app/_services/cloudservices.md",
+		"/var/www/rankingdigitalrights/index2015/bin/operations/lib/path.py",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/index.js",
+		"/var/www/rankingdigitalrights-2016/app/services/index.md",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/companies.js",
+		"/var/www/rankingdigitalrights-2016/app/_companies/facebook.md",
+		"/var/www/rankingdigitalrights-2016/app/_includes/banner.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/indicators.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/all-indicators.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/company-overview.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/companies.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/company.js",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/indicators.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/category.js",
 		"/var/www/rankingdigitalrights-2016/app/indicators/index.md",
-		"/var/www/rankingdigitalrights-2016/app/_companies/facebook.md",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/company.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_company.scss",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_companies.scss",
 		"/var/www/rankingdigitalrights-2016/app/_includes/subnav.html",
-		"/var/www/rankingdigitalrights-2016/app/_includes/banner.html",
 		"/var/www/rankingdigitalrights/index2015/app/_topics/privacy.md",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/category.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/companies.tpl",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/companies.html",
-		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.json",
-		"/var/www/rankingdigitalrights-2016/app/index.html",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/main.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/index.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/companies.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/horizontal-row.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/horizontal-row.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/company-overview.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/collections/overview.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/util/categories.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/models/overview.js",
-		"/var/www/rankingdigitalrights-2016/app/companies/index.html",
 		"/var/www/rankingdigitalrights/index2015/app/_companies/google.md",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/index.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/index.js",
 		"/var/www/rankingdigitalrights/index2015/app/assets/static/overview.json",
 		"/var/www/rankingdigitalrights-2016/_site/index.html",
 		"/var/www/rankingdigitalrights-2016/_site/companies/index.html",
-		"/var/www/rankingdigitalrights-2016/app/assets/static/companies.json",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/demo.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/demo.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/collections/demo.js",
@@ -628,14 +648,7 @@
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/models/demo.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/static/demo.json",
 		"/var/www/rankingdigitalrights-2016/app/demo/index.md",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/index.html",
-		"/var/www/rankingdigitalrights-2016/app/download/index.md",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/download.html",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/stories.html",
-		"/var/www/rankingdigitalrights-2016/app/stories/index.md",
 		"/var/www/rankingdigitalrights-2016/app/_includes/head.html",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/services.html",
-		"/var/www/rankingdigitalrights-2016/app/services/index.md",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_base.scss",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/horizontal-bar-chart.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/models/question.js",
@@ -706,12 +719,7 @@
 		"/home/stevan/workspace/trellis-lms/core/admin/modules/programinfo.php",
 		"/home/stevan/workspace/insiderhub/public/ninjavideo.local/web/app/themes/beautiful-pro/js/iframeResizer.js",
 		"/home/stevan/workspace/trellis-lms/core/base/modules/courseinfo.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/shopping_cart.php",
-		"/home/stevan/workspace/trellis-lms/core/global/classes/TrellisAuth.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/client_functions.php",
-		"/home/stevan/workspace/insiderhub/public/ninjavideo.local/web/static/helper.html",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/snippets/shopping_cart.snip",
-		"/home/stevan/workspace/insiderhub/public/ninjavideo.local/web/app/themes/beautiful-pro/functions.php"
+		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/shopping_cart.php"
 	],
 	"find":
 	{
@@ -722,6 +730,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/var/www/rankingdigitalrights2016/app",
 			"/var/www/rankingdigitalrights/",
 			"/var/www/rankingdigitalrights-2016/app/",
 			"/var/www/rankingdigitalrights-2016/app/assets/styles",
@@ -848,15 +857,31 @@
 			"/var/www/italforniusa/sites/all/modules/",
 			"/var/www/italforniusa/sites/all/modules/custom",
 			"/var/www/nxlog/sites/all/modules/nxsec/",
-			"",
-			"/var/www/insiderhub/wp-content/themes/dante-child"
+			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"comp--dot_chart",
+			"face",
+			"Mail",
+			"Bharti",
+			"mov",
+			"am",
+			"bai",
+			"tele",
+			"Internet",
+			"Telco",
+			"at",
+			"Internet",
+			"Telco",
+			"type",
+			"/categories",
+			"_companies",
+			"services",
 			"Are the company’s privacy policies freely available and easy to understand?",
 			"This category examines whether companies",
 			"categories",
@@ -967,24 +992,7 @@
 			"AK",
 			"\"",
 			"AK",
-			"web",
-			"YT",
-			"NT:",
-			"NU:",
-			".com",
-			"NS:",
-			"PE:",
-			"NB:",
-			"NL:",
-			"Q",
-			"QB:",
-			"ON: {",
-			"ON:",
-			"MB:",
-			"SK:",
-			"AB:",
-			"BC:",
-			"YT"
+			"web"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -992,6 +1000,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"false",
+			"true",
+			"false",
+			"true",
+			"telco",
 			"#D46A6A",
 			"F5F5F5",
 			"E2E2E2",
@@ -1106,55 +1119,56 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/scripts/util/categories.js",
+					"file": "app/assets/static/overview.json",
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 4260,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								227,
-								227
+								2685,
+								2685
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/assets/scripts/main.js",
+					"file": "app/assets/static/facebook.json",
 					"settings":
 					{
-						"buffer_size": 3483,
+						"buffer_size": 195315,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								279
+								52,
+								52
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1166,18 +1180,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/assets/scripts/index.js",
+					"file": "app/assets/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 586,
+						"buffer_size": 3483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								836,
+								836
 							]
 						],
 						"settings":
@@ -1194,46 +1208,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/_layouts/index.html",
+					"file": "app/assets/scripts/company.js",
 					"settings":
 					{
-						"buffer_size": 842,
+						"buffer_size": 2579,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								564,
-								564
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/assets/scripts/views/companies.js",
-					"settings":
-					{
-						"buffer_size": 2377,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								1932,
+								1942
 							]
 						],
 						"settings":
@@ -1243,7 +1229,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 252.0,
+						"translation.y": 429.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/_layouts/company.html",
+					"settings":
+					{
+						"buffer_size": 4050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3402,
+								3402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1083.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/assets/static/indicator-overview.json",
+					"settings":
+					{
+						"buffer_size": 20339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20339,
+								20339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 8674.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

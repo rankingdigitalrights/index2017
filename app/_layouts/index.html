@@ -12,17 +12,17 @@
 
   {% include banner.html %}
 
-
-  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain">
-    
-  </div>
-
   <div class="index--intro">
-    <div class="row contain">{{ content }}</div>
+    <div class="row contain">{{ page.intro }}</div>
   </div>
-
-  <div id="simple-bar-chart" class="row contain">[Content]</div>
-
+  
+  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+    <div class="row-contained contain displaytext md">
+      <h1 class="comp--title">{{ page.header }}</h1>
+      <div>[content]</div>
+    </div>
+  </div>
+  
   {% include footer.html %}
 
   <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>

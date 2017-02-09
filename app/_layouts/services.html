@@ -4,6 +4,7 @@
 {% include head.html %}
 
 <body>
+
   <!--[if lt IE 10]>
     <div id="nocando">
       <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -13,14 +14,22 @@
   {% include banner.html %}
 
   <div class="index--intro">
-    <div class="row contain">{{ content }}</div>
+    <div class="row contain">{{ page.intro }}</div>
   </div>
   
   <div class="row contain">
     <h1 class="comp--title">{{ page.header }}</h1>
   </div>
 
-  <div class="row contain">[Content]</div>
+  <div class="row contain">
+    {% if page.services %}
+      <ul id="index--services">
+      {% for item in page.services %}
+        <li class={{ item.class }}><a href={{ item.href }}>{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 
   {% include footer.html %}
 

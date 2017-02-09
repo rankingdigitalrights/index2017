@@ -16,3 +16,6 @@ bundle
 # Python scripting resources
 bin/raw
 *.pyc
+
+# Data
+RDR

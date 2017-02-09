@@ -3,7 +3,6 @@ module.exports = [
 	  id: 'total',
 	  display: 'Total'
 	},
-	
 	{
 	  id: 'commitment',
 	  display: 'Commitment'
@@ -16,5 +15,4 @@ module.exports = [
 	  id: 'privacy',
 	  display: 'Privacy'
 	}
-	
 ];

@@ -5,7 +5,7 @@ var BaseChart = require('./base-chart');
 var template = require('../templates/horizontal-row.tpl');
 
 var baseurl = require('../util/base-url');
-var categories = require('../util/categories');
+// var categories = require('../util/categories');
 
 module.exports = BaseChart.extend({
   template: template,
@@ -17,6 +17,8 @@ module.exports = BaseChart.extend({
         view.remove();
       });
     }
+
+    var categories = [{id: 'total',display: 'Total'}];
 
     var childViews = _.map(categories, function (cat, idx) {
       return new HorizontalBarChart({
