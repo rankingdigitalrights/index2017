@@ -1,0 +1,18 @@
+body#page--services{
+	.services--list {
+	padding: 1.5em 0 10em 2em;	
+		#index--services {
+			li {
+				a {
+				font-family: "Platform", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-transform: uppercase;
+	    		color: #313131;
+	    		font-size: 23px;
+	    		line-height: 1.5;
+	    		font-weight: 500;	
+	    		letter-spacing: 1px;
+				}
+			}
+		}
+	}
+}
