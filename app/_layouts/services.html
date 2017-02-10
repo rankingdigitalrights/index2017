@@ -28,7 +28,8 @@
           <ul id="index--services">
           {% for item in page.services %}
             <li>
-              <i class="fa {{ item.class }}"></i><a href={{ item.href }}>{{ item.title }}</a>
+              <i class="fa {{ item.class }}"></i>
+              <a href={{ item.href }}>{{ item.title }}</a>
             </li>
           {% endfor %}
           </ul>

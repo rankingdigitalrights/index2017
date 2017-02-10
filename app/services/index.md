@@ -4,35 +4,39 @@ header: Services
 
 services:
   - item:
-    class: fa-close
+    class: fa-cloud
     title: Cloud services
     href: cloudservices
   - item:
-    class: fa-close
+    class: fa-envelope
     title: Email service
     href: emailservice
   - item:
-    class: fa-user
+    class: fa-wifi
     title: Fixed broadband
     href: fixedbroadband
   - item:
-    class: messaging-voip
+    class: fa-commenting
     title: Messaging & Voip
     href: messagingvoip
   - item:
-    class: mobile
-    title: Mobile
+    class: fa-recycle
+    title: Mobile ecosystems
     href: mobile
   - item:
-    class: search-service
+    class: fa-mobile
+    title: Mobile
+    href: mobile    
+  - item:
+    class: fa-search
     title: Search
     href: search
   - item:
-    class: social-network-blog
+    class: fa-globe
     title: Social network & blog
     href: socialnetworkblog
   - item:
-    class: video-photo
+    class: fa-camera
     title: Video/photo
     href: videophoto
   
