@@ -27,8 +27,8 @@
         {% if page.services %}
           <ul id="index--services">
           {% for item in page.services %}
-            <li class={{ item.class }}>
-              <a href={{ item.href }}>{{ item.title }}</a>
+            <li>
+              <i class="fa {{ item.class }}"></i><a href={{ item.href }}>{{ item.title }}</a>
             </li>
           {% endfor %}
           </ul>

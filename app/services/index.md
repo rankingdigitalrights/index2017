@@ -4,15 +4,15 @@ header: Services
 
 services:
   - item:
-    class: cloud-services
+    class: fa-close
     title: Cloud services
     href: cloudservices
   - item:
-    class: email-service
+    class: fa-close
     title: Email service
     href: emailservice
   - item:
-    class: fixed-broadband
+    class: fa-user
     title: Fixed broadband
     href: fixedbroadband
   - item:

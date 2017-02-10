@@ -1,96 +1,80 @@
-var queue = require('queue-async');
 var $ = require('jquery');
-
-var Company = require('./collections/company');
-var Survey = require('./collections/survey');
+var _ = require('underscore');
 var Overview = require('./collections/overview');
-
-var CategoryChart = require('./views/category-line-dot-chart');
-var SurveyView = require('./views/survey');
-var CompanyOverview = require('./views/company-overview');
+var Survey = require('./collections/survey');
+var CompanyServices = require('./collections/company-services');
+var Barchart = require('./views/barchart');
+var Indicators = require('./views/category-indicators');
 var Collapse = require('./views/collapse');
+var barsort = require('./util/barsort');
 
-function segment (arr) {
-  var l = arr.length;
-  var segmented = [];
-  arr.forEach(function (item, i) {
-    if (i < l - 1) {
-      segmented.push([arr[i], arr[i + 1]]);
-    }
-  });
-  return segmented;
-}
+module.exports = function generateService (category) {
 
-module.exports = function (companyName) {
-
-  // Set up the collapsible bits
-  // First find the <h3> delimiters
-  var $analysis = $('#js--analysis_inner').children();
-  var indices = [];
-  for (let i = 0, ii = $analysis.length; i < ii; ++i) {
-    if ($analysis.eq(i).is('h3')) {
-      indices.push(i);
-    }
+  var $parent = $('#service--overview_chart');
+  var overview = new Overview();
+  
+  var overviewSuccess = function () {
+    var data = overview.map(function (model) {
+    // var data = overview.filter(model => model.get('telco') === true).map(function (model) { // filter Overview collection
+      return {
+        name: model.get('display'),
+        src: model.get('id'),
+        val: Math.random()*100,
+        className: category
+      };
+    }).sort(barsort);
+    var barchart = new Barchart({
+      width: $parent.width(),
+      height: 400,
+      data: data
+    });
+    console.info(data);
+    barchart.render($parent[0]);
   }
 
-  // Add the length as the final one so we know where to stop.
-  indices.push($analysis.length);
+  overview.fetch({success: overviewSuccess});
 
-  // Simple function to segment get segments between indices.
-  indices = segment(indices);
+  /*
+  if (category === 'freedom-of-expression') {
+    category = 'freedom';
+  }
 
-  // Assign the proper elements to each view.
-  indices.forEach(function (segment, idx) {
-    var $triggerTarget = $analysis.eq(segment[0]);
-    var $body = $();
-    for (let i = segment[0] + 1, ii = segment[1]; i < ii; ++i) {
-      $body = $body.add($analysis.eq(i));
-    }
-    var collapse = new Collapse({
-      el: $triggerTarget,
-      $triggerTarget, $body
-    });
+  var toggles = [];
+  toggles.push(new Collapse({
+    el: $('.trigger'),
+    $body: $('.collapse--target')
+  }));
 
-    // Default open the first one.
-    if (idx === 0) {
-      collapse.toggleExpand();
-    }
-
-  });
-
+  var $parent = $('#service--overview_chart');
   var overview = new Overview();
-  var categories = new CategoryChart({
-    collection: overview,
-    highlighted: companyName
-  });
-  var companyOverview = new CompanyOverview({
-    collection: overview,
-    companyName: companyName,
-    container: 'comp--circle_chart'
-  });
-
-  overview.fetch({
-    success: function () {
-      categories.render('comp--dot_chart');
-      companyOverview.render();
-    }
-  });
-
-  // Company responses rely on both survey questions,
-  // and how each company answered them.
-  var company = new Company({company: companyName});
-  var survey = new Survey();
-
-  // Fetch both at once before initializing the view
-  var q = queue()
-  q.defer(cb => company.fetch({success: () => cb(null, company)}));
-  q.defer(cb => survey.fetch({success: () => cb(null, survey)}));
-  q.await(function (err, company, survey) {
-    var survey = new SurveyView({
-      company: company,
-      survey: survey
+  var overviewSuccess = function () {
+    var data = overview.map(function (model) {
+    // var data = overview.filter(model => model.get('telco') === true).map(function (model) { // filter Overview collection
+      return {
+        name: model.get('display'),
+        src: model.get('id'),
+        val: Math.round(model.get(category)),
+        className: category
+      };
+    }).sort(barsort);
+    var barchart = new Barchart({
+      width: $parent.width(),
+      height: 400,
+      data: data
     });
-    survey.render('comp--score-table');
+    barchart.render($parent[0]);
+  }
+  overview.fetch({success: overviewSuccess});
+
+  var survey = new Survey();
+  var indicators = new Indicators({
+    category,
+    collection: survey
   });
+
+  survey.fetch({
+    success: () => indicators.render('category--indicators')
+  });
+  */
 
 };
