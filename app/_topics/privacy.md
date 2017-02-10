@@ -1,14 +1,10 @@
 ---
 entity: privacy
 entity_type: category
-
 visualization: category
 layout: category
-
 display: Privacy
-
 introduction: This category examines whether companies’ commitments and disclosures demonstrate credible efforts to respect users’ right to privacy. Companies that performed well in this category showed a strong public commitment to transparency, not only in terms of how they respond to government demands, but also how they determine, communicate, and enforce terms of service and commercial practices that affect users’ privacy. Commitments to protect and defend users’ digital security are also an important component of this category.
-
 ---
 
 **Telecommunications companies:** AT&T and Vodafone were the clear leaders among telecommunications companies, earning 52 and 49 percent, respectively, of the total possible points on disclosure of policies and practices that affect users’ privacy. (See the company reports in Section 5 of this report and on the project website for further discussion of the factors that contributed to both companies’ scores.) América Móvil, Orange, and Bharti Airtel came in a band of scores between 21-25 percent. Axiata, Etisalat, and MTN followed with scores in the mid-teens.
