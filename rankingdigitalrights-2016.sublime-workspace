@@ -542,30 +542,6 @@
 				"buffer_size": 3483,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "app/assets/scripts/company.js",
-			"settings":
-			{
-				"buffer_size": 2579,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_layouts/company.html",
-			"settings":
-			{
-				"buffer_size": 4050,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/static/indicator-overview.json",
-			"settings":
-			{
-				"buffer_size": 20339,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -592,6 +568,20 @@
 	},
 	"file_history":
 	[
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/category.js",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/category.html",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/indicator.tpl",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/category-indicators.tpl",
+		"/var/www/rankingdigitalrights-2016/app/_topics/commitment.md",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/company.js",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/company.html",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/indicator-overview.json",
+		"/var/www/rankingdigitalrights-2016/app/companies/index.html",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/companies.html",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/services.html",
+		"/var/www/rankingdigitalrights-2016/app/services/index.md",
+		"/var/www/rankingdigitalrights-2016/RDR/RDR Scores Step 7.xlsx",
+		"/var/www/rankingdigitalrights-2016/.gitignore",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/util/categories.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.bak.json",
 		"/var/www/rankingdigitalrights-2016/RDR/RDR Scores Step 7.csv",
@@ -599,9 +589,6 @@
 		"/var/www/rankingdigitalrights-2016/app/assets/static/companies.json",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/horizontal-row.js",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/stories.html",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/services.html",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/companies.html",
-		"/var/www/rankingdigitalrights-2016/app/companies/index.html",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/index.html",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/download.html",
 		"/var/www/rankingdigitalrights-2016/app/download/index.md",
@@ -612,23 +599,18 @@
 		"/var/www/rankingdigitalrights-2016/app/_services/cloudservices.md",
 		"/var/www/rankingdigitalrights/index2015/bin/operations/lib/path.py",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/index.js",
-		"/var/www/rankingdigitalrights-2016/app/services/index.md",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/companies.js",
 		"/var/www/rankingdigitalrights-2016/app/_companies/facebook.md",
 		"/var/www/rankingdigitalrights-2016/app/_includes/banner.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/indicators.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/all-indicators.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/company-overview.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/company.js",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/indicators.html",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/category.js",
 		"/var/www/rankingdigitalrights-2016/app/indicators/index.md",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/company.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_company.scss",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_companies.scss",
 		"/var/www/rankingdigitalrights-2016/app/_includes/subnav.html",
 		"/var/www/rankingdigitalrights/index2015/app/_topics/privacy.md",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/category.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/companies.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/companies.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/horizontal-row.tpl",
@@ -713,13 +695,7 @@
 		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/get_program.php",
 		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/course_list.php",
 		"/home/stevan/workspace/trellis-lms/core/global/classes/TrellisLMS.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/login.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/programinfo.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/is_logged.php",
-		"/home/stevan/workspace/trellis-lms/core/admin/modules/programinfo.php",
-		"/home/stevan/workspace/insiderhub/public/ninjavideo.local/web/app/themes/beautiful-pro/js/iframeResizer.js",
-		"/home/stevan/workspace/trellis-lms/core/base/modules/courseinfo.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/shopping_cart.php"
+		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/login.php"
 	],
 	"find":
 	{
@@ -727,9 +703,11 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"/var/www/rankingdigitalrights-2016/",
+			"/var/www/rankingdigitalrights2016/",
 			"/var/www/rankingdigitalrights2016/app",
 			"/var/www/rankingdigitalrights/",
 			"/var/www/rankingdigitalrights-2016/app/",
@@ -855,16 +833,19 @@
 			"/var/www/laca/sites/all/themes/laca/css",
 			"/var/www/insiderhub/wp-content/themes/dante-child",
 			"/var/www/italforniusa/sites/all/modules/",
-			"/var/www/italforniusa/sites/all/modules/custom",
-			"/var/www/nxlog/sites/all/modules/nxsec/",
-			""
+			"/var/www/italforniusa/sites/all/modules/custom"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"webpack",
+			"category--indicators",
+			"The Commitment category of the Index evaluates whether companies demonstrate clear commitment in words and deeds to respect users’ right to freedom of expression and privacy",
+			"category--overview_chart",
+			"The Commitment category of the Index evaluates whether companies demonstrate",
 			"comp--dot_chart",
 			"face",
 			"Mail",
@@ -987,12 +968,7 @@
 			"hide: \"yes\"",
 			"MX",
 			"hide",
-			"AK",
-			"\"",
-			"AK",
-			"\"",
-			"AK",
-			"web"
+			"AK"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1119,7 +1095,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1134,8 +1110,8 @@
 						"selection":
 						[
 							[
-								2685,
-								2685
+								137,
+								137
 							]
 						],
 						"settings":
@@ -1145,7 +1121,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 459.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1190,8 +1166,8 @@
 						"selection":
 						[
 							[
-								836,
-								836
+								1045,
+								1045
 							]
 						],
 						"settings":
@@ -1202,88 +1178,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/assets/scripts/company.js",
-					"settings":
-					{
-						"buffer_size": 2579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1932,
-								1942
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 429.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/_layouts/company.html",
-					"settings":
-					{
-						"buffer_size": 4050,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3402,
-								3402
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1083.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/assets/static/indicator-overview.json",
-					"settings":
-					{
-						"buffer_size": 20339,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20339,
-								20339
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8674.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

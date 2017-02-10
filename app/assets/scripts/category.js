@@ -23,6 +23,7 @@ module.exports = function generateCategory (category) {
   var overview = new Overview();
   var overviewSuccess = function () {
     var data = overview.map(function (model) {
+    // var data = overview.filter(model => model.get('telco') === true).map(function (model) { // filter Overview collection
       return {
         name: model.get('display'),
         src: model.get('id'),
