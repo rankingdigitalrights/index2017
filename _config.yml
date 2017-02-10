@@ -9,6 +9,9 @@ collections:
   topics:
     output: true
     permalink: /categories/:path/
+  services:
+    output: true
+    permalink: /services/:path/
 exclude:
   - assets/scripts
   - assets/styles

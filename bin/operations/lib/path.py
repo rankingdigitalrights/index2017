@@ -18,6 +18,9 @@ def indicators(filename):
 def categories(filename):
     return '../app/_topics/' + filename
 
+def services(filename):
+    return '../app/_services/' + filename
+
 def delete_files_in(folder_path):
     for f in os.listdir(folder_path):
         file_path = os.path.join(folder_path, f)

@@ -3,7 +3,7 @@ entity: commitment
 entity_type: category
 visualization: category
 layout: category
-display: Commitment
+display: Governance
 introduction: "The Commitment category of the Index evaluates whether companies demonstrate clear commitment in words and deeds to respect users’ right to freedom of expression and privacy. The indicators draw heavily from the <a href=\"http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf\">U.N. Guiding Principles on Business and Human Rights</a>, which instruct companies not only to make commitments, but also to carry out due diligence – also known as “impact assessment” – in order to identify, mitigate, and account for any negative effects their business may have on human rights. Companies are also expected to publicly demonstrate that they have put processes in place to implement their human rights commitments and policies effectively. Mechanisms for internal accountability, as well as grievance and remedy processes for users whose rights have been violated, are also important components of the Guiding Principles."
 published: true
 ---

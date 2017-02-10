@@ -115,3 +115,21 @@ def categories():
             display = ' '.join([word[0].upper() + word[1:] for word in cat.split('-')])
             f.write('display: %s\n' % display)
             f.write('\n---\n\n')
+
+def services():
+    __create_or_delete__(path.services('')[:-1])
+    services = ['messagingvoip']
+    for cat in services:
+        filename = cat + '.md'
+        with open(path.services(filename), 'w') as f:
+            f.write('---\n')
+            f.write('entity: %s\n' % filename[:-3])
+            f.write('entity_type: service\n')
+
+            f.write('\nvisualization: service')
+            f.write('\nlayout: service\n\n')
+
+
+            display = ' '.join([word[0].upper() + word[1:] for word in cat.split('-')])
+            f.write('display: %s\n' % display)
+            f.write('\n---\n\n')

@@ -30,7 +30,14 @@ module.exports = BaseChart.extend({
           baseurl
         };
       });
-    this.$el.html(this.template({indicators: indicators}));
+
+      var length = indicators.length;
+      var a_length = Math.ceil(length/2);
+      var indicators_left = indicators.slice(0, a_length);
+      var indicators_right = indicators.slice(a_length);
+
+
+    this.$el.html(this.template({indicators_left: indicators_left, indicators_right: indicators_right}));
     $('#' + id).append(this.$el);
   }
 });
