@@ -9,7 +9,7 @@ from operations.indicators import create as create_indicators
 
 print '\n\n'
 print 'overview.csv > app/assets/static/overview.json'
-#create_overview('overview.csv')
+create_overview('overview.csv')
 print '...success!'
 
 print '\n\n'

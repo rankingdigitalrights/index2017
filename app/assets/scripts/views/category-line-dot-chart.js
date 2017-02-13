@@ -7,13 +7,13 @@ var LineDotChart = require('./line-dot-chart');
 var categories = require('../util/categories');
 
 module.exports = BaseChart.extend({
-  id: 'category-line-dot-chart',
-  tagName: 'div',
+  
   initialize: function (options) {
     this.active = options.highlighted;
   },
 
   render: function (id) {
+    var id = id;
     // Only compare telcos amongst other telcos,
     // internet companies amonst other internet companies.
     var active = this.active;
@@ -26,27 +26,23 @@ module.exports = BaseChart.extend({
       filtered = this.collection.where({telco: isTelco});
     }
 
-    var childViews = [];
-    _.each(categories, function (cat) {
-      var values = filtered.map(function (model) {
-        return {
-          display: model.get('display'),
-          id: model.get('id'),
-          val: model.get(cat.id)
-        };
-      });
-      childViews.push(new LineDotChart({
-        values: values,
-        active: active,
-        isTelco: isTelco,
-        category: cat.display
-      }));
+    var values = filtered.map(function (model) {
+      return {
+        display: model.get('display'),
+        id: model.get('id'),
+        val: model.get(id)
+      };
     });
+    
+    var view = new LineDotChart({
+      values: values,
+      active: active,
+      isTelco: isTelco,
+      category: id
+    });
+    
+    $('#' + id + '--dot_chart').append(view.render());
 
-    var $el = this.$el;
-    childViews.forEach(view => $el.append(view.render()));
-    $('#' + id).append($el);
-    this.childViews = childViews;
   }
 
 });

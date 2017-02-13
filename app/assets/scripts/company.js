@@ -10,56 +10,13 @@ var SurveyView = require('./views/survey');
 var CompanyOverview = require('./views/company-overview');
 var Collapse = require('./views/collapse');
 
-function segment (arr) {
-  var l = arr.length;
-  var segmented = [];
-  arr.forEach(function (item, i) {
-    if (i < l - 1) {
-      segmented.push([arr[i], arr[i + 1]]);
-    }
-  });
-  return segmented;
-}
+var Barchart = require('./views/barchart');
+var barsort = require('./util/barsort');
 
 module.exports = function (companyName) {
 
-  // Set up the collapsible bits
-  // First find the <h3> delimiters
-  var $analysis = $('#js--analysis_inner').children();
-  var indices = [];
-  for (let i = 0, ii = $analysis.length; i < ii; ++i) {
-    if ($analysis.eq(i).is('h3')) {
-      indices.push(i);
-    }
-  }
-
-  // Add the length as the final one so we know where to stop.
-  indices.push($analysis.length);
-
-  // Simple function to segment get segments between indices.
-  indices = segment(indices);
-
-  // Assign the proper elements to each view.
-  indices.forEach(function (segment, idx) {
-    var $triggerTarget = $analysis.eq(segment[0]);
-    var $body = $();
-    for (let i = segment[0] + 1, ii = segment[1]; i < ii; ++i) {
-      $body = $body.add($analysis.eq(i));
-    }
-    var collapse = new Collapse({
-      el: $triggerTarget,
-      $triggerTarget, $body
-    });
-
-    // Default open the first one.
-    if (idx === 0) {
-      collapse.toggleExpand();
-    }
-
-  });
-
   var overview = new Overview();
-  var categories = new CategoryChart({
+  var category = new CategoryChart({
     collection: overview,
     highlighted: companyName
   });
@@ -71,10 +28,37 @@ module.exports = function (companyName) {
 
   overview.fetch({
     success: function () {
-      categories.render('comp--dot_chart');
+      category.render('commitment'); // Commitment
+      category.render('freedom'); // Freedom
+      category.render('privacy'); // Privacy
       companyOverview.render();
+      overviewSuccess(companyName);
     }
   });
+
+  // Position among archar
+  var $parent = $('#comp--position_among');
+  var overviewSuccess = function (companyName) {
+    var comp = overview.findWhere({ id: companyName });
+    var is_telco = comp.get('telco');
+    // var data = overview.map(function (model) {
+    var data = overview.filter(model => model.get('telco') === is_telco).map(function (model) { // filter Overview collection
+      return {
+        name: model.get('display'),
+        src: model.get('id'),
+        val: Math.round(model.get('total')),
+        // className: category
+      };
+    }).sort(barsort);
+
+    var barchart = new Barchart({
+      width: $('#comp--position_among').width(),
+      height: 200,
+      data: data
+    });
+    barchart.render('#comp--position_among');
+  }
+
 
   // Company responses rely on both survey questions,
   // and how each company answered them.
