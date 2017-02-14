@@ -26,4 +26,5 @@ def create(filename):
             'telco': is_telco
         })
 
-    io.write_json(path.assets('overview.json'), d)
+    # io.write_json(path.assets('overview.json'), d)
+    io.write_json_pretty(path.assets('overview.json'), d)

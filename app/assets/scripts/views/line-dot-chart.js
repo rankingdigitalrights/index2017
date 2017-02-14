@@ -14,6 +14,9 @@ module.exports = BaseChart.extend({
   },
 
   initialize: function (options) {
+
+    // console.info(options);
+
     var active = options.active;
 
     // Find the highlighted value to label.

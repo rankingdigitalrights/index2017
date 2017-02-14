@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"com",
+				"companyName"
+			],
+			[
 				"te",
 				"text-transform"
 			],
@@ -440,10 +444,6 @@
 				"vendorId"
 			],
 			[
-				"com",
-				"company_id"
-			],
-			[
 				"to",
 				"totalHits"
 			],
@@ -520,26 +520,74 @@
 	"buffers":
 	[
 		{
-			"file": "app/assets/static/overview.json",
-			"settings":
-			{
-				"buffer_size": 4260,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/static/facebook.json",
-			"settings":
-			{
-				"buffer_size": 195315,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/assets/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 3483,
+				"buffer_size": 3617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/operations/lib/path.py",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/operations/lib/io.py",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/scripts/category.js",
+			"settings":
+			{
+				"buffer_size": 1342,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/scripts/views/barchart.js",
+			"settings":
+			{
+				"buffer_size": 2818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/scripts/views/category-line-dot-chart.js",
+			"settings":
+			{
+				"buffer_size": 1192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/scripts/company.js",
+			"settings":
+			{
+				"buffer_size": 2416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_layouts/company.html",
+			"settings":
+			{
+				"buffer_size": 4404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/scripts/views/company-overview.js",
+			"settings":
+			{
+				"buffer_size": 2069,
 				"line_ending": "Unix"
 			}
 		}
@@ -568,26 +616,75 @@
 	},
 	"file_history":
 	[
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/category.js",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/category.html",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/indicator.tpl",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/category-indicators.tpl",
-		"/var/www/rankingdigitalrights-2016/app/_topics/commitment.md",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/company.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/line-dot-chart.tpl",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/line-dot-chart.js",
+		"/var/www/rankingdigitalrights-2016/app/_companies/facebook.md",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/company-overview.js",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/company.html",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/company.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/companies.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/companies.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/util/category-classes.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/single-indicator.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/category-line-dot-chart.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/indicators.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/indicator.tpl",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/indicator.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/all-indicators.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/static/indicator-overview.json",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/collections/indicators-overview.js",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/indicators.html",
+		"/var/www/rankingdigitalrights-2016/bin/operations/overview.py",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/horizontal-row.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/horizontal-row.tpl",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.json",
+		"/var/www/italforniusa/sites/all/themes/italforniusa/css/italforniusa.css",
+		"/var/www/rankingdigitalrights-2016/bin/operations/lib/io.py",
+		"/var/www/rankingdigitalrights-2016/bin/data.py",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/services.js",
+		"/var/www/rankingdigitalrights-2016/bin/raw/overview.csv",
+		"/var/www/rankingdigitalrights-2016/bin/operations/make_collections.py",
+		"/var/www/rankingdigitalrights-2016/node_modules/JSONStream/test/fixtures/all_npm.json",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/service.html",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/collections/company-services.js",
+		"/var/www/rankingdigitalrights-2016/app/services/index.md",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/services.html",
+		"/var/www/rankingdigitalrights-2016/_config.yml",
+		"/var/www/rankingdigitalrights-2016/app/_services/cloudservices.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/messagingvoip.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/fixedbroadband.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/emailservice.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/mobile.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/search.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/socialnetworkblog.md",
+		"/var/www/rankingdigitalrights-2016/app/_services/videophoto.md",
+		"/var/www/rankingdigitalrights-2016/bin/operations/__init__.py",
+		"/var/www/rankingdigitalrights-2016/bin/make_collections.py",
+		"/var/www/rankingdigitalrights-2016/app/_companies/messagingvoip.md",
+		"/var/www/rankingdigitalrights-2016/app/_topics/messagingvoip.md",
+		"/var/www/rankingdigitalrights-2016/bin/operations/lib/path.py",
+		"/var/www/rankingdigitalrights-2016/app/_topics/privacy.md",
+		"/var/www/rankingdigitalrights-2016/app/assets/styles/main.scss",
+		"/var/www/rankingdigitalrights-2016/app/_topics/commitment.md",
+		"/var/www/rankingdigitalrights-2016/app/_layouts/category.html",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/category.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/survey.json",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/category-indicators.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/category-indicators.tpl",
+		"/var/www/rankingdigitalrights-2016/app/assets/styles/_categories.scss",
+		"/var/www/rankingdigitalrights-2016/app/_includes/banner.html",
+		"/var/www/rankingdigitalrights-2016/app/_includes/subnav.html",
+		"/var/www/rankingdigitalrights-2016/node_modules/babel-runtime/node_modules/core-js/client/core.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/scripts/collections/overview.js",
+		"/var/www/rankingdigitalrights-2016/app/assets/static/facebook.json",
 		"/var/www/rankingdigitalrights-2016/app/companies/index.html",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/companies.html",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/services.html",
-		"/var/www/rankingdigitalrights-2016/app/services/index.md",
 		"/var/www/rankingdigitalrights-2016/RDR/RDR Scores Step 7.xlsx",
 		"/var/www/rankingdigitalrights-2016/.gitignore",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/util/categories.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.bak.json",
 		"/var/www/rankingdigitalrights-2016/RDR/RDR Scores Step 7.csv",
-		"/var/www/rankingdigitalrights-2016/app/assets/static/overview.json",
 		"/var/www/rankingdigitalrights-2016/app/assets/static/companies.json",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/horizontal-row.js",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/stories.html",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/index.html",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/download.html",
@@ -596,26 +693,14 @@
 		"/var/www/rankingdigitalrights-2016/app/index.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/main.js",
 		"/var/www/rankingdigitalrights/index2015/_site/indicators/p10/index.html",
-		"/var/www/rankingdigitalrights-2016/app/_services/cloudservices.md",
 		"/var/www/rankingdigitalrights/index2015/bin/operations/lib/path.py",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/index.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/companies.js",
-		"/var/www/rankingdigitalrights-2016/app/_companies/facebook.md",
-		"/var/www/rankingdigitalrights-2016/app/_includes/banner.html",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/indicators.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/all-indicators.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/company-overview.js",
-		"/var/www/rankingdigitalrights-2016/app/_layouts/indicators.html",
 		"/var/www/rankingdigitalrights-2016/app/indicators/index.md",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_company.scss",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_companies.scss",
-		"/var/www/rankingdigitalrights-2016/app/_includes/subnav.html",
 		"/var/www/rankingdigitalrights/index2015/app/_topics/privacy.md",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/companies.tpl",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/companies.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/horizontal-row.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/company-overview.tpl",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/collections/overview.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/models/overview.js",
 		"/var/www/rankingdigitalrights/index2015/app/_companies/google.md",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/index.tpl",
@@ -634,9 +719,7 @@
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_base.scss",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/horizontal-bar-chart.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/models/question.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/scripts/util/category-classes.js",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/horizontal-bar-chart.js",
-		"/var/www/rankingdigitalrights-2016/app/assets/styles/main.scss",
 		"/var/www/rankingdigitalrights-2016/app/_layouts/common.html",
 		"/var/www/rankingdigitalrights/index2015/app/_layouts/index.html",
 		"/var/www/rankingdigitalrights-2016/app/assets/styles/_variables.scss",
@@ -652,7 +735,6 @@
 		"/var/www/italforniusa/sites/all/modules/custom/map/css/map.css",
 		"/var/www/italforniusa/sites/all/modules/custom/map/js/mapdata.js",
 		"/home/stevan/Downloads/map/js/namap.js",
-		"/var/www/italforniusa/sites/all/themes/italforniusa/css/italforniusa.css",
 		"/home/stevan/Downloads/map/js/mapdata.js",
 		"/var/www/italforniusa/sites/all/modules/custom/map/map.inc",
 		"/var/www/italforniusa/sites/all/modules/custom/map/map.module",
@@ -661,41 +743,7 @@
 		"/var/www/italforniusa/sites/all/themes/italforniusa/template.php",
 		"/var/www/italforniusa/sites/all/themes/italforniusa/templates/page/page--map.tpl.php",
 		"/var/www/italforniusa/sites/all/themes/italforniusa/templates/page/page.tpl.php",
-		"/var/www/italforniusa/mapa/test.html",
-		"/var/www/italforniusa/mapa/map.js",
-		"/var/www/italforniusa/mapa/namap.js",
-		"/var/www/italforniusa/sites/all/themes/italforniusa/css/styles.css",
-		"/var/www/italforniusa/sites/all/themes/italforniusa/templates/page/page--map-canada.tpl.php",
-		"/var/www/italforniusa/xml/canadaMapSettings.xml",
-		"/var/www/italforniusa/sites/all/modules/custom/map/lg-map/usa.js",
-		"/var/www/italforniusa/sites/all/modules/custom/map/lg-map/map.css",
-		"/var/www/italforniusa/sites/all/modules/custom/map/js/init.js",
-		"/var/www/italforniusa/canada/index.html",
-		"/var/www/italforniusa/canada/xml/canadaMapSettings.xml",
-		"/var/www/italforniusa/canada/js/init.js",
-		"/var/www/italforniusa/canada/js/paths.js",
-		"/var/www/italforniusa.dev/usa/index.html",
-		"/var/www/italforniusa/sites/all/modules/custom/map/lg-map/lg-map.js",
-		"/var/www/italforniusa.dev/usa/lg-map/lg-map.js",
-		"/var/www/italforniusa.dev/usa/lg-map/usa.js",
-		"/var/www/italforniusa/sites/all/modules/custom/map/map.info",
-		"/var/www/italforniusa/usa/index.html",
-		"/var/www/italforniusa/sites/default/settings.php",
-		"/var/www/italforniusa.dev/sites/default/settings.php",
-		"/var/www/italforniusa/sites/all/modules/custom/calculator/calculator.module",
-		"/var/www/italforniusa/sites/all/modules/custom/find_store/find_store.inc",
-		"/var/www/italforniusa/sites/all/modules/custom/calculator/calculator.inc",
-		"/home/stevan/workspace/trellis-lms/core/base/templates/sco_container.tmpl",
-		"/home/stevan/workspace/trellis-lms/core/global/templates/error.tmpl",
-		"/home/stevan/workspace/trellis-lms/core/global/functions/web_functions.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/public/resources/css/ninjastyle.css",
-		"/home/stevan/workspace/trellis-lms/core/trellis_errors.php",
-		"/home/stevan/workspace/trellis-lms/core/admin/templates/default.tmpl",
-		"/home/stevan/workspace/trellis-lms/core/admin/templates/login.tmpl",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/get_program.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/course_list.php",
-		"/home/stevan/workspace/trellis-lms/core/global/classes/TrellisLMS.php",
-		"/home/stevan/workspace/trellis-lms/clients/NWP/_base/modules/login.php"
+		"/var/www/italforniusa/mapa/test.html"
 	],
 	"find":
 	{
@@ -706,6 +754,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"/var/www/rankingdigitalrights-2016/app/",
 			"/var/www/rankingdigitalrights-2016/",
 			"/var/www/rankingdigitalrights2016/",
 			"/var/www/rankingdigitalrights2016/app",
@@ -832,8 +881,7 @@
 			"/var/www/insiderhub/wp-content/themes/dante-child/js",
 			"/var/www/laca/sites/all/themes/laca/css",
 			"/var/www/insiderhub/wp-content/themes/dante-child",
-			"/var/www/italforniusa/sites/all/modules/",
-			"/var/www/italforniusa/sites/all/modules/custom"
+			"/var/www/italforniusa/sites/all/modules/"
 		]
 	},
 	"find_state":
@@ -841,6 +889,47 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"category",
+			"./views/category-line-dot-chart",
+			"comp--dot_chart",
+			"cat.id",
+			"comp--dot_chart",
+			"$parent",
+			"barchart",
+			"$parent[0]",
+			"tagname",
+			"category--overview_chart",
+			"Go to indicators",
+			"comp--circle_chart",
+			"score",
+			"md",
+			"slide",
+			"read_csv_as_dictionary",
+			"write_json_pretty",
+			"pretty json",
+			"pretty",
+			"pretty-json",
+			"pretty",
+			"listdir",
+			"skype",
+			"app/_companies",
+			"_app/companies",
+			"_site/companies",
+			"path",
+			"categories()",
+			"companies",
+			"indicators",
+			"_topics",
+			"commi",
+			"commitment",
+			"commi",
+			"forEa",
+			"for",
+			"webpack",
+			"privacy",
+			"c1",
+			"category",
+			"The Commitment category of the Index evaluates",
 			"webpack",
 			"category--indicators",
 			"The Commitment category of the Index evaluates whether companies demonstrate clear commitment in words and deeds to respect users’ right to freedom of expression and privacy",
@@ -927,48 +1016,7 @@
 			"ON:",
 			"#F5F5F5",
 			"ON:",
-			"#CCCCCC",
-			"ont",
-			"E2E2E2",
-			"QU",
-			"initial_view",
-			"linePath",
-			"AK:",
-			"state_bbox_array",
-			"BC:",
-			"HI:",
-			"HI",
-			"CA:",
-			"AK:",
-			"HI:",
-			"NH",
-			"HI",
-			"AK:",
-			"parent_id",
-			"simplemaps_namap_mapinfo",
-			"var mapinfo",
-			"info",
-			"map_info",
-			"HI:",
-			"AK:",
-			"HI:",
-			"NU:",
-			"YT:",
-			"NT:",
-			"NT",
-			"AK",
-			"hAK",
-			"F5F5F5",
-			"E2E2E2",
-			"AD5F5F",
-			"Q",
-			"MX",
-			"hide: \"yes\"",
-			"hide: ",
-			"hide: \"yes\"",
-			"MX",
-			"hide",
-			"AK"
+			"#CCCCCC"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1095,56 +1143,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/static/overview.json",
+					"file": "app/assets/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 4260,
+						"buffer_size": 3617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								137,
-								137
+								79,
+								79
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/assets/static/facebook.json",
-					"settings":
-					{
-						"buffer_size": 195315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1155,19 +1175,215 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/assets/scripts/main.js",
+					"buffer": 1,
+					"file": "bin/operations/lib/path.py",
 					"settings":
 					{
-						"buffer_size": 3483,
+						"buffer_size": 727,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1045,
-								1045
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bin/operations/lib/io.py",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1029,
+								1029
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/scripts/category.js",
+					"settings":
+					{
+						"buffer_size": 1342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/assets/scripts/views/barchart.js",
+					"settings":
+					{
+						"buffer_size": 2818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/assets/scripts/views/category-line-dot-chart.js",
+					"settings":
+					{
+						"buffer_size": 1192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/scripts/company.js",
+					"settings":
+					{
+						"buffer_size": 2416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/_layouts/company.html",
+					"settings":
+					{
+						"buffer_size": 4404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3381,
+								3381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1508.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/assets/scripts/views/company-overview.js",
+					"settings":
+					{
+						"buffer_size": 2069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								704,
+								704
 							]
 						],
 						"settings":

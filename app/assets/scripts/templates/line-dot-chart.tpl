@@ -1,4 +1,4 @@
-<h3><%= category %></h3>
+<!--<h3><%= category %></h3>-->
 <div class="dotchart dotchart--<%= className %>">
   <label class="dotchart--label dotchart--label_left">0%</label>
   <label class="dotchart--label dotchart--label_right">100%</label>

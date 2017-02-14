@@ -13,12 +13,6 @@ module.exports = function generateCategory (category) {
     category = 'freedom';
   }
 
-  var toggles = [];
-  toggles.push(new Collapse({
-    el: $('.trigger'),
-    $body: $('.collapse--target')
-  }));
-
   var $parent = $('#category--overview_chart');
   var overview = new Overview();
   var overviewSuccess = function () {
@@ -31,6 +25,7 @@ module.exports = function generateCategory (category) {
         className: category
       };
     }).sort(barsort);
+
     var barchart = new Barchart({
       width: $parent.width(),
       height: 400,

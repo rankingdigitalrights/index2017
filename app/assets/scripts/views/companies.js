@@ -23,27 +23,6 @@ module.exports = BaseChart.extend({
     $(this.parent).append(this.$el);
   },
 
-  sort: function (e) {
-    var $target = $(e.currentTarget);
-    var direction = -1;
-
-    var asc = 'sort-asc';
-    var desc = 'sort-desc';
-    var none = 'sort-none';
-
-    if ($target.hasClass(desc)) {
-      $target.removeClass(desc).addClass(asc);
-      direction = 1;
-    } else {
-      this.$('.' + desc).removeClass(desc).addClass(none);
-      this.$('.' + asc).removeClass(asc).addClass(none);
-      $target.removeClass(none).addClass(desc);
-    }
-    this.direction = direction;
-    this.category = $target.data('category');
-    this.render();
-  },
-
   openTooltip: function (e) {
     var $target = $(e.currentTarget).find('.vis--horiz_bar');
     this.tip = new Tooltip({

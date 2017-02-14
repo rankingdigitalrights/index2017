@@ -22,7 +22,7 @@ module.exports = BaseChart.extend({
   render: function () {
     var model = this.collection.findWhere({id: this.companyName});
     if (!model) {
-      console.log(this.companyName, 'was not found in overview.json');
+      console.log(this.companyName, ' was not found in overview.json');
       return this.$el;
     }
 
