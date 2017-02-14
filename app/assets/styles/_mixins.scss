@@ -66,3 +66,11 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+
+// BORDER RADIUS @include gz-border-radius ($radius);
+@mixin gz-border-radius ($radius) {
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+border-radius: $radius; 
+}

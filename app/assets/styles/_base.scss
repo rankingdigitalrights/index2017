@@ -20,9 +20,10 @@ cursor: default;
 }
 
 h1, h2, h3, h4, h5, h6 {
+font-family: $platform-bold;  
 color: $black;
-font-family: $platform-bold;
-line-height: 1.625;
+line-height: 1.5;
+text-transform: uppercase;
 letter-spacing: .05em;
 }
 
