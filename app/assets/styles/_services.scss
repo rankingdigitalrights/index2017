@@ -6,15 +6,16 @@ body#page--services{
 				i {
 				font-size: 23px;
     			line-height: 1;	
-				margin-right: 10px;	
+				margin-right: 10px;
+				width: 20px;
+    			text-align: center;	
 				}
 				a {
-				font-family: "Platform", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: $black;
+				font-family: $platform-bold;
 				text-transform: uppercase;
-	    		color: #313131;
 	    		font-size: 23px;
-	    		line-height: 1.5;
-	    		font-weight: 500;	
+	    		line-height: 1.5;	
 	    		letter-spacing: 1px;
 				}
 			}

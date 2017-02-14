@@ -1,39 +1,88 @@
-$platform: 'Platform', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$simplon: 'Simplon', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$simplon-bold: 'Simplon-bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* FONTS */
 
-// Light blue
-$base-color: #4D9ECF;
-// Deep orange
-$primary-color: #9B2523;
-// Light red
-$secondary-color: #FFD0BF;
-// Light green
-$tertiary-color: #C3D500;
-// Green
-$success-color: #77bc1f;
-// Grey
-$light-grey: #D4D2C9;
-// Dark grey
-$dark-grey: #CBCBCB;
+/* Platform - H1 font */
+$platform-hairline: 'Platform-Hairline', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$platform-light: 'Platform-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$platform-medium: 'Platform-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$platform-regular: 'Platform-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$platform-bold: 'Platform-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$dropdown-bg: #F5F5F5;
+/* Simplon - Body font */
+$simplon-light: 'Simplon-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$simplon-medium: 'Simplon-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$simplon-regular: 'Simplon-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$simplon-bold: 'Simplon-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-// Grayscales
+/* COLORS */
+
+// GRAYSCALES
+
+$black-pure: #000;
 $black: #313131;
+$black-lighter: #515151;
+
 $dark: lighten($black, 15%);
 $gray: lighten($black, 50%);
 $light: lighten($black, 70%);
-$white: #FFFAEF;
+
+$white: #F7F7F7;
+
+// Grey
+$light-grey: #D4D2C9;
+
+// Dark grey
+$dark-grey: #DDD; 
+
+$dropdown-bg: #F5F5F5;
 
 $beige: #E5DCD2;
 
-// Category colors
-$cat-total: #457CA4;
-$cat-commitment: #57A8D5;
-$cat-freedom: #21BCB3;
-$cat-privacy: #238E88;
 
+
+
+// Light blue
+$base-color: #4D9ECF;
+
+// Deep orange
+$primary-color: #9B2523;
+
+// Light red
+$secondary-color: #FFD0BF;
+
+// Light green
+$tertiary-color: #C3D500;
+
+// Green
+$success-color: #77bc1f;
+
+
+
+
+
+
+
+// CTEGORY COLORS
+
+/* Blue Total */
+$cat-total: #457CA4;
+$cat-total-hover: #27465c;
+
+/* Blue Governance */
+$cat-commitment: #57A8D5;
+$cat-commitment-hover: #28749e;
+
+/* Green Freedom */
+$cat-freedom: #21BCB3;
+$cat-freedom-hover: #126560;
+
+/* Green Privacy */
+$cat-privacy: #238E88;
+$cat-privacy: #0F3C3A;
+
+
+
+
+/* LAYOUT */
 // We use these to make sure border radius matches unless we want it different.
 $global-radius: 0.5em;
 $semi-radius: $global-radius/2;

@@ -1,44 +1,48 @@
 <!doctype html>
+
 <!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-{% include head.html %}
 
-<body>
-  <!--[if lt IE 10]>
-    <div id="nocando">
-      <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    </div>
-  <![endif]-->
+  {% include head.html %}
 
-  {% include banner.html %}
+  <body>
 
-  <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+    <!--[if lt IE 10]>
+      <div id="nocando">
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
 
-    <div class="row contain spaced-row">
+    {% include banner.html %}
 
-      <div>Category</div>
+    <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
 
-      <h1 class="comp--title">{{ page.display }}</h1>
+      <div class="row contain spaced-row">
 
-      <div class="displaytext">
-        <p>{{ page.introduction }}</p>
+        <div>Category</div>
+
+        <h1 class="comp--title">{{ page.display }}</h1>
+
+        <div class="displaytext">
+          <p>{{ page.introduction }}</p>
+        </div>
+
+        <div>Go to indicators</div>
+
       </div>
 
-      <div>Go to indicators</div>
+      <div id="category--overview_chart" class="row spaced-row contain"></div>
+
+      <div id="category--indicators" class="row spaced-row contain">
+        <h2>{{ page.display }}</h2>
+      </div>
 
     </div>
+    
+    {% include footer.html %}
 
-    <div id="category--overview_chart" class="row spaced-row contain"></div>
+    <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
 
-    <div id="category--indicators" class="row spaced-row contain">
-      <h2>{{ page.display }}</h2>
-    </div>
+  </body>
 
-  </div>
-  
-  {% include footer.html %}
-
-  <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
-
-</body>
 </html>

@@ -10,7 +10,7 @@ input[type=submit] {
 .bttn {
   box-shadow: none;
   display: inline-block;
-  font-family: $simplon;
+  font-family: $simplon-light;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -170,7 +170,7 @@ input[type=submit] {
 
 input[type="text"],
 .search {
-  font-family: $simplon;
+  font-family: $simplon-light;
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;

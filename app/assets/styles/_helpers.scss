@@ -1,6 +1,7 @@
 // Font smoothing
 // Apply to single elements instead of globally to body.
 // Only applies to webkit desktop, and FF 25 + on Mac.
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -95,4 +96,3 @@
     width: 80%;
   }
 }
-

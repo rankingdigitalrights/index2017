@@ -1,7 +1,9 @@
 <!doctype html>
+
 <!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-{% include head.html %}
+
+  {% include head.html %}
 
   <body id="page--services">
 
@@ -14,7 +16,9 @@
     {% include banner.html %}
 
     <div class="index--intro">
-      <div class="row contain">{{ page.intro }}</div>
+      <div class="row contain">
+        <p>{{ page.intro }}</p>
+      </div>
     </div>
     
     <div class="services--list">
@@ -43,4 +47,5 @@
     <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
 
   </body>
+
 </html>

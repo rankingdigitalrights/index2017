@@ -1,135 +1,137 @@
 <!doctype html>
+
 <!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-{% include head.html %}
 
-<body id="page--company">
+  {% include head.html %}
 
-  <!--[if lt IE 10]>
-    <div id="nocando">
-      <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    </div>
-  <![endif]-->
+  <body id="page--company">
 
-  {% include banner.html %}
+    <!--[if lt IE 10]>
+      <div id="nocando">
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
 
-  <div id="site-canvas" data-type="company" data-id="{{ page.entity }}">
-    
-    <div class="contain spaced-row row row--1">
+    {% include banner.html %}
 
-      <div class="container--left">
+    <div id="site-canvas" data-type="company" data-id="{{ page.entity }}">
+      
+      <div class="contain spaced-row row row--1">
+
+        <div class="container--left">
+          
+          <label class="blocklabel">
+            {{ page.company_type }}
+          </label> <!-- company type -->
+
+          <h1 class="comp--title">
+            {{ page.display }}
+          </h1> <!-- title -->
+
+          <p class="comp--sub_headquarters">
+            <label>Headquarters:</label>
+            {{ page.headquarters }}
+          </p> <!-- headquarters -->
+
+          <p class="comp--sub_website">
+            <label>URL:</label>
+            <a href="{{ page.link }}" target="_blank">{{ page.link }}
+              <span class="collecticon collecticon-pop-up"></span>
+            </a> 
+          </p> <!-- website -->
+        </div>
+
+        <div class="container--right">
+          <div class="comp--score">
+            <label class="blocklabel">Overall score</label>
+            {{ page.total }}%
+          </div> <!-- overall score -->
+
+          <div class="comp--among">
+            <label class="blocklabel">Position among other companies</label>
+            <div id="comp--position_among" class="comp--bar_chart">[Bar chart]</div>
+          </div> <!-- position among other companies -->
+        </div>
+
+      </div> <!-- row--1 -->    
+
+      <div class="contain spaced-row row row--2">
         
-        <label class="blocklabel">
-          {{ page.company_type }}
-        </label> <!-- company type -->
+        <div class="container--left">
+          <div class="comp--key_findings">
+            <h3>Key findings</h3>
+            <ul>
+              {% for item in page.key_findings %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div> <!-- key findings -->
+        </div>
 
-        <h1 class="comp--title">
-          {{ page.display }}
-        </h1> <!-- title -->
-
-        <p class="comp--sub_headquarters">
-          <label>Headquarters:</label>
-          {{ page.headquarters }}
-        </p> <!-- headquarters -->
-
-        <p class="comp--sub_website">
-          <label>URL:</label>
-          <a href="{{ page.link }}" target="_blank">{{ page.link }}
-            <span class="collecticon collecticon-pop-up"></span>
-          </a> 
-        </p> <!-- website -->
-      </div>
-
-      <div class="container--right">
-        <div class="comp--score">
-          <label class="blocklabel">Overall score</label>
-          {{ page.total }}%
-        </div> <!-- overall score -->
-
-        <div class="comp--among">
-          <label class="blocklabel">Position among other companies</label>
-          <div id="comp--position_among" class="comp--bar_chart">[Bar chart]</div>
-        </div> <!-- position among other companies -->
-      </div>
-
-    </div> <!-- row--1 -->    
-
-    <div class="contain spaced-row row row--2">
-      
-      <div class="container--left">
-        <div class="comp--key_findings">
-          <h3>Key findings</h3>
-          <ul>
-            {% for item in page.key_findings %}
-            <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div> <!-- key findings -->
-      </div>
-
-      <div class="container--right">
-        <div class="comp--services_evaluated">
-          <label class="blocklabel">Services evaluated</label>
-          {% if page.services_evaluated %}
-            {% for item in page.services_evaluated %}
-            <div class="comp--instant_mess">
-              <label class="blocklabel">{{ item.key }}</label>
-              <div class="comp--name">{{ item.name }}</div>
-              <div class="comp--value">{{ item.value }}</div>
-              <div class="comp--desc">{{ item.desc }}</div>
-            </div>
-            {% endfor %}
-          {% endif %}
-        </div> <!-- services evaluated -->
-      </div>
-    </div> <!-- row--2 -->
+        <div class="container--right">
+          <div class="comp--services_evaluated">
+            <label class="blocklabel">Services evaluated</label>
+            {% if page.services_evaluated %}
+              {% for item in page.services_evaluated %}
+              <div class="comp--instant_mess">
+                <label class="blocklabel">{{ item.key }}</label>
+                <div class="comp--name">{{ item.name }}</div>
+                <div class="comp--value">{{ item.value }}</div>
+                <div class="comp--desc">{{ item.desc }}</div>
+              </div>
+              {% endfor %}
+            {% endif %}
+          </div> <!-- services evaluated -->
+        </div>
+      </div> <!-- row--2 -->
 
 
-    <div id="comp--circle_chart" class="row spaced-row contain"></div>
+      <div id="comp--circle_chart" class="row spaced-row contain"></div>
 
-    <div class="contain spaced-row row row--3">
-      
-      <h2>Analysis</h2>
-      {{ page.analysis }}
-      <div class="comp--industry">
-        <label>Industry:</label>{{ page.analysis_industry }}
-      </div>
-      <div class="comp--industry">
-        <label>Market cap:</label>{{ page.analysis_market_cap }}
-      </div>
-      <div class="comp--sank">
-        <label>Sehk:</label>{{ page.sehk }}
-      </div>
-
-    </div> <!-- row--3 -->
-
-    <div class="contain spaced-row row row--4">
-      
-      <div id="comp--dot_chart" class="comp--dot_chart"></div>
-    
-    </div> <!-- row--4 -->
-
-    <div class="spaced-row row-contained contain">
-      <div id="analysis" class="displaytext comp--analysis">
+      <div class="contain spaced-row row row--3">
+        
         <h2>Analysis</h2>
-        <label class="label">Click a category to expand</label>
-        <div id="js--analysis_inner" class="spaced-row">
-          {{ content }}
+        {{ page.analysis }}
+        <div class="comp--industry">
+          <label>Industry:</label>{{ page.analysis_industry }}
+        </div>
+        <div class="comp--industry">
+          <label>Market cap:</label>{{ page.analysis_market_cap }}
+        </div>
+        <div class="comp--sank">
+          <label>Sehk:</label>{{ page.sehk }}
+        </div>
+
+      </div> <!-- row--3 -->
+
+      <div class="contain spaced-row row row--4">
+        
+        <div id="comp--dot_chart" class="comp--dot_chart"></div>
+      
+      </div> <!-- row--4 -->
+
+      <div class="spaced-row row-contained contain">
+        <div id="analysis" class="displaytext comp--analysis">
+          <h2>Analysis</h2>
+          <label class="label">Click a category to expand</label>
+          <div id="js--analysis_inner" class="spaced-row">
+            {{ content }}
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="row spaced-row contain">
-      <div id="comp--score-table" class="comp--scores">
-        <h2>Indicator Results</h2>
+      <div class="row spaced-row contain">
+        <div id="comp--score-table" class="comp--scores">
+          <h2>Indicator Results</h2>
+        </div>
       </div>
+
     </div>
 
-  </div>
+    {% include footer.html %}
 
-  {% include footer.html %}
+    <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
 
-  <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
-
-</body>
+  </body>
 </html>

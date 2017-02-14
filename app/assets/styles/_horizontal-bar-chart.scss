@@ -38,7 +38,7 @@ $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
   @include media(medium-up) {
     width: $score-width;
   }
-  font-family: $simplon;
+  font-family: $simplon-light;
   color: $black;
   text-align: center;
 }
@@ -65,7 +65,7 @@ $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
   background: transparent;
   color: $black;
   text-transform: uppercase;
-  font-family: $simplon;
+  font-family: $simplon-light;
   padding-top: .5em;
   padding-bottom: .5em;
   overflow: hidden;
