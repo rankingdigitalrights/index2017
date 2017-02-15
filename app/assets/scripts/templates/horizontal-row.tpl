@@ -5,8 +5,9 @@
 		</a>
 	</span>
 	<span class="vis--category_score">
+		
 		<span class="vis--category_score_value">
-			<%= score %>
+			<span><%= score %></span>
 		</span>
 	</span>
 	<div class="vis--row_bars">

@@ -67,7 +67,7 @@ $red: #ed1b24;
 $orange: #f8931f;
 
 
-// CTEGORY COLORS
+// CATEGORY COLORS
 
 /* Blue Total */
 $cat-total: #457CA4;
@@ -108,3 +108,15 @@ $xlarge-range: (1200px);
 $screen: "only screen";
 
 $prose-width: 860px;
+
+
+
+
+// HORIZONTAL BAR CHART
+$bar-height: 2em;
+$title-width: 20%;
+$score-width: 10%;
+$bar-width: 100% - $title-width - $score-width;
+$title-width-sm: 25%;
+$score-width-sm: 15%;
+$bar-width-sm: 100% - $title-width-sm - $score-width-sm;

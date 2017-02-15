@@ -18,33 +18,36 @@
 
           .vis--row_title {
           text-align: right;
-          width: 25% !important;  
+          /*width: 25% !important;*/  
             a {
             font-family: $simplon-bold;
             color: $black;
-            font-size: 13px;
+            font-size: 14px;
             line-height: 1;
             text-transform: uppercase;  
             }
           }
 
           .vis--category_score {
-          width: 1.5em;
-          height: 1.5em;
-          display: inline-block;          
-          @include gz-border-radius (50%);
-          margin-right: 10px;
-          margin-left: 10px;
+          /*width: 15% !important;*/   
             .vis--category_score_value {
-            font-family: $simplon-bold;
-            color: $white-pure;
-            font-size: 10px;
-            line-height: 1;              
-            }  
+            width: 1.7em;
+            height: 1.7em;
+            display: inline-block;          
+            @include gz-border-radius (50%);
+            margin-right: 10px;
+            margin-left: 20px;
+              span {
+              font-family: $simplon-bold;
+              color: $white-pure;
+              font-size: 13px;
+              line-height: 2.2; 
+              }                           
+            } 
           }
 
           .vis--row_bars {
-
+          /*width: 60%;*/
           }
 
           .vis--row_bar {
@@ -55,13 +58,17 @@
 
         &.internet-companies {
           .vis--category_score {
-          background-color: $red;   
+            .vis--category_score_value {
+            background-color: $red;
+            }   
           }
         }
 
         &.telecom-companies {
           .vis--category_score {
-          background-color: $orange;  
+            .vis--category_score_value {
+            background-color: $orange;  
+            }  
           }        
         }        
 

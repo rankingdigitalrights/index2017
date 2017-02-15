@@ -1,10 +1,4 @@
-$bar-height: 1.5em;
-$title-width: 15%;
-$score-width: 8%;
-$bar-width: 100% - $title-width - $score-width;
-$title-width-sm: 25%;
-$score-width-sm: 15%;
-$bar-width-sm: 100% - $title-width-sm - $score-width-sm;
+
 
 #index--viz_container {
   @extend .contain;
@@ -19,7 +13,7 @@ $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
   width: 100%;
   display: inline-flex;
   align-items: center;
-  padding-top: .25em;
+  padding-top: .7em;
   padding-bottom: 0;
   line-height: 1.4em;
   cursor: default;
@@ -126,6 +120,7 @@ $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
 .vis--horiz_bar_container {
   position: relative;
   height: $bar-height;
+  height: 2em;
   background: $beige;
   overflow: hidden;
   transition: background .2s ease-in
@@ -136,31 +131,44 @@ $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
   left: 0;
   top: 0;
   height: $bar-height;
+  height: 2em;
   display: block;
   background: black;
 }
 
+// Colors
+
 .vis--bar_total {
-  background: $cat-total;
-  transition: background .2s ease-in;
+background: $cat-total;
+transition: background .2s ease-in;
+  &:hover {
+  background: $cat-total-hover;  
+  }
 }
 .vis--bar_commitment {
-  background: $cat-commitment;
-  transition: background .2s ease-in
+background: $cat-commitment;
+transition: background .2s ease-in;
+  &:hover {
+  background: $cat-commitment-hover;  
+  }
 }
 .vis--bar_freedom {
-  background: $cat-freedom;
-  transition: background .2s ease-in
+background: $cat-freedom;
+transition: background .2s ease-in;
+  &:hover {
+  background: $cat-freedom-hover;  
+  }
 }
 .vis--bar_privacy {
-  background: $cat-privacy;
-  transition: background .2s ease-in
+background: $cat-privacy;
+transition: background .2s ease-in;
+  &:hover {
+  background: $cat-privacy-hover;  
+  }
 }
 
 .vis--horiz_bar_container:hover {
-  background: darken($beige, 3%);
-  .vis--bar_total { background: darken($cat-total, 20%); }
-  .vis--bar_commitment { background: darken($cat-commitment, 20%); }
-  .vis--bar_freedom { background: darken($cat-freedom, 20%); }
-  .vis--bar_privacy { background: darken($cat-privacy, 20%); }
+  &:hover {
+  background: darken($beige, 3%);  
+  }
 }
