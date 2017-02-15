@@ -15,24 +15,28 @@
 
     {% include banner.html %}
 
-    <div class="index--intro">
+    <div class="page--intro">
       <div class="row contain">
         <p>{{ page.intro }}</p>
       </div>
     </div>
 
-    <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain page--companies--content--row">
+    <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
       
-      <div class="page--companies--content--column">
-        <h2 class="category--title">Internet companies</h2>
-        <div id="category--internet" class="category--graph internet-companies"></div>
+      <div class="row contain page--companies--content--row">
+
+        <div class="page--companies--content--column">
+          <h2 class="category--title">Internet companies</h2>
+          <div id="category--internet" class="category--graph internet-companies"></div>
+        </div>
+
+        <div class="page--companies--content--column">
+          <h2 class="category--title">Telecom companies</h2>
+          <div id="category--telco" class="category--graph telecom-companies"></div>
+        </div>
+
       </div>
 
-      <div class="page--companies--content--column">
-        <h2 class="category--title">Telecom companies</h2>
-        <div id="category--telco" class="category--graph telecom-companies"></div>
-      </div>
-      
     </div>
 
     {% include footer.html %}

@@ -5,8 +5,8 @@
 
   {% include head.html %}
 
-  <body>
-  
+  <body id="page--index">
+
     <!--[if lt IE 10]>
       <div id="nocando">
         <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -15,7 +15,7 @@
 
     {% include banner.html %}
 
-    <div class="index--intro">
+    <div class="page--intro">
       <div class="row contain">
         <p>{{ page.intro }}</p>
       </div>
@@ -23,8 +23,12 @@
     
     <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
       <div class="row-contained contain displaytext md">
-        <h1 class="comp--title">{{ page.header }}</h1>
-        <div>[content]</div>
+        <h1 class="page--title">
+          {{ page.header }}
+        </h1>
+        <div class="page--content">
+          [content]
+        </div>
       </div>
     </div>
     

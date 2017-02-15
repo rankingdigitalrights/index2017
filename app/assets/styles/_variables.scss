@@ -13,7 +13,41 @@ $simplon-medium: 'Simplon-Medium', 'Helvetica Neue', Helvetica, Arial, sans-seri
 $simplon-regular: 'Simplon-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $simplon-bold: 'Simplon-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+
+
+
+
 /* COLORS */
+
+
+/* Categories */
+
+// Blue Total 
+$cat-total: #457CA4;
+$cat-total-hover: #27465c;
+
+// Blue Governance 
+$cat-commitment: #57A8D5;
+$cat-commitment-hover: #28749e;
+
+// Green Freedom 
+$cat-freedom: #21BCB3;
+$cat-freedom-hover: #126560;
+
+// Green Privacy 
+$cat-privacy: #238E88;
+$cat-privacy-hover: #0F3C3A;
+
+
+/* Alerts */
+$red: #ed1b24;
+$orange: #f8931f;
+
+
+/* Links */
+$link-color: #4D9ECF;
+
+
 
 // GRAYSCALES
 
@@ -42,8 +76,6 @@ $beige: #E5DCD2;
 
 
 
-
-
 // Light blue
 $base-color: #4D9ECF;
 
@@ -62,33 +94,28 @@ $success-color: #77bc1f;
 
 
 
-// ALERT COLORS
-$red: #ed1b24;
-$orange: #f8931f;
 
 
-// CATEGORY COLORS
 
-/* Blue Total */
-$cat-total: #457CA4;
-$cat-total-hover: #27465c;
 
-/* Blue Governance */
-$cat-commitment: #57A8D5;
-$cat-commitment-hover: #28749e;
 
-/* Green Freedom */
-$cat-freedom: #21BCB3;
-$cat-freedom-hover: #126560;
 
-/* Green Privacy */
-$cat-privacy: #238E88;
-$cat-privacy-hover: #0F3C3A;
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 /* LAYOUT */
+
 // We use these to make sure border radius matches unless we want it different.
 $global-radius: 0.5em;
 $semi-radius: $global-radius/2;
@@ -112,7 +139,7 @@ $prose-width: 860px;
 
 
 
-// HORIZONTAL BAR CHART
+/* Horizontal Bar Chart */
 $bar-height: 2em;
 $title-width: 20%;
 $score-width: 10%;

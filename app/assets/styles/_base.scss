@@ -1,8 +1,11 @@
+/* Html */
 
 html {
 width: 100%;
 overflow-x: hidden;
 }
+
+/* Body */
 
 body {
 position: relative;  
@@ -12,12 +15,8 @@ width: 100%;
 overflow-x: hidden;
 }
 
-#site-canvas {
-cursor: default;
-  p {
-  cursor: text;
-  }
-}
+
+/* Headlines */
 
 h1, h2, h3, h4, h5, h6 {
 font-family: $platform-bold;  
@@ -27,55 +26,115 @@ text-transform: uppercase;
 letter-spacing: .05em;
 }
 
-
-
 h1 {
 font-size: 1.5em;
-  @include media(medium-up) { font-size: 2em; }
+  @include media(medium-up) { 
+  font-size: 2em; 
+  }
 }
 
 h2 {
 font-size: 1.25em;
-  @include media(large-up) { font-size: 1.8em; }
+  @include media(large-up) { 
+  font-size: 1.8em; 
+  }
 }
 
 h3 {
 font-size: 1em;
-  @include media(large-up) {font-size: 1.25em; }
+  @include media(large-up) {
+  font-size: 1.25em; 
+  }
 }
 
 
+/* Paragraphs */
 
 p {
+font-family: $simplon-light;  
 color: $black;
-font-family: $simplon-light; 
-font-size: 16px;
+font-size: 1em;
+line-height: 1.3; 
 letter-spacing: 1px;
-line-height: 1.5; 
+margin-bottom: 5px;
+cursor: text;
+  @include media(large-up) {
+  font-size: 1.1em;
+  }
 }
 
 
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: $base-color;
+/* Spans */
+
+span {
+color: $black;
+font-size: 16px;
+line-height: 1.3;
+letter-spacing: 1px;
+}
+ 
+
+/* Links */
+
+a {
+  &:link,
+  &:visited,  
+  &:hover,
+  &:active {
+  font-family: $simplon-light;    
+  color: $link-color;
+  font-size: 16px;
+  line-height: 1.3; 
+  letter-spacing: 1px;  
   text-decoration: none;
   cursor: pointer;
+  }
 }
 
-a:hover {
+a {
+  &:hover {
   text-decoration: underline;
-}
+  }
+}  
 
 
-select, textarea, body {
-color: $black;
+/* Selects & Options */
+select, option {
 font-family: $simplon-light;
-font-weight: 100;
-line-height: 1.625;
+color: $black;
+font-size: 16px;
+line-height: 1.3; 
+letter-spacing: 1px;
 }
+
+
+/* Inputs & Textareas */
+input, textarea {
+font-family: $simplon-light;
+color: $black;
+font-size: 16px;
+line-height: 1.3; 
+letter-spacing: 1px;
+}
+
+
+/* Lists */
+
+ul {}
+li {
+list-style: none;
+margin: 0;
+padding: 0;  
+}
+
+
+/* Images */
+
+/* Blockquotes */
+
+
+
+
 
 
 // IE < 10
@@ -129,16 +188,7 @@ line-height: 1.625;
   display: inline-block;
 }
 
-.index--intro {
-  line-height: 1.25em;
-  padding: 1.5em 0 1em;
-  //background: $beige;
-  color: $black;
-  @include media(large-up) {
-    font-size: 1.25em;
-  }
-  line-height: 140%;
-}
+
 
 .inverted {
   background: $beige;
