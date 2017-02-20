@@ -10,31 +10,47 @@
 }
 
 .vis--row {
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: .7em;
-  padding-bottom: 0;
-  line-height: 1.4em;
-  cursor: default;
+width: 100%;
+display: inline-flex;
+align-items: center;
+padding-top: 0em;
+padding-bottom: 0;
+line-height: 1.4em;
+cursor: default;
+}
+
+.vis--row + .vis--row {
+padding-top: .7em;
 }
 
 .vis--row_title {
-  width: $title-width-sm;
-  @include media(medium-up) {
-    width: $title-width;
+width: $title-width-xs;
+  @include media(small-up) {
+  width: $title-width-sm;  
   }
-  text-align: left;
+  @include media(medium-up) {
+  width: $title-width-md;
+  }
+  @include media(large-up) {
+  width: $title-width;  
+  }
+
 }
 
 .vis--category_score {
+font-family: $simplon-light;
+color: $black;
+text-align: center;  
+width: $score-width-xs;
+  @include media(small-up) {
   width: $score-width-sm;
-  @include media(medium-up) {
-    width: $score-width;
   }
-  font-family: $simplon-light;
-  color: $black;
-  text-align: center;
+  @include media(medium-up) {
+  width: $score-width;
+  }
+  @include media(large-up) {
+  width: $score-width;  
+  }
 }
 
 .vis--type {
@@ -119,11 +135,19 @@
 
 .vis--horiz_bar_container {
   position: relative;
-  height: $bar-height;
-  height: 2em;
+  height: $bar-height-xs;
   background: $beige;
   overflow: hidden;
-  transition: background .2s ease-in
+  transition: background .2s ease-in;
+    @include media(small-up) {
+    height: $bar-height-sm;  
+    }
+    @include media(medium-up) {
+    height: $bar-height-md;
+    }
+    @include media(large-up) {
+    height: $bar-height;      
+    }
 }
 
 .vis--horiz_bar {

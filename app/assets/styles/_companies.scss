@@ -9,7 +9,16 @@
       }
 
       .category--title {
-      margin-bottom: 1em;  
+      margin-bottom: 1em;
+        @include media(small-up) {
+        margin-bottom: 1em;  
+        }
+        @include media(medium-up) {
+        margin-bottom: 1em;
+        }
+        @include media(large-up) {
+        margin-bottom: 0em;  
+        }                        
       }
 
       .category--graph {
@@ -17,37 +26,73 @@
         .vis--row {
 
           .vis--row_title {
-          text-align: right;
-          /*width: 25% !important;*/  
+          text-align: right; 
             a {
             font-family: $simplon-bold;
             color: $black;
-            font-size: 14px;
+            font-size: 10px;
             line-height: 1;
-            text-transform: uppercase;  
+            text-transform: uppercase;
+              @include media(small-up) {
+              font-size: 10px;  
+              }
+              @include media(medium-up) {
+              font-size: 12px;
+              } 
+              @include media(large-up) {
+              font-size: 14px;  
+              }             
             }
           }
 
-          .vis--category_score {
-          /*width: 15% !important;*/   
+          .vis--category_score { 
             .vis--category_score_value {
-            width: 1.7em;
-            height: 1.7em;
+            width: 1.6em;
+            height: 1.6em;
             display: inline-block;          
             @include gz-border-radius (50%);
-            margin-right: 10px;
-            margin-left: 20px;
+            margin-right: 0px;
+            margin-left: 0px;
+              @include media(small-up) {
+              width: 1.6em;
+              height: 1.6em;  
+              margin-right: 0px;
+              margin-left: 0px;
+              }
+              @include media(medium-up) {
+              width: 1.6em;
+              height: 1.6em;                
+              margin-right: 0px;
+              margin-left: 0px;
+              } 
+              @include media(large-up) {
+              width: 1.7em;  
+              height: 1.7em;                
+              margin-right: 10px;
+              margin-left: 20px;
+              }            
               span {
               font-family: $simplon-bold;
               color: $white-pure;
-              font-size: 13px;
-              line-height: 2.2; 
+              font-size: 10px;
+              line-height: 2.4;
+                @include media(small-up) {
+                font-size: 10px;
+                line-height: 2.4;
+                }
+                @include media(medium-up) {
+                font-size: 12px;
+                line-height: 2.3;  
+                }
+                @include media(large-up) {
+                font-size: 13px;
+                line-height: 2.2; 
+                }                              
               }                           
             } 
           }
 
           .vis--row_bars {
-          /*width: 60%;*/
           }
 
           .vis--row_bar {
@@ -73,9 +118,20 @@
         }        
 
       }
+  
+    }
 
-
-      
+    .page--companies--content--column + .page--companies--content--column {
+    margin-top: 2em;
+      @include media(small-up) {
+      margin-top: 2em;  
+      }
+      @include media(medium-up) {
+      margin-top: 0em;  
+      }
+      @include media(large-up) {
+      margin-top: 0em;  
+      }         
     }
 
   }
