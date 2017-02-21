@@ -5,14 +5,14 @@ layout: company
 name: facebook
 id: faceboo
 
-company_type: Internet industry
+company_type: Internet and mobile companies
 headquarters: USA
 link: https://facebook.com/
 
 telco: false
 governance: 36
 freedom: 35
-commitment: 62
+privacy: 62
 display: Facebook, Inc.
 total: 41
 

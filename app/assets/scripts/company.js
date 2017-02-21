@@ -23,7 +23,7 @@ module.exports = function (companyName) {
   var companyOverview = new CompanyOverview({
     collection: overview,
     companyName: companyName,
-    container: 'comp--circle_chart'
+    //container: 'comp--circle_chart'
   });
 
   overview.fetch({

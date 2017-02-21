@@ -5,7 +5,6 @@
 		</a>
 	</span>
 	<span class="vis--category_score">
-		
 		<span class="vis--category_score_value">
 			<span><%= score %></span>
 		</span>

@@ -35,7 +35,7 @@
           </p> <!-- headquarters -->
 
           <p class="comp--sub_website">
-            <label>URL:</label>
+            <label>Link:</label>
             <a href="{{ page.link }}" target="_blank">{{ page.link }}
               <span class="collecticon collecticon-pop-up"></span>
             </a> 
@@ -49,8 +49,8 @@
           </div> <!-- overall score -->
 
           <div class="comp--among">
-            <label class="blocklabel">Position among other companies</label>
-            <div id="comp--position_among" class="comp--bar_chart">[Bar chart]</div>
+            <label class="blocklabel">Rank among {{ page.company_type }}</label>
+            <div id="comp--position_among" class="comp--bar_chart"></div>
           </div> <!-- position among other companies -->
         </div>
 
@@ -63,7 +63,7 @@
             <h3>Key findings</h3>
             <ul>
               {% for item in page.key_findings %}
-              <li>{{ item }}</li>
+              <li>- {{ item }}</li>
               {% endfor %}
             </ul>
           </div> <!-- key findings -->
@@ -89,8 +89,9 @@
 
       <div id="comp--circle_chart" class="row spaced-row contain"></div>
 
-      <div class="contain spaced-row row row--3">
-        
+
+
+      <div class="contain spaced-row row row--3">  
         <h2>Analysis</h2>
         {{ page.analysis }}
         <div class="comp--industry">
@@ -106,26 +107,49 @@
       </div> <!-- row--3 -->
 
       <div class="contain spaced-row row row--4">
-        
-        <div id="comp--dot_chart" class="comp--dot_chart"></div>
-      
+        <div class="container--left">
+          <div>
+            Category<br/>
+            Governance<br/>
+            Score<br/>
+            {{ page.governance }}%
+          </div>
+          <div id="commitment--dot_chart" class="comp--dot_chart"></div>
+        </div>
       </div> <!-- row--4 -->
 
-      <div class="spaced-row row-contained contain">
-        <div id="analysis" class="displaytext comp--analysis">
-          <h2>Analysis</h2>
-          <label class="label">Click a category to expand</label>
-          <div id="js--analysis_inner" class="spaced-row">
-            {{ content }}
+      <div class="contain spaced-row row row--5">
+        <div class="container--left">
+          <div>
+            Category<br/>
+            Freedom of expression<br/>
+            Score<br/>
+            {{ page.freedom }}%
           </div>
+          <div id="freedom--dot_chart" class="comp--dot_chart"></div>
         </div>
-      </div>
+      </div> <!-- row--5 -->
 
+      <div class="contain spaced-row row row--6">
+        <div class="container--left">
+          <div>
+            Category<br/>
+            Privacy<br/>
+            Score<br/>
+            {{ page.privacy }}%
+          </div>
+          <div id="privacy--dot_chart" class="comp--dot_chart"></div>
+        </div>
+      </div> <!-- row--6 -->
+
+      
+      <!--
       <div class="row spaced-row contain">
         <div id="comp--score-table" class="comp--scores">
           <h2>Indicator Results</h2>
         </div>
       </div>
+      -->
 
     </div>
 
