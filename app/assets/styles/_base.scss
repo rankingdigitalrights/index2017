@@ -21,35 +21,43 @@ overflow-x: hidden;
 h1, h2, h3, h4, h5, h6 {
 font-family: $platform-bold;  
 color: $black;
-line-height: 1.5;
+line-height: 1.2;
 text-transform: uppercase;
 letter-spacing: .05em;
+margin: 0;
+padding: 0;
 }
 
 h1 {
-font-size: 16px; 
+font-size: 20px; 
   @include media(small-up) {
-  font-size: 16px;   
+  font-size: 21px;   
   }
   @include media(medium-up) { 
-  font-size: 17px;  
+  font-size: 22px;  
   }
   @include media(large-up) {
-  font-size: 18px;   
-  }  
+  font-size: 25px;   
+  }
+  @include media(xlarge-up) {
+  font-size: 30px;  
+  }    
 }
 
 h2 {
-font-size: 15px; 
+font-size: 16px; 
   @include media(small-up) {
-  font-size: 15px;  
+  font-size: 18px;  
   }
   @include media(medium-up) {
-  font-size: 16px;   
+  font-size: 19px;   
   }
   @include media(large-up) { 
-  font-size: 17px;  
+  font-size: 22px;  
   }
+  @include media(xlarge-up) {
+  font-size: 27px;  
+  }   
 }
 
 h3 {
@@ -63,6 +71,9 @@ font-size: 14px;
   @include media(large-up) {
   font-size: 16px; 
   }
+  @include media(xlarge-up) {
+  font-size: 17px;  
+  }   
 }
 
 
@@ -85,6 +96,9 @@ cursor: text;
   @include media(large-up) {
   font-size: 16px;
   }
+  @include media(xlarge-up) {
+  font-size: 16px;  
+  }   
 }
 
 
@@ -104,6 +118,9 @@ letter-spacing: 0px;
   @include media(large-up) {
   font-size: 16px;
   }
+  @include media(xlarge-up) {
+  font-size: 16px;  
+  }   
 }
  
 
@@ -129,7 +146,10 @@ a {
     }
     @include media(large-up) {
     font-size: 16px;
-    }  
+    }
+    @include media(xlarge-up) {
+    font-size: 16px;  
+    }       
   }
   &:hover {
   text-decoration: underline;
@@ -153,6 +173,9 @@ letter-spacing: 1px;
   @include media(large-up) {
   font-size: 16px;
   }
+  @include media(xlarge-up) {
+  font-size: 16px;  
+  }   
 }
 
 
@@ -172,6 +195,9 @@ letter-spacing: 1px;
   @include media(large-up) {
   font-size: 16px;
   }
+  @include media(xlarge-up) {
+  font-size: 16px;  
+  }   
 }
 
 
@@ -196,7 +222,10 @@ letter-spacing: 1px;
   }
   @include media(large-up) {
   font-size: 16px;
-  }  
+  } 
+  @include media(xlarge-up) {
+  font-size: 16px;  
+  }    
 }
 
 

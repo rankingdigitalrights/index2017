@@ -5,7 +5,7 @@
     .page--companies--content--column {
 
       @include media(medium-up) {
-        @include span-columns(6);
+      @include span-columns(6);
       }
 
       .category--title {
@@ -17,8 +17,11 @@
         margin-bottom: 1em;
         }
         @include media(large-up) {
-        margin-bottom: 0em;  
-        }                        
+        margin-bottom: 1em;  
+        }
+        @include media(xlarge-up) {
+        margin-bottom: 1em;  
+        }                                 
       }
 
       .category--graph {
@@ -33,14 +36,18 @@
             font-size: 10px;
             line-height: 1;
             text-transform: uppercase;
+            vertical-align: middle;
               @include media(small-up) {
               font-size: 10px;  
               }
               @include media(medium-up) {
-              font-size: 12px;
+              font-size: 11px;
               } 
               @include media(large-up) {
-              font-size: 14px;  
+              font-size: 12px;  
+              }
+              @include media(xlarge-up) {
+              font-size: 13px;   
               }             
             }
           }
@@ -51,26 +58,22 @@
             height: 1.6em;
             display: inline-block;          
             @include gz-border-radius (50%);
-            margin-right: 0px;
-            margin-left: 0px;
               @include media(small-up) {
               width: 1.6em;
               height: 1.6em;  
-              margin-right: 0px;
-              margin-left: 0px;
               }
               @include media(medium-up) {
-              width: 1.6em;
-              height: 1.6em;                
-              margin-right: 0px;
-              margin-left: 0px;
+              width: 1.4em;
+              height: 1.4em;                
               } 
               @include media(large-up) {
-              width: 1.7em;  
-              height: 1.7em;                
-              margin-right: 10px;
-              margin-left: 20px;
+              width: 1.5em;  
+              height: 1.5em;                
               }            
+              @include media(xlarge-up) {
+              width: 1.5em;  
+              height: 1.5em;                
+              }               
               span {
               font-family: $simplon-bold;
               color: $white-pure;
@@ -81,13 +84,17 @@
                 line-height: 2.4;
                 }
                 @include media(medium-up) {
-                font-size: 12px;
-                line-height: 2.3;  
+                font-size: 10px;
+                line-height: 2.4;  
                 }
                 @include media(large-up) {
                 font-size: 13px;
                 line-height: 2.2; 
-                }                              
+                }
+                @include media(xlarge-up) {
+                font-size: 13px;
+                line-height: 2.2; 
+                }                                              
               }                           
             } 
           }
@@ -96,7 +103,7 @@
           }
 
           .vis--row_bar {
-            width: 100%;
+          width: 100%;
           }        
 
         }

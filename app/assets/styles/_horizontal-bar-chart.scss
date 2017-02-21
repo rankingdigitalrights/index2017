@@ -32,8 +32,11 @@ width: $title-width-xs;
   width: $title-width-md;
   }
   @include media(large-up) {
-  width: $title-width;  
+  width: $title-width-lg;  
   }
+  @include media(xlarge-up) {
+  width: $title-width-xlg; 
+  }  
 
 }
 
@@ -46,11 +49,14 @@ width: $score-width-xs;
   width: $score-width-sm;
   }
   @include media(medium-up) {
-  width: $score-width;
+  width: $score-width-md;
   }
   @include media(large-up) {
-  width: $score-width;  
+  width: $score-width-lg;  
   }
+  @include media(xlarge-up) {
+  width: $score-width-xlg;  
+  }    
 }
 
 .vis--type {
@@ -99,21 +105,39 @@ width: $score-width-xs;
 .sort-sort > .collecticon:before { content: "\EA76"; }
 
 .vis--header_score {
-  width: $score-width-sm;
-  @include media(medium-up) {
-    width: $score-width;
+text-align: center;  
+width: $score-width-xs;
+  @include media(small-up) {
+  width: $score-width-sm;    
   }
-  text-align: center;
+  @include media(medium-up) {
+  width: $score-width-md;
+  }
+  @include media(large-up) {
+  width: $score-width-lg;
+  }
+  @include media(xlarge-up) {
+  width: $score-width-xlg;
+  }   
 }
 
 .vis--row_bars {
-  width: $bar-width-sm;
-  @include media(medium-up) {
-    width: $bar-width;
+display: inline-flex;
+align-items: flex-end;
+justify-content: space-between;  
+width: $bar-width-xs;
+  @include media(small-up) {
+  width: $bar-width-sm;  
   }
-  display: inline-flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  @include media(medium-up) {
+  width: $bar-width-md;  
+  }
+  @include media(large-up) {
+  width: $bar-width-lg;  
+  }
+  @include media(xlarge-up) {
+  width: $bar-width-xlg;  
+  }
 }
 
 .vis--row_bar {
@@ -146,18 +170,33 @@ width: $score-width-xs;
     height: $bar-height-md;
     }
     @include media(large-up) {
-    height: $bar-height;      
+    height: $bar-height-lg;      
     }
+    @include media(large-up) {
+    height: $bar-height-xlg;      
+    }    
 }
 
 .vis--horiz_bar {
   position: absolute;
   left: 0;
   top: 0;
-  height: $bar-height;
+  height: $bar-height-xs;
   height: 2em;
   display: block;
   background: black;
+    @include media(small-up) {
+    height: $bar-height-sm;  
+    }
+    @include media(medium-up) {
+    height: $bar-height-md;
+    }
+    @include media(large-up) {
+    height: $bar-height-lg;      
+    }
+    @include media(large-up) {
+    height: $bar-height-xlg;      
+    }   
 }
 
 // Colors

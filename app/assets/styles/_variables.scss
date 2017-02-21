@@ -144,19 +144,23 @@ $prose-width: 860px;
 $bar-height-xs: 1.5em;
 $bar-height-sm: 1.5em;
 $bar-height-md: 1.5em;
-$bar-height: 2em;
+$bar-height-lg: 2em;
+$bar-height-xlg: 2em;
 
 $title-width-xs: 25%;
 $title-width-sm: 20%;
 $title-width-md: 20%;
-$title-width: 20%;
+$title-width-lg: 20%;
+$title-width-xlg: 20%;
 
 $score-width-xs: 15%;
 $score-width-sm: 10%;
 $score-width-md: 10%;
-$score-width: 10%;
+$score-width-lg: 10%;
+$score-width-xlg: 10%;
 
 $bar-width-xs: 100% - $title-width-xs - $score-width-xs;
 $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
 $bar-width-md: 100% - $title-width-md - $score-width-md;
-$bar-width: 100% - $title-width - $score-width;
+$bar-width-lg: 100% - $title-width-lg - $score-width-lg;
+$bar-width-xlg: 100% - $title-width-xlg - $score-width-xlg;
