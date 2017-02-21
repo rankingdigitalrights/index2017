@@ -14,3 +14,11 @@
     }
   }
 }
+
+body#page--category {
+  .container--left {
+    @include media(medium-up) {
+      @include span-columns(6);
+    }
+  }
+}

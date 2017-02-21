@@ -1,4 +1,4 @@
-<div class="col-6 col-left">
+<div class="col-6 container--left">
 	<% indicators_left.forEach(function (i) { %>
 	<h5 class="survey--question_hed">
 	  <a href="<%= i.baseurl %>/indicators/<%= i.indicator %>"><%= i.name %></a>
@@ -11,7 +11,7 @@
 	<% }); %>
 </div> <!-- left column -->
 
-<div class="col-6 col-right">
+<div class="col-6 container--right">
 	<% indicators_right.forEach(function (i) { %>
 	<h5 class="survey--question_hed">
 	  <a href="<%= i.baseurl %>/indicators/<%= i.indicator %>"><%= i.name %></a>
