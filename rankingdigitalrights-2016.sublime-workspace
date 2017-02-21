@@ -576,10 +576,18 @@
 			}
 		},
 		{
+			"file": "/home/stevan/workspace/trellis-lms/core/admin/modules/citrixpastwebinarbrowser.php",
+			"settings":
+			{
+				"buffer_size": 2409,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/_layouts/company.html",
 			"settings":
 			{
-				"buffer_size": 4404,
+				"buffer_size": 4268,
 				"line_ending": "Unix"
 			}
 		},
@@ -616,6 +624,7 @@
 	},
 	"file_history":
 	[
+		"/home/stevan/workspace/trellis-lms/core/admin/modules/citrixwebinarbrowser.php",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/templates/line-dot-chart.tpl",
 		"/var/www/rankingdigitalrights-2016/app/assets/scripts/views/line-dot-chart.js",
 		"/var/www/rankingdigitalrights-2016/app/_companies/facebook.md",
@@ -742,8 +751,7 @@
 		"/var/www/italforniusa/mapa/mapdata.js",
 		"/var/www/italforniusa/sites/all/themes/italforniusa/template.php",
 		"/var/www/italforniusa/sites/all/themes/italforniusa/templates/page/page--map.tpl.php",
-		"/var/www/italforniusa/sites/all/themes/italforniusa/templates/page/page.tpl.php",
-		"/var/www/italforniusa/mapa/test.html"
+		"/var/www/italforniusa/sites/all/themes/italforniusa/templates/page/page.tpl.php"
 	],
 	"find":
 	{
@@ -751,7 +759,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/var/www/rankingdigitalrights-2016/app/",
@@ -1143,7 +1151,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1337,25 +1345,53 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "app/_layouts/company.html",
+					"file": "/home/stevan/workspace/trellis-lms/core/admin/modules/citrixpastwebinarbrowser.php",
 					"settings":
 					{
-						"buffer_size": 4404,
+						"buffer_size": 2409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3381,
-								3381
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/_layouts/company.html",
+					"settings":
+					{
+						"buffer_size": 4268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1365,13 +1401,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1508.0,
+						"translation.y": 1300.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "app/assets/scripts/views/company-overview.js",
 					"settings":
 					{
