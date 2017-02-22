@@ -1,5 +1,5 @@
 .page--intro {
-padding: 1.5em 0 1em;
+padding: 1.5em 0 2.5em;
 	@include media(small-up) {
 
 	}
@@ -15,25 +15,57 @@ padding: 1.5em 0 1em;
 }
 
 
-	.page--title {
-	margin-top: 0em;
-	margin-bottom: .325em;
-	display: flex;
-	align-items: center;		
-		@include media(small-up) {
-
-		}
-		@include media(medium-up) {
-
-		}
-		@include media(large-up) {
-
-		}
-		@include media(xlarge-up) {
-
-		} 
-	}
-
-	.page--content {
+.page--title, 
+.page--subtitle {
+margin-top: 0em;
+margin-bottom: .325em;		
+	@include media(small-up) {
 
 	}
+	@include media(medium-up) {
+
+	}
+	@include media(large-up) {
+
+	}
+	@include media(xlarge-up) {
+
+	} 
+}
+
+
+.page--subtitle--undertext {
+width: 60%;			
+font-family: $simplon-light;  
+color: $black;
+font-size: 13px;
+line-height: 1.3; 
+letter-spacing: 1px;
+margin-bottom: 1.5em; 
+	@include media(small-up) {
+	font-size: 14px;  
+	}
+	@include media(medium-up) {
+	font-size: 15px;  
+	}
+	@include media(large-up) {
+	font-size: 16px;
+	}
+	@include media(xlarge-up) {
+	font-size: 16px;  
+	}		
+}
+
+
+.highlihted-bg-colored {
+	.page--subtitle,
+	.page--subtitle--undertext {
+	color: $white-pure;
+	}	
+}
+
+
+
+.page--content {
+
+}

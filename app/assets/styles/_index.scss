@@ -1,0 +1,156 @@
+/* Key findings */
+.key-findings {
+	.description--texts {
+		.description--text {
+			@include media(medium-up) {
+			@include span-columns(6);
+			}
+		}
+		.description--text + .description--text {
+		margin-right: 0px;	
+	    margin-top: 2em;
+	      @include media(small-up) {
+	      margin-top: 2em;  
+	      }
+	      @include media(medium-up) {
+	      margin-top: 0em;  
+	      }
+	      @include media(large-up) {
+	      margin-top: 0em;  
+	      }  
+		}
+	}
+	.action--links {
+	clear: both;
+	margin-top: 1.5em;
+		li {	
+			a {
+			color: $black;	
+				span {
+				text-transform: uppercase;
+				font-weight: 600;	
+				}
+				i {
+				color: $black;
+				margin-left: 5px;
+				}
+			}
+		}	
+	}
+}
+
+
+
+
+
+/* Tabbed graphs */
+
+
+.tabs{
+margin: 0px;
+padding: 0px;
+list-style: none;
+	li {
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+		&.current{
+		background: #ededed;
+		color: #222;
+		}
+	}
+}
+
+
+.tab-content {
+display: none;
+background: #ededed;
+padding: 15px;
+	&.current{
+	display: inherit;
+	}
+}
+
+
+
+
+
+
+
+.tabbed-graphs { 
+margin-top: 2em;
+
+	.nav-tabs {
+	float: left;
+	border-bottom: 0;
+	  
+		li {
+		float: none;
+		margin: 0;
+
+			a {
+			color: #fff;
+			font-weight: 600;	
+			margin-right: 0;
+			border: 0;
+			}
+
+			&.active {
+				a {
+				border:0;	
+					&:hover, &:focus {
+					border:0;	
+					}
+				}				
+			}
+		}
+	}
+	.tab-content {
+	margin-left: 45px;
+	  
+		.tab-pane {
+		display: none;
+		background-color: #fff;
+		padding: 1.6rem;
+		overflow-y: auto;
+		}
+
+		.active { 
+		display: block;
+		}
+	}	 
+}
+
+
+
+
+
+/* Data stories items */
+.data-stories-items {
+clear: both;
+margin-top: 0em;
+margin-bottom: .325em;	
+	.data-stories-item {
+		@include media(medium-up) {
+		@include span-columns(3);
+		}
+		h3 {
+		margin-top: .8em;
+    	margin-bottom: 1em;
+			@include media(small-up) {
+
+			}
+			@include media(medium-up) {
+
+			}
+			@include media(large-up) {
+
+			}
+			@include media(xlarge-up) {
+
+			}     		
+		}	
+	}
+}	

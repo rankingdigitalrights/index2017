@@ -20,15 +20,16 @@ overflow-x: hidden;
 
 h1, h2, h3, h4, h5, h6 {
 font-family: $platform-bold;  
-color: $black;
 line-height: 1.2;
 text-transform: uppercase;
 letter-spacing: .05em;
-margin: 0;
+margin-top: 0em;
+margin-bottom: .325em;
 padding: 0;
 }
 
 h1 {
+color: $black;  
 font-size: 20px; 
   @include media(small-up) {
   font-size: 21px;   
@@ -45,6 +46,7 @@ font-size: 20px;
 }
 
 h2 {
+color: $black;
 font-size: 16px; 
   @include media(small-up) {
   font-size: 18px;  
@@ -61,6 +63,7 @@ font-size: 16px;
 }
 
 h3 {
+color: $black;  
 font-size: 14px; 
   @include media(small-up) {
   font-size: 14px; 
@@ -212,7 +215,7 @@ padding: 0;
 font-family: $simplon-light;
 color: $black;
 font-size: 13px;
-line-height: 1.3; 
+line-height: 1.5; 
 letter-spacing: 1px;
   @include media(small-up) {
   font-size: 14px;  
@@ -234,8 +237,35 @@ letter-spacing: 1px;
 /* Blockquotes */
 
 
+/* Sections */
+section {
+padding-top: 1.5em;
+padding-bottom: 1em;
+  @include media(small-up) {
+
+  }
+  @include media(medium-up) {
+
+  }
+  @include media(large-up) {
+
+  }
+  @include media(xlarge-up) {
+
+  }   
+}
 
 
+/* Section Backgrounds */
+.non-highlihted-bg {
+background-color: $white-pure; 
+}
+.highlihted-bg {
+background-color: $white; 
+}
+.highlihted-bg-colored {
+background-color: $base-color; 
+}
 
 
 // IE < 10
