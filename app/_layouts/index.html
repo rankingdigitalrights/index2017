@@ -5,41 +5,49 @@
 
   {% include head.html %}
 
-  <body id="page--index">
+   <body id="page--index">
 
-    <!--[if lt IE 10]>
+   <!--[if lt IE 10]>
       <div id="nocando">
         <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       </div>
-    <![endif]-->
+   <![endif]-->
 
-    {% include banner.html %}
+   {% include banner.html %}
 
-    <div class="page--intro non-highlihted-bg">
+   <div class="page--intro non-highlihted-bg">
       <div class="row contain">
         <p>{{ page.intro }}</p>
       </div>
-    </div>
+   </div>
     
-    <div id="site-canvas" class="non-highlihted-bg" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+   <div id="site-canvas" class="non-highlihted-bg" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
       <div class="row-contained contain displaytext md">
-        <h1 class="page--title">
-          {{ page.header }}
-        </h1>
-        <div class="page--content">
-          [content]
-        </div>
+         <h1 class="page--title">
+            {{ page.header }}
+         </h1>
+         <div class="page--content">
+            [content]
+         </div>
       </div>
-    </div>
+   </div>
 
-    <section class="key-findings highlihted-bg">
+
+   <section class="world-map non-highlihted-bg">
+      <div class="contain spaced-row row">
+         <img class="img-responsive" src="http://placehold.it/1200x500/efefef?text=Graph+World+map">
+      </div>
+   </section>
+
+
+   <section class="key-findings highlihted-bg">
       <div class="contain spaced-row row row--1">
          <h2 class="page--subtitle">Key findings</h2>
          <div class="description--texts">
             <div class="description--text">
                <p>- companies across the board have poor disclosure around network shutdowns. lorum ipsum. lorum ipsum.</p>
-               <p>transparency reporting is an area where companies are performing well, and continue to improve. lorum ipsum. lorum ipsu</p>
-               <p>overall, all companies failed</p>
+               <p>- transparency reporting is an area where companies are performing well, and continue to improve. lorum ipsum. lorum ipsu</p>
+               <p>- overall, all companies failed</p>
             </div>
             <div class="description--text">
                <p>The 2017 Index ranks 22 companies on <a href="#">35 indicators across three categories</a>. The indicators measure if and how well companies disclose policies affecting users’ freedom of expression and privacy. The Index evaluates policies of the parent company, operating company and those of selected services (depending on company structure. Read more about <a href="#">the methodology</a>, research process and how we <a href="#">score</a> each company.</p>
@@ -92,65 +100,68 @@
 
 
 
-
-<!--
-         <ul class="tabs">
-            <li class="tab-link current" data-tab="tab-1">Tab One</li>
-            <li class="tab-link" data-tab="tab-2">Tab Two</li>
-            <li class="tab-link" data-tab="tab-3">Tab Three</li>
-            <li class="tab-link" data-tab="tab-4">Tab Four</li>
+      <div class="tabbed-graphs">
+         <ul class="nav-tabs">
+            <li class="tab-link current" data-tab="tab-1">Cloud services</li>
+            <li class="tab-link" data-tab="tab-2">Email service</li>
+            <li class="tab-link" data-tab="tab-3">Fixed broadband</li>
+            <li class="tab-link" data-tab="tab-4">Messaging & VOIP</li>
+            <li class="tab-link" data-tab="tab-5">Mobile ecosystems</li>
+            <li class="tab-link" data-tab="tab-6">Pre and Post-paid mobile</li>
+            <li class="tab-link" data-tab="tab-7">Search</li>
+            <li class="tab-link" data-tab="tab-8">Social Network & Blog</li>
+            <li class="tab-link" data-tab="tab-9">Video/Photo</li>            
          </ul>
-
-         <div id="tab-1" class="tab-content current">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         </div>
-         <div id="tab-2" class="tab-content">
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </div>
-         <div id="tab-3" class="tab-content">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-         </div>
-         <div id="tab-4" class="tab-content">
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         </div>
-
--->
-
-
-
-         <div class="tabbed-graphs">
-            <ul class="nav-tabs">
-              <li class="active"><a href="#a" data-toggle="tab">Cloud services</a></li>
-              <li><a href="#b" data-toggle="tab">Email service</a></li>
-              <li><a href="#c" data-toggle="tab">Fixed broadband</a></li>
-              <li><a href="#d" data-toggle="tab">Messaging & VOIP</a></li>
-              <li><a href="#e" data-toggle="tab">Mobile ecosystems</a></li>
-              <li><a href="#f" data-toggle="tab">Pre and Post-paid mobile</a></li>
-            </ul>
-            <div class="tab-content">
-              <div class="tab-pane active" id="a">
-                 <img src="http://placehold.it/250x150/E8117F">
-              </div>
-              <div class="tab-pane" id="b">
-                 <img src="http://placehold.it/250x150">
-              </div>
-              <div class="tab-pane" id="c">
-                 <img src="http://placehold.it/250x150">
-              </div>
-              <div class="tab-pane" id="d">
-                 <img src="http://placehold.it/250x150">
-              </div>
-              <div class="tab-pane" id="e">
-                 <img src="http://placehold.it/250x150">
-              </div>
-              <div class="tab-pane" id="f">
-                 <img src="http://placehold.it/250x150">
-              </div>
+         <div class="tab-content">
+            <div id="tab-1" class="tab-pane-wrapper current">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph1">
+               </div>
             </div>
+            <div id="tab-2" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph2">
+               </div>
+            </div>
+            <div id="tab-3" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph3">
+               </div>
+            </div>
+            <div id="tab-4" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph4">
+               </div>
+            </div> 
+            <div id="tab-5" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph5">
+               </div>
+            </div>
+            <div id="tab-6" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph6">
+               </div>
+            </div>
+            <div id="tab-7" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph7">
+               </div>
+            </div>
+            <div id="tab-8" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph8">
+               </div>
+            </div> 
+            <div id="tab-9" class="tab-pane-wrapper">
+               <div class="tab-pane">
+                  <img src="http://placehold.it/500x250/efefef?text=Graph9">
+               </div>
+            </div>                                    
          </div>
-
       </div>
-    </section>
+
+   </section>      
 
 
 
@@ -188,22 +199,43 @@
 
    <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
 
+   <!-- jQuery --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 
 
 
-
-
-
+   <!-- Tabs -->
    <script type="text/javascript">
       
+
+      var tabsFn = (function() {
+        
+        function init() {
+          setHeight();
+        }
+        
+        function setHeight() {
+          var $tabPane = $('.tab-pane-wrapper'),
+              tabsHeight = $('.nav-tabs').height();
+          
+          $tabPane.css({
+            height: tabsHeight
+          });
+        }
+          
+        $(init);
+      })();
+
+
       $(document).ready(function(){
-         
-         $('ul.tabs li').click(function(){
+         console.log('ready');
+         $('ul.nav-tabs li').click(function(){
+            console.log('click');
             var tab_id = $(this).attr('data-tab');
 
-            $('ul.tabs li').removeClass('current');
-            $('.tab-content').removeClass('current');
+            $('ul.nav-tabs li').removeClass('current');
+            $('.tab-pane-wrapper').removeClass('current');
 
             $(this).addClass('current');
             $("#"+tab_id).addClass('current');

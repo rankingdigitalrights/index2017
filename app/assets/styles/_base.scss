@@ -233,7 +233,11 @@ letter-spacing: 1px;
 
 
 /* Images */
-
+.img-responsive {
+display: block;
+max-width: 100%;
+height: auto;
+}
 /* Blockquotes */
 
 
