@@ -7,252 +7,280 @@
 
    <body id="page--index">
 
-   <!--[if lt IE 10]>
-      <div id="nocando">
-        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-      </div>
-   <![endif]-->
+      <!--[if lt IE 10]>
+         <div id="nocando">
+           <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+         </div>
+      <![endif]-->
 
-   {% include banner.html %}
+      <!-- Header --> 
+      {% include banner.html %}
 
-   <div class="page--intro non-highlihted-bg">
-      <div class="row contain">
-        <p>{{ page.intro }}</p>
+      <!-- Page itro --> 
+      <div class="page--intro non-highlihted-bg">
+         <div class="row contain">
+           <p>{{ page.intro }}</p>
+         </div>
       </div>
-   </div>
     
-   <div id="site-canvas" class="non-highlihted-bg" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
-      <div class="row-contained contain displaytext md">
-         <h1 class="page--title">
-            {{ page.header }}
-         </h1>
-         <div class="page--content">
-            [content]
+      <!--<div id="site-canvas" class="non-highlihted-bg" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+         <div class="row-contained contain displaytext md">
+            <h1 class="page--title">
+               {{ page.header }}
+            </h1>
+            <div class="page--content">
+               [content]
+            </div>
          </div>
-      </div>
-   </div>
+      </div>-->
 
-
-   <section class="world-map non-highlihted-bg">
-      <div class="contain spaced-row row">
-         <img class="img-responsive" src="http://placehold.it/1200x500/efefef?text=Graph+World+map">
-      </div>
-   </section>
-
-
-   <section class="key-findings highlihted-bg">
-      <div class="contain spaced-row row row--1">
-         <h2 class="page--subtitle">Key findings</h2>
-         <div class="description--texts">
-            <div class="description--text">
-               <p>- companies across the board have poor disclosure around network shutdowns. lorum ipsum. lorum ipsum.</p>
-               <p>- transparency reporting is an area where companies are performing well, and continue to improve. lorum ipsum. lorum ipsu</p>
-               <p>- overall, all companies failed</p>
-            </div>
-            <div class="description--text">
-               <p>The 2017 Index ranks 22 companies on <a href="#">35 indicators across three categories</a>. The indicators measure if and how well companies disclose policies affecting users’ freedom of expression and privacy. The Index evaluates policies of the parent company, operating company and those of selected services (depending on company structure. Read more about <a href="#">the methodology</a>, research process and how we <a href="#">score</a> each company.</p>
-            </div>
-         </div>   
-         <ul class="action--links">
-            <li>
-               <a href="#">
-                  <span>Go to Key Findings</span>
-                  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-               </a>   
-            </li>
-            <li>
-               <a href="#">
-                  <span>Read our Recommendations</span>
-                  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-               </a>   
-            </li>
-            <li>
-               <a href="#">
-                  <span>Download The Full Report</span>
-                  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-               </a>   
-            </li>
-         </ul>         
-      </div>
-    </section>
-
-
-   <!-- Company ranking -->
-   <section class="company-ranking non-highlihted-bg">
-      <div class="contain spaced-row row row--2">
-         <h2 class="page--subtitle">2017 Company ranking</h2>
-         <div class="page--subtitle--undertext">How do the companies compare?</div>
-         <div id="category--internet--home"></div>
-         <div id="category--telco--home"></div>
-      </div>  
-   </section>
-
-
-   <!-- Services ranking -->
-   <section class="services-ranking highlihted-bg-colored">
-      <div class="contain spaced-row row">
-
-         <h2 class="page--subtitle">How did the services compare?</h2>
-         <div class="page--subtitle--undertext">The Index evaluates select services offered by each company. Here’s how they stack up. Go how each service performance, go to the services page.</div>
-
-
-
-      <div class="tabbed-graphs">
-         <ul class="nav-tabs">
-            <li class="tab-link" data-tab="tab-1">Cloud services</li>
-            <li class="tab-link" data-tab="tab-2">Email service</li>
-            <li class="tab-link" data-tab="tab-3">Fixed broadband</li>
-            <li class="tab-link" data-tab="tab-4">Messaging & VOIP</li>
-            <li class="tab-link current" data-tab="tab-5">Mobile ecosystems</li>
-            <li class="tab-link" data-tab="tab-6">Pre and Post-paid mobile</li>
-            <li class="tab-link" data-tab="tab-7">Search</li>
-            <li class="tab-link" data-tab="tab-8">Social Network & Blog</li>
-            <li class="tab-link" data-tab="tab-9">Video/Photo</li>            
-         </ul>
-         <div class="tab-content">
-            <div id="tab-1" class="tab-pane-wrapper current">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+1">
+      <!-- World map --> 
+      <section class="world-map non-highlihted-bg">
+         <div class="contain spaced-row row">
+            <img class="img-responsive" src="assets/graphics/content/map-07.svg">
+            <div class="map-legend">
+               <div class="map-content">
+                  <div class="map-content-item">
+                     <div class="map-content-item-value">14</div>
+                     <div class="map-content-item-label">countries</div>                                       
+                  </div>
+                  <div class="map-content-item">
+                     <div class="map-content-item-value">22</div>
+                     <div class="map-content-item-label">companies</div>                                       
+                  </div>
+                  <div class="map-content-item">
+                     <div class="map-content-item-value">62</div>
+                     <div class="map-content-item-label">services</div>                                       
+                  </div>
+                  <div class="map-content-item">
+                     <div class="map-content-item-value">35</div>
+                     <div class="map-content-item-label">indicators</div>                                       
+                  </div>
+                  <div class="map-content-item">
+                     <div class="map-content-item-value">+1</div>
+                     <div class="map-content-item-label">billion users</div>
+                  </div>                                                                        
+               </div>
+               <div class="map-legend-values">
+                  <div class="map-legend-values-item">
+                     <div class="map-legend-values-label">Industry</div>
+                     <div class="map-legend-values-value internet-and-mobile-companies">
+                        <i class="fa fa-circle"></i> Internet and Mobile
+                     </div>
+                     <div class="map-legend-values-value telecommunications-companies">
+                        <i class="fa fa-circle"></i> Telecomunications
+                     </div>                                           
+                  </div>
+                  <div class="map-legend-values-item">
+                     <div class="map-legend-values-label">Company HQ</div>
+                     <div class="map-legend-values-value">
+                        <span class="map-legend-values-value-bar"></span>
+                     </div>
+                  </div>                                     
+               </div>
+               <div class="map-interaction">
+                  <div class="map-interaction-item">
+                     <a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="map-interaction-item">
+                     <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                  </div>                      
                </div>
             </div>
-            <div id="tab-2" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+2">
-               </div>
-            </div>
-            <div id="tab-3" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+3">
-               </div>
-            </div>
-            <div id="tab-4" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+4">
-               </div>
-            </div> 
-            <div id="tab-5" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+5">
-               </div>
-            </div>
-            <div id="tab-6" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+6">
-               </div>
-            </div>
-            <div id="tab-7" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+7">
-               </div>
-            </div>
-            <div id="tab-8" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+8">
-               </div>
-            </div> 
-            <div id="tab-9" class="tab-pane-wrapper">
-               <div class="tab-pane">
-                  <img src="http://placehold.it/500x250/efefef?text=Graph+9">
-               </div>
-            </div>                                    
          </div>
-      </div>
+      </section>
 
-   </section>      
-
-
-
-   <!-- data stories --> 
-   <section class="data-stories non-highlihted-bg">
-      <div class="contain spaced-row row">
-        <h2 class="page--subtitle">Data Stories</h2>
-        <div class="page--subtitle--undertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pellentesque augue nec mattis. Donec interdum porta diam, quis hendrerit urna molestie nec. Integer vehicula ac sem in gravida. Praesent ornare neque eu sapien luctus, nec volutpat tellus pellentesque.</div>
-        <div class="data-stories-items">
-        <div class="data-stories-item">
-          <img src="http://placehold.it/250x150?text=Image+1">
-          <h3>Mobile Ecosystems</h3>
-          <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
-        </div>
-        <div class="data-stories-item">
-          <img src="http://placehold.it/250x150?text=Image+2">
-          <h3>Network Shutdowns</h3>
-          <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
-        </div>
-        <div class="data-stories-item">
-          <img src="http://placehold.it/250x150?text=Image+3">
-          <h3>Data Breaches</h3>
-          <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
-        </div>
-        <div class="data-stories-item">
-          <img src="http://placehold.it/250x150?text=Image+4">
-          <h3>Jurisdictional Performance</h3>
-          <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
-        </div>
-        </div>                         
-      </div>
-   </section>    
-
-   {% include footer.html %}
-
-   <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
-
-   <!-- jQuery --> 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <!-- Key findings --> 
+      <section class="key-findings highlihted-bg">
+         <div class="contain spaced-row row row--1">
+            <h2 class="page--subtitle">Key findings</h2>
+            <div class="description--texts">
+               <div class="description--text">
+                  <p>- companies across the board have poor disclosure around network shutdowns. lorum ipsum. lorum ipsum.</p>
+                  <p>- transparency reporting is an area where companies are performing well, and continue to improve. lorum ipsum. lorum ipsu</p>
+                  <p>- overall, all companies failed</p>
+               </div>
+               <div class="description--text">
+                  <p>The 2017 Index ranks 22 companies on <a href="#">35 indicators across three categories</a>. The indicators measure if and how well companies disclose policies affecting users’ freedom of expression and privacy. The Index evaluates policies of the parent company, operating company and those of selected services (depending on company structure. Read more about <a href="#">the methodology</a>, research process and how we <a href="#">score</a> each company.</p>
+               </div>
+            </div>   
+            <ul class="action--links">
+               <li>
+                  <a href="#">
+                     <span>Go to Key Findings</span>
+                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  </a>   
+               </li>
+               <li>
+                  <a href="#">
+                     <span>Read our Recommendations</span>
+                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  </a>   
+               </li>
+               <li>
+                  <a href="#">
+                     <span>Download The Full Report</span>
+                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  </a>   
+               </li>
+            </ul>         
+         </div>
+      </section>
 
 
+      <!-- Company ranking -->
+      <section class="company-ranking non-highlihted-bg">
+         <div class="contain spaced-row row row--2">
+            <h2 class="page--subtitle">2017 Company ranking</h2>
+            <div class="page--subtitle--undertext">How do the companies compare?</div>
+            <div id="category--internet--home"></div>
+            <div id="category--telco--home"></div>
+         </div>  
+      </section>
 
 
-   <!-- Tabs -->
-   <script type="text/javascript">
+      <!-- Services ranking -->
+      <section class="services-ranking highlihted-bg-colored">
+         <div class="contain spaced-row row">
+
+            <h2 class="page--subtitle">How did the services compare?</h2>
+            <div class="page--subtitle--undertext">The Index evaluates select services offered by each company. Here’s how they stack up. Go how each service performance, go to the services page.</div>
+
+         <div class="tabbed-graphs">
+            <ul class="nav-tabs">
+               <li class="tab-link" data-tab="tab-1">Cloud services</li>
+               <li class="tab-link" data-tab="tab-2">Email service</li>
+               <li class="tab-link" data-tab="tab-3">Fixed broadband</li>
+               <li class="tab-link" data-tab="tab-4">Messaging & VOIP</li>
+               <li class="tab-link current" data-tab="tab-5">Mobile ecosystems</li>
+               <li class="tab-link" data-tab="tab-6">Pre and Post-paid mobile</li>
+               <li class="tab-link" data-tab="tab-7">Search</li>
+               <li class="tab-link" data-tab="tab-8">Social Network & Blog</li>
+               <li class="tab-link" data-tab="tab-9">Video/Photo</li>            
+            </ul>
+            <div class="tab-content">
+               <div id="tab-1" class="tab-pane-wrapper current">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+1">
+                  </div>
+               </div>
+               <div id="tab-2" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+2">
+                  </div>
+               </div>
+               <div id="tab-3" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+3">
+                  </div>
+               </div>
+               <div id="tab-4" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+4">
+                  </div>
+               </div> 
+               <div id="tab-5" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+5">
+                  </div>
+               </div>
+               <div id="tab-6" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+6">
+                  </div>
+               </div>
+               <div id="tab-7" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+7">
+                  </div>
+               </div>
+               <div id="tab-8" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+8">
+                  </div>
+               </div> 
+               <div id="tab-9" class="tab-pane-wrapper">
+                  <div class="tab-pane">
+                     <img src="http://placehold.it/500x250/efefef?text=Graph+9">
+                  </div>
+               </div>                                    
+            </div>
+         </div>
+      </section>      
+
+
+      <!-- Data stories --> 
+      <section class="data-stories non-highlihted-bg">
+         <div class="contain spaced-row row">
+           <h2 class="page--subtitle">Data Stories</h2>
+           <div class="page--subtitle--undertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pellentesque augue nec mattis. Donec interdum porta diam, quis hendrerit urna molestie nec. Integer vehicula ac sem in gravida. Praesent ornare neque eu sapien luctus, nec volutpat tellus pellentesque.</div>
+           <div class="data-stories-items">
+           <div class="data-stories-item">
+             <img src="http://placehold.it/250x150?text=Image+1">
+             <h3>Mobile Ecosystems</h3>
+             <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
+           </div>
+           <div class="data-stories-item">
+             <img src="http://placehold.it/250x150?text=Image+2">
+             <h3>Network Shutdowns</h3>
+             <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
+           </div>
+           <div class="data-stories-item">
+             <img src="http://placehold.it/250x150?text=Image+3">
+             <h3>Data Breaches</h3>
+             <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
+           </div>
+           <div class="data-stories-item">
+             <img src="http://placehold.it/250x150?text=Image+4">
+             <h3>Jurisdictional Performance</h3>
+             <p>Pellentesque pulvinar erat et neque pretium mattis. Praesent a vehicula quam, ac suscipit lorem. Vivamus porttitor elit et lorem pellentesque, in volutpat ligula venenatis. In laoreet pretium ante, vel sagittis nibh dignissim nec. </p>
+           </div>
+           </div>                         
+         </div>
+      </section>    
+
+
+      <!-- Footer --> 
+      {% include footer.html %}
+
+
+      <!-- JS -->
+      <script src="{{ site.baseurl }}/assets/scripts/bundle.js"></script>
+
+      <!-- jQuery --> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+      <!-- Tabs JS -->
+      <script type="text/javascript">
       
+         // Equal heghts
+         var tabsFn = (function() {        
+           function init() {
+             setHeight();
+           }        
+           function setHeight() {
+             var $tabPane = $('.tab-pane-wrapper'),
+                 tabsHeight = $('.nav-tabs').height();
+             $tabPane.css({
+               height: tabsHeight
+             });
+           }
+           $(init);
+         })();
 
-      var tabsFn = (function() {
-        
-        function init() {
-          setHeight();
-        }
-        
-        function setHeight() {
-          var $tabPane = $('.tab-pane-wrapper'),
-              tabsHeight = $('.nav-tabs').height();
-          
-          $tabPane.css({
-            height: tabsHeight
-          });
-        }
-          
-        $(init);
-      })();
-
-
-      $(document).ready(function(){
-         console.log('ready');
-         $('ul.nav-tabs li').click(function(){
-            console.log('click');
-            var tab_id = $(this).attr('data-tab');
-
-            $('ul.nav-tabs li').removeClass('current');
-            $('.tab-pane-wrapper').removeClass('current');
-
-            $(this).addClass('current');
-            $("#"+tab_id).addClass('current');
+         // Current tab
+         $(document).ready(function(){
+            $('ul.nav-tabs li').click(function(){
+               var tab_id = $(this).attr('data-tab');
+               $('ul.nav-tabs li').removeClass('current');
+               $('.tab-pane-wrapper').removeClass('current');
+               $(this).addClass('current');
+               $("#"+tab_id).addClass('current');
+            })
          })
 
-      })
+      </script>
 
-   </script>
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
+   </body>
 
 </html>

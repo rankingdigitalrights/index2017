@@ -1,3 +1,144 @@
+/* World map */
+.world-map {
+padding-top: 0;
+	.map-legend {
+	margin-top: 1em;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+		.map-content,
+		.map-legend-values,
+		.map-interaction {
+		display: flex;
+	    justify-content: center;
+	    align-items: flex-start;		
+		padding: 1em 3em;	
+		border-left: 1px solid $light-grey;
+		}
+		.map-content {
+			.map-content-item {	
+			text-align: center;				
+				.map-content-item-value {
+				font-family: $platform-bold;				
+				color: $black;    											
+				line-height: 1;
+				font-size: 33px;
+				letter-spacing: 2px;
+				margin-bottom: 5px;
+				}
+				.map-content-item-label	{
+				font-family: $simplon-light;	
+				color: $black;    											
+				line-height: 1;
+				font-size: 14px;
+				text-transform: uppercase;
+				}
+			}
+			.map-content-item + .map-content-item {
+			margin-left: 2.5em;	
+			}
+		}
+		.map-legend-values {
+			.map-legend-values-item {	
+				.map-legend-values-label {
+				font-family: $simplon-medium;	
+				color: $black;    											
+				line-height: 1;
+				font-size: 14px;
+				text-transform: uppercase;
+				margin-bottom: 10px;
+				}				
+				.map-legend-values-value {					
+				font-family: $simplon-light;				
+				color: $black;    											
+				line-height: 1;
+				font-size: 11px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				margin-bottom: 5px;
+					@include media(small-up) {
+					font-size: 11px;
+					}
+					@include media(medium-up) {
+					font-size: 12px;
+					}
+					@include media(large-up) {
+					font-size: 13px;
+					}
+					@include media(xlarge-up) {
+					font-size: 13px;
+					} 				
+					i {
+					font-size: 10px;    											
+					line-height: 1;
+	    			text-align: center;
+						@include media(small-up) {
+						font-size: 11px;
+						}
+						@include media(medium-up) {
+						font-size: 12px;
+						}
+						@include media(large-up) {
+						font-size: 13px;
+						}
+						@include media(xlarge-up) {
+						font-size: 14px;
+						}    				
+					}				
+					&.internet-and-mobile-companies {
+						i {
+						color: $red;	
+						}
+					}
+			        &.telecommunications-companies {
+			        	i {
+			        	color: $orange;  
+			            }         
+			        }
+			        .map-legend-values-value-bar {
+			        display: inline-block;	
+			        width: 8em;
+			        height: 1em;
+			        background-color: $base-color;  	
+			        }					
+				}
+			}
+			.map-legend-values-item + .map-legend-values-item {
+			margin-left: 2.5em;		
+			}			
+		}
+		.map-interaction {
+			.map-interaction-item {
+			display: flex;	
+			background-color: $black;	
+				i {
+				color: $white-pure;	
+				font-size: 17px;    											
+				line-height: 1;
+				padding: 5px 7px;
+    			text-align: center;
+					@include media(small-up) {
+					font-size: 18px;
+					}
+					@include media(medium-up) {
+					font-size: 18px;
+					}
+					@include media(large-up) {
+					font-size: 20px;
+					}
+					@include media(xlarge-up) {
+					font-size: 23px;
+					}    				
+				}
+			}
+			.map-interaction-item + .map-interaction-item {
+			margin-left: 1em;		
+			}	
+		}	
+	}	
+}
+
+
 /* Key findings */
 .key-findings {
 	.description--texts {
