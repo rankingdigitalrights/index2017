@@ -51,18 +51,18 @@
 }
 
 @font-face {
-  font-family: 'Simplon-Medium';
-  src: url('../graphics/fonts/simplon/Simplon_BP_Medium_1.woff'),
-       url('../graphics/fonts/simplon/Simplon_BP_Medium_1.ttf'),
-       url('../graphics/fonts/simplon/Simplon_BP_Medium_1.otf');
+  font-family: 'Simplon-Regular';
+  src: url('../graphics/fonts/simplon/Simplon_BP_Regular_1.ttf'),
+       url('../graphics/fonts/simplon/Simplon_BP_Regular_1.otf');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Simplon-Regular';
-  src: url('../graphics/fonts/simplon/Simplon_BP_Regular_1.ttf'),
-       url('../graphics/fonts/simplon/Simplon_BP_Regular_1.otf');
+  font-family: 'Simplon-Medium';
+  src: url('../graphics/fonts/simplon/Simplon_BP_Medium_1.woff'),
+       url('../graphics/fonts/simplon/Simplon_BP_Medium_1.ttf'),
+       url('../graphics/fonts/simplon/Simplon_BP_Medium_1.otf');
   font-weight: 600;
   font-style: normal;
 }

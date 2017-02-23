@@ -9,7 +9,6 @@ overflow-x: hidden;
 
 body {
 position: relative;  
-background: $white;
 @extend .antialiased;
 width: 100%;
 overflow-x: hidden;
@@ -83,7 +82,7 @@ font-size: 14px;
 /* Paragraphs */
 
 p {
-font-family: $simplon-light;  
+font-family: $simplon-regular; 
 color: $black;
 font-size: 13px;
 line-height: 1.3; 

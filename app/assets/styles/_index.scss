@@ -28,7 +28,7 @@
 			color: $black;	
 				span {
 				text-transform: uppercase;
-				font-weight: 600;	
+				font-family: $simplon-medium;
 				}
 				i {
 				color: $black;
@@ -65,6 +65,7 @@ align-items: center;
 		padding: 10px 15px;		
 		color: $white-pure;
 		cursor: pointer;
+		text-transform: uppercase;
 			&.current {
 			border: 1px solid $white-pure;
 			border-right: none;
