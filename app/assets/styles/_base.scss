@@ -213,21 +213,8 @@ padding: 0;
 
 font-family: $simplon-light;
 color: $black;
-font-size: 13px;
 line-height: 1.5; 
-letter-spacing: 1px;
-  @include media(small-up) {
-  font-size: 14px;  
-  }
-  @include media(medium-up) {
-  font-size: 15px;  
-  }
-  @include media(large-up) {
-  font-size: 16px;
-  } 
-  @include media(xlarge-up) {
-  font-size: 16px;  
-  }    
+letter-spacing: 1px;   
 }
 
 
