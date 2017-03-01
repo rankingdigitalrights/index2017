@@ -5,7 +5,8 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="page--service">
+
     <!--[if lt IE 10]>
       <div id="nocando">
         <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -14,21 +15,42 @@
 
     {% include banner.html %}
 
-    <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+    <div id="site-canvas" class="page-content-dynamic" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
 
-      <div class="row contain spaced-row">
+      <section class="page-introduction">
 
-        <div>Service</div>
+        <div class="row contain spaced-row">
 
-        <h1 class="page--title">{{ page.display }}</h1>
+          <div class="page-title-overtext">Service</div>
 
-        <div class="displaytext">
+          <h1 class="page--title">{{ page.display }}</h1>
+
           <p>{{ page.introduction }}</p>
-        </div>
 
-      </div>
+        </div>          
+      </section>
 
-      <div id="service--overview_chart" class="row spaced-row contain"></div>
+      <section class="service-graph highlihted-bg">
+
+        <div class="row spaced-row contain">
+
+          <div id="service--overview_chart" class=""></div>
+
+          <div class="graph-legend">
+
+            <div class="graph-legend-interaction">
+                <div class="graph-legend-interaction-item">
+                   <a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                </div>
+                <div class="graph-legend-interaction-item">
+                   <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                </div>                      
+            </div>
+
+          </div>
+
+        </div>  
+      </section>  
 
     </div>
     

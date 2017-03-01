@@ -15,29 +15,61 @@
 
     {% include banner.html %}
 
-    <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+    <div id="site-canvas" class="page-content-dynamic" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
 
-      <div class="row contain spaced-row">
+      <section class="page-introduction">
 
-        <div>Category</div>
+        <div class="row contain spaced-row">
 
-        <h1 class="page--title">{{ page.display }}</h1>
+          <div class="page-title-overtext">Category</div>
 
-        <div class="displaytext">
+          <h1 class="page--title">{{ page.display }}</h1>
+
           <p>{{ page.introduction }}</p>
-        </div>
 
-        <div>Go to indicators</div>
+          <div class="action-links">
+            <a href="#">
+               <span>Go to Indicators</span>
+               <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+            </a>  
+          </div>
 
-      </div>
+        </div>          
+      </section>
 
-      <div id="category--overview_chart" class="row spaced-row contain"></div>
+      <section class="category-graph highlihted-bg">
+        
+        <div class="row spaced-row contain">
+        
+          <div id="category--overview_chart" class=""></div>
 
-      <div  class="row spaced-row contain">Rank & Share</div>
+          <div class="graph-legend">
 
-      <div id="category--indicators" class="row spaced-row contain">
-        <h2>{{ page.display }}</h2>
-      </div>
+            <div class="graph-legend-values">
+                <div class="graph-legend-values-item">
+                   <div class="graph-legend-values-value rank">
+                      <i class="fa fa-circle"></i> - Rank
+                   </div>                                        
+                </div>                                    
+            </div>
+
+            <div class="graph-legend-interaction">
+                <div class="graph-legend-interaction-item">
+                   <a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                </div>
+                <div class="graph-legend-interaction-item">
+                   <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                </div>                      
+            </div>
+
+          </div>
+
+        </div>  
+      </section>
+
+      <section id="category--indicators" class="row spaced-row contain category-indicators">
+        <h2 class="page--subtitle">{{ page.display }}</h2>
+      </section>
 
     </div>
     

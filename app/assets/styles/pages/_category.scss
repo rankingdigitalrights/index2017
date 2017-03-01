@@ -1,0 +1,30 @@
+#page--category {
+
+	.page-content-dynamic {
+
+		.page-introduction {
+			.page--title,
+			.page--subtitle {
+			color: #4D9ECF;	
+			}
+		}
+
+		.category-graph {}
+
+		.category-indicators {
+			.container--left + .container--right {
+			/*border-left: 1px solid $light-grey;*/
+			}
+			.container--left {
+				@include media(medium-up) {
+				@include span-columns(6);
+				}
+			}
+			.indicator-item + .indicator-item {
+			margin-top: 2em;	
+			}			
+		}
+
+	}
+
+}

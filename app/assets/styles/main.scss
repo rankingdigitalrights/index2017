@@ -29,9 +29,13 @@
 @import "subnav";
 
 @import "index";
-@import "companies";
-@import "services";
-@import "download";
+
+@import "pages/companies";
+@import "pages/services";
+@import "pages/service";
+@import "pages/categories";
+@import "pages/category";
+@import "pages/download";
 
 
 @import "footer";
@@ -46,6 +50,11 @@
 @import "circle-chart";
 @import "dot-chart";
 @import "bar-chart";
+
+
+// Graphs
+@import "graphs/graph-legend";
+
 
 // Print
 @import "print";
