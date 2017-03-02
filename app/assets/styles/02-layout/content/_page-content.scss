@@ -1,5 +1,96 @@
+/* Secondary navigation - current page */
+
+#page--index {
+	.secondary-navigation {
+		.nav--item {
+			&.index {
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+#page--companies,
+#page--company {
+	.secondary-navigation {
+		.nav--item {
+			&.companies{
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+#page--services,
+#page--service {
+	.secondary-navigation {
+		.nav--item {
+			&.services {
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+#page--category {
+	.secondary-navigation {
+		.nav--item {
+			&.categories {
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+#page--indicators,
+#page--indicator {
+	.secondary-navigation {
+		.nav--item {
+			&.indicators {
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+#page--stories {
+	.secondary-navigation {
+		.nav--item {
+			&.stories {
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+
+#page--download {
+	.secondary-navigation {
+		.nav--item {
+			&.download {
+				a {
+				text-decoration: underline;	
+				}
+			}
+		}
+	}
+}
+
+
 .page--intro {
-padding: 1.5em 0 2.5em;
+padding: 3em 0;
 	@include media(small-up) {
 
 	}

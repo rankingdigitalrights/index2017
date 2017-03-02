@@ -5,56 +5,78 @@
 @import "bourbon";
 @import "neat";
 
-// Reset and normalize
-@import "normalize";
-@import "reset";
-@import "normalize-opentype";
-
-// Variables, fonts, functions, helpers, tooltips, buttons
-@import "fonts";
-@import "variables";
-@import "functions";
-@import "mixins";
-@import "icons";
-@import "helpers";
-@import "tether-tooltip";
-@import "button";
-
-// Base components
-@import "base";
-@import "page";
-@import "page-content";
-@import "banner-nav";
-@import "secondary-navigation";
-@import "subnav";
-
-@import "index";
-
-@import "pages/companies";
-@import "pages/services";
-@import "pages/service";
-@import "pages/categories";
-@import "pages/category";
-@import "pages/download";
+// 00-reset - Reset and normalize
+@import "00-reset/normalize";
+@import "00-reset/reset";
+@import "00-reset/normalize-opentype";
 
 
-@import "footer";
-@import "table";
-@import "dropdown";
+
+// 01-global - Global styles
+
+@import "01-global/fonts";
+@import "01-global/variables";
+@import "01-global/functions";
+@import "01-global/mixins";
+@import "01-global/icons";
+@import "01-global/helpers";
+@import "01-global/global-styles";
+@import "01-global/base";
+
+
+
+
+// 02-layout - Layout styles
+
+@import "02-layout/header/banner-nav";
+@import "02-layout/header/secondary-navigation";
+@import "02-layout/header/subnav";
+
+@import "02-layout/content/page";
+@import "02-layout/content/page-content";
+
+@import "02-layout/footer/footer";
+
+
+
+// 03-components - Components
+
+@import "03-components/button";
+@import "03-components/tether-tooltip";
+@import "03-components/table";
+@import "03-components/dropdown";
+
+
+
+
+// Pages
+@import "04-pages/01-index";
+
+@import "04-pages/02-companies";
+@import "04-pages/02-company";
+
+@import "04-pages/03-services";
+@import "04-pages/03-service";
+
+@import "04-pages/04-categories";
+@import "04-pages/04-category";
+
+@import "04-pages/05-indicators";
+
+@import "04-pages/07-download";
+
+
+@import "survey";
+
+
 
 // Charts
-@import "horizontal-bar-chart";
-@import "company";
-@import "survey";
-@import "indicator";
-@import "circle-chart";
-@import "dot-chart";
-@import "bar-chart";
-
-
-// Graphs
-@import "graphs/graph-legend";
+@import "05-charts/horizontal-bar-chart";
+@import "05-charts/circle-chart";
+@import "05-charts/dot-chart";
+@import "05-charts/bar-chart";
+@import "05-charts/graph-legend";
 
 
 // Print
-@import "print";
+@import "06-print/print";
