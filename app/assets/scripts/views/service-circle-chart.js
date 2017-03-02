@@ -52,7 +52,7 @@ module.exports = BaseChart.extend({
       .attr('class', 'circle--arc')
     .append('path')
       .attr('d', arc)
-      .attr('class', (d) => 'circle--arc_' + d.data.id);
+      .attr('class', (d) => 'circle--arc--chart--val circle--arc_' + d.data.id);
 
     toDefaultLabel();
 

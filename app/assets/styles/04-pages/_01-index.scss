@@ -90,7 +90,7 @@ align-items: center;
 				}
 				&:before {
 				border-color: rgba(255, 255, 255, 0);
-				border-left-color: #fff;
+				border-left-color: $white-pure;
 				border-width: 10px;
 				margin-top: -10px;
 				}			
@@ -102,15 +102,24 @@ align-items: center;
 	.tab-content {
 	display: flex;
 	justify-content: center;
-	width: 80%;
+	width: 79%;
 	border: 1px solid $white-pure;
 		.tab-pane-wrapper {
 		display: none;	
 			.tab-pane {
+			display: flex;
+    		flex-direction: column;				
 			padding: 15px;
 			display: flex;
 		    justify-content: center;
 		    align-items: center;
+		    	.tab-pane-chart-row {
+				display: flex;
+	    		flex-direction: row;		    	
+	    		}
+	    		.tab-pane-chart-row + .tab-pane-chart-row {
+	    		margin-top: 15px;	
+	    		}
 			}
 			&.current {
 			display: flex;

@@ -1,0 +1,51 @@
+.service--circle--chart {
+	.circle--container {
+		.circle--label_name {
+		fill: $white-pure;
+		font-family: $simplon-medium;
+		font-size: 12px;
+		line-height: 1.3; 
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		  @include media(small-up) {
+		  font-size: 12px;  
+		  }
+		  @include media(medium-up) {
+		  font-size: 10px;  
+		  }
+		  @include media(large-up) {
+		  font-size: 11px;
+		  }
+		  @include media(xlarge-up) {
+		  font-size: 12px;  
+		  }			
+		}
+		.circle--label_val {
+		fill: $white-pure;
+		font-family: $simplon-bold;
+		font-size: 16px;
+		line-height: 1.3; 
+		letter-spacing: 1px;
+		  @include media(small-up) {
+		  font-size: 16px;  
+		  }
+		  @include media(medium-up) {
+		  font-size: 17px;  
+		  }
+		  @include media(large-up) {
+		  font-size: 20px;
+		  }
+		  @include media(xlarge-up) {
+		  font-size: 20px;  
+		  }			
+		}		
+		.circle--arc {
+			.circle--arc_remainder {
+			fill: $light-blue !important;	
+			}
+			.circle--arc--chart--val {
+			fill: $violet;	
+			}
+		}
+	}
+}
