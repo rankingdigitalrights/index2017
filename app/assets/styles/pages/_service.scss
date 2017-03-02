@@ -1,0 +1,25 @@
+#page--service {
+
+	.page-content-dynamic {
+
+		.page-introduction {}
+
+		.service-graph {
+			.service-indicators {
+				.container--left + .container--right {
+				/*border-left: 1px solid $light-grey;*/
+				}
+				.container--left {
+					@include media(medium-up) {
+					@include span-columns(6);
+					}
+				}
+				.indicator-item + .indicator-item {
+				margin-top: 2em;	
+				}			
+			}			
+		}
+
+	}
+
+}

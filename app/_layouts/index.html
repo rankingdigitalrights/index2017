@@ -23,62 +23,80 @@
          </div>
       </div>
     
+<<<<<<< HEAD
       <div id="site-canvas" class="non-highlihted-bg" data-type="{{ page.visualization }}" data-id="{{ page.entity }}"></div>
+=======
+      <div id="site-canvas" class="non-highlihted-bg" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
+         <div class="row-contained contain displaytext md">
+            <h1 class="page--title">
+               {{ page.header }}
+            </h1>
+            <div class="page--content">
+               [content]
+            </div>
+         </div>
+      </div>
+>>>>>>> 9b62971da37a23428aca2b285fa5660640964f72
 
       <!-- World map --> 
       <section class="world-map non-highlihted-bg">
+
          <div class="contain spaced-row row">
+
             <img class="img-responsive" src="assets/graphics/content/map-07.svg">
-            <div class="map-legend">
-               <div class="map-content">
-                  <div class="map-content-item">
-                     <div class="map-content-item-value">14</div>
-                     <div class="map-content-item-label">countries</div>                                       
+
+            <div class="graph-legend">
+              <div class="graph-legend-content">
+                  <div class="graph-legend-content-item">
+                     <div class="graph-legend-content-item-value">14</div>
+                     <div class="graph-legend-content-item-label">countries</div>                                       
                   </div>
-                  <div class="map-content-item">
-                     <div class="map-content-item-value">22</div>
-                     <div class="map-content-item-label">companies</div>                                       
+                  <div class="graph-legend-content-item">
+                     <div class="graph-legend-content-item-value">22</div>
+                     <div class="graph-legend-content-item-label">companies</div>                                       
                   </div>
-                  <div class="map-content-item">
-                     <div class="map-content-item-value">62</div>
-                     <div class="map-content-item-label">services</div>                                       
+                  <div class="graph-legend-content-item">
+                     <div class="graph-legend-content-item-value">62</div>
+                     <div class="graph-legend-content-item-label">services</div>                                       
                   </div>
-                  <div class="map-content-item">
-                     <div class="map-content-item-value">35</div>
-                     <div class="map-content-item-label">indicators</div>                                       
+                  <div class="graph-legend-content-item">
+                     <div class="graph-legend-content-item-value">35</div>
+                     <div class="graph-legend-content-item-label">indicators</div>                                       
                   </div>
-                  <div class="map-content-item">
-                     <div class="map-content-item-value">+1</div>
-                     <div class="map-content-item-label">billion users</div>
+                  <div class="graph-legend-content-item">
+                     <div class="graph-legend-content-item-value">+1</div>
+                     <div class="graph-legend-content-item-label">billion users</div>
                   </div>                                                                        
-               </div>
-               <div class="map-legend-values">
-                  <div class="map-legend-values-item">
-                     <div class="map-legend-values-label">Industry</div>
-                     <div class="map-legend-values-value internet-and-mobile-companies">
+              </div>
+              <div class="graph-legend-values">
+                  <div class="graph-legend-values-item">
+                     <div class="graph-legend-values-label">Industry</div>
+                     <div class="graph-legend-values-value internet-and-mobile-companies">
                         <i class="fa fa-circle"></i> Internet and Mobile
                      </div>
-                     <div class="map-legend-values-value telecommunications-companies">
+                     <div class="graph-legend-values-value telecommunications-companies">
                         <i class="fa fa-circle"></i> Telecomunications
                      </div>                                           
                   </div>
-                  <div class="map-legend-values-item">
-                     <div class="map-legend-values-label">Company HQ</div>
-                     <div class="map-legend-values-value">
-                        <span class="map-legend-values-value-bar"></span>
+                  <div class="graph-legend-values-item">
+                     <div class="graph-legend-values-label">Company HQ</div>
+                     <div class="graph-legend-values-value">
+                        <span class="graph-legend-values-value-bar"></span>
                      </div>
                   </div>                                     
-               </div>
-               <div class="map-interaction">
-                  <div class="map-interaction-item">
+              </div>
+              <div class="graph-legend-interaction">
+                  <div class="graph-legend-interaction-item">
                      <a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
                   </div>
-                  <div class="map-interaction-item">
+                  <div class="graph-legend-interaction-item">
                      <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
                   </div>                      
-               </div>
+              </div>
             </div>
+
          </div>
+
       </section>
 
       <!-- Key findings --> 
@@ -95,26 +113,20 @@
                   <p>The 2017 Index ranks 22 companies on <a href="#">35 indicators across three categories</a>. The indicators measure if and how well companies disclose policies affecting users’ freedom of expression and privacy. The Index evaluates policies of the parent company, operating company and those of selected services (depending on company structure. Read more about <a href="#">the methodology</a>, research process and how we <a href="#">score</a> each company.</p>
                </div>
             </div>   
-            <ul class="action--links">
-               <li>
-                  <a href="#">
-                     <span>Go to Key Findings</span>
-                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                  </a>   
-               </li>
-               <li>
-                  <a href="#">
-                     <span>Read our Recommendations</span>
-                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                  </a>   
-               </li>
-               <li>
-                  <a href="#">
-                     <span>Download The Full Report</span>
-                     <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                  </a>   
-               </li>
-            </ul>         
+            <div class="action-links">
+              <a href="#">
+                <span>Go to Key Findings</span>
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+              </a>   
+              <a href="#">
+                <span>Read our Recommendations</span>
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+              </a>   
+              <a href="#">
+                <span>Download The Full Report</span>
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+              </a>   
+            </div>         
          </div>
       </section>
 
