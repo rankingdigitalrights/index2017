@@ -7,7 +7,7 @@
       </a>
     </div>
     <div class="vis--row_bar bar--count_1 vis--header_item">
-      <a title="Sort by commitment score" class="sort sort-none" data-category="commitment">Commitment<span class="collecticon"></span>
+      <a title="Sort by commitment score" class="sort sort-none" data-category="commitment">Governance<span class="collecticon"></span>
       </a>
     </div>
     <div class="vis--row_bar bar--count_2 vis--header_item">

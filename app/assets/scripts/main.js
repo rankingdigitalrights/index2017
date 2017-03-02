@@ -49,6 +49,11 @@ resize.start();
     renderServicePage(dataId);
   }
 
+  // Map
+  else if (type === 'map') {
+    renderMapPage();
+  }
+
 })();
 
 // Animate hamburger menu

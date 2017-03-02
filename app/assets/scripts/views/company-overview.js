@@ -63,6 +63,7 @@ module.exports = BaseChart.extend({
       if (width > 300) {
         width = 300;
       }
+
       var label = {name: subCategories[i].display, val: model.get(subCategories[i].id)};
       var chart = new CircleChart(_.extend({
         width: width,
