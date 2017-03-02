@@ -7,11 +7,14 @@ padding: 16px 0 14px 0;
 		margin-left: 0;
 		text-align: right;
 			.nav--item {
-			font-weight: 400;	
-			text-transform: uppercase;
 				a {
+				padding: 16px 0 14px 0;	
+				font-family: $simplon-light;
+				font-weight: 600;
 				color: $black-lighter;
-				letter-spacing: -1px;
+				line-height: 1;
+				text-transform: uppercase;
+				letter-spacing: 1px;
 					&:hover {
 					color: $black-pure;	
 					}

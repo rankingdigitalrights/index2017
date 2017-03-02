@@ -93,7 +93,6 @@
     <div class="nav--item_vertical"><a href="/indicators">Indicators</a></div>
     <div class="nav--item_vertical"><a href="/stories">Stories</a></div>
     <div class="nav--item_vertical"><a href="/download">Download</a></div>
-
   </div>
 </div>
 
@@ -103,17 +102,78 @@
     <div class="medium-up">
       <ul class="nav">
         <li class="nav--item index"><a href="/">Index</a></li>
-        <li class="nav--item companies"><a href="/companies">Companies</a></li>
-        <li class="nav--item services"><a href="/services">Services</a></li>
-        <li class="nav--item categories dropdown--trigger" data-dropdown="dropdown-categories"><a href="#">Categories</a>
+        <li class="nav--item companies dropdown--trigger" data-dropdown="dropdown-companies">
+          <a href="/companies">Companies</a>
+          <ul class="dropdown dropdown-companies" id="dropdown-companies">
+            <li class="dropdown--item-wrapper">
+              <ul class="internet-and-mobile-companies">
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/apple"><i class="fa fa-circle"></i>Apple</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/baidu"><i class="fa fa-circle"></i>Baidu</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/facebook"><i class="fa fa-circle"></i>Facebook</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/google"><i class="fa fa-circle"></i>Google</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/kakao"><i class="fa fa-circle"></i>Kakao</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/mailru"><i class="fa fa-circle"></i>Mail.ru</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/microsoft"><i class="fa fa-circle"></i>Microsoft</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/samsung"><i class="fa fa-circle"></i>Samsung</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/tencent"><i class="fa fa-circle"></i>TenCent</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/twitter"><i class="fa fa-circle"></i>Twitter</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/yahoo"><i class="fa fa-circle"></i>Yahoo</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/yandex"><i class="fa fa-circle"></i>Yandex</a></li>
+              </ul>
+            </li>
+            <li class="dropdown--item-wrapper">    
+              <ul class="telecommunications-companies">
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/américamóvil"><i class="fa fa-circle"></i>América Móvil</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/att"><i class="fa fa-circle"></i>AT&T</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/axiata"><i class="fa fa-circle"></i>Axiata</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/bhartiairtel"><i class="fa fa-circle"></i>Bharti Airtel</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/etisalat"><i class="fa fa-circle"></i>Etisalat</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/mtn"><i class="fa fa-circle"></i>MTN</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/ooredoo"><i class="fa fa-circle"></i>Ooredoo</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/orange"><i class="fa fa-circle"></i>Orange</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/telefónica"><i class="fa fa-circle"></i>Telefónica</a></li>
+                <li class="dropdown--item"><a href="{{ site.baseurl }}/companies/vodafone"><i class="fa fa-circle"></i>Vodafone</a></li>
+              </ul>
+            </li>            
+          </ul>          
+        </li>
+        <li class="nav--item services dropdown--trigger" data-dropdown="dropdown-services">
+          <a href="/services">Services</a>
+          <ul class="dropdown" id="dropdown-services">
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/cloudservices">Cloud</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/emailservice">Email</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/fixedbroadband">Fixed-line broadband</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/messagingvoip">Messaging &amp; Voip</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/mobile">Mobile Ecosystems</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/mobile">Pre- and post-Paid mobile</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/search">Search engines</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/socialnetworkblog">Social Networking &amp; blog</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/services/videophoto">Video &amp; photo sharing</a></li>
+          </ul>          
+        </li>
+        <li class="nav--item categories dropdown--trigger" data-dropdown="dropdown-categories">
+          <a href="#">Categories</a>
           <ul class="dropdown" id="dropdown-categories">
             <li class="dropdown--item"><a href="{{ site.baseurl }}/categories/governance">Governance</a></li>
-            <li class="dropdown--item"><a href="{{ site.baseurl }}/categories/freedom-of-expression">Freedom Of Expression</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/categories/freedom-of-expression">Freedom of Expression</a></li>
             <li class="dropdown--item"><a href="{{ site.baseurl }}/categories/privacy">Privacy</a></li>
           </ul>
         </li>
         <li class="nav--item indicators"><a href="/indicators">Indicators</a></li>
-        <li class="nav--item stories"><a href="/stories">Stories</a></li>
+        <li class="nav--item findings dropdown--trigger" data-dropdown="dropdown-findings">
+          <a href="/findings">Findings</a>
+          <ul class="dropdown" id="dropdown-findings">
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Key Findings</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Recommendations</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Methodology and scoring</a></li>
+
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Key stories</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Mobile ecosystems</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Network shutdowns</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">Russia</a></li>
+            <li class="dropdown--item"><a href="{{ site.baseurl }}/findings/">China</a></li>                        
+          </ul>          
+        </li>
         <li class="nav--item download"><a href="/download">Download</a></li>
       </ul>
     </div>
