@@ -43,7 +43,7 @@ align-items: center;
 	.nav-tabs {
 	display: flex;
 	flex-direction: column;
-	width: 20%;
+	width: 21%;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;	
@@ -67,7 +67,7 @@ align-items: center;
 			font-size: 15px;
 			} 
 			@include media(xlarge-up) {
-			font-size: 15px;  
+			font-size: 16px;  
 			} 		
 			&.current {
 			border: 1px solid $white-pure;
