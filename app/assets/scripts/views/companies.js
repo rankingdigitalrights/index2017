@@ -22,7 +22,7 @@ module.exports = BaseChart.extend({
     this.$el.html(this.template({type}));
     $(this.parent).append(this.$el);
   },
-
+  
   openTooltip: function (e) {
     var $target = $(e.currentTarget).find('.vis--horiz_bar');
     this.tip = new Tooltip({

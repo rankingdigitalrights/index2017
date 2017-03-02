@@ -12,6 +12,9 @@ var dropdownFn = require('./util/dropdown');
 /* Companies page */
 var renderCompaniesPage = require('./companies');
 
+/* Map page */
+var renderMapPage = require('./map');
+
 require('typeahead.js/dist/typeahead.jquery.min.js');
 var Bloodhound = require('typeahead.js/dist/bloodhound.min.js');
 
@@ -47,6 +50,11 @@ resize.start();
   // Service page
   else if (type === 'service') {
     renderServicePage(dataId);
+  }
+
+  // Map
+  else if (type === 'map') {
+    renderMapPage();
   }
 
 })();
