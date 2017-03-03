@@ -161,10 +161,10 @@
             font-size: 20px;  
             }
             @include media(large-up) {
-            font-size: 30px;
+            font-size: 25px;
             }
             @include media(xlarge-up) {
-            font-size: 35px;  
+            font-size: 27px;  
             }
           }
           .circle--arc {
