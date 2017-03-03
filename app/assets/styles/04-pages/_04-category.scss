@@ -1,12 +1,24 @@
 #page--category {
+	&.commitment {
+		.page--title {
+		color: $cat-commitment !important;	
+		}	
+	}
+	&.freedom-of-expression {
+		.page--title {
+		color: $cat-freedom !important;
+		}	
+	}
+	&.privacy {
+		.page--title {
+		color: $cat-privacy !important;	
+		}	
+	}
 
 	.page-content-dynamic {
 
 		.page-introduction {
-			.page--title,
-			.page--subtitle {
-			color: #4D9ECF;	
-			}
+
 		}
 
 		.category-graph {}

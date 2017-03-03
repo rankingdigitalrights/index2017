@@ -1,4 +1,5 @@
 ---
+company_type_page: internet-and-mobile-companies
 entity: mailru
 
 layout: company

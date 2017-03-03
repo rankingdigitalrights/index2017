@@ -5,7 +5,7 @@
 
   {% include head.html %}
 
-  <body id="page--company">
+  <body id="page--company" class={{ page.company_type_page }}>
 
     <!--[if lt IE 10]>
       <div id="nocando">
@@ -17,79 +17,90 @@
 
     <div id="site-canvas" data-type="company" data-id="{{ page.entity }}">
       
-      <div class="contain spaced-row row row--1">
 
-        <div class="container--left">
+      <section class="introduction">
+        <div class="contain spaced-row row">
+
+          <div class="container--left">
+            
+            <div class="company-type">
+              <i class="fa fa-circle"></i> {{ page.company_type }}
+            </div>
+
+            <h1 class="page--title">
+              {{ page.display }}
+            </h1> <!-- title -->
+
+            <div class="comp--sub_headquarters">
+              Headquarters:
+              {{ page.headquarters }}
+            </div> <!-- headquarters -->
+
+            <div class="comp--sub_website">
+              Link:
+              <a href="{{ page.link }}" target="_blank">
+                {{ page.link }}             
+              </a> 
+            </div> <!-- website -->
+
+          </div>
+
+          <div class="container--right">
+            
+            <div class="comp--score">
+              Overall score
+              <div class="comp--score--value">{{ page.total }}%</div>
+            </div> <!-- overall score -->
+
+
+            <div class="comp--among">
+              <label class="blocklabel">Rank among {{ page.company_type }}</label>
+              <div id="comp--position_among" class="comp--bar_chart"></div>
+            </div> <!-- position among other companies -->
+          </div>
+        </div> <!-- row--1 -->          
+      </section>
+  
+
+      <section class="key-findings">
+        <div class="contain spaced-row row row--2">
           
-          <label class="blocklabel">
-            {{ page.company_type }}
-          </label> <!-- company type -->
+          <div class="container--left">
+            <div class="comp--key_findings">
+              <h3>Key findings</h3>
+              <ul>
+                {% for item in page.key_findings %}
+                <li>- {{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div> <!-- key findings -->
+          </div>
 
-          <h1 class="page--title">
-            {{ page.display }}
-          </h1> <!-- title -->
+          <div class="container--right">
+            <div class="comp--services_evaluated">
+              <label class="blocklabel">Services evaluated</label>
+              {% if page.services_evaluated %}
+                {% for item in page.services_evaluated %}
+                <div class="comp--instant_mess">
+                  <label class="blocklabel">{{ item.key }}</label>
+                  <div class="comp--name">{{ item.name }}</div>
+                  <div class="comp--value">{{ item.value }}</div>
+                  <div class="comp--desc">{{ item.desc }}</div>
+                </div>
+                {% endfor %}
+              {% endif %}
+            </div> <!-- services evaluated -->
+          </div>
 
-          <p class="comp--sub_website">
-            <label>Link:</label>
-            <a href="{{ page.link }}" target="_blank">{{ page.link }}
-              <span class="collecticon collecticon-pop-up"></span>
-            </a> 
-          </p> <!-- website -->
-          
-          <p class="comp--sub_headquarters">
-            <label>Headquarters:</label>
-            {{ page.headquarters }}
-          </p> <!-- headquarters -->
-
-
-        </div>
-
-        <div class="container--right">
-          <div class="comp--score">
-            <label class="blocklabel">Overall score</label>
-            {{ page.total }}%
-          </div> <!-- overall score -->
-
-          <div class="comp--among">
-            <label class="blocklabel">Rank among {{ page.company_type }}</label>
-            <div id="comp--position_among" class="comp--bar_chart"></div>
-          </div> <!-- position among other companies -->
-        </div>
-
-      </div> <!-- row--1 -->    
-
-      <div class="contain spaced-row row row--2">
-        
-        <div class="container--left">
-          <div class="comp--key_findings">
-            <h3>Key findings</h3>
-            <ul>
-              {% for item in page.key_findings %}
-              <li>- {{ item }}</li>
-              {% endfor %}
-            </ul>
-          </div> <!-- key findings -->
-        </div>
-
-        <div class="container--right">
-          <div class="comp--services_evaluated">
-            <label class="blocklabel">Services evaluated</label>
-            {% if page.services_evaluated %}
-              {% for item in page.services_evaluated %}
-              <div class="comp--instant_mess">
-                <label class="blocklabel">{{ item.key }}</label>
-                <div class="comp--name">{{ item.name }}</div>
-                <div class="comp--value">{{ item.value }}</div>
-                <div class="comp--desc">{{ item.desc }}</div>
-              </div>
-              {% endfor %}
-            {% endif %}
-          </div> <!-- services evaluated -->
-        </div>
-      </div> <!-- row--2 -->
+        </div> <!-- row--2 -->
+      </section>
 
 
-      <div id="comp--circle_chart" class="row spaced-row contain"></div>
+
+      <section class=" circle-chart highlihted-bg">
+        <div id="comp--circle_chart" class="row spaced-row contain"></div>
+      </section>
+
 
 
       <div class="contain spaced-row row row--3">  

@@ -1,5 +1,5 @@
 ---
-
+company_type_page: internet-and-mobile-companies
 entity: facebook
 layout: company
 name: facebook

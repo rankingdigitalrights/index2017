@@ -1,4 +1,5 @@
 ---
+company_type_page: telecommunications-companies
 entity: vodafone
 layout: company
 name: vodafone
