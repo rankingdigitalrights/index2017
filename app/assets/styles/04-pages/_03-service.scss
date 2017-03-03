@@ -22,4 +22,13 @@
 
 	}
 
+	&.cloudservices {
+		.service-graph-content {
+		background: url("../graphics/content/service_page_Cloud.png");
+		height: 500px;
+		@include bg-image(cover);	
+		/*@include bg-image(contain);*/
+		}	
+	}
+
 }
