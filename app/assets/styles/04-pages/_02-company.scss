@@ -1,5 +1,24 @@
 #page--company {
 
+  &.internet-and-mobile-companies {
+    .introduction {
+      .company-type {
+        i {
+        color: $red;  
+        }
+      }
+    }
+  }
+  &.telecommunications-companies {
+    .introduction {
+      .company-type {
+        i {
+        color: $orange;  
+        }
+      }
+    }        
+  }
+
   .introduction {
     .row {
       .container--left {
@@ -42,17 +61,7 @@
       }
       @include media(xlarge-up) {
       font-size: 13px;  
-      }     
-      &.internet-and-mobile-companies {
-        i {
-        color: $red;  
-        }
-      }
-      &.telecommunications-companies {
-        i {
-        color: $orange;  
-          }         
-      }    
+      }        
     }
 
     .comp--sub_headquarters,

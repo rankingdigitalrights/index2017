@@ -1,4 +1,5 @@
 ---
+company_type_page: telecommunications-companies
 entity: etisalat
 
 layout: company
