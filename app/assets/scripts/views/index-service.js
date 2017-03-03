@@ -18,8 +18,6 @@ module.exports = BaseChart.extend({
   // the overview, and each category graph.
   render: function () {
 
-    console.info(this.collection);
-
     //console.info(indexservice);
     this.collection.forEach(function (d, i) {
       var id = d.attributes.id;

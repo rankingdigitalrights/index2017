@@ -57,4 +57,7 @@ category:
     total: 35%
     text: Facebook, Inc. placed sixth out of eight Internet companies in its overall score. The company’s performance across all categories suffered because its disclosure sometimes did not include Instagram.
 
+governance_text: Google, a founding member of the Global Network Initiative (GNI), earned the highest overall score in the Index. However there is much room for improvement. While aspects of U.S. law and the company’s business model would need to change in order for Google to achieve a perfect score, the company’s score could improve substantially even if its business model and the legal and regulatory environment in the United States were to remain unchanged. If the company were simply to match the top-scoring company for each indicator in the Index, its overall score would rise by nearly 10 percentage points.
+
+
 ---
