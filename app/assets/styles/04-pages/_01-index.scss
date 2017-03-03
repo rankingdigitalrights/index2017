@@ -4,6 +4,7 @@ padding-top: 0;
 }
 
 
+
 /* Key findings */
 .key-findings {
 	.description--texts {
@@ -28,8 +29,11 @@ padding-top: 0;
 	}
 }
 
+
+
 /* Company ranking */
 .company-ranking {
+
 	label {
 	text-transform: uppercase;
 		i {
@@ -79,22 +83,46 @@ padding-top: 0;
 	.vis--header_item {
 	font-family: $simplon-regular; 
 	color: $black;
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 2; 
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	overflow: hidden;
 	padding-top: 0;
 	padding-bottom: 0;
+		@include media(small-up) {
+		font-size: 10px;	
+		}
+		@include media(medium-up) {
+		font-size: 11px;	
+		}
+		@include media(large-up) {
+		font-size: 12px;	
+		}
+		@include media(xlarge-up) {
+		font-size: 14px;	
+		}  		
 	  > a {
 	  font-family: $simplon-regular;  
-	  font-size: 14px;
+	  font-size: 10px;
 	  color: $black;
 	  line-height: 2; 
 	  letter-spacing: 1px;    
 	  text-decoration: none;
 	  transition: color .2s ease-out;
 	  display: block;
+		@include media(small-up) {
+		font-size: 10px;	
+		}
+		@include media(medium-up) {
+		font-size: 11px;	
+		}
+		@include media(large-up) {
+		font-size: 12px;	
+		}
+		@include media(xlarge-up) {
+		font-size: 14px;	
+		}  
 	  }
 
 	  &.vis--row_title {
@@ -256,12 +284,11 @@ padding-top: 0;
 	    height: $index-bar-height-xlg;      
 	    }   
 	}					
-
 }
 
 
-/* Tabbed graphs */
 
+/* Tabbed graphs */
 .tabbed-graphs { 
 margin-top: 2em;
 display: flex;
@@ -354,11 +381,7 @@ align-items: center;
 			}
 		}
 	}
-
 }
-
-
-
 
 
 
