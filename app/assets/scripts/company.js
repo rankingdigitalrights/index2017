@@ -4,11 +4,16 @@ var $ = require('jquery');
 var Company = require('./collections/company');
 var Survey = require('./collections/survey');
 var Overview = require('./collections/overview');
+var CompanyIndicator = require('./collections/company-indicators');
 
 var CategoryChart = require('./views/category-line-dot-chart');
 var SurveyView = require('./views/survey');
 var CompanyOverview = require('./views/company-overview');
 var Collapse = require('./views/collapse');
+
+/* ===========================================================*/
+var VCompanyIndicator = require('./views/company-indicator');
+/* ===========================================================*/
 
 var Barchart = require('./views/barchart');
 var barsort = require('./util/barsort');
@@ -16,6 +21,9 @@ var barsort = require('./util/barsort');
 module.exports = function (companyName) {
 
   var overview = new Overview();
+
+  var xxx = new CompanyIndicator();
+
   var category = new CategoryChart({
     collection: overview,
     highlighted: companyName
@@ -26,6 +34,19 @@ module.exports = function (companyName) {
     container: 'comp--circle_chart'
   });
 
+/* ===========================================================*/
+  var companyindicator = new VCompanyIndicator();
+/* ===========================================================*/
+
+
+  
+  xxx.fetch({
+    success: function () {
+      var x = xxx;
+      console.log(x);
+    }
+  });
+
   overview.fetch({
     success: function () {
       category.render('commitment'); // Commitment
@@ -33,6 +54,12 @@ module.exports = function (companyName) {
       category.render('privacy'); // Privacy
       companyOverview.render();
       overviewSuccess(companyName);
+
+      // company indicators
+      companyindicator.render('freedom');
+      companyindicator.render('commitment');
+      companyindicator.render('privacy');
+
     }
   });
 
