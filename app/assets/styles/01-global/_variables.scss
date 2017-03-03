@@ -167,3 +167,30 @@ $bar-width-sm: 100% - $title-width-sm - $score-width-sm;
 $bar-width-md: 100% - $title-width-md - $score-width-md;
 $bar-width-lg: 100% - $title-width-lg - $score-width-lg;
 $bar-width-xlg: 100% - $title-width-xlg - $score-width-xlg;
+
+
+/* Horizontal Bar Chart - Index page*/
+
+$index-bar-height-xs: 1.2em;
+$index-bar-height-sm: 1.2em;
+$index-bar-height-md: 1.2em;
+$index-bar-height-lg: 1.2em;
+$index-bar-height-xlg: 1.2em;
+
+$index-title-width-xs: 25%;
+$index-title-width-sm: 20%;
+$index-title-width-md: 10%;
+$index-title-width-lg: 10%;
+$index-title-width-xlg: 10%;
+
+$index-score-width-xs: 15%;
+$index-score-width-sm: 10%;
+$index-score-width-md: 10%;
+$index-score-width-lg: 10%;
+$index-score-width-xlg: 10%;
+
+$index-bar-width-xs: 100% - $index-title-width-xs - $index-score-width-xs;
+$index-bar-width-sm: 100% - $index-title-width-sm - $index-score-width-sm;
+$index-bar-width-md: 100% - $index-title-width-md - $index-score-width-md;
+$index-bar-width-lg: 100% - $index-title-width-lg - $index-score-width-lg;
+$index-bar-width-xlg: 100% - $index-title-width-xlg -$index-score-width-xlg;
