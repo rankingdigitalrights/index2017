@@ -123,8 +123,8 @@
         "commitment": "57.50",
         "display": "Telef\u00f3nica",
         "freedom": "26.55",
-        "id": "telef\u00f3nica",
-        "name": "telef\u00f3nica",
+        "id": "telefonica",
+        "name": "telefonica",
         "privacy": "28.78",
         "telco": "true",
         "total": "33.40"
@@ -153,8 +153,8 @@
         "commitment": "20.83",
         "display": "Am\u00e9rica M\u00f3vil",
         "freedom": "16.29",
-        "id": "am\u00e9ricam\u00f3vil",
-        "name": "am\u00e9ricaM\u00f3vil",
+        "id": "americamovil",
+        "name": "americaMovil",
         "privacy": "23.89",
         "telco": "true",
         "total": "20.70"
