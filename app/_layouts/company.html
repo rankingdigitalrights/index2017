@@ -105,7 +105,8 @@
 
       <div class="contain spaced-row row row--3">  
         <h2>Analysis</h2>
-        {{ page.analysis }}
+        {{ page.total }}%
+        <p>{{ page.analysis }}</p>
         <div class="comp--industry">
           <label>Industry:</label>{{ page.analysis_industry }}
         </div>
@@ -124,7 +125,8 @@
             Category<br/>
             Governance<br/>
             Score<br/>
-            {{ page.governance_text }}%
+            {{ page.governance }}%
+            </p>{{ page.governance_text }}</p>
           </div>
           <div id="commitment--dot_chart" class="comp--dot_chart"></div>
         </div>
