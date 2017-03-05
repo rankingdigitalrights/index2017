@@ -68,9 +68,24 @@
 }
 
 
-// BORDER RADIUS @include gz-border-radius ($radius);
+// BORDER RADIUS @include border-radius ($radius);
 @mixin gz-border-radius ($radius) {
 -webkit-border-radius: $radius;
 -moz-border-radius: $radius;
 border-radius: $radius; 
+}
+
+/* BACKGROUND IMAGE
+- @include bg-image($background-size);
+- @include bg-image(cover);
+- @include bg-image(contain);
+*/
+@mixin bg-image ($background-size) {
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: $background-size;
+   -moz-background-size: $background-size;
+    -ms-background-size: $background-size;
+     -o-background-size: $background-size;
+        background-size: $background-size;
 }
