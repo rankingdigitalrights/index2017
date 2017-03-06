@@ -17,87 +17,108 @@
 
     <div id="site-canvas" data-type="company" data-id="{{ page.entity }}">
       
-
+      <!-- Introduction -->
       <section class="introduction">
+
         <div class="contain spaced-row row">
+
           <div class="container--left">
+
             <div class="company-type">
               <i class="fa fa-circle"></i> {{ page.company_type }}
             </div>
+
             <h1 class="page--title">
               {{ page.display }}
-            </h1> <!-- title -->
+            </h1> 
+
             <div class="comp--sub_headquarters">
               Headquarters:
               {{ page.headquarters }}
-            </div> <!-- headquarters -->
+            </div> 
 
             <div class="comp--sub_website">
               Link:
               <a href="{{ page.link }}" target="_blank">
                 {{ page.link }}             
               </a> 
-            </div> <!-- website -->
+            </div> 
+
           </div>
 
           <div class="container--right">
+
             <div class="comp--score">
-              Overall score
+              <label>Overall score</label>
               <div class="comp--score--value">{{ page.total }}%</div>
             </div> <!-- overall score -->
 
             <div class="comp--among">
-              <label class="blocklabel">Rank among {{ page.company_type }}</label>
+              <label>Rank among {{ page.company_type }}</label>
               <div id="comp--position_among" class="comp--bar_chart"></div>
             </div> <!-- position among other companies -->
+
           </div>
-        </div> <!-- /.row--1 -->          
-      </section> <!-- /.introduction -->
+
+        </div>
+      </section>
   
 
+      <!-- Key fiindings-->
       <section class="key-findings">
-        <div class="contain spaced-row row row--2">
+        <div class="contain spaced-row row">
           <div class="container--left">
             <div class="comp--key_findings">
-              <h3>Key findings</h3>
-              <ul>
+              <h2>Key findings</h2>
                 {% for item in page.key_findings %}
-                <li>- {{ item }}</li>
+                <p>- {{ item }}</p>
                 {% endfor %}
-              </ul>
-            </div> <!-- key findings -->
-          </div>
-          <div class="container--right">
+            </div> 
+          </div>         
+          <div class="container--right">                     
             <div class="comp--services_evaluated">
-              <label class="blocklabel">Services evaluated</label>
               {% if page.services_evaluated %}
-                {% for item in page.services_evaluated %}
-                <div class="comp--instant_mess">
-                  <label class="blocklabel">{{ item.key }}</label>
-                  <div class="comp--name">{{ item.name }}</div>
-                  <div class="comp--value">{{ item.value }}</div>
-                  <div class="comp--desc">{{ item.desc }}</div>
+              <div class="comp--services_evaluated-title">Services evaluated</div>
+                <div class="comp--instant_mess-wrapper">
+                  {% for item in page.services_evaluated %}
+                  <div class="comp--instant_mess">
+                    <label>{{ item.key }}</label>
+                    <div class="comp--name">{{ item.name }}</div>
+                    <div class="comp--value">{{ item.value }}</div>
+                    <div class="comp--desc">{{ item.desc }}</div>
+                  </div>
+                  {% endfor %}
                 </div>
-                {% endfor %}
               {% endif %}
-            </div> <!-- ./services evaluated -->
+            </div> 
           </div>
-        </div> <!-- /.row--2 -->
-      </section> <!-- /.key-findings -->
+        </div> 
+      </section>
 
+
+      <!-- Circle chart -->
       <section class=" circle-chart highlihted-bg">
         <div id="comp--circle_chart" class="row spaced-row contain"></div>
       </section> 
 
+
+      <!-- Section analysis -->
       <section class="section--analysis">
-        <div class="contain row">
-          <h2>Analysis</h2>
-          {{ page.total }}%
-        </div>
-        <div class="contain spaced-row row row--3">  
+
+        <div class="contain spaced-row row">
+          
+          <div class="title-section">
+            <h2>Analysis</h2>
+            <div class="overall-score">
+              <label>Overall score</label>
+              <div class="overall-score-value">{{ page.total }}%</div>
+            </div>
+          </div>          
+
           <div class="container--left">
             <p>{{ page.analysis_text_left }}</p>
           </div>
+
           <div class="container--right">
             <p>{{ page.analysis_text_right }}</p>
             <div class="comp--industry">
@@ -110,65 +131,93 @@
               <label>Stock symbol: </label>{{ page.analysis_stock_symbol }}
             </div>
           </div>
-        </div> <!-- /.row--3 -->
-      </section> <!-- /.analysis -->
 
+        </div>
+      </section>
+
+
+      <!-- Section governance -->
       <section class="section--governance">
-        <div class="contain spaced-row row row--4">
-          <div class="container--left">
-            <div>
-              Category
-              <h2>Governance</h2>
-              Score
-              <p>{{ page.governance }}%</p>
-              </p>{{ page.governance_text }}</p>
+        <div class="contain spaced-row row">
+
+          <div class="title-section">
+            <div class="category-label">
+              <label>Category</label>
+              <h3 class="governance">Governance</h3>
             </div>
-            <label class="blocklabel">Rank among {{ page.company_type }}</label>
+            <div class="category-score">
+              <label>Score</label>
+              <div class="score-value">{{ page.governance }}%</div>
+            </div>
+          </div>
+
+          <div class="container--left">
+            <p>{{ page.governance_text }}</p>
+            <label>Rank among {{ page.company_type }}</label>
             <div id="commitment--dot_chart" class="comp--dot_chart"></div>
           </div>
+
           <div class="container--right">
             <div id="indicators--commitment"></div>
           </div>
-        </div> <!-- /.row--4 -->
-      </section> <!-- /.governance -->
 
+        </div>
+      </section>
+
+
+      <!-- Section freedom -->
       <section class="section--freedom">
-        <div class="contain spaced-row row row--5">
-          <div class="container--left">
-            <div>
-              Category
-              <h2>Freedom of expression</h2>
-              Score
-              <p>{{ page.freedom }}%</p>
-              <p>{{ page.freedom_text }}</p>
+        <div class="contain spaced-row row">
+
+          <div class="title-section">
+            <div class="category-label">
+              <label>Category</label>
+              <h3 class="freedom">Freedom of expression</h3>
             </div>
-            <label class="blocklabel">Rank among {{ page.company_type }}</label>
+            <div class="category-score">
+              <label>Score</label>
+              <div class="score-value">{{ page.freedom }}%</div>
+            </div>
+          </div>
+
+          <div class="container--left">
+              <p>{{ page.freedom_text }}</p>
+            <label>Rank among {{ page.company_type }}</label>
             <div id="freedom--dot_chart" class="comp--dot_chart"></div>
           </div>
           <div class="container--right">
             <div id="indicators--freedom"></div>
           </div>
-        </div> <!-- /.row--5 -->
-      </div> <!-- /.freedom -->
+        </div>
+      </section>
 
+      <!-- Section privacy -->
       <section class="section--privacy">
-        <div class="contain spaced-row row row--6">
-          <div class="container--left">
-            <div>
-              Category
-              <h2>Privacy</h2>
-              Score
-              <p>{{ page.privacy }}%</p>
-              </p>{{ page.privacy_text }}</p>
+        <div class="contain spaced-row row">
+
+          <div class="title-section">
+            <div class="category-label">
+              <label>Category</label>
+              <h3 class="privacy">Privacy</h3>
             </div>
-            <label class="blocklabel">Rank among {{ page.company_type }}</label>
+            <div class="category-score">
+              <label>Score</label>
+              <div class="score-value">{{ page.privacy }}%</div>
+            </div>
+          </div>
+
+          <div class="container--left">
+            <p>{{ page.privacy_text }}</p>
+            <label>Rank among {{ page.company_type }}</label>
             <div id="privacy--dot_chart" class="comp--dot_chart"></div>
           </div>
+
           <div class="container--right">
             <div id="indicators--privacy"></div>
           </div>
-        </div> <!-- /.row--6 -->
-      </div> <!-- /.privacy -->
+
+        </div>
+      </section>
 
     </div>
 

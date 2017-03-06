@@ -33,7 +33,7 @@ services_evaluated:
 total: 8
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Etisalat Group** establishes and operates telecommunication and fiber optics networks alongside a broad suite of other services in the United Arab Emirates and in 16 other countries in the Middle East, Africa and Asia. Its operations include operation and management of telecom networks as well as media services, connectivity services, and consulting."
+analysis_text_right: "<strong>**Etisalat Group**</strong> establishes and operates telecommunication and fiber optics networks alongside a broad suite of other services in the United Arab Emirates and in 16 other countries in the Middle East, Africa and Asia. Its operations include operation and management of telecom networks as well as media services, connectivity services, and consulting."
 
 analysis_industry: Diversified Telecommunication Services
 analysis_market_cap: USD 42,622 million

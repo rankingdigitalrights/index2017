@@ -32,7 +32,7 @@ services_evaluated:
 total: 13
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Baidu Inc.** provides internet search services, in China and internationally. Other services offered include cloud storage, maps, encyclopedia, and more. Baidu PostBar is an online social network based around discussion topics that are closely integrated with Baidu Search. Baidu also provides online marketing services, from which it derives the majority of its revenue."
+analysis_text_right: "<strong>**Baidu Inc.**</strong> provides internet search services, in China and internationally. Other services offered include cloud storage, maps, encyclopedia, and more. Baidu PostBar is an online social network based around discussion topics that are closely integrated with Baidu Search. Baidu also provides online marketing services, from which it derives the majority of its revenue."
 
 
 analysis_industry: Internet Software and Services

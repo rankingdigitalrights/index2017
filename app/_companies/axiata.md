@@ -29,7 +29,7 @@ services_evaluated:
 total: 13
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Axiata Group Berhad** provides various telecommunication and network transmission-related services to numerous markets across Asia under various brand names. The company has almost 300 million mobile subscribers in Asia. It operates primarily under the brands of Celcom in Malaysia, XL in Indonesia, Dialog in Sri Lanka, Robi in Bangladesh, Smart in Cambodia, Idea in India, and M1 in Singapore."
+analysis_text_right: "<strong>**Axiata Group Berhad**</strong> provides various telecommunication and network transmission-related services to numerous markets across Asia under various brand names. The company has almost 300 million mobile subscribers in Asia. It operates primarily under the brands of Celcom in Malaysia, XL in Indonesia, Dialog in Sri Lanka, Robi in Bangladesh, Smart in Cambodia, Idea in India, and M1 in Singapore."
 
 
 analysis_industry: Diversified Telecommunication Services
