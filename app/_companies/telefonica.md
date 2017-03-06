@@ -32,7 +32,7 @@ services_evaluated:
 total: 33
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Telefónica, S.A.** provides telecommunications services in Spain, Germany, the United Kingdom, and 14 countries in Latin America. It offers mobile and fixed line services, in addition to television, cloud computing, and other services. The company serves 274.8 million mobile phone, 38.9 million fixed telephony, over 21.7 million internet and data, and 8.3 million TV customers."
+analysis_text_right: "<strong>**Telefónica, S.A.**</strong> provides telecommunications services in Spain, Germany, the United Kingdom, and 14 countries in Latin America. It offers mobile and fixed line services, in addition to television, cloud computing, and other services. The company serves 274.8 million mobile phone, 38.9 million fixed telephony, over 21.7 million internet and data, and 8.3 million TV customers."
 
 
 analysis_industry: Diversified Telecommunication Services

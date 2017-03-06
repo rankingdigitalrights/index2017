@@ -32,7 +32,7 @@ services_evaluated:
 total: 22
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Mail.Ru Group Limited** provides online communication products and entertainment services in Russia and internationally. The company provides a search engine, social networking platforms, email services, and gaming and e-commerce services."
+analysis_text_right: "<strong>**Mail.Ru Group Limited**</strong> provides online communication products and entertainment services in Russia and internationally. The company provides a search engine, social networking platforms, email services, and gaming and e-commerce services."
 
 
 analysis_industry: Internet Software and Services
