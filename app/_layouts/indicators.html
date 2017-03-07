@@ -15,16 +15,30 @@
 
     {% include banner.html %}
 
-    <div class="row contain">
-      <h1 class="page--title">{{ page.header }}</h1>
-      <div class="row contain">{{ content }}</div>
-    </div>
-    
-    <div class="row contain">[Content]</div>
-    
-    <div id="site-canvas" data-type="{{ page.visualization }}" data-id="{{ page.entity }}" class="row contain">
+    <!-- Introduction -->
+    <section class="introduction contain spaced-row row">
+
+        <div class="indicator-item">
+          <label>Indicators</label>
+          <h2 class="page--subtitle governance">Governance</h2>
+        </div>  
+
+        <div class="indicator-item">
+          <label>Indicators</label>
+          <h2 class="page--subtitle freedom">Freedom of Expression</h2>
+        </div>  
+
+        <div class="indicator-item">
+          <label>Indicators</label>
+          <h2 class="page--subtitle privacy">Privacy</h2>
+        </div>  
+
+    </section>
+
+    <!-- Indicators -->
+    <section id="site-canvas" class="indicators-wrapper contain spaced-row row" data-type="{{ page.visualization }}" data-id="{{ page.entity }}">
       
-    </div>
+    </section>
 
     {% include footer.html %}
 

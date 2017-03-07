@@ -12,7 +12,6 @@ module.exports = Backbone.View.extend({
     this.height = height - this.margin.top - this.margin.bottom;
     return this;
   },
-
   // Keep track of subviews and remove them all
   // when this view (the parent) is removed.
   childViews: [],
