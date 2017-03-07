@@ -26,7 +26,7 @@ module.exports = BaseChart.extend({
     category.forEach(function (i, dd) {
         
         //console.info(x);
-        var data = comp.attributes[i];
+        var data = comp.attributes[i].reverse();;
 
         //set up svg using margin conventions - we'll need plenty of room on the left for labels
         var margin = {
@@ -60,9 +60,9 @@ module.exports = BaseChart.extend({
                 return d.name;
             }));
 
-        //make y axis to show bar names
         var yAxis = d3.svg.axis()
             .scale(y)
+            //no tick marks
             .tickSize(0)
             .orient("right");
 
