@@ -32,7 +32,7 @@ services_evaluated:
 total: 32
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Orange** provides a range of fixed telephony and mobile telecommunications, data transmission, and other value-added services to consumers, businesses, and other telecommunications operators worldwide with a major presence in Europe and Africa. The company offers mobile, fixed-line, and carrier services; sells mobile devices and accessories; sells and rents fixed-line equipment; and offers network and platform services."
+analysis_text_right: "<strong>**Orange**</strong> provides a range of fixed telephony and mobile telecommunications, data transmission, and other value-added services to consumers, businesses, and other telecommunications operators worldwide with a major presence in Europe and Africa. The company offers mobile, fixed-line, and carrier services; sells mobile devices and accessories; sells and rents fixed-line equipment; and offers network and platform services."
 
 analysis_industry: Diversified Telecommunication Services
 analysis_market_cap: USD 40,630 million

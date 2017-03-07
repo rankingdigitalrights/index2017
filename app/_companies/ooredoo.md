@@ -29,7 +29,7 @@ services_evaluated:
 total: 5
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "**Ooredoo Q.S.C.** provides telecommunications services such as mobile, broadband, and fiber in Qatar and 11 other countries in the Middle East, North Africa, and Asia. Formerly known as Qatar Telecom (Qtel), the company changed its name in 2013. It also provides services including satellite and data center solutions."
+analysis_text_right: "<strong>**Ooredoo Q.S.C.**</strong> provides telecommunications services such as mobile, broadband, and fiber in Qatar and 11 other countries in the Middle East, North Africa, and Asia. Formerly known as Qatar Telecom (Qtel), the company changed its name in 2013. It also provides services including satellite and data center solutions."
 
 
 analysis_industry: Diversified Telecommunication Services
