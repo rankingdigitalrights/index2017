@@ -83,18 +83,18 @@
 
 
 .page--intro {
-padding: 3em 0;
+padding: 1.5em 0;
 	@include media(small-up) {
-
+	padding: 1.5em 0;
 	}
 	@include media(medium-up) {
-
+	padding: 1.5em 0;
 	}
 	@include media(large-up) {
-
+	padding: 2em 0;
 	}
 	@include media(xlarge-up) {
-
+	padding: 3em 0;	
 	} 
 }
 
@@ -154,7 +154,7 @@ margin-bottom: .325em;
 }
 
 .page--subtitle--undertext {
-width: 60%;			
+width: 100%;			
 font-family: $simplon-light;  
 color: $black;
 font-size: 13px;
@@ -162,16 +162,24 @@ line-height: 1.3;
 letter-spacing: 1px;
 margin-bottom: 1.5em; 
 	@include media(small-up) {
-	font-size: 14px;  
+	width: 100%;		
+	font-size: 14px;
+	margin-bottom: 1.5em;  
 	}
 	@include media(medium-up) {
-	font-size: 15px;  
+	width: 60%;		
+	font-size: 15px;
+	margin-bottom: 1.5em;  
 	}
 	@include media(large-up) {
+	width: 60%;		
 	font-size: 16px;
+	margin-bottom: 1.5em;
 	}
 	@include media(xlarge-up) {
-	font-size: 16px;  
+	width: 60%;		
+	font-size: 16px;
+	margin-bottom: 1.5em;  
 	}		
 }
 
@@ -187,10 +195,23 @@ margin-bottom: 1.5em;
 }
 
 .action-links {
+margin-top: 1em;
+	@include media(small-up) {
+	margin-top: 1em;	
+	}
+	@include media(medium-up) {
+	margin-top: 0em;	
+	}
+	@include media(large-up) {
+	margin-top: 0em;
+	}
+	@include media(xlarge-up) {
+	margin-top: 0em;
+	}
 	a {
 	display: block;	
 	color: $black;
-	line-height: 1.5;	
+	line-height: 1.5;		
 		span {
 		text-transform: uppercase;
 		font-family: $simplon-medium;

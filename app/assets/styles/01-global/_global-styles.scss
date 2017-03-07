@@ -47,9 +47,9 @@ font-size: 26px;
 
 h2 {
 color: $black;
-font-size: 22px; 
+font-size: 20px; 
   @include media(small-up) {
-  font-size: 22px;  
+  font-size: 20px;  
   }
   @include media(medium-up) {
   font-size: 24px;   
@@ -236,21 +236,48 @@ height: auto;
 
 /* Sections */
 section {
-padding-top: 1.5em;
-padding-bottom: 1em;
+padding-top: 0.75em;
+padding-bottom: 0.5em;
   @include media(small-up) {
-
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   }
   @include media(medium-up) {
-
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   }
   @include media(large-up) {
-
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   }
   @include media(xlarge-up) {
-
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   }   
 }
+
+/* Spaced row */
+.spaced-row {
+margin-top: 0.75em !important;
+margin-bottom: 0.5em !important;
+  @include media(small-up) {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  }
+  @include media(medium-up) {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  }
+  @include media(large-up) {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  }
+  @include media(xlarge-up) {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  } 
+}
+
 
 
 /* Section Backgrounds */

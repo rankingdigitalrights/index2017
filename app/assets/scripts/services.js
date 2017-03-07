@@ -1,6 +1,6 @@
 var $ = require('jquery');
 var _ = require('underscore');
-var Overview = require('./collections/overview');
+var Service = require('./collections/services/services');
 var Survey = require('./collections/survey');
 var CompanyServices = require('./collections/company-services');
 var Barchart = require('./views/services-barchart');
@@ -8,22 +8,25 @@ var Indicators = require('./views/category-indicators');
 var Collapse = require('./views/collapse');
 var barsort = require('./util/barsort');
 
-module.exports = function generateService (category) {
+module.exports = function generateService (serviceType) {
 
   var $parent = $('#service--overview_chart');
-  var overview = new Overview();
+  var service = new Service({service: serviceType });
   
   var overviewSuccess = function () {
-    var data = overview.map(function (model) {
+    var data = service.map(function (model) {
+      console.info(data);
     // var data = overview.filter(model => model.get('telco') === true).map(function (model) { // filter Overview collection
       return {
-        name: model.get('display'),
-        src: model.get('id'),
-        c: model.get('commitment'),
-        f: model.get('freedom'),
-        p: model.get('privacy'),
+        company: model.get('Company'),
+        service: model.get('Service '),
+        rank: model.get('rank'),
+        g: model.get('G'),
+        foe: model.get('FoE'),
+        p: model.get('P'),
+        t: model.get('Total'),
        // val: Math.random()*100,
-        className: category
+        className: serviceType
       };
     }).sort(barsort);
     var barchart = new Barchart({
@@ -35,7 +38,7 @@ module.exports = function generateService (category) {
     barchart.render($parent[0]);
   }
 
-  overview.fetch({success: overviewSuccess});
+  service.fetch({success: overviewSuccess});
 
   /*
   if (category === 'freedom-of-expression') {
