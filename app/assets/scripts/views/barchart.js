@@ -31,8 +31,9 @@ module.exports = BaseChart.extend({
 
     this.yAxis = d3.svg.axis()
       .scale(this.y)
-      .tickFormat(d => d + '%')
-      .orient('left');
+      .orient('left')
+      .tickSize(0)
+      .ticks(0);
 
     this.tip = d3.tip()
       .attr('class', 'bar--tip')
@@ -40,7 +41,7 @@ module.exports = BaseChart.extend({
       .html(d => d.name + '<br />' + Math.round(d.val) + '%');
   },
 
-  render: function (container) {
+  render: function (container, companyName) {
     this.container = container;
     var svg = d3.select(container).append('svg')
       .attr('class', 'bar--chart')
@@ -50,19 +51,24 @@ module.exports = BaseChart.extend({
     svg.call(this.tip);
 
     var g = svg.append('g')
-      .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
+      .attr('transform', 'translate(0,0)');
 
+      var count = 1;
     g.append('g')
       .attr('class', 'bar--axis_x')
       .attr('transform', 'translate(0,' + this.height + ')')
-    .call(this.xAxis)
+      .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'end')
-      .attr('transform', 'rotate(-35)')
-      .on('click', function (d) {
-        var href = d.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '');
-        window.location.href = baseurl + '/companies/' + href;
+      .attr('transform', 'rotate(0)')
+      .data(this.data)
+      .html(function (d) {
+        if (d.src == companyName) {
+          return count;
+        }
+        else{
+          count++;
+        }
       });
 
     g.append('g')

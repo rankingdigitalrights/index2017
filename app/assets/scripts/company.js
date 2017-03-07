@@ -74,6 +74,7 @@ module.exports = function (companyName) {
         name: model.get('display'),
         src: model.get('id'),
         val: Math.round(model.get('total')),
+        count:0,
         // className: category
       };
     }).sort(barsort);
@@ -81,9 +82,11 @@ module.exports = function (companyName) {
     var barchart = new Barchart({
       width: $('#comp--position_among').width(),
       height: 200,
-      data: data
+      data: data,
+      count:1
     });
-    barchart.render('#comp--position_among');
+
+    barchart.render('#comp--position_among', companyName);
   }
 
 
