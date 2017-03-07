@@ -35,7 +35,7 @@ services_evaluated:
 total: 65
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "<strong>**Google Inc.**</strong> (a subsidiary of Alphabet Inc. since October 2015) is a global technology company that develops a range of products and services that facilitate discovery and management of information. Alongside its significant suite of consumer applications and devices, Google also provides advertising services, consumer hardware products, and systems software, like its open-source mobile operating system, Android."
+analysis_text_right: "<strong>Google Inc.</strong> (a subsidiary of Alphabet Inc. since October 2015) is a global technology company that develops a range of products and services that facilitate discovery and management of information. Alongside its significant suite of consumer applications and devices, Google also provides advertising services, consumer hardware products, and systems software, like its open-source mobile operating system, Android."
 
 analysis_industry: Internet Software and Services
 analysis_market_cap: USD 569,884 million (Alphabet Inc.)

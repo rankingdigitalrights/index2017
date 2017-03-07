@@ -33,7 +33,7 @@ services_evaluated:
 total: 35
 analysis_text_left: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
 
-analysis_text_right: "<strong>**Apple Inc.**</strong> designs, manufactures, and sells a range of computers, smartphones, media players, and other devices. The company also produces operating system software (Mac OS for computers and iOS for mobile) and application software. Other services include iMessage, a messaging application that works across Apple devices and iCloud, a cloud storage service. Apple sells and delivers applications through its App Store."
+analysis_text_right: "<strong>Apple Inc.</strong> designs, manufactures, and sells a range of computers, smartphones, media players, and other devices. The company also produces operating system software (Mac OS for computers and iOS for mobile) and application software. Other services include iMessage, a messaging application that works across Apple devices and iCloud, a cloud storage service. Apple sells and delivers applications through its App Store."
 
 
 analysis_industry: Internet Software and Services

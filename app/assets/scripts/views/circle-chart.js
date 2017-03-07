@@ -34,7 +34,7 @@ module.exports = BaseChart.extend({
     var name = g.append('text')
       .attr('class', 'circle--label_name')
       .style('text-anchor', 'middle')
-      .attr('dy', '160px')
+      .attr('dy', '150px')
       .on('click', function (d) {
         var href = label.name.toLowerCase().split(' ').join('-');
         window.location.href = baseurl + '/categories/' + href;

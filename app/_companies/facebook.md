@@ -36,7 +36,7 @@ services_evaluated:
 total: 53
 analysis_text_left: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat"
 
-analysis_text_right: "<strong>**Facebook, Inc.**</strong> operates social networking platforms for users globally. Lead among these is the Facebook mobile app and website that enables people to connect and share; Messenger, a mobile-to-mobile messaging application; Instagram, a mobile photo and video sharing app; and WhatsApp Messenger, a cross-platform mobile messaging application. In addition to these platforms, it also provides tools to enable developers to create mobile and web applications that enable integration of external content into Facebook’s platforms."
+analysis_text_right: "<strong>Facebook, Inc.</strong> operates social networking platforms for users globally. Lead among these is the Facebook mobile app and website that enables people to connect and share; Messenger, a mobile-to-mobile messaging application; Instagram, a mobile photo and video sharing app; and WhatsApp Messenger, a cross-platform mobile messaging application. In addition to these platforms, it also provides tools to enable developers to create mobile and web applications that enable integration of external content into Facebook’s platforms."
 
 analysis_industry: Internet Software and Services
 analysis_market_cap: USD 387,807 million

@@ -33,12 +33,12 @@
             </h1> 
 
             <div class="comp--sub_headquarters">
-              Headquarters:
+              <label>Headquarters:</label>
               {{ page.headquarters }}
             </div> 
 
             <div class="comp--sub_website">
-              Link:
+              <label>Link:</label>
               <a href="{{ page.link }}" target="_blank">
                 {{ page.link }}             
               </a> 
@@ -113,7 +113,10 @@
               <label>Overall score</label>
               <div class="overall-score-value">{{ page.total }}%</div>
             </div>
-          </div>          
+          </div>
+          <div style="height: 5px;width: 50%; background-color:grey;">
+            <div style="width:{{ page.total }}%; height:5px; background-color: blue; " ></div>
+          </div>        
 
           <div class="container--left">
             <p>{{ page.analysis_text_left }}</p>
@@ -150,7 +153,9 @@
               <div class="score-value">{{ page.governance }}%</div>
             </div>
           </div>
-
+          <div style="height: 5px;width: 50%; background-color:grey;">
+            <div style="width:{{ page.governance }}%; height:5px; background-color: blue; " ></div>
+          </div>
           <div class="container--left">
             <p>{{ page.governance_text }}</p>
             <label>Rank among {{ page.company_type }}</label>
@@ -179,6 +184,9 @@
               <div class="score-value">{{ page.freedom }}%</div>
             </div>
           </div>
+          <div style="height: 5px;width: 50%; background-color:grey;">
+            <div style="width:{{ page.freedom }}%; height:5px; background-color: blue; " ></div>
+          </div>
 
           <div class="container--left">
               <p>{{ page.freedom_text }}</p>
@@ -204,6 +212,9 @@
               <label>Score</label>
               <div class="score-value">{{ page.privacy }}%</div>
             </div>
+          </div>
+          <div style="height: 5px;width: 50%; background-color:grey;">
+            <div style="width:{{ page.privacy }}%; height:5px; background-color: blue; " ></div>
           </div>
 
           <div class="container--left">
