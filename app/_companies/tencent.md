@@ -32,7 +32,7 @@ services_evaluated:
 total: 22
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "<strong>**Tencent Holdings Limited**</strong> provides a broad range of Internet and mobile value-added services (VAS), online advertising services, and eCommerce transactions services to users in China, the United States, Europe, and elsewhere around the world. It is one of the largest Internet companies globally."
+analysis_text_right: "<strong>Tencent Holdings Limited</strong> provides a broad range of Internet and mobile value-added services (VAS), online advertising services, and eCommerce transactions services to users in China, the United States, Europe, and elsewhere around the world. It is one of the largest Internet companies globally."
 
 
 analysis_industry: Internet Software and Services

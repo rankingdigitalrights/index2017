@@ -32,7 +32,7 @@ services_evaluated:
 total: 62
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "<strong>**Microsoft Corp.**</strong> develops, licenses, and supports software products, services, and devices worldwide. The company offers a wide range of software and hardware for both consumer and business markets. Major offerings include Windows operating system, Microsoft Office, Windows Phone software and devices, Xbox video game system and related services, Surface devices and accessories, advertising services, server products, Skype, and Office 365 cloud services."
+analysis_text_right: "<strong>Microsoft Corp.</strong> develops, licenses, and supports software products, services, and devices worldwide. The company offers a wide range of software and hardware for both consumer and business markets. Major offerings include Windows operating system, Microsoft Office, Windows Phone software and devices, Xbox video game system and related services, Surface devices and accessories, advertising services, server products, Skype, and Office 365 cloud services."
 
 
 analysis_industry: Internet Software and Services

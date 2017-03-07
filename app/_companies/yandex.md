@@ -32,7 +32,7 @@ services_evaluated:
 total: 28
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
 
-analysis_text_right: "<strong>**Yandex N.V.**</strong> provides a range of Internet-based services in Russia and internationally. The company’s products include the largest search engine in Russia, along with other services including email, cloud storage, and maps."
+analysis_text_right: "<strong>Yandex N.V.</strong> provides a range of Internet-based services in Russia and internationally. The company’s products include the largest search engine in Russia, along with other services including email, cloud storage, and maps."
 
 
 analysis_industry: Internet Software and Services

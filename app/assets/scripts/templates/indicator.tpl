@@ -11,5 +11,5 @@
 <h3>
   <a href="<%= baseurl %>/indicators/<%= indicator %>"><%= name %></a>
 </h3>
-<h4 class="displaytext"><%- text %></h4>
+<p><%- text %></p>
 <div class="bar--container"></div>

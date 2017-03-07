@@ -33,7 +33,30 @@
         }
 	}
 	.indicators-wrapper {
-		
+		.bar--container {
+		margin-top: 1em;
+	        label {
+	        font-family: $simplon-light;  
+	        text-transform: uppercase;
+	        color: $black;
+	        font-size: 12px;
+	        line-height: 1.3; 
+	        letter-spacing: 1px;
+	        margin-bottom: 0px;
+	          @include media(small-up) {
+	          font-size: 12px;  
+	          }
+	          @include media(medium-up) {
+	          font-size: 13px;  
+	          }
+	          @include media(large-up) {
+	          font-size: 14px;
+	          }
+	          @include media(xlarge-up) {
+	          font-size: 14px;  
+	          }   
+	        }			
+		}
 	}
 
 }

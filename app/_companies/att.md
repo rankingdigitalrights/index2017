@@ -33,7 +33,7 @@ services_evaluated:
 total: 48
 analysis_text_left: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
 
-analysis_text_right: "<strong>**AT&T, Inc.**</strong> provides telecommunications services in the United States and internationally. In 2015, the company expanded its operations to Mexico, after purchasing two Mexican telecommunications companies. The company offers data and voice services to approximately 144 million wireless subscribers in the US and Mexico."
+analysis_text_right: "<strong>AT&T, Inc.</strong> provides telecommunications services in the United States and internationally. In 2015, the company expanded its operations to Mexico, after purchasing two Mexican telecommunications companies. The company offers data and voice services to approximately 144 million wireless subscribers in the US and Mexico."
 
 
 analysis_industry: Diversified Telecommunication Services
