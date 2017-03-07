@@ -31,8 +31,9 @@ module.exports = BaseChart.extend({
 
     this.yAxis = d3.svg.axis()
       .scale(this.y)
-      .tickFormat(d => d + '%')
-      .orient('left');
+      .orient('left')
+      .tickSize(0)
+      .ticks(0);
 
     this.tip = d3.tip()
       .attr('class', 'bar--tip')
@@ -40,29 +41,34 @@ module.exports = BaseChart.extend({
       .html(d => d.name + '<br />' + Math.round(d.val) + '%');
   },
 
-  render: function (container) {
+  render: function (container, companyName) {
     this.container = container;
     var svg = d3.select(container).append('svg')
       .attr('class', 'bar--chart')
       .attr('width', this.width + this.margin.left + this.margin.right)
-      .attr('height', this.height + this.margin.top + this.margin.bottom);
+      .attr('height', this.height + this.margin.bottom);
 
     svg.call(this.tip);
 
     var g = svg.append('g')
-      .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
+      .attr('transform', 'translate(' + this.margin.left + ',0)');
 
+      var count = 1;
     g.append('g')
       .attr('class', 'bar--axis_x')
       .attr('transform', 'translate(0,' + this.height + ')')
-    .call(this.xAxis)
+      .call(this.xAxis)
       .selectAll('text')
-      .style('text-anchor', 'end')
-      .attr('transform', 'rotate(-35)')
-      .on('click', function (d) {
-        var href = d.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '');
-        window.location.href = baseurl + '/companies/' + href;
+      .style('text-anchor', 'middle')
+      .attr('transform', 'rotate(0)')
+      .data(this.data)
+      .html(function (d) {
+        if (d.src == companyName) {
+          return count;
+        }
+        else{
+          count++;
+        }
       });
 
     g.append('g')
@@ -95,8 +101,9 @@ module.exports = BaseChart.extend({
       .on('mouseout', this.tip.hide);
 
     bars.transition()
-      .duration(200)
+      .duration(2)
       .attr('y', d => this.y(d.val))
       .attr('height', d => this.height - this.y(d.val));
+
   }
 });
