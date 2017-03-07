@@ -26,7 +26,7 @@ services_evaluated:
 total: 26
 analysis_text_left: Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
-analysis_text_right: "<strong>**Samsung Electronics Co. Ltd.**</strong> sells a range of consumer electronics, home appliances, and information technology solutions worldwide. It produces products including televisions, mobile phones, network equipment, and audio and video equipment. Its parent company, Samsung Group, is South Korea’s largest public company."
+analysis_text_right: "<strong>Samsung Electronics Co. Ltd.</strong> sells a range of consumer electronics, home appliances, and information technology solutions worldwide. It produces products including televisions, mobile phones, network equipment, and audio and video equipment. Its parent company, Samsung Group, is South Korea’s largest public company."
 
 
 analysis_industry: Internet Software and Services
