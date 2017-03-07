@@ -3,7 +3,7 @@ var _ = require('underscore');
 var Overview = require('./collections/overview');
 var Survey = require('./collections/survey');
 var CompanyServices = require('./collections/company-services');
-var Barchart = require('./views/barchart');
+var Barchart = require('./views/services-barchart');
 var Indicators = require('./views/category-indicators');
 var Collapse = require('./views/collapse');
 var barsort = require('./util/barsort');
@@ -19,7 +19,10 @@ module.exports = function generateService (category) {
       return {
         name: model.get('display'),
         src: model.get('id'),
-        val: Math.random()*100,
+        c: model.get('commitment'),
+        f: model.get('freedom'),
+        p: model.get('privacy'),
+       // val: Math.random()*100,
         className: category
       };
     }).sort(barsort);
