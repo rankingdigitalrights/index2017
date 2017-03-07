@@ -1,38 +1,130 @@
 .graph-legend {
-margin-top: 1em;	
+margin-top: 0em;	
 display: flex;
 justify-content: flex-end;
 align-items: center;
+flex-direction: column;
+	@include media(small-up) {
+	margin-top: 0em;	
+	flex-direction: column;	
+	}
+	@include media(medium-up) {
+	margin-top: 1em;
+	flex-direction: column;	
+	}
+	@include media(large-up) {
+	margin-top: 1em;	
+	flex-direction: row;	
+	}
+	@include media(xlarge-up) {
+	margin-top: 1em;	
+	flex-direction: row;
+	}  
 	.graph-legend-content,
 	.graph-legend-values,
 	.graph-legend-interaction {
 	display: flex;
     justify-content: center;
     align-items: flex-start;		
-	padding: 1em 3.28em;	
-	border-left: 1px solid $black;
+	padding: 0.5em 0.5em;	
+	border-left: none;
+	border-top: 1px solid $black;
+		@include media(small-up) {
+		padding: 0.5em 0.5em;
+		border-left: none;
+		border-top: 1px solid $black;
+		}
+		@include media(medium-up) {
+		padding: 1em 1em;						
+		border-left: 1px solid $black;
+		border-top: none;
+		}
+		@include media(large-up) {
+		padding: 1em 2em;	
+		border-left: 1px solid $black;
+		border-top: none;
+		}
+		@include media(xlarge-up) {
+		padding: 1em 3.28em;	
+		border-left: 1px solid $black;
+		border-top: none;
+		} 	
 	}
 	.graph-legend-content {
+	padding: 0.5em 0em;
+		@include media(small-up) {
+		padding: 0.5em 0em;
+		}
+		@include media(medium-up) {
+		padding: 1em 1em;						
+		}
+		@include media(large-up) {
+		padding: 1em 2em;	
+		}
+		@include media(xlarge-up) {
+		padding: 1em 3.28em;	
+		} 		
 		.graph-legend-content-item {	
 		text-align: center;				
 			.graph-legend-content-item-value {
 			font-family: $platform-bold;				
 			color: $black;    											
 			line-height: 1;
-			font-size: 33px;
+			font-size: 17px;
 			letter-spacing: 2px;
 			margin-bottom: 5px;
+				@include media(small-up) {
+				font-size: 17px;	
+				}
+				@include media(medium-up) {
+				font-size: 25px;	
+				}
+				@include media(large-up) {
+				font-size: 30px;	
+				}
+				@include media(xlarge-up) {
+				font-size: 33px;	
+				}			
 			}
 			.graph-legend-content-item-label	{
-			font-family: $simplon-light;	
+			font-family: $simplon-medium;	
 			color: $black;    											
 			line-height: 1;
-			font-size: 14px;
+			font-size: 9px;
 			text-transform: uppercase;
+			margin-bottom: 0px;
+				@include media(small-up) {
+				font-size: 9px;
+				margin-bottom: 0px;	
+				}
+				@include media(medium-up) {
+				font-size: 12px;
+				margin-bottom: 10px;	
+				}
+				@include media(large-up) {
+				font-size: 13px;
+				margin-bottom: 10px;	
+				}
+				@include media(xlarge-up) {
+				font-size: 14px;
+				margin-bottom: 10px;	
+				} 				
 			}
 		}
 		.graph-legend-content-item + .graph-legend-content-item {
-		margin-left: 2.5em;	
+		margin-left: 0.5em;	
+			@include media(small-up) {
+			margin-left: 0.5em;	
+			}
+			@include media(medium-up) {
+			margin-left: 0.5em;	
+			}
+			@include media(large-up) {
+			margin-left: 0.5em;	
+			}
+			@include media(xlarge-up) {
+			margin-left: 2.5em;	
+			} 
 		}
 	}
 	.graph-legend-values {
@@ -41,20 +133,35 @@ align-items: center;
 			font-family: $simplon-medium;	
 			color: $black;    											
 			line-height: 1;
-			font-size: 14px;
+			font-size: 11px;
 			text-transform: uppercase;
-			margin-bottom: 10px;
+			margin-bottom: 5px;
+				@include media(small-up) {
+				font-size: 11px;
+				margin-bottom: 5px;	
+				}
+				@include media(medium-up) {
+				font-size: 12px;
+				margin-bottom: 5px;	
+				}
+				@include media(large-up) {
+				font-size: 13px;
+				margin-bottom: 10px;	
+				}
+				@include media(xlarge-up) {
+				font-size: 14px;
+				margin-bottom: 10px;	
+				}  			
 			}				
 			.graph-legend-values-value {					
 			font-family: $simplon-light;				
 			color: $black;    											
 			line-height: 1;
-			font-size: 11px;
+			font-size: 10px;
 			letter-spacing: 1px;
 			text-transform: uppercase;
-			margin-bottom: 5px;
 				@include media(small-up) {
-				font-size: 11px;
+				font-size: 10px;
 				}
 				@include media(medium-up) {
 				font-size: 12px;
@@ -104,9 +211,24 @@ align-items: center;
 		        background-color: $base-color;  	
 		        }					
 			}
+			.graph-legend-values-value + .graph-legend-values-value {
+			margin-top: 5px;	
+			}
 		}
 		.graph-legend-values-item + .graph-legend-values-item {
-		margin-left: 2.5em;		
+		margin-left: 1em;
+			@include media(small-up) {
+			margin-left: 1em;	
+			}
+			@include media(medium-up) {
+			margin-left: 1.5em;	
+			}
+			@include media(large-up) {
+			margin-left: 2.5em;	
+			}
+			@include media(xlarge-up) {
+			margin-left: 2.5em;	
+			}				
 		}			
 	}
 	.graph-legend-interaction {
