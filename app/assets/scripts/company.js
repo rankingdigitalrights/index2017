@@ -15,7 +15,7 @@ var Collapse = require('./views/collapse');
 var IndicatorView = require('./views/company/indicator');
 /* ===========================================================*/
 
-var Barchart = require('./views/barchart');
+var Barchart = require('./views/company-barchart');
 var barsort = require('./util/barsort');
 
 module.exports = function (companyName) {
@@ -74,7 +74,6 @@ module.exports = function (companyName) {
         name: model.get('display'),
         src: model.get('id'),
         val: Math.round(model.get('total')),
-        count:0,
         // className: category
       };
     }).sort(barsort);
@@ -83,7 +82,6 @@ module.exports = function (companyName) {
       width: $('#comp--position_among').width(),
       height: 200,
       data: data,
-      count:1
     });
 
     barchart.render('#comp--position_among', companyName);
