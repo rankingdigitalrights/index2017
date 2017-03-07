@@ -1,10 +1,10 @@
 module.exports = function (a, b) {
-  a.val = +a.val;
-  b.val = +b.val;
-  if (a.val === b.val) {
-    return a.name < b.name ? -1
-      : a.name > b.name ? 1 : 0;
+  a.t = +a.t;
+  b.t = +b.t;
+  if (a.t === b.t) {
+    return a.company < b.company ? -1
+      : a.company > b.company ? 1 : 0;
   } else {
-    return a.val > b.val ? -1 : 1;
+    return a.t > b.t ? -1 : 1;
   }
 };

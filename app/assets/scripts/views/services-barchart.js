@@ -18,11 +18,11 @@ module.exports = BaseChart.extend({
 
     this.x = d3.scale.ordinal()
       .rangeRoundBands([0, this.width], 0.8)
-      .domain(this.data.map((d) => d.name));
+      .domain(this.data.map((d) => d.company));
 
     this.y = d3.scale.linear()
       .range([this.height, 0])
-      .domain([0, 100]);
+      .domain([-1, 100]);
 
     this.xAxis = d3.svg.axis()
       .scale(this.x)
@@ -36,14 +36,14 @@ module.exports = BaseChart.extend({
       .tickSize(0)
       .orient('left');
 
-    this.tipC = d3.tip()
+    this.tipG = d3.tip()
       .attr('class', 'bar--tip')
       .offset([-20, 0])
-      .html(d => d.c + '%');
-    this.tipF = d3.tip()
+      .html(d => d.g + '%');
+    this.tipFoE = d3.tip()
       .attr('class', 'bar--tip')
       .offset([-20, 0])
-      .html(d => d.f + '%');
+      .html(d => d.foe + '%');
     this.tipP = d3.tip()
       .attr('class', 'bar--tip')
       .offset([-20, 0])
@@ -57,8 +57,8 @@ module.exports = BaseChart.extend({
       .attr('width', this.width + this.margin.left + this.margin.right)
       .attr('height', this.height + this.margin.top + this.margin.bottom);
 
-    svg.call(this.tipC);
-    svg.call(this.tipF);
+    svg.call(this.tipG);
+    svg.call(this.tipFoE);
     svg.call(this.tipP);
 
     var g = svg.append('g')
@@ -69,8 +69,8 @@ module.exports = BaseChart.extend({
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
-      .style('text-anchor', 'end')
-      .attr('transform', 'rotate(-35),translate(0,10)')
+      .style('text-anchor', 'middle')
+      .attr('transform', 'translate(0,30)')
       .on('click', function (d) {
         var href = d.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '');
@@ -78,14 +78,36 @@ module.exports = BaseChart.extend({
       });
 
       g.append('g')
-      .attr('class', 'bar--axis_x')
-      .attr('transform', 'translate(0,' + this.height + ')')
+      // .attr('class', 'bar--axis_x')
+      // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'end')
-      .attr('transform', 'rotate(-35)')
+      .attr('class', 'rank')
+      .attr('transform', 'translate(-15,' + this.height + ')')
       .data(this.data)
-      .html(d => + d.f + '%');;
+      .html(d => + d.rank);
+
+      g.append('g')
+      // .attr('class', 'bar--axis_x')
+      // .attr('transform', 'translate(0,' + this.height + ')')
+      .call(this.xAxis)
+      .selectAll('text')
+      .style('text-anchor', 'start')
+      .attr('transform', 'translate(0,' + this.height + ')')
+      .data(this.data)
+      .html(d => + d.t + '%');
+
+      g.append('g')
+      // .attr('class', 'bar--axis_x')
+      // .attr('transform', 'translate(0,' + this.height + ')')
+      .call(this.xAxis)
+      .selectAll('text')
+      .style('text-anchor', 'middle')
+      .attr('transform', 'translate(0,' + (this.height + 15) + ')')
+      .data(this.data)
+      .html(d => d.service );
+
 
     g.append('g')
       .attr('class', 'bar--axis_y')
@@ -96,45 +118,45 @@ module.exports = BaseChart.extend({
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
 
-    var barsC = g.selectAll('.barC')
+    var barsG = g.selectAll('.barG')
       .data(this.data)
       .enter().append('rect')
       .attr('class', function (d) {
         if (!d.className) {
           d.className = 'default';
         }
-        var className = 'barC bar--' + d.className;
-        if (+d.val === 0) {
+        var className = 'barG bar--' + d.className;
+        if (+d.g == 0) {
           className += ' bar--zero';
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.name) + this.x.rangeBand() + 5)
+      .attr('x', (d, i) => this.x(d.company) + this.x.rangeBand() + 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
-      .on('mouseover', this.tipC.show)
-      .on('mouseout', this.tipC.hide);
+      .on('mouseover', this.tipG.show)
+      .on('mouseout', this.tipG.hide);
 
-    var barsF = g.selectAll('.barF')
+    var barsFoE = g.selectAll('.barFoE')
       .data(this.data)
       .enter().append('rect')
       .attr('class', function (d) {
         if (!d.className) {
           d.className = 'default';
         }
-        var className = 'barF bar--' + d.className;
-        if (+d.val === 0) {
+        var className = 'barFoE bar--' + d.className;
+        if (+d.foe === 0) {
           className += ' bar--zero';
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.name) - this.x.rangeBand() - 5)
+      .attr('x', (d, i) => this.x(d.company) - this.x.rangeBand() - 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
-      .on('mouseover', this.tipF.show)
-      .on('mouseout', this.tipF.hide);
+      .on('mouseover', this.tipFoE.show)
+      .on('mouseout', this.tipFoE.hide);
 
     var barsP = g.selectAll('.barP')
       .data(this.data)
@@ -144,12 +166,12 @@ module.exports = BaseChart.extend({
           d.className = 'default';
         }
         var className = 'barP bar--' + d.className;
-        if (+d.val === 0) {
+        if (+d.foe === 0) {
           className += ' bar--zero';
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.name))
+      .attr('x', (d, i) => this.x(d.company))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -158,14 +180,14 @@ module.exports = BaseChart.extend({
 
       
 
-    barsC.transition()
+    barsG.transition()
       .duration(200)
-      .attr('y', d => this.y(d.c))
-      .attr('height', d => this.height - this.y(d.c));
-    barsF.transition()
+      .attr('y', d => this.y(d.g))
+      .attr('height', d => this.height - this.y(d.g));
+    barsFoE.transition()
       .duration(200)
-      .attr('y', d => this.y(d.f))
-      .attr('height', d => this.height - this.y(d.f));
+      .attr('y', d => this.y(d.foe))
+      .attr('height', d => this.height - this.y(d.foe));
     barsP.transition()
       .duration(200)
       .attr('y', d => this.y(d.p))
