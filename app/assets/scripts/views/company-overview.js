@@ -60,8 +60,8 @@ module.exports = BaseChart.extend({
       var $parent = $el.find('#circle--' + subCategories[i].id);
       var width = $parent.width();
       // constrain width on large screens
-      if (width > 300) {
-        width = 300;
+      if (width > 250) {
+        width = 250;
       }
 
       var label = {name: subCategories[i].display, val: model.get(subCategories[i].id)};

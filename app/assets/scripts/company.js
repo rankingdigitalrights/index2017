@@ -4,7 +4,7 @@ var $ = require('jquery');
 var Company = require('./collections/company');
 var Survey = require('./collections/survey');
 var Overview = require('./collections/overview');
-var CompanyIndicator = require('./collections/company-indicators');
+var CompanyIndicator = require('./collections/company/indicator');
 
 var CategoryChart = require('./views/category-line-dot-chart');
 var SurveyView = require('./views/survey');
@@ -12,7 +12,7 @@ var CompanyOverview = require('./views/company-overview');
 var Collapse = require('./views/collapse');
 
 /* ===========================================================*/
-var VCompanyIndicator = require('./views/company-indicator');
+var IndicatorView = require('./views/company/indicator');
 /* ===========================================================*/
 
 var Barchart = require('./views/barchart');
@@ -22,7 +22,7 @@ module.exports = function (companyName) {
 
   var overview = new Overview();
 
-  var xxx = new CompanyIndicator();
+  var companyIndicator = new CompanyIndicator();
 
   var category = new CategoryChart({
     collection: overview,
@@ -35,15 +35,20 @@ module.exports = function (companyName) {
   });
 
 /* ===========================================================*/
-  var companyindicator = new VCompanyIndicator();
+  var companyindicator = new IndicatorView({
+    collection: companyIndicator,
+    companyName: companyName,
+  });
 /* ===========================================================*/
 
 
   
-  xxx.fetch({
+
+  
+  companyIndicator.fetch({
     success: function () {
-      var x = xxx;
-      console.log(x);
+      // company indicators
+      companyindicator.render();
     }
   });
 
@@ -54,11 +59,6 @@ module.exports = function (companyName) {
       category.render('privacy'); // Privacy
       companyOverview.render();
       overviewSuccess(companyName);
-
-      // company indicators
-      companyindicator.render('freedom');
-      companyindicator.render('commitment');
-      companyindicator.render('privacy');
 
     }
   });
@@ -74,6 +74,7 @@ module.exports = function (companyName) {
         name: model.get('display'),
         src: model.get('id'),
         val: Math.round(model.get('total')),
+        count:0,
         // className: category
       };
     }).sort(barsort);
@@ -81,9 +82,11 @@ module.exports = function (companyName) {
     var barchart = new Barchart({
       width: $('#comp--position_among').width(),
       height: 200,
-      data: data
+      data: data,
+      count:1
     });
-    barchart.render('#comp--position_among');
+
+    barchart.render('#comp--position_among', companyName);
   }
 
 
