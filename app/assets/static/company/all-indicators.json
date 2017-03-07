@@ -2682,7 +2682,7 @@
       ]
    },
    {
-      "id":"twiter",
+      "id":"twitter",
       "commitment":[
          {
             "name":"G1.Policy Commitment",
