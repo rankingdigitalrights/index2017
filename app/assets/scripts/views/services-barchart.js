@@ -18,7 +18,7 @@ module.exports = BaseChart.extend({
 
     this.x = d3.scale.ordinal()
       .rangeRoundBands([0, this.width], 0.8)
-      .domain(this.data.map((d) => d.company));
+      .domain(this.data.map((d) => d.service));
 
     this.y = d3.scale.linear()
       .range([this.height, 0])
@@ -75,12 +75,7 @@ module.exports = BaseChart.extend({
       .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'middle')
-      .attr('transform', 'translate(0,30)')
-      .on('click', function (d) {
-        var href = d.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '');
-        window.location.href = baseurl + '/companies/' + href;
-      });
+      .attr('transform', 'translate(0,25)');
 
       g.append('g')
       // .attr('class', 'bar--axis_x')
@@ -109,9 +104,16 @@ module.exports = BaseChart.extend({
       .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'middle')
-      .attr('transform', 'translate(0,' + (this.height + 15) + ')')
+      .attr('transform', 'translate(0,' + (this.height + 40) + ')')
       .data(this.data)
-      .html(d => d.service );
+      .html(d => d.company )
+      .on('click', function (d) {
+        var href = d.company;
+        console.info(href);
+        href = href.toLowerCase().replace('&', '')
+          .replace('.', '').replace(' ', '');
+        window.location.href = baseurl + '/companies/' + href;
+      });
 
 
     g.append('g')
@@ -136,7 +138,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.company) + this.x.rangeBand() + 5)
+      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -157,7 +159,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.company) - this.x.rangeBand() - 5)
+      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -178,7 +180,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.company))
+      .attr('x', (d, i) => this.x(d.service))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
