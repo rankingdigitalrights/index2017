@@ -2,7 +2,8 @@
 	<% indicators_left.forEach(function (i) { %>
 		<div class="indicator-item">
 			<h3>
-			  <a href="<%= i.baseurl %>/indicators/<%= i.indicator %>"><%= i.name %></a>
+			  <!--<a href="<%= i.baseurl %>/indicators/<%= i.indicator %>"><%= i.name %></a>-->
+			  <%= i.name %>
 			</h3>
 			<% i.text.forEach(function (t) { %>
 			  <p><%= t %></p>
@@ -15,7 +16,8 @@
 	<% indicators_right.forEach(function (i) { %>
 		<div class="indicator-item">
 			<h3>
-			  <a href="<%= i.baseurl %>/indicators/<%= i.indicator %>"><%= i.name %></a>
+			  <!--<a href="<%= i.baseurl %>/indicators/<%= i.indicator %>"><%= i.name %></a>-->
+			  <%= i.name %>
 			</h3>
 			<% i.text.forEach(function (t) { %>
 			  <p><%= t %></p>
