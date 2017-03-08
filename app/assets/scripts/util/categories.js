@@ -5,7 +5,7 @@ module.exports = [
 	},
 	{
 	  id: 'commitment',
-	  display: 'Commitment'
+	  display: 'Governance'
 	}, 
 	{
 	  id: 'freedom',

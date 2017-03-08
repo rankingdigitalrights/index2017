@@ -64,6 +64,11 @@ module.exports = BaseChart.extend({
     var g = svg.append('g')
       .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
 
+    g.append('path')
+    .attr('class', 'domain')
+    .attr('d', 'M0,0V1H' + this.width + 'V0')
+    .style('fill', '#b1b1b1');
+
     g.append('g')
       .attr('class', 'bar--axis_x')
       .attr('transform', 'translate(0,' + this.height + ')')
@@ -135,6 +140,7 @@ module.exports = BaseChart.extend({
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
+      .style('fill', '#57A8D5')
       .on('mouseover', this.tipG.show)
       .on('mouseout', this.tipG.hide);
 
@@ -155,6 +161,7 @@ module.exports = BaseChart.extend({
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
+      .style('fill', '#21BCB3')
       .on('mouseover', this.tipFoE.show)
       .on('mouseout', this.tipFoE.hide);
 
@@ -166,7 +173,7 @@ module.exports = BaseChart.extend({
           d.className = 'default';
         }
         var className = 'barP bar--' + d.className;
-        if (+d.foe === 0) {
+        if (+d.p === 0) {
           className += ' bar--zero';
         }
         return className;
@@ -175,6 +182,7 @@ module.exports = BaseChart.extend({
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
+      .style('fill', '#238E88')
       .on('mouseover', this.tipP.show)
       .on('mouseout', this.tipP.hide);
 

@@ -32,7 +32,7 @@ module.exports = BaseChart.extend({
 
     var label = this.label;
     var name = g.append('text')
-      .attr('class', 'circle--label_name')
+      .attr('class', 'circle--label_name_' + label.name[0] )
       .style('text-anchor', 'middle')
       .attr('dy', '150px')
       .on('click', function (d) {
