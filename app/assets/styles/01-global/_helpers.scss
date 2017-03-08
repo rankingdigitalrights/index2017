@@ -82,11 +82,26 @@
   background: red !important;
 }
 
-.contain {
+/*.contain {
   @include media(xlarge-up) {
     margin-left: 15%;
     margin-right: 15%;
   }
+}*/
+
+.contain {
+  @media only screen and (min-width: 1440px) {
+    margin-left: 10%;
+    margin-right: 10%;    
+  }  
+  @media only screen and (min-width: 1600px) {
+    margin-left: 15%;
+    margin-right: 15%;    
+  }
+  @media only screen and (min-width: 1920px) {
+    margin-left: 17%;
+    margin-right: 17%;    
+  }  
 }
 
 .contain-full {

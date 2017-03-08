@@ -66,13 +66,13 @@ h3 {
 color: $black;  
 font-size: 17px; 
   @include media(small-up) {
-  font-size: 17px; 
+  font-size: 18px; 
   }
   @include media(medium-up) {
-  font-size: 18px;  
+  font-size: 17px;  
   }
   @include media(large-up) {
-  font-size: 20px; 
+  font-size: 18px; 
   }
   @include media(xlarge-up) {
   font-size: 23px;  

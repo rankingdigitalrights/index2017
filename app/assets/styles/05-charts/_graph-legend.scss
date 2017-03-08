@@ -1,11 +1,11 @@
 .graph-legend {
-margin-top: 0em;	
+margin-top: 0.5em;	
 display: flex;
-justify-content: flex-end;
+justify-content: space-around;
 align-items: center;
 flex-direction: column;
 	@include media(small-up) {
-	margin-top: 0em;	
+	margin-top: 0.5em;	
 	flex-direction: column;	
 	}
 	@include media(medium-up) {
@@ -24,46 +24,33 @@ flex-direction: column;
 	.graph-legend-values,
 	.graph-legend-interaction {
 	display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;		
 	padding: 0.5em 0.5em;	
 	border-left: none;
 	border-top: 1px solid $black;
 		@include media(small-up) {
-		padding: 0.5em 0.5em;
+		padding: 1em 1em;
 		border-left: none;
 		border-top: 1px solid $black;
 		}
 		@include media(medium-up) {
-		padding: 1em 1em;						
-		border-left: 1px solid $black;
-		border-top: none;
+		padding: 1em 1em;
+		border-left: none;
+		border-top: 1px solid $black;		
 		}
 		@include media(large-up) {
-		padding: 1em 2em;	
+		padding: 1em 1.5em;
+		border-top: none;	
 		border-left: 1px solid $black;
-		border-top: none;
 		}
 		@include media(xlarge-up) {
-		padding: 1em 3.28em;	
+		padding: 1em 3.85em;
+		border-top: none;	
 		border-left: 1px solid $black;
-		border-top: none;
 		} 	
 	}
-	.graph-legend-content {
-	padding: 0.5em 0em;
-		@include media(small-up) {
-		padding: 0.5em 0em;
-		}
-		@include media(medium-up) {
-		padding: 1em 1em;						
-		}
-		@include media(large-up) {
-		padding: 1em 2em;	
-		}
-		@include media(xlarge-up) {
-		padding: 1em 3.28em;	
-		} 		
+	.graph-legend-content {		
 		.graph-legend-content-item {	
 		text-align: center;				
 			.graph-legend-content-item-value {
@@ -74,7 +61,7 @@ flex-direction: column;
 			letter-spacing: 2px;
 			margin-bottom: 5px;
 				@include media(small-up) {
-				font-size: 17px;	
+				font-size: 23px;	
 				}
 				@include media(medium-up) {
 				font-size: 25px;	
@@ -83,7 +70,7 @@ flex-direction: column;
 				font-size: 30px;	
 				}
 				@include media(xlarge-up) {
-				font-size: 33px;	
+				font-size: 30px;	
 				}			
 			}
 			.graph-legend-content-item-label	{
@@ -94,7 +81,7 @@ flex-direction: column;
 			text-transform: uppercase;
 			margin-bottom: 0px;
 				@include media(small-up) {
-				font-size: 9px;
+				font-size: 12px;
 				margin-bottom: 0px;	
 				}
 				@include media(medium-up) {
@@ -106,7 +93,7 @@ flex-direction: column;
 				margin-bottom: 10px;	
 				}
 				@include media(xlarge-up) {
-				font-size: 14px;
+				font-size: 12px;
 				margin-bottom: 10px;	
 				} 				
 			}
@@ -114,16 +101,16 @@ flex-direction: column;
 		.graph-legend-content-item + .graph-legend-content-item {
 		margin-left: 0.5em;	
 			@include media(small-up) {
-			margin-left: 0.5em;	
+			margin-left: 1em;	
 			}
 			@include media(medium-up) {
-			margin-left: 0.5em;	
+			margin-left: 1em;	
 			}
 			@include media(large-up) {
-			margin-left: 0.5em;	
+			margin-left: 1em;	
 			}
 			@include media(xlarge-up) {
-			margin-left: 2.5em;	
+			margin-left: 0.6em;	
 			} 
 		}
 	}
@@ -137,20 +124,20 @@ flex-direction: column;
 			text-transform: uppercase;
 			margin-bottom: 5px;
 				@include media(small-up) {
-				font-size: 11px;
+				font-size: 13px;
 				margin-bottom: 5px;	
 				}
 				@include media(medium-up) {
-				font-size: 12px;
+				font-size: 14px;
 				margin-bottom: 5px;	
 				}
 				@include media(large-up) {
-				font-size: 13px;
+				font-size: 14px;
 				margin-bottom: 10px;	
 				}
 				@include media(xlarge-up) {
 				font-size: 14px;
-				margin-bottom: 10px;	
+				margin-bottom: 10px;		
 				}  			
 			}				
 			.graph-legend-values-value {					
@@ -161,7 +148,7 @@ flex-direction: column;
 			letter-spacing: 1px;
 			text-transform: uppercase;
 				@include media(small-up) {
-				font-size: 10px;
+				font-size: 12px;
 				}
 				@include media(medium-up) {
 				font-size: 12px;
@@ -186,7 +173,7 @@ flex-direction: column;
 					font-size: 13px;
 					}
 					@include media(xlarge-up) {
-					font-size: 14px;
+					font-size: 13px;
 					}    				
 				}				
 				&.internet-and-mobile-companies {
@@ -206,7 +193,7 @@ flex-direction: column;
 		        }
 		        .graph-legend-values-value-bar {
 		        display: inline-block;	
-		        width: 8em;
+		        width: 6em;
 		        height: 1em;
 		        background-color: $base-color;  	
 		        }					
@@ -221,13 +208,13 @@ flex-direction: column;
 			margin-left: 1em;	
 			}
 			@include media(medium-up) {
-			margin-left: 1.5em;	
+			margin-left: 2.5em;	
 			}
 			@include media(large-up) {
-			margin-left: 2.5em;	
+			margin-left: 1em;	
 			}
 			@include media(xlarge-up) {
-			margin-left: 2.5em;	
+			margin-left: 1em;
 			}				
 		}			
 	}
@@ -251,7 +238,7 @@ flex-direction: column;
 				font-size: 20px;
 				}
 				@include media(xlarge-up) {
-				font-size: 23px;
+				font-size: 20px;
 				}    				
 			}
 		}

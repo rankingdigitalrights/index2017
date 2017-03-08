@@ -155,7 +155,7 @@ margin-bottom: .325em;
 
 .page--subtitle--undertext {
 width: 100%;			
-font-family: $simplon-light;  
+font-family: $simplon-regular; 
 color: $black;
 font-size: 13px;
 line-height: 1.3; 
@@ -167,12 +167,12 @@ margin-bottom: 1.5em;
 	margin-bottom: 1.5em;  
 	}
 	@include media(medium-up) {
-	width: 60%;		
+	width: 100%;		
 	font-size: 15px;
 	margin-bottom: 1.5em;  
 	}
 	@include media(large-up) {
-	width: 60%;		
+	width: 70%;		
 	font-size: 16px;
 	margin-bottom: 1.5em;
 	}
