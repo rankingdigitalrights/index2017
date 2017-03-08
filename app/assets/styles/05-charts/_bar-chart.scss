@@ -13,7 +13,7 @@
 .bar--privacy { fill: $cat-privacy; }
 
 .bar--zero {
-  fill: $primary-color;
+  fill: $primary-color !important;
 }
 
 .bar--tip {

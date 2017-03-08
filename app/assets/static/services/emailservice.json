@@ -1,0 +1,62 @@
+[
+    {
+        "Company": "Google",
+        "Service ": "Gmail",
+        "text": "Gmail is an email service developed for limited release in 2004 and fully launched in 2009 by Google.",
+        "rank": "1",
+        "Total": "65.48",
+        "G": "70.00",
+        "FoE": "57.50",
+        "P": "66.63"
+    },
+    {
+        "Company": "Microsoft",
+        "Service ": "Outlook.com",
+        "text": "Outlook.com is an email service connected to a web-based suite of contacts, tasks, and calendaring services. One of the world's first webmail services, it was founded in 1996 as Hotmail, then re-launched as MSN Hotmail after Microsoft acquired it in 1997. It was later rebranded to Windows Live Hotmail, then re-launched as Outlook.com in 2013. ",
+        "rank": "2",
+        "Total": "64.48",
+        "G": "87.22",
+        "FoE": "55.42",
+        "P": "59.92"
+    },
+    {
+        "Company": "Yahoo",
+        "Service ": "Yahoo Mail",
+        "text": "Yahoo Mail is a web-based email service launched by Yahoo! Inc. in 1997.",
+        "rank": "3",
+        "Total": "58.76",
+        "G": "86.67",
+        "FoE": "27.64",
+        "P": "59.84"
+    },
+    {
+        "Company": "Kakao",
+        "Service ": "Daum Mail ",
+        "text": "Daum Mail is the main email service of Kakao, a South Korean internet company established in 2014 following the merger of Daum Communications and Kakao. ",
+        "rank": "4",
+        "Total": "53.57",
+        "G": "35.65",
+        "FoE": "70.56",
+        "P": "53.88"
+    },
+    {
+        "Company": "Yandex",
+        "Service ": "Yandex Mail",
+        "text": "Yandex.mail is an email service offered by the Russian company Yandex N.V. .",
+        "rank": "5",
+        "Total": "27.91",
+        "G": "7.87",
+        "FoE": "24.72",
+        "P": "35.65"
+    },
+    {
+        "Company": "Mail.Ru",
+        "Service ": "Mail.Ru",
+        "text": "Mail.Ru is an email service started in 1998 by the Russian Internet company also named Mail.Ru.",
+        "rank": "6",
+        "Total": "22.86",
+        "G": "7.08",
+        "FoE": "36.11",
+        "P": "23.70"
+    }
+]
