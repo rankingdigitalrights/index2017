@@ -2,6 +2,7 @@
 .project
 .DS_Store
 .sass-cache
+.vscode
 node_modules
 app/assets/bower_components
 _site
