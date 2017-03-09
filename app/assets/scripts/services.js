@@ -4,6 +4,9 @@ var Service = require('./collections/services/services');
 var Survey = require('./collections/survey');
 var CompanyServices = require('./collections/company-services');
 var Barchart = require('./views/services-barchart');
+var CompanyService = require('./views/service');
+
+
 var Indicators = require('./views/category-indicators');
 var Collapse = require('./views/collapse');
 var barsort = require('./util/services-barsort');
@@ -24,6 +27,7 @@ module.exports = function generateService (serviceType) {
         foe: model.get('FoE'),
         p: model.get('P'),
         t: model.get('Total'),
+        text: model.get('text'),
         className: serviceType
       };
     }).sort(barsort);
@@ -33,6 +37,12 @@ module.exports = function generateService (serviceType) {
       data: data
     });
     barchart.render($parent[0]);
+
+    var companyService = new CompanyService({
+      data: data,
+      parent: $("#service--companies")
+    });
+    companyService.render();
   }
 
   service.fetch({success: overviewSuccess});
