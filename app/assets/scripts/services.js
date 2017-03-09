@@ -6,7 +6,7 @@ var CompanyServices = require('./collections/company-services');
 var Barchart = require('./views/services-barchart');
 var Indicators = require('./views/category-indicators');
 var Collapse = require('./views/collapse');
-var barsort = require('./util/barsort');
+var barsort = require('./util/services-barsort');
 
 module.exports = function generateService (serviceType) {
 
@@ -15,7 +15,6 @@ module.exports = function generateService (serviceType) {
   
   var overviewSuccess = function () {
     var data = service.map(function (model) {
-      console.info(data);
     // var data = overview.filter(model => model.get('telco') === true).map(function (model) { // filter Overview collection
       return {
         company: model.get('Company'),
@@ -25,7 +24,6 @@ module.exports = function generateService (serviceType) {
         foe: model.get('FoE'),
         p: model.get('P'),
         t: model.get('Total'),
-       // val: Math.random()*100,
         className: serviceType
       };
     }).sort(barsort);
@@ -34,7 +32,6 @@ module.exports = function generateService (serviceType) {
       height: 400,
       data: data
     });
-    console.info(data);
     barchart.render($parent[0]);
   }
 

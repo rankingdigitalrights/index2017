@@ -70,6 +70,7 @@ margin-top: -1.5em;
 
 /* Company ranking */
 .company-ranking {
+
     label {
     font-family: $simplon-light;  
     text-transform: uppercase;
@@ -79,10 +80,10 @@ margin-top: -1.5em;
     letter-spacing: 1px;
     margin-bottom: 0px;
 		@include media(small-up) {
-		font-size: 12px;  
+		font-size: 13px;  
 		}
 		@include media(medium-up) {
-		font-size: 13px;  
+		font-size: 14px;  
 		}
 		@include media(large-up) {
 		font-size: 14px;
@@ -94,17 +95,19 @@ margin-top: -1.5em;
 		padding-right: 5px;	
 		}         
     } 
+
 	#category--internet--home {
         i {
         color: $red;  
         }		
 	}
+
 	#category--telco--home {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 		@include media(small-up) {
 		margin-top: 1.5em;
-		margin-bottom: 0em;
+		margin-bottom: 1.5em;
 		}
 		@include media(medium-up) {
 		margin-top: 2.5em;
@@ -167,78 +170,111 @@ margin-top: -1.5em;
 	font-family: $simplon-regular; 
 	color: $black;
 	font-size: 10px;
-	line-height: 2; 
-	letter-spacing: 1px;
+	line-height: 1; 
+	letter-spacing: 0px;
 	text-transform: uppercase;
 	overflow: hidden;
 	padding-top: 0;
 	padding-bottom: 0;
+	padding: 5px 0;
 		@include media(small-up) {
-		font-size: 10px;	
+		font-size: 12px;
+		padding: 5px 0;
+		letter-spacing: 0px;	
 		}
 		@include media(medium-up) {
-		font-size: 11px;	
+		font-size: 10px;
+		padding: 5px 0;
+		letter-spacing: 0px;	
 		}
 		@include media(large-up) {
-		font-size: 12px;	
+		font-size: 13px;
+		padding: 10px 0;
+		letter-spacing: 0px;	
 		}
 		@include media(xlarge-up) {
-		font-size: 14px;	
+		font-size: 13px;
+		padding: 10px 0;	
+		letter-spacing: 0px;
 		}  		
 		> a {
 		font-family: $simplon-regular;  
 		font-size: 10px;
 		color: $black;
-		line-height: 2; 
-		letter-spacing: 1px;    
+		line-height: 1; 
+		letter-spacing: 0px;    
 		text-decoration: none;
 		transition: color .2s ease-out;
-		display: block;
+		display: block;	
 			@include media(small-up) {
-			font-size: 10px;	
+			font-size: 12px;
+			letter-spacing: 0px;	
 			}
 			@include media(medium-up) {
-			font-size: 11px;	
+			font-size: 10px;
+			letter-spacing: 0px;	
 			}
 			@include media(large-up) {
+			font-size: 13px;
+			letter-spacing: 0px;	
+			}
+			@include media(xlarge-up) {
+			font-size: 13px;
+			letter-spacing: 0px;	
+			}  
+		}
+		.collecticon {
+		font-size: 12px;	
+			@include media(small-up) {
 			font-size: 12px;	
+			}
+			@include media(medium-up) {
+			font-size: 10px;	
+			}
+			@include media(large-up) {
+			font-size: 10px;	
 			}
 			@include media(xlarge-up) {
 			font-size: 14px;	
-			}  
+			} 			
 		}
 
 	  &.vis--row_title {
 	  font-size: 10px;
 	  font-weight: 500;
-	  line-height: 2;
+	  line-height: 1;
+	  padding: 5px 0;
 		@include media(small-up) {
-		font-size: 10px;	
+		font-size: 12px;
+		padding: 5px 0;	
 		}
 		@include media(medium-up) {
-		font-size: 11px;	
+		font-size: 10px;
+		padding: 5px 0;	
 		}
 		@include media(large-up) {
-		font-size: 12px;	
+		font-size: 13px;
+		padding: 10px 0;	
 		}
 		@include media(xlarge-up) {
-		font-size: 14px;	
+		font-size: 13px;
+		padding: 10px 0;	
 		}	   
 	    > a { 
 	    font-size: 10px;
 	    font-weight: 500;
-	    line-height: 2;
+	    line-height: 1;	    
 	     	@include media(small-up) {
-			font-size: 10px;	
+			font-size: 12px;
 			}
 			@include media(medium-up) {
-			font-size: 11px;	
+			font-size: 10px;
 			}
 			@include media(large-up) {
-			font-size: 12px;	
+			font-size: 13px;
 			}
 			@include media(xlarge-up) {
-			font-size: 14px;	
+			font-size: 13px;	
 			}
 	    }    
 	  }  
@@ -258,10 +294,10 @@ margin-top: -1.5em;
 	padding-top: 0;
 	padding-bottom: 0;
      	@include media(small-up) {
-		font-size: 10px;	
+		font-size: 12px;	
 		}
 		@include media(medium-up) {
-		font-size: 11px;	
+		font-size: 12px;	
 		}
 		@include media(large-up) {
 		font-size: 12px;	
@@ -280,10 +316,10 @@ margin-top: -1.5em;
 	  transition: color .2s ease-out;
 	  display: block;
      	@include media(small-up) {
-		font-size: 10px;	
+		font-size: 12px;	
 		}
 		@include media(medium-up) {
-		font-size: 11px;	
+		font-size: 12px;	
 		}
 		@include media(large-up) {
 		font-size: 12px;	
@@ -452,18 +488,18 @@ align-items: center;
 	.nav-tabs {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 31%;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 		@include media(small-up) {
-		width: 21%;
+		width: 35%;
 		}
 		@include media(medium-up) {
 		width: 21%;
 		}
 		@include media(large-up) {
-		width: 21%;
+		width: 17%;
 		}
 		@include media(xlarge-up) {
 		width: 21%;
@@ -478,21 +514,22 @@ align-items: center;
 		font-family: $simplon-medium;
 		text-transform: uppercase;
 		font-size: 8px;
+		line-height: 1;
 			@include media(small-up) {
-			font-size: 9px;
-			padding: 5px 5px;  
+			font-size: 10px;
+			padding: 7px 7px;  
 			}
 			@include media(medium-up) {
 			font-size: 10px;
 			padding: 10px 15px;  
 			}
 			@include media(large-up) {
-			font-size: 15px;
-			padding: 10px 15px;
+			font-size: 12px;
+			padding: 13px 8px;
 			} 
 			@include media(xlarge-up) {
 			font-size: 16px;
-			padding: 10px 15px;  
+			padding: 15px 15px;  
 			} 		
 			&.current {
 			border: 1px solid $white-pure;
@@ -521,53 +558,89 @@ align-items: center;
 				}			
 			}
 		}
-
 	}
 
 	.tab-content {
 	display: flex;
 	justify-content: center;
-	width: 70%;
+	width: 69%;
 	border: 1px solid $white-pure;
+	overflow-x: hidden;
+	overflow-y: auto;
 		@include media(small-up) {
-
+		width: 65%;
+		overflow-x: auto;
+		overflow-y: auto;		
 		}
 		@include media(medium-up) {
-
+		width: 79%;
+		overflow-x: auto;
+		overflow-y: auto;
 		}
 		@include media(large-up) {
-
+		width: 83%;
+		overflow-x: initial;
+		overflow-y: initial;
 		}
 		@include media(xlarge-up) {
-
+		width: 79%;
+		overflow-x: initial;
+		overflow-y: initial;
 		}	
 		.tab-pane-wrapper {
 		display: none;	
 			.tab-pane {
 			display: flex;
-    		flex-direction: column;				
-			padding: 15px;
-			display: flex;
+    		flex-direction: column;							
 		    justify-content: center;
 		    align-items: center;
+		    padding: 15px;
+		    min-height: -webkit-min-content;
+				@include media(small-up) {
+				flex-direction: column;
+				}
+				@include media(medium-up) {
+				flex-direction: row;
+				}
+				@include media(large-up) {
+				flex-direction: column;
+				}
+				@include media(xlarge-up) {
+				flex-direction: column;
+				}		    
 		    	.tab-pane-chart-row {
-				display: flex;
+				display: flex;				
 	    		flex-direction: column;
 					@include media(small-up) {
 					flex-direction: column;
 					}
 					@include media(medium-up) {
-					flex-direction: row;
+					flex-direction: column;
 					}
 					@include media(large-up) {
 					flex-direction: row;
 					}
 					@include media(xlarge-up) {
 					flex-direction: row;
-					}	    				    	
+					}
+					.service--circle--chart {
+					padding-bottom: 15px;	
+					}						    				    	
 	    		}
 	    		.tab-pane-chart-row + .tab-pane-chart-row {
-	    		margin-top: 15px;	
+				margin-top: 0em;
+					@include media(small-up) {
+					margin-top: 0em;	
+					}
+					@include media(medium-up) {
+					margin-top: 0em;	
+					}
+					@include media(large-up) {
+					margin-top: -1em;	
+					}
+					@include media(xlarge-up) {
+					margin-top: 1em;	
+					}
 	    		}
 			}
 			&.current {
@@ -608,7 +681,7 @@ margin-bottom: .325em;
 	.data-stories-item + .data-stories-item {
 	margin-top: 1.5em;	
 		@include media(small-up) {
-		margin-top: 1.5em;
+		margin-top: 2em;
 		}
 		@include media(medium-up) {
 		margin-top: 0em;
