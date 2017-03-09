@@ -1,16 +1,23 @@
 #page--category {
+
 	&.commitment {
-		.page--title {
+		.page--title,
+		.page--subtitle,
+		h3 {
 		color: $cat-commitment !important;	
 		}	
 	}
 	&.freedom-of-expression {
-		.page--title {
+		.page--title,
+		.page--subtitle,
+		h3 {
 		color: $cat-freedom !important;
 		}	
 	}
 	&.privacy {
-		.page--title {
+		.page--title,
+		.page--subtitle,
+		h3 {
 		color: $cat-privacy !important;	
 		}	
 	}
@@ -21,7 +28,39 @@
 
 		}
 
-		.category-graph {}
+		.category-graph {
+			#category--overview_chart {
+				.bar--chart {
+					.bar--axis_x {
+						.tick {}
+					}
+					.bar--axis_y {
+						.tick {}
+					}
+					.bar {
+						&.bar--commitment {
+						fill: $cat-commitment !important;
+						  &:hover {
+						  fill: $cat-commitment-hover !important;
+						  }								
+						}
+						&.bar--freedom {
+						fill: $cat-freedom !important;
+						  &:hover {
+						  fill: $cat-freedom-hover !important;
+						  }								
+						}
+						&.bar--privacy {
+						fill: $cat-privacy !important;
+						  &:hover {
+						  fill: $cat-privacy-hover !important;
+						  }								
+						}
+					}						
+				}
+			}
+		}
+
 
 		.category-indicators {
 			.container--left + .container--right {
