@@ -18,7 +18,7 @@ module.exports = BaseChart.extend({
     var g = d3.select(el).append('svg')
       .attr('class', 'circle--container')
       .attr('width', this.width)
-      .attr('height', this.height + 20)
+      .attr('height', this.height + 40)
       .append('g')
       .attr('transform', 'translate(' + this.width / 2 + ',' + this.height / 2 + ')');
 
@@ -34,11 +34,16 @@ module.exports = BaseChart.extend({
     var name = g.append('text')
       .attr('class', 'circle--label_name')
       .style('text-anchor', 'middle')
-      .attr('dy', '90px')
+      .attr('dy', '110px')
       .on('click', function (d) {
         var href = label.name.toLowerCase().split(' ').join('-');
         // window.location.href = baseurl + '/categories/' + href; // to do
       });
+    var service = g.append('text')
+      .attr('class', 'circle--label_service')
+      .style('text-anchor', 'middle')
+      .attr('dy', '95px')
+      .html(this.data[1].name);
 
     var score = g.append('text')
       .attr('class', 'circle--label_val')
