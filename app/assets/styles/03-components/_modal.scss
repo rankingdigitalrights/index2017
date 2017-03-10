@@ -32,6 +32,31 @@
     }
     table {
         width: 100%;
+        tr {
+            border-bottom: 1px solid #E5DCD1;
+            td {
+                text-align: right;
+            }
+            th,
+            td {
+                text-align: right;
+            }
+            th.cell--first {
+                text-align: left;
+            }
+            td.cell--0 {
+                text-align: left;
+            }
+        }
+        tr.average {
+            background-color: #E5DCD1;
+            td {
+                text-align: right;
+            }
+            td.cell--first {
+                text-align: left;
+            }
+        }
     }
 }
 

@@ -1,0 +1,85 @@
+{
+   "id":"G1",
+   "name":"G1. Policy and leadership",
+   "paragraph_1":"Lorem ipsum",
+   "paragraph_2":"Lorem ipsum dolor sit amet",
+   "companies":[
+      {
+         "name":"at&t",
+         "id":"att",
+         "score":"30.00",
+         "headers" : [
+            {
+               "text" : "Privacy"
+            },
+            {
+               "text" : "FoF"
+            },
+            {
+               "text" : "Governance"
+            }
+         ],
+         "average" : [
+            {
+               "value" : "0.30"
+            },
+            {
+               "value" : "35.20"
+            },
+            {
+               "value" : "5.46"
+            }
+         ],
+         "rows" : [
+            {
+               "cells": [
+                  {
+                     "value" : "A: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?"
+                  },
+                  {
+                     "value" : "12.34"
+                  },
+                  {
+                     "value" : "32.34"
+                  },
+                  {
+                     "value" : "12.34"
+                  }
+               ]
+            },
+            {
+               "cells": [
+                  {
+                     "value" : "B: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?"
+                  },
+                  {
+                     "value" : "2.34"
+                  },
+                  {
+                     "value" : "2.34"
+                  },
+                  {
+                     "value" : "2.34"
+                  }
+               ]
+            },
+            {
+               "cells": [
+                  {
+                     "value" : "A: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?"
+                  },
+                  {
+                     "value" : "12.34"
+                  },
+                  {
+                     "value" : "32.34"
+                  },
+                  {
+                     "value" : "12.34"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
