@@ -112,28 +112,46 @@ module.exports = BaseChart.extend({
 
 
 
+
+
+    // TO DO
+
     $('.close').click(function() {
       $('.modal').hide();
     });
 
     function ajax_call(href,  id)
     {
-      // alert(baseurl + '/assets/static/indicators/' + id + '.json');
+      // alert(baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json');
       $.ajax({ 
         type: 'GET', 
-        url: baseurl + '/assets/static/indicators/c1.json', 
+        url: baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json', 
         dataType: 'json',
         success: function (data) {
+
+          // clear table
+          $('#indicatorsTable').text('');
+
           var name = data.name;
           var paragraph_1 = data.paragraph_1;
           var paragraph_2 = data.paragraph_2;
           var companies = data.companies;
 
           var company = getObjects(companies, 'id', href);
+
+          // create header
+          var header = "<tr><th class='cell--first' width='50%'>"+name+"</th>";
+          var headers = company[0].headers;
+          var columns = headers.length;
+          var width = 50/columns
+          for (var i = 0; i < headers.length; i++) {
+            header += "<th class='cell--"+i+"' width="+width+"%>" + headers[i].text + "</th>";
+          };
+          header += "</tr>";
+          $('#indicatorsTable').append(header);
+          
           var company_name = company[0].name;
           var company_score = company[0].score;
-
-          $('.modal').show();
 
           $('.indicator--name').text(name);
           $('#paragraph--1').text(paragraph_1);
@@ -141,16 +159,28 @@ module.exports = BaseChart.extend({
           $('#company--name').text(company_name);
           $('#company--score').text(company_score);
 
-          // create <tr>
-          var levels = company[0].levels;
-          for (var i = 0; i < levels.length; i++) {
-            var text = levels[i].text;
-            var val1 = levels[i].val1;
-            var val2 = levels[i].val2;
-            $('#indicatorsTable > tbody:last-child').append('<tr><td>'+text+'</td><td>'+val1+'</td><td>'+val2+'</td></tr>');
-            // console.info(levels[i].text);
+          $('.modal').show(); // display modal
+
+          // create row
+          var rows = company[0].rows;
+          for (var i = 0; i < rows.length; i++) {
+            var row = "<tr>";
+            var cells = rows[i].cells;
+            for (var j = 0; j < cells.length; j++) {
+              row += "<td class='cell--"+j+"'>" + cells[j].value + "</td>";
+            }
+            row += "</tr>";
+            $('#indicatorsTable > tbody:last-child').append(row);
           };
-          // console.info(levels);
+
+          // create average
+          var sum = "<tr class='average'><td class='cell--first'>Average</td>";
+          var average = company[0].average;
+          for (var i = 0; i < average.length; i++) {
+            sum += "<td class='cell--"+i+"'>" + average[i].value + "</td>";
+          }
+          sum += "</tr>";
+          $('#indicatorsTable > tbody:last-child').append(sum);
         }
       });
     };
