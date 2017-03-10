@@ -1,3 +1,4 @@
+var $ = require('jquery');
 var d3 = require('d3');
 d3.tip = require('d3-tip')(d3);
 var BaseChart = require('./base-chart');
@@ -42,6 +43,7 @@ module.exports = BaseChart.extend({
 
   render: function (container) {
     this.container = container;
+    var indicator_id  = this.id;
     var svg = d3.select(container).append('svg')
       .attr('class', 'bar--chart')
       .attr('width', this.width + this.margin.left + this.margin.right)
@@ -59,11 +61,20 @@ module.exports = BaseChart.extend({
       .selectAll('text')
       .style('text-anchor', 'end')
       .attr('transform', 'rotate(-35)')
+
+      .attr('indicator_id', indicator_id) // parameter for ajax calls
+
       .on('click', function (d) {
         var href = d.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '');
-        window.location.href = baseurl + '/companies/' + href;
-      });
+          if(indicator_id){
+            ajax_call(href, indicator_id);
+          }
+          else {
+            window.location.href = baseurl + '/companies/' + href;
+          }
+        });
+
 
     g.append('g')
       .attr('class', 'bar--axis_y')
@@ -98,5 +109,66 @@ module.exports = BaseChart.extend({
       .duration(200)
       .attr('y', d => this.y(d.val))
       .attr('height', d => this.height - this.y(d.val));
+
+
+
+    $('.close').click(function() {
+      $('.modal').hide();
+    });
+
+    function ajax_call(href,  id)
+    {
+      // alert(baseurl + '/assets/static/indicators/' + id + '.json');
+      $.ajax({ 
+        type: 'GET', 
+        url: baseurl + '/assets/static/indicators/c1.json', 
+        dataType: 'json',
+        success: function (data) {
+          var name = data.name;
+          var paragraph_1 = data.paragraph_1;
+          var paragraph_2 = data.paragraph_2;
+          var companies = data.companies;
+
+          var company = getObjects(companies, 'id', href);
+          var company_name = company[0].name;
+          var company_score = company[0].score;
+
+          $('.modal').show();
+
+          $('.indicator--name').text(name);
+          $('#paragraph--1').text(paragraph_1);
+          $('#paragraph--2').text(paragraph_2);
+          $('#company--name').text(company_name);
+          $('#company--score').text(company_score);
+
+          // create <tr>
+          var levels = company[0].levels;
+          for (var i = 0; i < levels.length; i++) {
+            var text = levels[i].text;
+            var val1 = levels[i].val1;
+            var val2 = levels[i].val2;
+            $('#indicatorsTable > tbody:last-child').append('<tr><td>'+text+'</td><td>'+val1+'</td><td>'+val2+'</td></tr>');
+            // console.info(levels[i].text);
+          };
+          // console.info(levels);
+        }
+      });
+    };
+
+    function getObjects(obj, key, val) {
+      var objects = [];
+      for (var i in obj) {
+        if (!obj.hasOwnProperty(i)) continue;
+          if (typeof obj[i] == 'object') {
+            objects = objects.concat(getObjects(obj[i], key, val));
+          } else if (i == key && obj[key] == val) {
+            objects.push(obj);
+        }
+      }
+      return objects;
+    };
+
+
+
   }
 });

@@ -1,0 +1,42 @@
+{
+   "id":"C1",
+   "name":"C1. Policy and leadership",
+   "paragraph_1":"Lorem ipsum",
+   "paragraph_2":"Lorem ipsum dolor sit amet",
+   "companies":[
+      {
+         "name":"americaMovil",
+         "id":"americamovil",
+         "score":"0.00",
+         "levels":[
+            {
+               "text":"A: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?",
+               "val1":"12.33",
+               "val2":"34.33"
+            },
+            {
+               "text":"B: Do senior executives of the company make meaningful commitment to advance users\u2019 freedom of expression and privacy?",
+               "val1":"1.33",
+               "val2":"64.43"
+            }
+         ]
+      },
+      {
+         "name":"at&t",
+         "id":"att",
+         "score":"30.00",
+         "levels":[
+            {
+               "text":"A: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?",
+               "val1":"12.33",
+               "val2":"34.33"
+            },
+            {
+               "text":"B: Do senior executives of the company make meaningful commitment to advance users\u2019 freedom of expression and privacy?",
+               "val1":"1.33",
+               "val2":"64.43"
+            }
+         ]
+      }
+   ]
+}

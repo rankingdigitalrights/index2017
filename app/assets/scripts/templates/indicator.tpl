@@ -13,9 +13,7 @@
 <% } %>
 <h3>
 	<%= name %>
-  <!--
-  	<a href="<%= baseurl %>/indicators/<%= indicator %>"><%= name %></a>
-  -->
+  <!--<a href="<%= baseurl %>/indicators/<%= indicator %>"><%= name %></a>-->
 </h3>
 <p><%- text %></p>
 <div class="bar--container"></div>
