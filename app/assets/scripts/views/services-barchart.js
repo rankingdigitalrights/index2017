@@ -138,7 +138,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
+      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -159,7 +159,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
+      .attr('x', (d, i) => this.x(d.service))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -180,7 +180,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.service))
+      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
