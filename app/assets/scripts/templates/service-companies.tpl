@@ -22,6 +22,6 @@
   </div>
   <div class="comp--mark">
     <label>Position among other services</label>
-    <div class="dot-chart"> </div>
+    <div id="<%= rank %>-dot-chart"> </div>
   </div>
 </div>
