@@ -17,9 +17,11 @@ module.exports = BaseChart.extend({
     var $parent = $('#' + id);
     var width = $parent.width();
     this.collection.each(function (model) {
+      var id = model.attributes.indicator;
       var view = new IndicatorView({
         model: model,
-        width: width
+        width: width,
+        indicator_id: id
       });
       childViews.push(view);
       $el.append(view.render());
