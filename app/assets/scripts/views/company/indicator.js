@@ -41,8 +41,10 @@ module.exports = BaseChart.extend({
 
 
         var svg = d3.select("#indicators--"+i).append("svg")
-            .attr("width", width + margin.left + margin.right)
+            //.attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
+            .attr("width", "100%")
+            //.attr("height", height)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -83,7 +85,12 @@ module.exports = BaseChart.extend({
             .attr("y", function(d) { return y(d.name); })
             .attr("width", function(d) {
                 var neg = d.value * (-1);
-                return Math.abs(x(neg) - x(0)); 
+                var x0 = x(0);
+                if(x(0) > 100) {
+                    x0 = 100;
+                }
+                // console.info(xyz);
+                return Math.abs(x(neg) - x0); 
             })
             .attr("height", y.rangeBand());
             

@@ -1,5 +1,4 @@
 ---
-
 company_type_page: telecommunications-companies
 entity: vodafone
 layout: company
@@ -47,5 +46,4 @@ freedom_text: "Vodafone was the highest scoring telecommunications company in th
 
 privacy: 37
 privacy_text: "In the Privacy category, Vodafone ranked second of 10 telecommunication companies, behind AT&T and ahead of Telefónica.<br /><br /><strong>Handling of user information:</strong> Vodafone UK disclosed more than all other telecommunications companies about how it handles user information, including AT&T (P3-P8). However, it still did not sufficiently disclose what user information it collects (P3), shares (P4), and why (P5). It disclosed nothing about how long it retains user information (P6), like all telecommunications companies apart from AT&T. Notably, the company offered more information than any other telecommunications company about how users can access the information that Vodafone holds on them (P8).<br /><br /><strong>Requests for user information:</strong> Vodafone UK disclosed less than AT&T about how it handles government and private requests for user information, but more than any other telecommunications company evaluated (P10, P11). Unlike AT&T, Vodafone did not disclose its process for responding to requests from private parties (P10).<br /><br /><strong>Security:</strong> Vodafone UK disclosed less of its security policies than AT&T and Telefónica, the top-scoring companies on these indicators (P13-P18). But it was one of only three companies in the entire Index to reveal any information about how it handles data breaches (P15), although its disclosure on this indicator was still significantly lacking in comparison to Telefónica, the top-scoring company on this indicator."
-
 ---
