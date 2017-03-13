@@ -9,7 +9,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
   template: template,
-  render: function () {
+  render: function (No) {
     var model = this.model;
 
     if (this.childViews && this.childViews.length) {
@@ -40,7 +40,7 @@ module.exports = BaseChart.extend({
       href: model.get('id'),
       id: 'vis-bar-' + model.get('name'),
       name: model.get('display'),
-      score: Math.round(model.get('total')),
+      score: No,
       barContent,
       baseurl
     }));
