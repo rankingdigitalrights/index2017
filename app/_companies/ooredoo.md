@@ -9,6 +9,8 @@ company_type: Telecommunications company
 display: Ooredoo Q.S.C.
 headquarters: Qatar
 link: https://www.ooredoo.qa/
+operating: Ooredoo Qatar
+
 
 telco: true
 
