@@ -1,5 +1,4 @@
 ---
-
 company_type_page: internet-and-mobile-companies
 entity: apple
 layout: company
