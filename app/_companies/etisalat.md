@@ -10,6 +10,7 @@ company_type: Telecommunications company
 display: Etisalat Limited
 headquarters: UAE
 link: https://www.etisalat.com
+operating: Etisalat UAE
 
 telco: true
 
