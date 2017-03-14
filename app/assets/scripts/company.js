@@ -79,8 +79,8 @@ module.exports = function (companyName) {
     }).sort(barsort);
 
     var barchart = new Barchart({
-      width: $('#comp--position_among').width(),
-      height: 200,
+      width: $('#comp--position_among_label').width(),
+      height: 140,
       data: data,
     });
 
