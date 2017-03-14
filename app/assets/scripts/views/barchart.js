@@ -66,7 +66,7 @@ module.exports = BaseChart.extend({
 
       .on('click', function (d) {
         var href = d.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '');
+          .replace('.', '').replace(' ', '').replace('é', 'e').replace('ó', 'o');
           if(indicator_id){
             ajax_call(href, indicator_id);
           }
@@ -139,6 +139,8 @@ module.exports = BaseChart.extend({
 
           var company = getObjects(companies, 'id', href);
 
+          // console.info(href);
+          
           // create header
           var header = "<tr><th class='cell--first' width='50%'>"+name+"</th>";
           var headers = company[0].headers;
@@ -163,6 +165,9 @@ module.exports = BaseChart.extend({
 
           // create row
           var rows = company[0].rows;
+
+          // console.info(rows);
+
           for (var i = 0; i < rows.length; i++) {
             var row = "<tr>";
             var cells = rows[i].cells;

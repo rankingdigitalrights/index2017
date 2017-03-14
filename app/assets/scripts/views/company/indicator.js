@@ -30,14 +30,14 @@ module.exports = BaseChart.extend({
 
         //set up svg using margin conventions - we'll need plenty of room on the left for labels
         var margin = {
-            top: 10,
+            top: 20,
             right: 350,
             bottom: 10,
             left: 10
         };
 
         var width = 460 - margin.left - margin.right,
-            height = 25 * data.length; // 200 - margin.top - margin.bottom;
+            height = 30 * data.length; // 200 - margin.top - margin.bottom;
 
 
         var svg = d3.select("#indicators--"+i).append("svg")
@@ -48,6 +48,22 @@ module.exports = BaseChart.extend({
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+        svg.append("text")
+            .attr("x", 60)             
+            .attr("y", 0)
+            .attr("text-anchor", "right")  
+            .style("font-size", "14px")
+            .style("text-transform", "uppercase") 
+            .text("score");
+
+        svg.append("text")
+            .attr("x", 110)             
+            .attr("y", 0)
+            .attr("text-anchor", "left")  
+            .style("font-size", "14px")
+            .style("text-transform", "uppercase") 
+            .text("indicators");
 
         var x = d3.scale.linear()
             .domain(d3.extent(data, function(d) { 
@@ -65,7 +81,7 @@ module.exports = BaseChart.extend({
         var yAxis = d3.svg.axis()
             .scale(y)
             //no tick marks
-            .tickSize(0)
+            .tickSize(0.3)
             .orient("right");
 
         var gy = svg.append("g")
