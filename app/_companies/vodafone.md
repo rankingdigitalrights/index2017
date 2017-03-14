@@ -9,6 +9,7 @@ company_type: Telecommunications company
 display: Vodafone Group Plc
 headquarters: UK
 link: https://www.vodafone.com
+operating: Vodafone UK
 
 telco: true
 
