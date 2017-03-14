@@ -125,7 +125,7 @@ module.exports = BaseChart.extend({
       // alert(baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json');
       $.ajax({ 
         type: 'GET', 
-        url: baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json', 
+        url: baseurl + '/assets/static/indicators/' + id.toUpperCase() + '.json', 
         dataType: 'json',
         success: function (data) {
 
