@@ -1,81 +1,936 @@
-{
+{  
    "id":"G1",
    "name":"G1. Policy and leadership",
    "paragraph_1":"Lorem ipsum",
    "paragraph_2":"Lorem ipsum dolor sit amet",
-   "companies":[
-      {
-         "name":"at&t",
+   "companies":[  
+      {  
+         "name":"América Móvil",
+         "id":"americamovil",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Telcel - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Telcel - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Apple",
+         "id":"apple",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"AT&T",
          "id":"att",
-         "score":"30.00",
-         "headers" : [
-            {
-               "text" : "Privacy"
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
             },
-            {
-               "text" : "FoF"
-            },
-            {
-               "text" : "Governance"
+            {  
+               "text":"Group - Privacy"
             }
          ],
-         "average" : [
-            {
-               "value" : "0.30"
+         "average":[  
+            {  
+               "value":"50"
             },
-            {
-               "value" : "35.20"
-            },
-            {
-               "value" : "5.46"
+            {  
+               "value":"50"
             }
          ],
-         "rows" : [
-            {
-               "cells": [
-                  {
-                     "value" : "A: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?"
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
                   },
-                  {
-                     "value" : "12.34"
+                  {  
+                     "value":"50"
                   },
-                  {
-                     "value" : "32.34"
-                  },
-                  {
-                     "value" : "12.34"
+                  {  
+                     "value":"50"
                   }
                ]
+            }
+         ]
+      },
+      {  
+         "name":"Axiata",
+         "id":"axiata",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
             },
-            {
-               "cells": [
-                  {
-                     "value" : "B: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?"
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Celcom - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Celcom - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
                   },
-                  {
-                     "value" : "2.34"
+                  {  
+                     "value":"0"
                   },
-                  {
-                     "value" : "2.34"
+                  {  
+                     "value":"0"
                   },
-                  {
-                     "value" : "2.34"
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
                   }
                ]
+            }
+         ]
+      },
+      {  
+         "name":"Baidu",
+         "id":"baidu",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
             },
-            {
-               "cells": [
-                  {
-                     "value" : "A: Does the company make explicit, prominent, and clearly articulated policy commitment to human rights including freedom of expression and privacy?"
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
                   },
-                  {
-                     "value" : "12.34"
+                  {  
+                     "value":"50"
                   },
-                  {
-                     "value" : "32.34"
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Bharti Airtel",
+         "id":"bhartiairtel",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Airtel India - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Airtel India - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
                   },
-                  {
-                     "value" : "12.34"
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Etisalat",
+         "id":"etisalat",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Etisalat UAE - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Etisalat UAE - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Facebook",
+         "id":"facebook",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Google",
+         "id":"google",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Kakao",
+         "id":"kakao",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Mail.ru",
+         "id":"mailru",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Microsoft",
+         "id":"microsoft",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"MTN",
+         "id":"mtn",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - MTN South Africa - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - MTN South Africa - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Ooredoo",
+         "id":"ooredoo",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Ooredoo Qatar - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Ooredoo Qatar - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            },
+            {  
+               "value":"0"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  },
+                  {  
+                     "value":"0"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Orange",
+         "id":"orange",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Orange France - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Orange France - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Samsung",
+         "id":"samsung",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Telefónica",
+         "id":"telefonica",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Telefónica de España - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Telefónica de España - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Tencent",
+         "id":"tencent",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Twitter",
+         "id":"twitter",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Vodafone",
+         "id":"vodafone",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            },
+            {  
+               "text":"OperatingCo - Vodafone UK - Freedom of Expression"
+            },
+            {  
+               "text":"OperatingCo - Vodafone UK - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            },
+            {  
+               "value":"100"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  },
+                  {  
+                     "value":"100"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Yahoo",
+         "id":"yahoo",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Yandex",
+         "id":"yandex",
+         "headers":[  
+            {  
+               "text":"Group - Freedom of Expression"
+            },
+            {  
+               "text":"Group - Privacy"
+            }
+         ],
+         "average":[  
+            {  
+               "value":"50"
+            },
+            {  
+               "value":"50"
+            }
+         ],
+         "rows":[  
+            {  
+               "cells":[  
+                  {  
+                     "value":"Does the company make an explicit"
+                  },
+                  {  
+                     "value":"50"
+                  },
+                  {  
+                     "value":"50"
                   }
                ]
             }
