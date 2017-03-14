@@ -2,56 +2,165 @@
 layout: article
 visualization: none
 entity: findings
-header: Methodology and scoring
+header: Index methodology and scoring
 published: true
 ---
 
-**There are no “winners.” Even companies in the lead are falling short.** Across the board, companies need to improve their commitments to, and disclosures of, policies and practices that affect users’ freedom of expression and privacy. The quality of companies’ disclosed policies and practices often fell short of stated commitments. There is much room for improvement even among companies that have made considerable – even laudable – efforts in certain areas.
-
-No company in the Index provides users with sufficiently clear, comprehensive, and accessible information about the practices they have in place that affect freedom of expression and privacy. These include the handling of user information, terms of service enforcement, government requests and private requests.
-
-**Nine companies can be considered to have made meaningful efforts to respect users’ rights.** However, companies’ efforts and disclosures were uneven and inadequate in many of their specifics. The top scoring company (Google) received 65 percent of the total possible score. Five other companies (Yahoo, Microsoft, Vodafone, Twitter, and AT&T) scored at least 50 percent. Three more (Kakao Corp, Facebook Inc., Orange) scored between 30-49 percent.
-
-**Seven companies – nearly half – suffer from a serious deficit in respect for users’ freedom of expression and privacy.** América Móvil, MTN, Bharti Airtel, Tencent, Axiata, Etisalat, and Mail.ru scored between 13-22 percent. While some of these companies face substantial legal and regulatory obstacles to making commitments and disclosures related to freedom of expression and privacy in the jurisdictions where they are headquartered or operate, our research identified many indicators on which all companies in the bottom half of the Index can improve even if their legal and regulatory environments do not change.
-
-**Despite Europe’s strong data protection laws, the two E.U.-based telecommunications companies were not Index leaders on disclosure of policies and practices related to the handling of user information.** Both Vodafone and Orange suffer from significant gaps in their public disclosures about the collection, retention, and sharing of user information. Surveillance and national security laws in those companies’ home countries are a substantial impediment to greater transparency about the volume and nature of government requests received to share user information. Nonetheless, our research identifies many areas in which these companies can improve, even without necessary legal reforms.
-
-**Some Internet companies fail to effectively communicate key commitments, policies, and practices that are relevant to their users.** The best-performing Internet companies provided easily accessible and well-organized privacy policies and terms of service, and they regularly published “transparency reports” that disclosed the frequency and nature of government and private requests. Some of the companies, despite making meaningful efforts to respect users’ rights, shared information about broader commitments, along with evidence for how those commitments are being implemented, through scattered tweets or blog posts, rather than offering a centralized overview of such information. By contrast, the telecommunications companies that performed best in the Index have clearly organized policy pages and documents on their own websites that are easy to locate and that articulate the company’s commitments and policies. Yet those companies suffer from significant gaps in disclosure.
-
-**In sum, users are left in the dark about many company practices that affect freedom of expression and privacy.** Even for a very committed and concerned user who is willing to search news databases, pore over terms of service, and parse through privacy policies, it is impossible to formulate a clear picture about how the ranked companies’ practices may affect the user’s freedom of expression and privacy. Even our team of researchers, working full time for several months, struggled to draw definitive conclusions after evaluating many companies’ practices and policies – often times, because the relevant disclosures were disorganized, unclear, and sometimes even contradictory. In other cases, there were simply too many gaps in disclosure – or no disclosure at all – for entire categories of policy and practice.
-
-More specifically, the Index results point to some bad news as well as some good news when it comes to companies’ respect for users’ freedom of expression and privacy.
-
-### The bad news
-
- * **Disclosure about collection, use, sharing, and retention of user information is generally poor.** Even ranked companies that make efforts to publish such information are failing to communicate clearly with users about what information is collected about them, with whom it is shared, under what circumstances, and for how long they keep this information. This lack of clarity means that users, and especially at-risk users such as journalists, activists, or anyone living under a repressive regime, are not fully aware of who can access what specific information the company holds about them.
-
- All companies except Orange and Mail.ru’s email and chat services make their privacy policies publicly available to people who have not signed up or subscribed. Nearly all companies take some steps to present these policies in a manner that is easy for users to understand. However, even policies that are visually appealing and written in everyday language lack specificity, particularly related to what user information companies share and what control users have over their data. This is significant because it makes it more difficult for individuals to make decisions about information that is essentially private, and the sharing of such information risks enabling third parties to learn about their activities, interests, and connections.
-
- * **Disclosure about private requests to restrict content or share user information is minimal or ambiguous at best – and often non-existent.** As described in the [What & Why]({{ site.baseurl }}/whatwhy) section, companies receive requests to restrict content or share user data from different types of third parties. In many cases these requests come from entities or individuals acting independently of any governmental authority, court, or judicial process.
-
- As noted in the “good news” section below, companies are expanding disclosure and “transparency reporting” about government requests. Unfortunately, most companies’ disclosure does not include information about private third-party requests, even when those requests come with a court order or subpoena, or are made in accordance with established legal processes such as a copyright “notice and takedown” system. Even fewer companies disclose any information about whether – let alone the extent to which – they receive or respond to private or informal requests, which are requests to restrict content or share user information that are made outside of any official or legal process. While some companies told our researchers in private communications that they have no such disclosures because they have policies of never entertaining such requests, such requests do exist, and companies have failed to communicate relevant policies to users.
-
- * **No company in the Index discloses *any information whatsoever* about the volume and type of user content that is deleted or blocked when enforcing its own terms of service.** As a result, indicator [F9]({{ site.baseurl }}/indicators/f9), which examines data about terms of service enforcement, was the only indicator in the entire Index on which every single company received zero points. Some companies objected to this indicator, arguing that such disclosure would be infeasible and counterproductive. Yet given the key role these companies play in facilitating the communication and expression of billions of people, their legitimacy as channels of expression hinges on how well they are governed. Without any insight into how companies implement their own terms of service and other key policies, stakeholders have [raised doubts](https://advox.globalvoices.org/2015/08/06/we-will-choke-you-how-indian-women-face-fatal-threats-on-facebook-while-trolls-roam-free/) about companies’ commitment to users’ freedom of expression. Even if the most effective approach to greater transparency about terms of service enforcement has yet to be found, companies that face controversies surrounding their enforcement would be wise to take user concerns seriously.
-
- * **Even if companies’ public disclosures may satisfy regulators, they omit information and context that users need.** A number of companies in the Index comply with privacy laws that impose requirements about, for example, what user information can be collected and retained under what circumstances. Other companies comply with laws that make it illegal to respond to requests not made through legally binding processes. Others comply with “net neutrality” regulations. Unfortunately, in a number of cases, these companies do not communicate with users about the legal framework in which they operate and how they are complying.
-
- The lack of communication with users makes sense for a company that considers regulators, not users, to be its primary audience. It also makes sense if one expects users to be highly conversant in their home countries’ telecommunications and Internet related laws and regulations. However, it is our position that companies that seek to demonstrate respect for users’ rights should consider users as their primary – not secondary – audience in public communications about commitments, policies, and practices. It is reasonable to expect companies to provide basic disclosure about how they manage users’ private information, as well as access to information and communications flows, in the course of complying with laws.
-
- * **Companies lack comprehensive grievance and remedy mechanisms.** In the Commitment category of the Index, we examined how companies approach mechanisms for stakeholders to report grievances, and what processes they have in place to offer meaningful remedy. (See the [What & Why]({{ site.baseurl }}/whatwhy) section for discussion of remedy as a core element of companies’ respect for human rights.) We looked for easily accessible and readily displayed options for users to report concerns related to freedom of expression and privacy. Among the ranked companies, the tone of their existing disclosures did not suggest that improvement on the existing communications avenues between the user and the company was a priority. Few companies met the expectations for remedy articulated by the U.N. Guiding Principles. This highlights a considerable gap between what service providers see as sufficient and what [user advocates expect](https://s3.amazonaws.com/access.3cdn.net/fd15c4d607cc2cbe39_0nm6ii982.pdf) as best practice, leaving much room for an open dialogue on what meaningful grievance and remedy practices for freedom of expression and privacy should look like. Notably, the company scoring highest points for remedy in the Index was Bharti Airtel of India, while the highest-scoring Internet company on remedy was Kakao of South Korea. In both cases these companies’ strong performance is largely due to legal requirements in their home markets. For further discussion, see the [Commitment]({{ site.baseurl }}/categories/commitment) analysis section and the individual company report pages.
-
- * **The lack of end-to-end encryption makes private communications vulnerable to interception, sharing with third parties, and data breaches.** End-to-end encryption prevents even companies themselves from accessing the content of users’ communications. With the exception of optional encryption on a messaging service of one company (Kakao), none of the ranked Internet companies offer end-to-end encryption by choice, let alone by default, for communications that users want to keep private and confidential.
-
- * **In some instances, current laws and regulations make it more difficult for companies to respect freedom of expression and privacy.** However, companies can still take actions to improve. Some ranked companies are headquartered in countries whose laws and regulations governing Internet and telecommunications companies conflict with international human rights standards for freedom of expression and privacy. In most countries where the ranked companies operate, national security laws can forbid disclosure of certain types of government demands for user data, or other surveillance requirements. Some companies face more domestic, political, legal, and regulatory obstacles to respecting users’ rights than others, because some countries’ political and legal frameworks are less compatible with international human rights standards. Nonetheless, we have identified ways that all companies can improve their performance, even without changes to their political, legal, and regulatory environments. Please see the discussion of government requests and regulatory environments in the [What & Why]({{ site.baseurl }}/whatwhy) page for further context, and see the company reports in Section 5 for concrete examples of specific companies in specific countries.
-
-### The good news
-
- * **Corporate respect for freedom of expression and privacy is a global value.** While most of the companies demonstrating meaningful efforts are North American and European, one is from East Asia. The relatively strong performance of the South Korean company, Kakao, in this Index underscores how respect for freedom of expression and privacy has universal resonance.
-
- * **Every company does *something* well.** Consider the following examples among companies whose overall scores totaled less than 25 percent: Bharti Airtel of India scored higher than other companies for its grievance and remedy mechanisms. Tencent of China publishes entertaining videos for users of its QQ messaging service about how to protect themselves against cyber threats. MTN, headquartered in South Africa with operations across Africa and the Middle East, has group-wide policy commitments to freedom of expression and privacy, and its board of directors has set up a committee to oversee these commitments. América Móvil, headquartered in Mexico, publicly commits to carry out due diligence on third-party requests for user information before deciding how to respond. The messaging service run by Mail.ru of Russia encrypts transmission of user communications by default. For more detailed company analysis, please see the company report pages.
-
- * **“Transparency reporting” is becoming a standard practice.** Even since our research period ended, companies have continued to expand and improve the information they publish about third-party requests to restrict content or share user information. Nine of the 16 companies in the Index publish some form of “transparency report” that covers at least some types of third-party requests. However, there is wide variation in clarity, comprehensiveness, and quality of such reporting, and no company covers all types of third-party requests. For more detail see the category analysis pages of this website as well as the individual pages for indicators [F7]({{ site.baseurl }}/indicators/f7), [F8]({{ site.baseurl }}/indicators/f8), and [P11]({{ site.baseurl }}/indicators/p11) on the project website.
-
- * **Nearly half of the ranked companies have backed up their commitments to freedom of expression and privacy by disclosing concrete measures they have taken to implement those commitments.** Seven companies in the Index earned more than 50 percent in the “Commitment” section. Notably, all of these seven companies are members of the Global Network Initiative (GNI), a multi-stakeholder initiative focused on upholding principles of freedom of expression and privacy in relation to government requests, or the Telecommunications Industry Dialogue, an industry organization also focused on freedom of expression and privacy. For further discussion of how participation in initiatives that are committed to upholding key human rights principles is proving to be an essential factor in companies’ articulation and implementation of commitments, please see the [Commitment]({{ site.baseurl }}/categories/commitment) analysis section.
-
- * **All companies can improve their performance in the short to medium term, even without legal or regulatory changes.** See the [Recommendations]({{ site.baseurl }}/recommendations) page for ways in which all companies can improve. Each company report also discusses how each company can improve, even without any changes to their broader legal and regulatory environments, market conditions, or business models.
+<p><a href="https://rankingdigitalrights.org/about/">Ranking Digital Rights (RDR)</a> produces a Corporate Accountability Index that ranks the world's most powerful internet, mobile, and telecommunications companies' disclosed commitments and policies affecting users' freedom of expression and privacy. The Index is a standard-setting tool aimed at encouraging companies to abide by international human rights principles and standards for safeguarding freedom of expression and privacy.</p>
+<p>The Index methodology was<a href="https://rankingdigitalrights.org/methodology-development/"> developed</a> over three years of research, testing, consultation, and revision. Since inception the project has worked closely with researchers around the globe. For methodology development, pilot study, and the inaugural Index we also partnered with Sustainalytics, a leading provider of ESG (environmental, social, and governance) research to investors.</p>
+<p>The first <a href="https://rankingdigitalrights.org/index2015/">Corporate Accountability Index </a>was launched in November 2015, applying the methodology to rank <a href="https://rankingdigitalrights.org/phase-1-full-ranking/the-2015-companies/">16 internet and telecommunications companies</a>. </p>
+<p>For the 2017 Index, we <a href="https://rankingdigitalrights.org/2017-companies/">expanded the ranking</a> to cover additional types of companies and services, including those that produce software and devices that create what we call "<a href="https://rankingdigitalrights.org/2016/09/15/what-are-mobile-ecosystems/">mobile ecosystems</a>." As a result, we also <a href="https://rankingdigitalrights.org/2016/09/15/rdr-launches-2017-research/">expanded the methodology</a>, which included a period of <a href="https://rankingdigitalrights.org/2016/07/05/new-draft-methodology/">public consultation</a>, adding new indicators and elements to account for the potential threats to users' freedom of expression and privacy that can arise from use of networked devices and software</p>
+<p>The 2017 Index consists of <a href="https://rankingdigitalrights.org/2017-indicators/">35 indicators </a>in three main categories:<strong> Governance</strong>, <strong>Freedom of Expression, </strong>and <strong>Privacy</strong>. Each category contains<strong> indicators</strong> measuring company disclosure for that category; each indicator is comprised of a series of <strong>elements</strong> that measure company disclosure for that indicator.</p>
+<h3>Index categories :</h3>
+<ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G."><strong>Governance (G)</strong></a>: This category contains six indicators measuring company disclosure of commitments to freedom of expression and privacy principles along with measures taken to implement those commitments across the company's global operations.</li>
+</ul>
+<ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#F."><strong>Freedom of Expression (F)</strong></a><strong>: </strong>:This category contains 11 indicators measuring company disclosure of policies that affect users' freedom of expression.</li>
+</ul>
+<ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#P"><strong>Privacy (P)</strong></a><strong>: </strong>This category contains 18 indicators measuring company disclosure of policies and practices that affect users' privacy rights.</li>
+</ul>
+<p><br /><br /></p>
+<h3>Company types</h3>
+<p>The 2017 Index evaluates 22 companies. While every company examined has attributes that make it unique, for the purpose of our evaluation and scoring we divided the 22 companies into two groups. </p>
+<p><strong>Internet and mobile:</strong> :These company types were evaluated together because Google is both an one of the internet company and is also a mobile ecosystem company, and Apple also offers services such as iMessage and iCloud. We did not evaluate hardware attributes of devices, focusing our assessment on disclosures pertaining to the newest devices offered by those companies and their operating systems. The freedom of expression and privacy issues faced by mobile cloud data and operating systems overlap with the issues faced by traditional internet services. Additional elements relevant only to mobile ecosystems were added to some indicators. For each company we examined up to four services, as follows:</p>
+<ul>
+<li><strong>Apple (U.S.):</strong> iOS mobile ecosystem, iMessage, iCloud</li>
+<li><strong>Baidu (China):</strong> Baidu Search, Baidu Cloud, Baidu PostBar</li>
+<li><strong>Facebook (U.S.):</strong> Facebook, Instagram, WhatsApp, Messenger</li>
+<li><strong>Mail.Ru (Russia):</strong> VKontakte, Mail.Ru email, Mail.Ru Agent</li>
+<li><strong>Microsoft (U.S.):</strong> Bing, Outlook.com, Skype</li>
+<li><strong>Kakao (South Korea):</strong> Daum Search, Daum Mail, KakaoTalk</li>
+<li><strong>Google (U.S.):</strong> Search, Gmail, YouTube, Android mobile ecosystem</li>
+<li><strong>Samsung (South Korea):</strong> Samsung implementation of Android</li>
+<li><strong>Tencent (China):</strong> QZone, QQ, WeChat</li>
+<li><strong>Twitter (U.S.):</strong> Twitter, Vine, :Periscope</li>
+<li><strong>Yahoo (U.S.):</strong> Yahoo Mail, Flickr, Tumblr</li>
+<li><strong>Yandex (Russia):</strong> Yandex Mail, Yandex Search, Yandex Disk</li>
+</ul>
+<p><strong>Telecommunications companies</strong> - For these companies we evaluated global group-level policies for relevant indicators plus the home-country operating subsidiary's pre-paid and post-paid mobile service, and fixed-line broadband service where offered, as follows: </p>
+<ul>
+<li><strong>Ammérica Móvil (Mexico):</strong> Telcel</li>
+<li><strong>AT&T (U.S.):</strong>  AT&T Mobile, AT&T Broadband</li>
+<li><strong>Axiata (Malaysia):</strong> Celcom</li>
+<li><strong>Bharti Airtel (India):</strong> India Airtel Mobile, India Airtel Broadband</li>
+<li><strong>Etisalat (UAE):</strong> Etisalat UAE Mobile, Etisalat UAE Broadband</li>
+<li><strong>MTN (South Africa):</strong> MTN South Africa Mobile</li>
+<li><strong>Ooredoo (Qatar):</strong> Ooredoo Qatar Mobile, Ooredoo Qatar Broadband</li>
+<li><strong>Orange (France):</strong> Orange France Mobile, Orange France Broadband</li>
+<li><strong>Telefónica (Spain):</strong> Movistar Mobile, Movistar Broadband</li>
+<li><strong>Vodafone (UK):</strong> Vodafone UK Mobile, Vodafone UK Broadband</li>
+</ul>
+<p><br /><br /></p>
+<p>All companies evaluated in the Index are multinational corporations listed on a major stock exchange. The following factors influenced company selection: </p>
+<p><strong>User Base: </strong>The companies in the Index have a significant footprint in the areas where they operate. The telecommunications companies have a substantial user base in their home markets, and the internet companies have a large number of global users as identified by established global traffic rankings such as Alexa. The policies and practices of the selected companies, and their potential to improve, thus affects a large percentage of the world's 3.75 billion internet users. </p><br />
+<p><strong>Geographic reach and distribution: </strong>The Index includes companies that are headquartered in North America, Europe, Africa, Asia, and the Middle East, and collectively, the companies in the Index have users in many regions around the world. </p><br />
+<p><strong>Relevance to users' freedom of expression and privacy rights:</strong> Most of the companies in the Index operate in or have a significant user base in countries where human rights are not universally respected. This is based on relevant research from such organizations as Freedom House, the Web Foundation, and Reporters Without Borders as well as stakeholder feedback. </p><br />
+<p><br /><br /></p>
+<p>The following factors guided the selection of services: </p>
+<p><strong>Telecommunications services:</strong> These operators provide a breadth of services. To keep the scope of the Index manageable while still evaluating services that directly affect freedom of expression and privacy, the Index focused on: 1) post-paid and pre-paid mobile services, including the reasonable expected mobile offerings of voice, text, and data services; and, 2) fixed-line broadband, in cases where it was available in the company's home operating market. Only consumer services were included.</p>
+<p><strong>Internet services: </strong>Two or three discrete services were selected based on their comparability across companies, the size of their user base, and their ability to paint a fuller picture of the overall company' approach to freedom of expression and privacy. This enabled researchers to discern whether company commitments, policies, and practices applied to the entire corporate entity or only to specific services. </p>
+<p><strong>Mobile ecosystems: </strong>In 2016 most of the world's mobile devices were running either Apple's iOS operating system, or some version of Google's Android mobile operating system. Thus we evaluated Apple's iOS ecosystem plus two different variants of the Android ecosystem: Android on devices controlled directly by Google (the Nexus smartphone and Pixel tablet product lines), and Android on devices controlled by Samsung, which in 2016 held the largest worldwide market share for Android devices. </p>
+<p><br /><br /></p>
+<h2>Evaluation </h2>
+<p>Research for the 2017 Index was conducted from September 1, 2016 through January 13, 2017. New information published by companies after that date was not evaluated. RDR works with a network of international researchers to collect data on each company, and to evaluate company policies in the language of the company's operating market. </p>
+<p>RDR's <a href="https://rankingdigitalrights.org/who/affiliates/">external research team</a> in 2017 consisted of 28 researchers from 19 countries. The <a href="https://rankingdigitalrights.org/2017-research-process/">research process </a>for the 2017 Index consisted of several steps involving rigorous cross-checking and internal and external review.</p>
+<p>Researchers evaluated company disclosure of the overarching "parent, or "group," level as well as well as those of selected services and/or local operating companies (depending on company structure). This enabled the research team to develop as complete an understanding as possible about the level at which companies disclose or apply their policies. </p>
+<p>For internet and mobile ecosystem companies, the parent company typically delivered the services. In some cases the service was also a subsidiary. However, the structure of these companies was generally such that the subsidiary only delivered one service, which made it straightforward to understand the scope of policy disclosure. </p>
+<p>For telecommunications companies, with the exception of AT&T, the parent company did not directly provide consumer services, so researchers also examined a subsidiary or operating company based in the home market to ensure the Index captured operational policies alongside corporate commitments. Given AT&T's external presentation of its group-level and U.S. operating company as an integrated unit, we evaluated the group-level policies for AT&T.</p>
+<p>The evaluation includes an assessment of disclosure for every element of each indicator, based on one of the following possible answers:</p>
+<ul>
+<li>"Yes" - :Company disclosure meets the element requirement. </li>
+</ul>
+<ul>
+<li>"Partial" - Company disclosure has met some but not all aspects of the element, or the disclosure is not comprehensive enough to satisfy the full scope of the what the element is asking for. </li>
+</ul>
+<ul>
+<li>"No disclosure found" - Researchers were not able to find information provided by the company on their website that answers the element question. </li>
+</ul>
+<ul>
+<li>"No" - :Company disclosure exists, but it specifically does not disclose to users what the element is asking. This is distinct from the option of "no disclosure found," although both result in no credit.</li>
+</ul>
+<ul>
+<li>"N/A" - Not applicable. This element does not apply to the company or service. Elements marked as N/A will not be counted for or against a company in the scoring process. </li>
+</ul>
+<h2>Scoring</h2>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Companies receive a cumulative score of their performance across all Index categories, and results show how companies performed by each category and indicator. Scores for the <a href="https://rankingdigitalrights.org/2017-indicators/#F">Freedom of Expression</a> and <a href="https://rankingdigitalrights.org/2017-indicators/#P">Privacy </a>categories are calculated by averaging scores for each individual service. Scores for the <a href="https://rankingdigitalrights.org/2017-indicators/#G">Governance</a> category indicators include parent- and operating-level performance (depending on company type).</p>
+</td>
+<td>
+<p><strong> ::::::::::::::::Points </strong></p>
+<ul>
+<li>Yes = 100</li>
+<li>Partial = 50</li>
+<li>No = 0</li>
+<li>No disclosure found = 0</li>
+<li>N/A excluded from the score and averages</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Governance category scoring</h3>
+<ul>
+<ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G1">G1</a> and<a href="https://rankingdigitalrights.org/2017-indicators/#G5"> G5</a>: </li>
+</ul>
+</ul>
+<ul>
+<li><strong>Internet and mobile ecosystem companies: scores were based on the "group" level scores; </strong></li>
+</ul>
+<ul>
+<li>Telecommunications companies: scores based on average "group" and operating company scores </li>
+</ul>
+<ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G2">G2</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#G3">G3</a>,<a href="https://rankingdigitalrights.org/2017-indicators/#G4"> G4</a>: :</li>
+<ul>
+<li>Internet and mobile ecosystem companies: :scores based on average of "group"-level and services scores;</li>
+<li>Telecommunications companies: Average of group, operating, and services scores </li>
+</ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G6">G6</a>: </li>
+<ul>
+<li>Internet and mobile ecosystem companies: Average of service-level scores.</li>
+<li>Telecommunications companies: Average of service-level scores.</li>
+</ul>
+</ul>
+<p><br /><br /></p>
+<h3>Indicator and element scoring</h3>
+<p>Telecommunications companies were evaluated on 32 of the 35 indicators; internet and mobile ecosystem companies were evaluated on 33 of the 35 indicators. Some elements within indicators were not applicable to certain services. </p>
+<p>The following list identifies which indicators or elements were N/A for certain companies or services:</p>
+<ul>
+<li>F3, Element 2: N/A for search engines</li>
+<li>F3, Elements 4-5: N/A for pre-paid and post-paid mobile services, </li>
+<li>F5-F7: N/A for e-mail services</li>
+<li>F6, Element 2: N/A for search engines</li>
+<li>F7, Element 2:N/A for search engines </li>
+<li>F8, Element 1: N/A for telecommunications companies </li>
+<li>F8, Elements 1 & 4: N/A for search engines</li>
+<li>F8, Elements 1-3: N/A for email services</li>
+<li>F9: N/A for internet companies and mobile ecosystems</li>
+<li>F10: N/A for internet companies and mobile ecosystems</li>
+<li>F11: N/A for post-paid mobile and fixed-line internet services; search engines</li>
+<li>P9: N/A for telecommunications companies</li>
+<li>P14, Elements 5, 6, 9: N/A for internet companies</li>
+<li>P16: N/A for telecommunications companies</li>
+<li>P16, Elements 3-4: N/A for internet services without private messaging functions</li>
+<li>P17: N/A for telecommunications companies; search engines</li>
+</ul>
+<p> The following elements apply only to mobile ecosystems:</p>
+<ul>
+<li>P1, Element 4</li>
+<li>P2, Element 5</li>
+<li>P3, Elements 4-5</li>
+<li>P4, Elements 5-6</li>
+<li>P6, Elements 6-7</li>
+<li>P7, Element 5</li>
+<li>P8, Element 5</li>
+<li>P14, Elements 4, 7-8</li>
+</ul>
+<p><br /><br /></p>
+<p><strong>Go the results of the 2017 Index.</strong></p>
