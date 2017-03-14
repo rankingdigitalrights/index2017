@@ -9,6 +9,8 @@ company_type: Telecommunications company
 display: Orange
 headquarters: France
 link: https://www.orange.com
+operating: Orange France
+
 
 telco: true
 
