@@ -42,9 +42,9 @@ module.exports = BaseChart.extend({
 
       var label = {name: company, val: total};
       var chart = new ServiceCircleChart(_.extend({
-        width: 120,
-        height: 120,
-        diameter: 120 * 0.95,
+        width: 135,
+        height: 140,
+        diameter: 135 * 0.95,
         data: data,
         label: label
       }));

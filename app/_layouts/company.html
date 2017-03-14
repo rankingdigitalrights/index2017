@@ -44,6 +44,13 @@
               </a> 
             </div> 
 
+            {% if page.operating %}
+            <div class="comp--sub_operating">
+              <label>Operating Company Evaluated:</label>
+              {{ page.operating }} 
+            </div>
+            {% endif %}
+
           </div>
 
           <div class="container--right">

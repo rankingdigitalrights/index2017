@@ -9,6 +9,7 @@ company_type: Telecommunications company
 display: América Móvil, S.A.B. de C.V.
 headquarters: Mexico
 link: https://www.americamovil.com
+operating: Telco
 
 telco: true
 
