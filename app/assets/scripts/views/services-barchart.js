@@ -64,10 +64,6 @@ module.exports = BaseChart.extend({
     var g = svg.append('g')
       .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
 
-    g.append('path')
-    .attr('class', 'domain')
-    .attr('d', 'M0,0V1H' + this.width + 'V0')
-    .style('fill', '#b1b1b1');
 
     g.append('g')
       .attr('class', 'bar--axis_x')
@@ -125,6 +121,28 @@ module.exports = BaseChart.extend({
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
 
+
+/**************************************
+ ************ Governance bars *********
+ **************************************/
+
+//  background bars
+    var barsGBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsGBg.transition()
+      .duration(200)
+      .attr('y', d => this.y())
+      .attr('height', d => this.height);
+
+
+// value bars
     var barsG = g.selectAll('.barG')
       .data(this.data)
       .enter().append('rect')
@@ -146,6 +164,26 @@ module.exports = BaseChart.extend({
       .on('mouseover', this.tipG.show)
       .on('mouseout', this.tipG.hide);
 
+/*************************************************
+ ************ Freedom of expression bars *********
+ *************************************************/
+
+// background bars
+    var barsGBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.service))
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsGBg.transition()
+      .duration(200)
+      .attr('y', d => this.y())
+      .attr('height', d => this.height);
+
+// value bars
     var barsFoE = g.selectAll('.barFoE')
       .data(this.data)
       .enter().append('rect')
@@ -167,6 +205,27 @@ module.exports = BaseChart.extend({
       .on('mouseover', this.tipFoE.show)
       .on('mouseout', this.tipFoE.hide);
 
+
+/**************************************
+ *************** Privacy bars *********
+ **************************************/
+
+//  background bars
+    var barsGBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsGBg.transition()
+      .duration(200)
+      .attr('y', d => this.y())
+      .attr('height', d => this.height);
+
+// values bars
     var barsP = g.selectAll('.barP')
       .data(this.data)
       .enter().append('rect')

@@ -18,7 +18,7 @@ module.exports = BaseChart.extend({
     this.updateDimensions(options.width, options.height);
 
     this.x = d3.scale.ordinal()
-      .rangeRoundBands([0, this.width], 0.08)
+      .rangeRoundBands([0, this.width], 0.25)
       .domain(this.data.map((d) => d.name));
 
     this.y = d3.scale.linear()
@@ -96,6 +96,20 @@ module.exports = BaseChart.extend({
       .attr('y', 6)
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
+
+      var barsBg = g.selectAll('.barBg')
+      .data(this.data)
+    .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.name))
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsBg.transition()
+      .duration(200)
+      .attr('y', d => this.y())
+      .attr('height', d => this.height);
 
     var bars = g.selectAll('.bar')
       .data(this.data)
