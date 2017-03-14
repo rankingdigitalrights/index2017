@@ -142,7 +142,7 @@ published: true
 <h2>For governments</h2>
 <p>Full corporate accountability will only be achieved when governments are also held accountable. Governments must work with the private sector and civil society to ensure that legal and regulatory frameworks make it possible for companies respect digital rights. </p>
 <ul>
-<li></strong>Publish government transparency reports</strong> that disclose the volume, nature, and legal basis for requests made to companies to share user information or restrict speech. This should be a fundamental component of any nation's <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">commitment to open government</a>.</li>
+<li><strong>Publish government transparency reports</strong> that disclose the volume, nature, and legal basis for requests made to companies to share user information or restrict speech. This should be a fundamental component of any nation's <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">commitment to open government</a>.</li>
 </ul>
 <ul>
 <li><strong>Ensure that laws and regulations allow companies to be transparent and accountable </strong>with users about how they receive and handle government requests.</li>
