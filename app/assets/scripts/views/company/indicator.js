@@ -81,7 +81,7 @@ module.exports = BaseChart.extend({
         var yAxis = d3.svg.axis()
             .scale(y)
             //no tick marks
-            .tickSize(0)
+            .tickSize(.1)
             .orient("right");
 
         var gy = svg.append("g")
