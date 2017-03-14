@@ -5,53 +5,178 @@ entity: findings
 header: Recommendations
 published: true
 ---
+<p>Based on what we have learned from the Index results, below are recommendations for companies as well as for governments.</p>
 
-**There are no “winners.” Even companies in the lead are falling short.** Across the board, companies need to improve their commitments to, and disclosures of, policies and practices that affect users’ freedom of expression and privacy. The quality of companies’ disclosed policies and practices often fell short of stated commitments. There is much room for improvement even among companies that have made considerable – even laudable – efforts in certain areas.
+<p>ToC with anchored links to headers with # below, or some sort of click-to-expand</p>
+<ul>
+<li>For companies [insert anchor link]
+<li>Governance and general recommendations [insert anchor link]
+<li>Mobile ecosystems
+<li>Freedom of expression
+<li>Handling of user information
+<li>Security
+</ul>
 
-No company in the Index provides users with sufficiently clear, comprehensive, and accessible information about the practices they have in place that affect freedom of expression and privacy. These include the handling of user information, terms of service enforcement, government requests and private requests.
-
-**Nine companies can be considered to have made meaningful efforts to respect users’ rights.** However, companies’ efforts and disclosures were uneven and inadequate in many of their specifics. The top scoring company (Google) received 65 percent of the total possible score. Five other companies (Yahoo, Microsoft, Vodafone, Twitter, and AT&T) scored at least 50 percent. Three more (Kakao Corp, Facebook Inc., Orange) scored between 30-49 percent.
-
-**Seven companies – nearly half – suffer from a serious deficit in respect for users’ freedom of expression and privacy.** América Móvil, MTN, Bharti Airtel, Tencent, Axiata, Etisalat, and Mail.ru scored between 13-22 percent. While some of these companies face substantial legal and regulatory obstacles to making commitments and disclosures related to freedom of expression and privacy in the jurisdictions where they are headquartered or operate, our research identified many indicators on which all companies in the bottom half of the Index can improve even if their legal and regulatory environments do not change.
-
-**Despite Europe’s strong data protection laws, the two E.U.-based telecommunications companies were not Index leaders on disclosure of policies and practices related to the handling of user information.** Both Vodafone and Orange suffer from significant gaps in their public disclosures about the collection, retention, and sharing of user information. Surveillance and national security laws in those companies’ home countries are a substantial impediment to greater transparency about the volume and nature of government requests received to share user information. Nonetheless, our research identifies many areas in which these companies can improve, even without necessary legal reforms.
-
-**Some Internet companies fail to effectively communicate key commitments, policies, and practices that are relevant to their users.** The best-performing Internet companies provided easily accessible and well-organized privacy policies and terms of service, and they regularly published “transparency reports” that disclosed the frequency and nature of government and private requests. Some of the companies, despite making meaningful efforts to respect users’ rights, shared information about broader commitments, along with evidence for how those commitments are being implemented, through scattered tweets or blog posts, rather than offering a centralized overview of such information. By contrast, the telecommunications companies that performed best in the Index have clearly organized policy pages and documents on their own websites that are easy to locate and that articulate the company’s commitments and policies. Yet those companies suffer from significant gaps in disclosure.
-
-**In sum, users are left in the dark about many company practices that affect freedom of expression and privacy.** Even for a very committed and concerned user who is willing to search news databases, pore over terms of service, and parse through privacy policies, it is impossible to formulate a clear picture about how the ranked companies’ practices may affect the user’s freedom of expression and privacy. Even our team of researchers, working full time for several months, struggled to draw definitive conclusions after evaluating many companies’ practices and policies – often times, because the relevant disclosures were disorganized, unclear, and sometimes even contradictory. In other cases, there were simply too many gaps in disclosure – or no disclosure at all – for entire categories of policy and practice.
-
-More specifically, the Index results point to some bad news as well as some good news when it comes to companies’ respect for users’ freedom of expression and privacy.
-
-### The bad news
-
- * **Disclosure about collection, use, sharing, and retention of user information is generally poor.** Even ranked companies that make efforts to publish such information are failing to communicate clearly with users about what information is collected about them, with whom it is shared, under what circumstances, and for how long they keep this information. This lack of clarity means that users, and especially at-risk users such as journalists, activists, or anyone living under a repressive regime, are not fully aware of who can access what specific information the company holds about them.
-
- All companies except Orange and Mail.ru’s email and chat services make their privacy policies publicly available to people who have not signed up or subscribed. Nearly all companies take some steps to present these policies in a manner that is easy for users to understand. However, even policies that are visually appealing and written in everyday language lack specificity, particularly related to what user information companies share and what control users have over their data. This is significant because it makes it more difficult for individuals to make decisions about information that is essentially private, and the sharing of such information risks enabling third parties to learn about their activities, interests, and connections.
-
- * **Disclosure about private requests to restrict content or share user information is minimal or ambiguous at best – and often non-existent.** As described in the [What & Why]({{ site.baseurl }}/whatwhy) section, companies receive requests to restrict content or share user data from different types of third parties. In many cases these requests come from entities or individuals acting independently of any governmental authority, court, or judicial process.
-
- As noted in the “good news” section below, companies are expanding disclosure and “transparency reporting” about government requests. Unfortunately, most companies’ disclosure does not include information about private third-party requests, even when those requests come with a court order or subpoena, or are made in accordance with established legal processes such as a copyright “notice and takedown” system. Even fewer companies disclose any information about whether – let alone the extent to which – they receive or respond to private or informal requests, which are requests to restrict content or share user information that are made outside of any official or legal process. While some companies told our researchers in private communications that they have no such disclosures because they have policies of never entertaining such requests, such requests do exist, and companies have failed to communicate relevant policies to users.
-
- * **No company in the Index discloses *any information whatsoever* about the volume and type of user content that is deleted or blocked when enforcing its own terms of service.** As a result, indicator [F9]({{ site.baseurl }}/indicators/f9), which examines data about terms of service enforcement, was the only indicator in the entire Index on which every single company received zero points. Some companies objected to this indicator, arguing that such disclosure would be infeasible and counterproductive. Yet given the key role these companies play in facilitating the communication and expression of billions of people, their legitimacy as channels of expression hinges on how well they are governed. Without any insight into how companies implement their own terms of service and other key policies, stakeholders have [raised doubts](https://advox.globalvoices.org/2015/08/06/we-will-choke-you-how-indian-women-face-fatal-threats-on-facebook-while-trolls-roam-free/) about companies’ commitment to users’ freedom of expression. Even if the most effective approach to greater transparency about terms of service enforcement has yet to be found, companies that face controversies surrounding their enforcement would be wise to take user concerns seriously.
-
- * **Even if companies’ public disclosures may satisfy regulators, they omit information and context that users need.** A number of companies in the Index comply with privacy laws that impose requirements about, for example, what user information can be collected and retained under what circumstances. Other companies comply with laws that make it illegal to respond to requests not made through legally binding processes. Others comply with “net neutrality” regulations. Unfortunately, in a number of cases, these companies do not communicate with users about the legal framework in which they operate and how they are complying.
-
- The lack of communication with users makes sense for a company that considers regulators, not users, to be its primary audience. It also makes sense if one expects users to be highly conversant in their home countries’ telecommunications and Internet related laws and regulations. However, it is our position that companies that seek to demonstrate respect for users’ rights should consider users as their primary – not secondary – audience in public communications about commitments, policies, and practices. It is reasonable to expect companies to provide basic disclosure about how they manage users’ private information, as well as access to information and communications flows, in the course of complying with laws.
-
- * **Companies lack comprehensive grievance and remedy mechanisms.** In the Commitment category of the Index, we examined how companies approach mechanisms for stakeholders to report grievances, and what processes they have in place to offer meaningful remedy. (See the [What & Why]({{ site.baseurl }}/whatwhy) section for discussion of remedy as a core element of companies’ respect for human rights.) We looked for easily accessible and readily displayed options for users to report concerns related to freedom of expression and privacy. Among the ranked companies, the tone of their existing disclosures did not suggest that improvement on the existing communications avenues between the user and the company was a priority. Few companies met the expectations for remedy articulated by the U.N. Guiding Principles. This highlights a considerable gap between what service providers see as sufficient and what [user advocates expect](https://s3.amazonaws.com/access.3cdn.net/fd15c4d607cc2cbe39_0nm6ii982.pdf) as best practice, leaving much room for an open dialogue on what meaningful grievance and remedy practices for freedom of expression and privacy should look like. Notably, the company scoring highest points for remedy in the Index was Bharti Airtel of India, while the highest-scoring Internet company on remedy was Kakao of South Korea. In both cases these companies’ strong performance is largely due to legal requirements in their home markets. For further discussion, see the [Commitment]({{ site.baseurl }}/categories/commitment) analysis section and the individual company report pages.
-
- * **The lack of end-to-end encryption makes private communications vulnerable to interception, sharing with third parties, and data breaches.** End-to-end encryption prevents even companies themselves from accessing the content of users’ communications. With the exception of optional encryption on a messaging service of one company (Kakao), none of the ranked Internet companies offer end-to-end encryption by choice, let alone by default, for communications that users want to keep private and confidential.
-
- * **In some instances, current laws and regulations make it more difficult for companies to respect freedom of expression and privacy.** However, companies can still take actions to improve. Some ranked companies are headquartered in countries whose laws and regulations governing Internet and telecommunications companies conflict with international human rights standards for freedom of expression and privacy. In most countries where the ranked companies operate, national security laws can forbid disclosure of certain types of government demands for user data, or other surveillance requirements. Some companies face more domestic, political, legal, and regulatory obstacles to respecting users’ rights than others, because some countries’ political and legal frameworks are less compatible with international human rights standards. Nonetheless, we have identified ways that all companies can improve their performance, even without changes to their political, legal, and regulatory environments. Please see the discussion of government requests and regulatory environments in the [What & Why]({{ site.baseurl }}/whatwhy) page for further context, and see the company reports in Section 5 for concrete examples of specific companies in specific countries.
-
-### The good news
-
- * **Corporate respect for freedom of expression and privacy is a global value.** While most of the companies demonstrating meaningful efforts are North American and European, one is from East Asia. The relatively strong performance of the South Korean company, Kakao, in this Index underscores how respect for freedom of expression and privacy has universal resonance.
-
- * **Every company does *something* well.** Consider the following examples among companies whose overall scores totaled less than 25 percent: Bharti Airtel of India scored higher than other companies for its grievance and remedy mechanisms. Tencent of China publishes entertaining videos for users of its QQ messaging service about how to protect themselves against cyber threats. MTN, headquartered in South Africa with operations across Africa and the Middle East, has group-wide policy commitments to freedom of expression and privacy, and its board of directors has set up a committee to oversee these commitments. América Móvil, headquartered in Mexico, publicly commits to carry out due diligence on third-party requests for user information before deciding how to respond. The messaging service run by Mail.ru of Russia encrypts transmission of user communications by default. For more detailed company analysis, please see the company report pages.
-
- * **“Transparency reporting” is becoming a standard practice.** Even since our research period ended, companies have continued to expand and improve the information they publish about third-party requests to restrict content or share user information. Nine of the 16 companies in the Index publish some form of “transparency report” that covers at least some types of third-party requests. However, there is wide variation in clarity, comprehensiveness, and quality of such reporting, and no company covers all types of third-party requests. For more detail see the category analysis pages of this website as well as the individual pages for indicators [F7]({{ site.baseurl }}/indicators/f7), [F8]({{ site.baseurl }}/indicators/f8), and [P11]({{ site.baseurl }}/indicators/p11) on the project website.
-
- * **Nearly half of the ranked companies have backed up their commitments to freedom of expression and privacy by disclosing concrete measures they have taken to implement those commitments.** Seven companies in the Index earned more than 50 percent in the “Commitment” section. Notably, all of these seven companies are members of the Global Network Initiative (GNI), a multi-stakeholder initiative focused on upholding principles of freedom of expression and privacy in relation to government requests, or the Telecommunications Industry Dialogue, an industry organization also focused on freedom of expression and privacy. For further discussion of how participation in initiatives that are committed to upholding key human rights principles is proving to be an essential factor in companies’ articulation and implementation of commitments, please see the [Commitment]({{ site.baseurl }}/categories/commitment) analysis section.
-
- * **All companies can improve their performance in the short to medium term, even without legal or regulatory changes.** See the [Recommendations]({{ site.baseurl }}/recommendations) page for ways in which all companies can improve. Each company report also discusses how each company can improve, even without any changes to their broader legal and regulatory environments, market conditions, or business models.
+<h2>For companies</h2>
+<p>All companies in the Index can make improvements. Below is a basic guide. More specific recommendations for each company can be found in the individual company report cards. </p>
+<h3>Governance and general recommendations</h3>
+<ul>
+<li><strong>Communicate with users in a clear, accessible, and organized way.</strong> Companies should disclose and explain how they comply with laws and what that compliance means for users. Companies that are serious about demonstrating respect for users' rights should strive for well-organized disclosures in places that users can reasonably be expected find. Users should not have to depend on external sources or be specialists in telecommunications or privacy law in order to learn about the company's commitments and practices.</li>
+</ul>
+<ul>
+<li><strong>Disclose evidence that the company has institutionalized its commitments. </strong>It is great for a company to have leaders with strong personal commitments to users' rights, who make strong statements in speeches and the media. However long-term respect for users' rights requires that such commitments are clearly institutionalized. This bolsters external confidence that the company's implementation of commitments and principles does not depend on specific individuals remaining employed by the company.</li>
+</ul>
+<ul>
+<li><strong>Conduct regular assessments to determine the impact of the company's products, services, and business operations on users' freedom of expression and privacy.</strong> Several companies in the Index conduct different types of human rights impact assessments, a systematic approach to due diligence that enables companies to identify risks to users' freedom of expression and privacy as well as opportunities for companies to enhance users' enjoyment of those rights. While it may be counterproductive for companies to publish all details of their processes and findings, it is important to disclose information about the fact that the company conducts assessments and basic information about the scope, frequency, and use of these assessments. For such disclosures to be credible, companies' assessments should be assured by an external third party accredited by an independent body whose own governance structure demonstrates strong commitment and accountability to human rights principles. As of 2017, only the Global Network Initiative meets the requirements for such an accrediting organization.</li>
+</ul>
+<ul>
+<li><a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf"><strong>Publish</strong></a><strong> transparency reports</strong> including the the volume, nature, and legal basis of requests made by governments and other third parties to access user information or restrict speech. Disclosures should <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">include information about</a> the number or percentage of requests complied with, and about content or accounts restricted or removed under the company's own terms of service.</li>
+</ul>
+<ul>
+<li><strong>Commit to push back against excessively broad or extra-legal requests, including in a court of law</strong> while complying with bona fide requests to restrict speech or share user information within the bounds of the law. Companies should use every opportunity available to pressure governments to move away from mass surveillance and institute meaningful oversight over national security and law enforcement authorities.</li>
+</ul>
+<ul>
+<li><strong>Make clear to users what types of requests the company will - and will not - consider, from what types of parties. </strong>For example: some companies make clear that they will only accept government requests for user information via specified channels and that they will not respond to private requests. Other companies do not disclose any information about whether they may consider private requests. Without clear policy disclosure about the types of requests the company is willing to entertain, users will lack sufficient information about risks that they may take when using a service. </li>
+</ul>
+<ul>
+<li><strong>Establish effective grievance and remedy mechanisms.</strong> Grievance mechanisms and remedy processes should be more prominently available to users. Companies should more clearly indicate that they accept concerns related to potential or actual violations of freedom of expression and privacy as part of these processes. Beyond this, disclosure pertaining to how complaints are processed, along with reporting on complaints and outcomes, would add considerable support to stakeholder perception that the mechanisms follow strong procedural principles and that the company takes its grievance and remedy mechanisms seriously.</li>
+</ul>
+<p><br /></p>
+<h3>Mobile ecosystems</h3>
+<ul>
+<li><strong>Recognize app store content as a freedom of expression issue.</strong> Companies that have committed to freedom of expression principles should ensure that mobile ecosystems and app stores are clearly covered by due diligence and governance processes necessary to implement those principles. </li>
+</ul>
+<ul>
+<li><strong>Clearly disclose policies and processes for handling requests to remove or pre-emptively restrict apps</strong>, whether such requests come from governments or from other entities. Companies should also disclose in their transparency reports information about app removals and restrictions from their app store, including the number of requests received and complied with as well as data about apps or other content removed in the process of terms of service enforcement.<br /><br /></li>
+<li><strong>Commit to enforce app store terms of service that require all apps collecting user information to have a privacy policy. </strong>Commit to evaluate the content of those privacy policies, and disclose information about this enforcement process in transparency reports.<br /><br /></li>
+<li><strong>Commit to deliver all security updates to users within 30 days </strong>of a patch being made available. Companies should also clearly communicate to users for how long after purchase (or until what date) they should expect to receive software updates.</li>
+</ul>
+<h3>Freedom of expression</h3>
+<ul>
+<li><strong>Improve transparency and accountability about all types of third-party requests to restrict content or user accounts</strong> - government requests as well as requests by private individuals and organizations. To the maximum extent possible under the law, companies should publish comprehensive information (including transparency reports) related to the following types of third-party requests:</li>
+</ul>
+<ul>
+<ul>
+<li>Process for responding to all types of third-party requests to restrict content, access, or service;</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Data about government requests to restrict content, access, or service;</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Data about private requests for content restriction.</li>
+</ul>
+</ul>
+<p>If a company does not receive or entertain a particular type of request, or if it doesn't entertain requests from certain types of third parties (e.g., private individuals acting without legal authority), the company should also clearly disclose that information.</p>
+<ul>
+<li><strong>Telecommunications companies should provide as much information as possible about their policies for responding to network shutdowns</strong>, including details such as the number of requests they received and the number with which they complied.</li>
+</ul>
+<ul>
+<li><strong>Companies that host or serve as a conduit for content should disclose sufficient detail to meet standards for transparency and accountability around terms of service enforcement. </strong>Specifically, companies should publish data on a regular basis about the volume and nature of content removals and account restrictions that the company makes to enforce its terms of service so that users have a clearer understanding of the level of effort the company is making to keep different types of speech from appearing on or through its service.</li>
+</ul>
+<ul>
+<li><strong>Where the law does not explicitly mandate it</strong>, <strong>refrain from requiring users to register their identity, </strong>such as by providing a government-issued document or a credit card (other than for billing purposes, if applicable). </li>
+</ul>
+<h3>Handling of user information</h3>
+<ul>
+<li><strong>Provide users with a more comprehensive picture of the lifecycle of their personal information, from collection to use to sharing to retention and deletion. </strong>Disclosures should include: </li>
+</ul>
+<ul>
+<ul>
+<li>What specific types of information the company collects (P3);</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>How the company collects that information (e.g., does a company ask users to provide certain information, or does the company collect it automatically?) (P3); </li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Whether users have an option not to provide that information (P7); </li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Specifically, what information the company shares and with whom (P4);</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Why the company shares that information (P5);</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Whether -and the extent to which - users can control how their information is used (P7);</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>How long the company retains that information (P6);</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Whether the user can access all public-facing and private user information a company holds about them (P8);</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Whether and how the company destroys that information when users delete their accounts or cancel their service (P6). </li>
+</ul>
+</ul>
+<h3>Security</h3>
+<ul>
+<li><strong>Disclose clear information about policies for addressing security vulnerabilities.</strong> This disclosure should include bug bounty programs and the company's practices for relaying security updates to mobile phones. </li>
+</ul>
+<ul>
+<li><strong>Disclose processes for mitigating the risk and severity of data breaches. </strong>Companies should also disclose procedures for dealing with breaches when they occur. Communicate with users and provide them with an appropriate remedy.</li>
+</ul>
+<ul>
+<li><strong>Where permitted by law, publicly commit to implement the highest encryption standards available. </strong>This disclosure should include encryption in transit, end-to-end encryption, and forward secrecy. At minimum, make it possible for users to encrypt their own data as securely as possible and communicate this to users clearly.. Where the law prohibits strong encryption, clearly say so to users, explaining the specific legal barrier and the potential consequences for user privacy and safety. </li>
+</ul>
+<h2>For governments</h2>
+<p>Full corporate accountability will only be achieved when governments are also held accountable. Governments must work with the private sector and civil society to ensure that legal and regulatory frameworks make it possible for companies respect digital rights. </p>
+<ul>
+<li><a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">Publish</strong></a><strong> government transparency reports</strong> that disclose the volume, nature, and legal basis for requests made to companies to share user information or restrict speech. This should be a fundamental component of any nation's <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">commitment to open government</a>.</li>
+</ul>
+<ul>
+<li><strong>Ensure that laws and regulations allow companies to be transparent and accountable </strong>with users about how they receive and handle government requests.</li>
+</ul>
+<ul>
+<li><strong>Carry out human rights due diligence to ensure that laws and regulations governing ICT sector companies do not have a negative impact on internet users' freedom of expression and privacy</strong> as defined by the <a href="http://www.un.org/en/universal-declaration-human-rights/">Universal Declaration of Human Rights</a> and international human rights instruments such as the <a href="http://www.ohchr.org/en/professionalinterest/pages/ccpr.aspx">International Covenant on Civil and Political Rights</a>.</li>
+</ul>
+<ul>
+<li><strong>Reform surveillance-related laws</strong> and practices to comply with the thirteen <a href="https://necessaryandproportionate.org/principles">"Necessary and Proportionate" principles</a>, a framework for assessing whether current or proposed surveillance laws and practices are compatible with international human rights norms.</li>
+</ul>
+<ul>
+<li><strong>Require companies to implement effective mechanisms for grievance and remedy </strong>that are accessible to users who believe that their freedom of expression and privacy rights have been violated in connection with the use of companies' products and services.</li>
+</ul>
+<ul>
+<li><strong>Limit legal liability imposed on companies for their users' speech and other activities, </strong>consistent with the Manila Principles on Intermediary Liability, a framework of baseline practices and standards to ensure that regulation of ICT sector companies does not result in the violation of users' rights.</li>
+</ul>
+<ul>
+<li><strong>Respect the right to anonymous online activity </strong>as central to freedom of expression, privacy and human rights. Refrain from requiring companies to document users' identities when it is not essential to provision of service.</li>
+</ul>
+<ul>
+<li><strong>Develop effective data protection regimes and privacy regulations </strong>in consultation with industry and civil society, with impact assessments to ensure that the laws can avoid unintended consequences for freedom of expression.</li>
+</ul>
+<ul>
+<li><strong>Require companies to clearly disclose to users the full lifecycle of their information</strong>, from collection to use to sharing to retention and deletion.</li>
+</ul>
+<ul>
+<li><strong>Require companies to give users more control over the collection and sharing of their information</strong>, and to clearly disclose how users can exercise such control. </li>
+</ul>
+<ul>
+<li><strong>Do not enact laws and policies that undermine encryption</strong>. <a href="https://www.ourinternet.org/report#chapter-section--encryption-and-anonymity">Strong encryption is vital</a> not only for human rights but also for economic and political security.</li>
+</ul>
+<ul>
+<li><strong>Support appropriate incentives for companies to adopt industry standard security practices</strong> and encourage appropriate disclosure to users.</li>
+</ul>
+<ul>
+<li><strong>Encourage companies to implement and disclose appropriate policies and procedures for data breaches</strong>, including through relevant legislation.</li>
+</ul>
