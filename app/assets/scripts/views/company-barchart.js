@@ -53,7 +53,7 @@ module.exports = BaseChart.extend({
     var g = svg.append('g')
       .attr('transform', 'translate(-10,0)');
 
-      var count = 1;
+    var count = 1;
     g.append('g')
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
@@ -73,7 +73,7 @@ module.exports = BaseChart.extend({
 
        var barsBg = g.selectAll('.barBg')
       .data(this.data)
-    .enter().append('rect')
+      .enter().append('rect')
       .style('fill', '#E5DBD2')
       .attr('x', (d, i) => this.x(d.name))
       .attr('width', this.x.rangeBand())
@@ -81,13 +81,13 @@ module.exports = BaseChart.extend({
       .attr('height', 0);
 
     barsBg.transition()
-      .duration(2)
-      .attr('y', d => this.y())
+      .duration(1000)
+      .attr('y', '0')
       .attr('height', d => this.height);
 
     var bars = g.selectAll('.bar')
       .data(this.data)
-    .enter().append('rect')
+      .enter().append('rect')
       .attr('x', (d, i) => this.x(d.name))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
@@ -96,7 +96,7 @@ module.exports = BaseChart.extend({
       .on('mouseout', this.tip.hide);
 
     bars.transition()
-      .duration(2)
+      .duration(2500)
       .attr('y', d => this.y(d.val))
       .attr('height', d => this.height - this.y(d.val));
 

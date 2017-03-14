@@ -107,8 +107,8 @@ module.exports = BaseChart.extend({
       .attr('height', 0);
 
     barsBg.transition()
-      .duration(200)
-      .attr('y', d => this.y())
+      .duration(1000)
+      .attr('y','0')
       .attr('height', d => this.height);
 
     var bars = g.selectAll('.bar')
@@ -132,7 +132,7 @@ module.exports = BaseChart.extend({
       .on('mouseout', this.tip.hide);
 
     bars.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.val))
       .attr('height', d => this.height - this.y(d.val));
 

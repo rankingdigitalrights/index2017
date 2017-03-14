@@ -137,8 +137,8 @@ module.exports = BaseChart.extend({
       .attr('height', 0);
 
     barsGBg.transition()
-      .duration(200)
-      .attr('y', d => this.y())
+      .duration(1000)
+      .attr('y', '0')
       .attr('height', d => this.height);
 
 
@@ -179,8 +179,8 @@ module.exports = BaseChart.extend({
       .attr('height', 0);
 
     barsGBg.transition()
-      .duration(200)
-      .attr('y', d => this.y())
+      .duration(1000)
+      .attr('y', '0')
       .attr('height', d => this.height);
 
 // value bars
@@ -221,8 +221,8 @@ module.exports = BaseChart.extend({
       .attr('height', 0);
 
     barsGBg.transition()
-      .duration(200)
-      .attr('y', d => this.y())
+      .duration(1000)
+      .attr('y', '0')
       .attr('height', d => this.height);
 
 // values bars
@@ -250,15 +250,15 @@ module.exports = BaseChart.extend({
       
 
     barsG.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.g))
       .attr('height', d => this.height - this.y(d.g));
     barsFoE.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.foe))
       .attr('height', d => this.height - this.y(d.foe));
     barsP.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.p))
       .attr('height', d => this.height - this.y(d.p));
     
