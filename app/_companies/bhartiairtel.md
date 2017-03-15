@@ -9,7 +9,7 @@ company_type: Telecommunications company
 display: Bharti Airtel Limited
 headquarters: India
 link: https://www.airtel.in
-operating company: Airtel India
+operating: Airtel India
 
 
 telco: true
