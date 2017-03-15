@@ -90,6 +90,17 @@ module.exports = BaseChart.extend({
                 .selectAll("text")  
                 .attr("x", 110);
 
+// background bars
+        var barsBg = svg.selectAll(".barBg")
+            .data(data)
+            .enter().append("rect")
+            .style('fill', '#E5DBD2')
+            .attr("x", "0")
+            .attr("y", function(d) { return y(d.name); })
+            .attr("width", width)
+            .attr("height", y.rangeBand());
+
+// value bars
         var bars = svg.selectAll(".bar")
             .data(data)
             .enter().append("rect")
@@ -108,7 +119,7 @@ module.exports = BaseChart.extend({
                 // console.info(xyz);
                 return Math.abs(x(neg) - x0); 
             })
-            .attr("height", y.rangeBand());
+            .attr("height", y.rangeBand());       
             
 
         //add a value label to the right of each bar
