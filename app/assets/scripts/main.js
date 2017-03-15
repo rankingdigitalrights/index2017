@@ -137,3 +137,12 @@ dropdownFn();
   });
 
 })();
+
+$(document).ready(function() { 
+    var $root = $('html, body');
+    var ancloc = window.location.hash;
+        $root.animate({
+            scrollTop: $(ancloc).position().top,
+        }, 2500);
+        return false;
+});

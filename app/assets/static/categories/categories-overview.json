@@ -7,7 +7,7 @@
       },
       "id":"google",
       "name":"google",
-      "commitment":{  
+      "governance":{  
          "val":"71.04",
          "rank":"6"
       },
@@ -22,7 +22,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"87.45",
          "rank":"2"
       },
@@ -44,7 +44,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"87.50",
          "rank":"1"
       },
@@ -66,7 +66,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"29.77",
          "rank":"11"
       },
@@ -88,7 +88,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"35.37",
          "rank":"9"
       },
@@ -110,7 +110,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"81.30",
          "rank":"3"
       },
@@ -132,7 +132,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"17.64",
          "rank":"14"
       },
@@ -154,7 +154,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"66.71",
          "rank":"7"
       },
@@ -176,7 +176,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"81.30",
          "rank":"4"
       },
@@ -198,7 +198,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"8.56",
          "rank":"17"
       },
@@ -220,7 +220,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"8.61",
          "rank":"16"
       },
@@ -242,7 +242,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"21.76",
          "rank":"12"
       },
@@ -264,7 +264,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"57.50",
          "rank":"8"
       },
@@ -286,7 +286,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"7.43",
          "rank":"19"
       },
@@ -308,7 +308,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"73.89",
          "rank":"5"
       },
@@ -330,7 +330,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"20.83",
          "rank":"13"
       },
@@ -352,7 +352,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"2.78",
          "rank":"20"
       },
@@ -374,7 +374,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"0.00",
          "rank":"22"
       },
@@ -396,7 +396,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"15.56",
          "rank":"15"
       },
@@ -418,7 +418,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"30.56",
          "rank":"10"
       },
@@ -440,7 +440,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"8.33",
          "rank":"18"
       },
@@ -462,7 +462,7 @@
       }
    },
    {  
-      "commitment":{  
+      "governance":{  
          "val":"1.67",
          "rank":"21"
       },

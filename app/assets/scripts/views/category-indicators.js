@@ -25,7 +25,7 @@ module.exports = BaseChart.extend({
         }
         return {
           name: model.get('name'),
-          indicator: model.get('id').toLowerCase(),
+          indicator: model.get('id'),
           text: text,
           baseurl
         };

@@ -19,6 +19,7 @@ module.exports = BaseChart.extend({
     this.collection.each(function (model) {
       var id = model.attributes.indicator;
       var view = new IndicatorView({
+        id: id,
         model: model,
         width: width,
         indicator_id: id

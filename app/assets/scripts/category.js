@@ -19,7 +19,7 @@ module.exports = function generateCategory (category) {
   var overview = new Overview();
   var overviewSuccess = function () {
     // var data = overview.map(function (model) {
-      if (category === 'commitment') {
+      if (category === 'governance') {
         var data = overview.map(function (model) {
           var cat = model.get(category);
           return {

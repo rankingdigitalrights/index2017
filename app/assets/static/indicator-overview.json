@@ -268,7 +268,7 @@
 	},
 	{
 		"text": "The company should clearly disclose and regularly publish data about the volume and nature of actions taken to restrict content or accounts that violate the company's rules.",
-		"id": "F4 ",
+		"id": "F4",
 		"name": "F4. Data about terms of service enforcement",
 		 "scores": {
 	"América Móvil": "0.00",
@@ -297,7 +297,7 @@
 	},
 	{
 		"text": "The company should clearly disclose its process for responding to government requests (including judicial orders) and private requests to remove, filter, or restrict content or accounts.",
-		"id": "F5 ",
+		"id": "F5",
 		"name": "F5. Process for responding to third-party requests for content or account restriction",
 		 "scores": {
 		 		"América Móvil": "0.00",
@@ -357,7 +357,7 @@
 	},
 	{
 		"text": "The company should regularly publish data about private requests to remove, filter, or restrict access to content or accounts.",
-		"id": "F7 ",
+		"id": "F7",
 		"name": "F7. Data about private requests for content or account restriction",
 		 "scores": {
 		 			"América Móvil": "0.00",
@@ -387,7 +387,7 @@
 	},
 	{
 		"text": "The company should clearly disclose that it notifies users when it restricts content or accounts.",
-		"id": "F8 ",
+		"id": "F8",
 		"name": "F8. User notification about content and account restriction",
 		 "scores": {
 		 			"América Móvil": "0.00",
@@ -417,7 +417,7 @@
 	},
 	{
 		"text": "The company should clearly disclose that it does not prioritize, block, or delay certain types of traffic, applications, protocols, or content for any reason beyond assuring quality of service and reliability of the network.",
-		"id": "F9 ",
+		"id": "F9",
 		"name": "F9. Network management (telecommunications companies)",
 		 "scores": {
 		 			"América Móvil": "25.00",
@@ -447,7 +447,7 @@
 	},
 	{
 		"text": "The company should clearly explain the circumstances under which it may shut down or restrict access to the network or to specific protocols, services, or applications on the network.",
-		"id": "F10 ",
+		"id": "F10",
 		"name": "F10. Network shutdown (telecommunications companies)",
 		 "scores": {
 		"América Móvil": "0.00",
@@ -506,7 +506,7 @@
 	},
 	{
 		"text": "The company should offer privacy policies that are easy to find and easy to understand.",
-		"id": "P1 ",
+		"id": "P1",
 		"name": "P1. Access to privacy policies",
 		 "scores": {
 		 		"América Móvil": "83.33",
@@ -536,7 +536,7 @@
 	},
 	{
 		"text": "The company should clearly disclose that it provides notice and documentation to users when it changes its privacy policies.",
-		"id": "P2 ",
+		"id": "P2",
 		"name": "P2. Changes to privacy policies",
 		 "scores": {
 		 		"América Móvil": "0.00",
@@ -566,7 +566,7 @@
 	},
 	{
 		"text": "The company should clearly disclose what user information it collects and how.",
-		"id": "P3 ",
+		"id": "P3",
 		"name": "P3. Collection of user information",
 		 "scores": {
 		 		"América Móvil": "16.67",
@@ -596,7 +596,7 @@
 	},
 	{
 		"text": "The company should clearly disclose what user information it shares and with whom.",
-		"id": "P4 ",
+		"id": "P4",
 		"name": "P4. Sharing of user information",
 		 "scores": {
 		 			"América Móvil": "37.50",
@@ -626,7 +626,7 @@
 	},
 	{
 		"text": "The company should clearly disclose why it collects and shares user information.",
-		"id": "P5 ",
+		"id": "P5",
 		"name": "P5. Purpose for collecting and sharing user information",
 		 "scores": {
 		 			"América Móvil": "37.50",
@@ -716,7 +716,7 @@
 	},
 	{
 		"text": "Companies should allow users to obtain all of their user information the company holds.",
-		"id": "P8 ",
+		"id": "P8",
 		"name": "P8. Users' access to their own user information",
 		 "scores": {
 		 			"id": "P8",
@@ -747,7 +747,7 @@
 	},
 	{
 		"text": "The company should clearly disclose its practices with regard to user information it collects from third-party websites or apps through technical means.",
-		"id": "P9 ",
+		"id": "P9",
 		"name": "P9. Collection of user information from third parties (Internet companies)",
 		 "scores": {
 
@@ -777,7 +777,7 @@
 	},
 	{
 		"text": "The company should clearly disclose its process for responding to requests from governments and other third parties for user information.",
-		"id": "P10 ",
+		"id": "P10",
 		"name": "P10. Process for responding to third-party requests for user information",
 		 "scores": {
 		 		"id": "P10",
@@ -869,7 +869,7 @@
 	},
 	{
 		"text": "The company should clearly disclose information about its institutional processes to ensure the security of its products and services.",
-		"id": "P13 ",
+		"id": "P13",
 		"name": "P13. Security oversight",
 		 "scores": {
 		 			"id": "P13",
@@ -900,7 +900,7 @@
 	},
 	{
 		"text": "The company should address security vulnerabilities when they are discovered.",
-		"id": "P14 ",
+		"id": "P14",
 		"name": "P14. Addressing security vulnerabilities",
 		 "scores": {
 		 		"id": "P14",
@@ -931,7 +931,7 @@
 	},
 	{
 		"text": "The company should publicly disclose information about its processes for responding to data breaches.",
-		"id": "P15 ",
+		"id": "P15",
 		"name": "P15. Data breaches",
 		 "scores": {
 		 			"id": "P15",

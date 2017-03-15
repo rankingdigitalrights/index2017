@@ -1,5 +1,5 @@
 ---
-entity: commitment
+entity: governance
 entity_type: category
 visualization: category
 layout: category
