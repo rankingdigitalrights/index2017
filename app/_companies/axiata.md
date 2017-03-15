@@ -9,7 +9,7 @@ company_type: Telecommunications company
 display: Axiata Group Berhad
 headquarters: Malaysia
 link: https://www.axiata.com/
-operating company: Celcom
+operating: Celcom
 
 
 telco: true
