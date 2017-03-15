@@ -18,12 +18,12 @@ module.exports = BaseChart.extend({
     this.updateDimensions(options.width, options.height);
 
     this.x = d3.scale.ordinal()
-      .rangeRoundBands([0, this.width], 0.08)
+      .rangeRoundBands([0, this.width], 0.25)
       .domain(this.data.map((d) => d.name));
 
     this.y = d3.scale.linear()
       .range([this.height, 0])
-      .domain([-1, 100]);
+      .domain([0, 100]);
 
     this.xAxis = d3.svg.axis()
       .scale(this.x)
@@ -33,6 +33,7 @@ module.exports = BaseChart.extend({
     this.yAxis = d3.svg.axis()
       .scale(this.y)
       .tickFormat(d => d + '%')
+      .ticks(1)
       .orient('left');
 
     this.tip = d3.tip()
@@ -85,6 +86,23 @@ module.exports = BaseChart.extend({
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
 
+// background bars
+      var barsBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.name))
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsBg.transition()
+      .delay(2000)
+      .duration(1000)
+      .attr('y', '0')
+      .attr('height', d => this.height);
+
+// value bars
     var bars = g.selectAll('.bar')
       .data(this.data)
     .enter().append('rect')
@@ -106,7 +124,8 @@ module.exports = BaseChart.extend({
       .on('mouseout', this.tip.hide);
 
     bars.transition()
-      .duration(200)
+      .delay(3000)
+      .duration(2000)
       .attr('y', d => this.y(d.val))
       .attr('height', d => this.height - this.y(d.val));
 

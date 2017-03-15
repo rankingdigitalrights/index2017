@@ -14,7 +14,7 @@ module.exports = Backbone.View.extend({
     this.id = 'js--indicator_' + this.model.get('id');
     this.graphic = new Barchart({
       width: options.width,
-      height: 300,
+      height: 250,
       data: this.model.getSortedScores(),
       id: options.indicator_id
     });
