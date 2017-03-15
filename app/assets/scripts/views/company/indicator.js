@@ -40,7 +40,7 @@ module.exports = BaseChart.extend({
         };
 
         var width = 460 - margin.left - margin.right,
-            height = 30 * data.length; // 200 - margin.top - margin.bottom;
+            height = 45 * data.length; // 200 - margin.top - margin.bottom;
 
 
         var svg = d3.select("#indicators--"+i).append("svg")
@@ -99,9 +99,9 @@ module.exports = BaseChart.extend({
             .attr("class", "y axis")
             .call(yAxis)
                 .selectAll("text")
-                .attr("y", -5)
-                //.style("font-size", "17px")
+                .attr("y", -8)
                 .attr("x", 110)
+                .style("font-size", "15px")
 
             .call(wrap, wrap_width);
 
@@ -142,7 +142,7 @@ module.exports = BaseChart.extend({
             word,
             line = [],
             lineNumber = 0.1,
-            lineHeight = 1, // ems
+            lineHeight = 1.1, // ems
             y = text.attr("y"),
             dy = parseFloat(text.attr("dy")),
             tspan = text.text(null).append("tspan").attr("x", 110).attr("y", y).attr("dy", dy + "em");
