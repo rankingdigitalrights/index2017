@@ -1,6 +1,9 @@
 var _ = require('underscore');
 var $ = require('jquery');
 
+var d3 = require('d3');
+d3.tip = require('d3-tip')(d3);
+
 var BaseChart = require('./../base-chart');
 var ServiceCircleChart = require('./../service-circle-chart');
 var categories = require('../../util/categories');
@@ -41,13 +44,10 @@ module.exports = BaseChart.extend({
 
 
         var svg = d3.select("#indicators--"+i).append("svg")
-            //.attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .attr("width", "100%")
-            //.attr("height", height)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
 
         svg.append("text")
             .attr("x", 60)             
@@ -73,71 +73,91 @@ module.exports = BaseChart.extend({
             .range([0, width]);
 
         var y = d3.scale.ordinal()
-            .rangeRoundBands([height, 0], .1)
+            .rangeRoundBands([height, 0], 0.3)
             .domain(data.map(function (d) {
                 return d.name;
             }));
 
         var yAxis = d3.svg.axis()
             .scale(y)
-            //no tick marks
             .tickSize(0.3)
             .orient("right");
+
+        var tip = d3.tip()
+            .attr('class', 'bar--tip')
+            .offset([-10, 0])
+            .html(function(d) {
+                return Math.round(d.value) +"%";
+            });
+
+        svg.call(tip);
+
+        var indicator_width = $('#indicators--privacy').width();
+        var wrap_width = Number(indicator_width) - 120;
 
         var gy = svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
-                .selectAll("text")  
-                .attr("x", 110);
+                .selectAll("text")
+                .attr("y", -5)
+                //.style("font-size", "17px")
+                .attr("x", 110)
 
-// background bars
-        var barsBg = svg.selectAll(".barBg")
-            .data(data)
-            .enter().append("rect")
-            .style('fill', '#E5DBD2')
-            .attr("x", "0")
-            .attr("y", function(d) { return y(d.name); })
-            .attr("width", width)
-            .attr("height", y.rangeBand());
+            .call(wrap, wrap_width);
 
-// value bars
+
         var bars = svg.selectAll(".bar")
             .data(data)
             .enter().append("rect")
             .attr("class", "bar")
             .attr("x", function(d) {
                 var neg = d.value * (-1); 
-                return x(Math.min(0, neg)); 
+                return 100 - Number(d.value);
             })
             .attr("y", function(d) { return y(d.name); })
             .attr("width", function(d) {
-                var neg = d.value * (-1);
-                var x0 = x(0);
-                if(x(0) > 100) {
-                    x0 = 100;
-                }
-                // console.info(xyz);
-                return Math.abs(x(neg) - x0); 
-            })
-            .attr("height", y.rangeBand());       
-            
-
-        //add a value label to the right of each bar
-        /*
-        bars.append("text")
-            .attr("class", "label")
-            //y position of the label is halfway down the bar
-            .attr("y", function (d) {
-                return y(d.name) + y.rangeBand() / 2 + 4;
-            })
-            //x position is 3 pixels to the right of the bar
-            .attr("x", function (d) {
-                return x(d.value) + 3;
-            })
-            .text(function (d) {
                 return d.value;
-        });
-        */
+            })
+            .attr("height", y.rangeBand())
+
+            .on('mouseover', tip.show)
+            .on('mouseout', tip.hide);
+
+        var barBg = svg.selectAll(".barBg")
+            .data(data)
+            .enter().append("rect")
+            .style('fill', '#E5DBD2')
+            .attr("x", 0)
+            .attr("y", function(d) { return y(d.name); })
+            .attr("width", function(d) {
+                return 100-Number(d.value);
+            })
+            .attr("height", y.rangeBand());
     })
+
+    function wrap(text, width) {
+      text.each(function() {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0.1,
+            lineHeight = 1, // ems
+            y = text.attr("y"),
+            dy = parseFloat(text.attr("dy")),
+            tspan = text.text(null).append("tspan").attr("x", 110).attr("y", y).attr("dy", dy + "em");
+        while (word = words.pop()) {
+          line.push(word);
+          tspan.text(line.join(" "));
+          if (tspan.node().getComputedTextLength() > width) {
+            line.pop();
+            tspan.text(line.join(" "));
+            line = [word];
+            tspan = text.append("tspan").attr("x", 110).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+          }
+        }
+      });
+    }
+
   },
 });
