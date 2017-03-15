@@ -92,12 +92,19 @@ module.exports = BaseChart.extend({
 
         svg.call(tip);
 
+        var indicator_width = $('#indicators--privacy').width();
+        var wrap_width = Number(indicator_width) - 120;
 
         var gy = svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
-                .selectAll("text")  
-                .attr("x", 110);
+                .selectAll("text")
+                .attr("y", -5)
+                //.style("font-size", "17px")
+                .attr("x", 110)
+
+            .call(wrap, wrap_width);
+
 
         var bars = svg.selectAll(".bar")
             .data(data)
@@ -127,5 +134,30 @@ module.exports = BaseChart.extend({
             })
             .attr("height", y.rangeBand());
     })
+
+    function wrap(text, width) {
+      text.each(function() {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0.1,
+            lineHeight = 1, // ems
+            y = text.attr("y"),
+            dy = parseFloat(text.attr("dy")),
+            tspan = text.text(null).append("tspan").attr("x", 110).attr("y", y).attr("dy", dy + "em");
+        while (word = words.pop()) {
+          line.push(word);
+          tspan.text(line.join(" "));
+          if (tspan.node().getComputedTextLength() > width) {
+            line.pop();
+            tspan.text(line.join(" "));
+            line = [word];
+            tspan = text.append("tspan").attr("x", 110).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+          }
+        }
+      });
+    }
+
   },
 });
