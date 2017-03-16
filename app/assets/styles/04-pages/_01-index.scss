@@ -1,3 +1,24 @@
+/* Page intro */
+
+.page--intro {
+	p {
+	font-size: 14px;
+	  @include media(small-up) {
+	  font-size: 14px;
+	  }
+	  @include media(medium-up) {
+	  font-size: 16px; 
+	  }
+	  @include media(large-up) {
+	  font-size: 18px;
+	  }
+	  @include media(xlarge-up) {
+	  font-size: 21px; 
+	  }   
+	}	
+}
+
+
 /* World map */
 .world-map {
 padding-top: 0;
