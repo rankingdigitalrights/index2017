@@ -58,10 +58,10 @@ resize.start();
   $hamburger.on('click', function (e) {
     if ($hamburger.hasClass('active')) {
       $hamburger.removeClass('active');
-      $menu.css('margin-top', 0).animate({'margin-top': -$menu.outerHeight(true)}, 200);
+      $menu.css('margin-top', 0).animate({ 'margin-top': -$menu.outerHeight(true) }, 200);
     } else {
       $hamburger.addClass('active');
-      $menu.addClass('active').css('margin-top', -$menu.outerHeight(true)).animate({'margin-top': 0}, 200);
+      $menu.addClass('active').css('margin-top', -$menu.outerHeight(true)).animate({ 'margin-top': 0 }, 200);
     }
   });
 
@@ -70,7 +70,7 @@ resize.start();
   resize.on('resize:hamburger', function (dimensions) {
     if (dimensions.width >= 768 && $hamburger.hasClass('active')) {
       $hamburger.removeClass('active');
-      $menu.css('margin-top', 0).animate({'margin-top': -$menu.outerHeight(true)}, 200);
+      $menu.css('margin-top', 0).animate({ 'margin-top': -$menu.outerHeight(true) }, 200);
     }
   });
 })();
@@ -107,15 +107,15 @@ dropdownFn();
     minLength: 1,
     highlight: true
   }, {
-    name: 'categories',
-    source: data.categories
-  }, {
-    name: 'companies',
-    source: data.companies
-  }, {
-    name: 'indicators',
-    source: data.indicators
-  });
+      name: 'categories',
+      source: data.categories
+    }, {
+      name: 'companies',
+      source: data.companies
+    }, {
+      name: 'indicators',
+      source: data.indicators
+    });
 
   $('.twitter-typeahead').bind('typeahead:select', function (ev, suggestion) {
     _.each(data, function (d, key) {
@@ -138,11 +138,12 @@ dropdownFn();
 
 })();
 
-$(document).ready(function() { 
-    var $root = $('html, body');
-    var ancloc = window.location.hash;
-        $root.animate({
-            scrollTop: $(ancloc).position().top,
-        }, 2500);
-        return false;
+$(window).load(function () {
+  var $root = $('html,body');
+  var ancloc = window.location.hash;
+  if (ancloc != '') {
+    $root.animate({
+      scrollTop: $(ancloc).position().top,
+    }, 2000);
+  }
 });

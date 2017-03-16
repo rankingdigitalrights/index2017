@@ -105,7 +105,6 @@ module.exports = BaseChart.extend({
       .html(d => d.company )
       .on('click', function (d) {
         var href = d.company;
-        console.info(href);
         href = href.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '');
         window.location.href = baseurl + '/companies/' + href;
