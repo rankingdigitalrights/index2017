@@ -42,6 +42,7 @@ module.exports = function generateService (serviceType) {
       data: data,
       parent: $("#service--companies")
     });
+    
     companyService.render();
 
     var dotChart = new DotChart({
