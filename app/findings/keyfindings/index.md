@@ -46,7 +46,7 @@ published: true
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
 <p></p>
-<h2>#Key lesson: </h2>
+<h2>Key lesson: </h2>
 <p></p>
 <p><strong>When companies work together and with stakeholders to implement human rights commitments, they can make a real difference.</strong></p>
 <p></p>
@@ -56,7 +56,7 @@ published: true
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
 <p></p>
-<h2>#Key concerns:</h2>
+<h2>Key concerns:</h2>
 <p></p>
 <p>The Index offers a roadmap for companies to credibly demonstrate respect for their users' rights around the globe. After analyzing this year's data we have identified several major concerns: </p>
 <p></p>
