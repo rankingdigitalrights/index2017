@@ -1,49 +1,50 @@
 ---
 company_type_page: internet-and-mobile-companies
-entity: twitter
+entity: tencent
 layout: company
-name: twitter
-id: twitter
+name: tencent
+id: tencent
 
 company_type: Internet and mobile companies
-display: Twitter, Inc.
-headquarters: USA
-link: https://www.twitter.com
+display: Tencent Holdings Limited
+headquarters: China
+link: https://www.tencent.com
 
 telco: false
 
 key_findings:
-  - Twitter lagged behind most other U.S. companies in disclosing how it has institutionalized its commitments to respect freedom of expression and privacy across its global operations.
-  - Twitter’s flagship social networking service led the field in its disclosure  of government and private requests to restrict content and accounts.
-  - It was unclear if Twitter’s policies applied to other services operated by the company, such as Vine and Periscope, bringing down Twitter’s overall score.
+  - Tencent lacked sufficient disclosure of commitments and policies affecting users’ freedom of expression and privacy.  
+  - Tencent disclosed more about its policies related to privacy than Baidu, the other Chinese internet company evaluated.
+  - Chinese law makes it unrealistic to expect companies to disclose most information about government requests, but Tencent could disclose information about its handling of private requests to restrict content or accounts, and private requests for user information.
+
 
 services_evaluated:
   - item:
     key: social network
-    name: twitter
+    name: QZone
   - item:
-    key: video sharing
-    name: vine
+    key: messaging and voip
+    name: QQ
   - item:
-    key: video sharing
-    name: periscope
+    key: messaging and voip
+    name: WeChat
 
-total: 48
-analysis_text_left: "Twitter ranked sixth of 12 internet and mobile companies and sixth in the Index overall.  This year’s evaluation included Vine, since the service was included in the 2015 Index and active during the Index research period, although Vine was discontinued in January 2017. The video streaming mobile app, Periscope, was included for the first time in the 2017 Index. As was the case in 2015, Twitter lacked clear public commitments or disclosed policies for implementing their commitments to respect freedom of expression across their global operations.  . It was also unclear in many instances if various policies that applied to Twitter’s flagship social media service also extended to the Vine and Periscope services. Twitter’s overall score in the Index would be substantially higher if the company had disclosed more detailed information on whether policies that apply to the flagship Twitter platform also apply to other services."
+total: 22
+analysis_text_left: "Tencent ranked 10th of the 12 internet and mobile companies evaluated and 14th in the Index overall. The 2016 <i>Freedom on the Net</i> report by Freedom House rated China’s internet environment as “Not Free,” with <a href=\"https://freedomhouse.org/report/freedom-net/2016/china" target=\"_blank\">China scoring the lowest of all countries reviewed</a>. While gaps in Tencent’s commitments and disclosures can be blamed on China’s legal and regulatory environment, there are still areas in which Tencent could improve without regulatory change. <br /><br /> Tencent offered different versions of many key documents, including terms of service and privacy policies, for mainland Chinese users and all other users outside of China. Documents offered in English and traditional Chinese characters (used in Hong Kong and Taiwan) contained different substantive content and commitments in some areas, generally with more detail and better disclosure. While all versions were reviewed, only the documents in simplified Chinese (for mainland Chinese users) <a href=\"/findings/china" target=\"_blank\">counted towards the company’s Index score</a>."
 
-analysis_text_right: "<strong>Twitter, Inc.</strong> operates as a global social sharing platform. Its products and services allow users to create, share, and find content and short looping and livestreamed videos. Alongside these social services, Twitter provides advertising services and developer tools."
+analysis_text_right: "<strong>Tencent Holdings Limited</strong> provides a broad range of Internet and mobile value-added services (VAS), online advertising services, and eCommerce transactions services to users in China, the United States, Europe, and elsewhere around the world. It is one of the largest Internet companies globally."
 
 
 analysis_industry: Internet Software and Services
-analysis_market_cap: USD 11,052 million
-analysis_stock_symbol: "NYSE: TWTR"
+analysis_market_cap: USD 246,184 million
+analysis_stock_symbol: SEHK 700
 
-governance: 30
-governance_text: "Twitter received the 10th highest score out of the 22 companies in the Index in the Governance category, scoring lower than most U.S. companies. While company <a href=\"https://about.twitter.com/company/twitter-for-good\" target=\"_blank\">blog posts</a> and <a href=\"https://help.twitter.com/articles/18311?lang=en\" target=\"_blank\">support pages</a>  referenced the company’s positions on users’ rights to freedom of expression and privacy, these fell short of the type of explicit policy commitment made by many of its peers (G1). Also unlike many of its peers, Twitter offers no publicly accessible evidence of how its policy positions and commitments related to freedom of expression and privacy have been institutionalized through governance and accountability mechanisms across the company. For example, there was no indication of whether Twitter conducts human rights due diligence to identify how aspects of its business may affect freedom of expression and privacy (G4). While Twitter disclosed that it regularly engages with a range of stakeholders on freedom of expression and privacy issues (G5), it is not a member of a multi-stakeholder initiative such as the Global Network Initiative (GNI) whose members not only make commitments but also undergo independent assessment to verify whether they have implemented and institutionalized these principles."
+governance: 9
+governance_text: "Tencent ranked 17th out of the 22 companies in the Governance category, ahead of Baidu. The company received some credit for publicly committing <a href=\"http://www.tencent.com/zh-cn/zc/privacypolicyTraditional.shtml" target=\"_blank\">to protect users’ privacy</a> but made no such commitment to protect users’ freedom of expression (G1). To the contrary, its terms of service for mainland Chinese users stated that users’ accounts may be terminated for <a href=\"http://www.qq.com/contract.shtml" target=\"_blank\">“implicating Tencent in political and public events.”</a> The company did provide some information about a general complaints mechanism for users that applied to all services, with WeChat providing somewhat more detail. While Tencent scored below average on this indicator (G6) it nonetheless tied with Google and scored above several companies whose overall Index scores were much higher."
 
-freedom: 49
-freedom_text: "Twitter ranked fourth out of the 12 internet and mobile companies in the Freedom of Expression category, behind Google, Kakao, and Microsoft.<br /> <br /><strong>Content and account restrictions:</strong> Twitter provided some disclosure on its process for terms of service enforcement, though it did not indicate if government or private entities receive priority consideration when flagging content for potentially violating the company’s rules (F3). Twitter was one of only three companies, including Microsoft and Google, to disclose any data about its terms of service enforcement, reporting the number of accounts it restricted due to terrorist content (F4). But it did not report on <a href=\"https://blog.twitter.com/2016/combating-violent-extremism\" target=\"_blank\">other types of content</a> that it removed for violating the company’s rules.<br /> <br /><strong>Content and account restriction requests:</strong> Twitter disclosed less than Google, Yahoo, Kakao, Facebook, and Microsoft about how it handles government and private requests to restrict content or accounts (F5-F7). Its process for responding to such requests was not clear or consistent across each of the company's the services evaluated. (F5). Twitter provided <a href=\"https://transparency.twitter.com/en/removal-requests.html\" target=\"_blank\">detailed data about requests</a> it received and complied with, though it did not specify if Periscope and Vine were also included (F6). Twitter’s data on requests from private third parties were limited to copyright and trademark violations, though they included Twitter, Vine, and Periscope; Twitter received the second highest score on this indicator (F7).<br /> <br /><strong>Identity policy:</strong> Twitter and Microsoft were the only two internet and mobile companies to receive full credit for disclosing that they do not require users to <a href=\"https://help.twitter.com/articles/20175169?lang=en\" target=\"_blank\">verify their identity using a government ID</a> or information tied to their offline identity (F11)."
+freedom: 14
+freedom_text: "Tencent ranked 11th out of the 12 internet and mobile companies in the Freedom of Expression category, just ahead of Baidu. <br /><br /><strong>Content and account restrictions:</strong> Tencent disclosed less than most internet and mobile companies average on these indicators (F3, F4, F8), but more than Apple and Baidu. The company offered above-average disclosure of what types of content or activities are prohibited (F3). Notably, this indicator rewards companies for the clarity of their rules, rather than for respecting users' freedom of expression rights <i>per se</i>. The company failed to disclose the volume and nature of content or accounts restricted in enforcing these rules (F4), though all companies performed poorly on this indicator. It also failed to disclose a consistent policy to notify users when the company restricts content or accounts (F8). <br /><br /><strong>Content and account restriction requests:</strong> Tencent disclosed little about how it handles requests from governments and private parties to restrict content or user accounts, although it scored better on these indicators than Baidu and Samsung (F5-F7). It disclosed no data about government or private requests for content or account restrictions it receives or its compliance with these requests (F6, F7). <br /><br /><strong>Identity policy:</strong> The company disclosed that it may, depending on applicable laws, require users to verify their identity with a government-issued ID for all services. Network service providers offering internet access or information related services in China are <a href=\"https://chinacopyrightandmedia.wordpress.com/2012/12/28/national-peoples-congress-standing-committee-decision-concerning-strengthening-network-information-protection/" target=\"_blank\">legally required to do so</a>. (F11)"
 
-privacy: 53
-privacy_text: "Twitter tied with Kakao for fourth place among internet and mobile companies in the Privacy category, behind Google, Microsoft, and Yahoo.<br /><br /><strong>Handling of user information:</strong> Twitter received the highest score of all companies evaluated for this set of indicators (P3-P9). The company clearly disclosed what types of user information it collects (P3), but offered less comprehensive disclosure about what types of user information it shares and with whom (P4). It  disclosed more than any other company about  how long it retains user information (P6).<br /> <br /><strong>Requests for user information:</strong/> Twitter received the second-highest score on this set of indicators, tying with Google and behind Microsoft (P10-P11). Twitter clearly disclosed its processes for responding to government requests for user information, but not for private requests (P10).  It topped all internet and mobile companies for its transparency reporting  on government and private requests it receives to hand over user information (P11).<br /> <br /><strong>Security:</strong> Twitter provided little information about its security policies , scoring higher than only than Baidu and Tencent on these indicators (P13-P18). Like most companies, it failed to disclose any information about its policies for responding to data breaches (P15). It also  had one of the lowest scores  for its lack of clear disclosure of whether it encrypts user communications and private content (P16)."
+privacy: 31
+privacy_text: "Tencent received the fourth-lowest score among internet and mobile companies evaluated in the Privacy category, ahead of Samsung, Mail.Ru, and Baidu. <br /><br /><strong>Handling of user information:</strong> Tencent performed below the internet and mobile company average on this set of indicators (P3-P9). However, it provided strong disclosure of of what user information it collects, on par with Facebook, Twitter, Yahoo, and Yandex (P3). But it did not fully disclose the reasons it shares the information it collects (P5), and disclosed nothing about how long it retains user information (P6). The law requires retention for 60 days but does not forbid disclosure of that fact. <br /><br /><strong>Requests for user information:</strong> Tencent disclosed almost nothing about how it handles government and private requests for user information, earning equally low scores on these indicators as Baidu. (P10-P12). While Chinese law makes it unrealistic to expect companies to disclose most information about government requests, Tencent should be able to reveal if and when it shares user information with private parties and under what circumstances.<br /><br /><strong>Security:</strong> Tencent disclosed little about its security policies, scoring better than only Baidu on these indicators (P13-P18). However, the company tied with Twitter, Facebook, and Yandex for the highest score for its disclosure on how it addresses security vulnerabilities (P14)."
 ---
