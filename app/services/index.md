@@ -17,10 +17,10 @@ services:
     href: messagingvoip
   - item:
     title: Mobile ecosystems
-    href: mobile
+    href: mobileeco
   - item:
-    title: Pre- and post-Paid mobile
-    href: mobile    
+    title: Pre-and post-Paid mobile
+    href: prepostpaidmobile    
   - item:
     title: Search
     href: search
