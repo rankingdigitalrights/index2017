@@ -66,7 +66,7 @@ module.exports = BaseChart.extend({
 
 
     g.append('g')
-      .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_service')
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -74,7 +74,7 @@ module.exports = BaseChart.extend({
       .attr('transform', 'translate(0,25)');
 
       g.append('g')
-      // .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_rank')
       // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -85,7 +85,7 @@ module.exports = BaseChart.extend({
       .html(d => + d.rank);
 
       g.append('g')
-      // .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_percent')
       // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -95,7 +95,7 @@ module.exports = BaseChart.extend({
       .html(d => + d.t + '%');
 
       g.append('g')
-      // .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_company')
       // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -106,7 +106,7 @@ module.exports = BaseChart.extend({
       .on('click', function (d) {
         var href = d.company;
         href = href.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '');
+          .replace('.', '').replace(' ', '').replace('ó', 'o').replace('é', 'e');
         window.location.href = baseurl + '/companies/' + href;
       });
 

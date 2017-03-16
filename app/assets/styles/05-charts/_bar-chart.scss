@@ -1,7 +1,9 @@
 .bar--axis_y path,
 .bar--axis_y line,
 .bar--axis_x path,
-.bar--axis_x line {
+.bar--axis_x line,
+.bar--axis_x_service path,
+.bar--axis_x_service line {
   fill: none;
   shape-rendering: crispEdges;
   stroke: $gray;
@@ -44,7 +46,7 @@
   fill: $black;
 }
 
-.bar--axis_x text {
+.bar--axis_x_company text {
   font-size: .8em;
   cursor: pointer;
   fill: $base-color;
