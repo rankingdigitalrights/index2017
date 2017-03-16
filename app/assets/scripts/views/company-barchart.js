@@ -5,7 +5,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: {top: 40, right: 20, bottom: 55, left: 40},
+  margin: {top: 40, right: 10, bottom: 25, left: 0},
 
   initialize: function (options) {
     /* options
@@ -17,12 +17,12 @@ module.exports = BaseChart.extend({
     this.updateDimensions(options.width, options.height);
 
     this.x = d3.scale.ordinal()
-      .rangeRoundBands([0, this.width], 0.08)
+      .rangeRoundBands([0, this.width], 0.5)
       .domain(this.data.map((d) => d.name));
 
     this.y = d3.scale.linear()
       .range([this.height, 0])
-      .domain([-1, 100]);
+      .domain([0, 100]);
 
     this.xAxis = d3.svg.axis()
       .scale(this.x)
@@ -51,14 +51,14 @@ module.exports = BaseChart.extend({
     svg.call(this.tip);
 
     var g = svg.append('g')
-      .attr('transform', 'translate(' + this.margin.left + ',0)');
+      .attr('transform', 'translate(-10,0)');
 
-      var count = 1;
+    var count = 1;
     g.append('g')
-      .attr('class', 'bar--axis_x')
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
+      .attr('class', 'bar--axis_x_company')
       .style('text-anchor', 'middle')
       .attr('transform', 'rotate(0)')
       .data(this.data)
@@ -71,28 +71,23 @@ module.exports = BaseChart.extend({
         }
       });
 
-    g.append('g')
-      .attr('class', 'bar--axis_y')
-      .call(this.yAxis)
-    .append('text')
-      .attr('transform', 'rotate(-90)')
-      .attr('y', 6)
-      .attr('dy', '.71em')
-      .style('text-anchor', 'end');
+       var barsBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.name))
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsBg.transition()
+      .duration(1000)
+      .attr('y', '0')
+      .attr('height', d => this.height);
 
     var bars = g.selectAll('.bar')
       .data(this.data)
-    .enter().append('rect')
-      .attr('class', function (d) {
-        if (!d.className) {
-          d.className = 'default';
-        }
-        var className = 'bar bar--' + d.className;
-        if (+d.val === 0) {
-          className += ' bar--zero';
-        }
-        return className;
-      })
+      .enter().append('rect')
       .attr('x', (d, i) => this.x(d.name))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
@@ -101,7 +96,7 @@ module.exports = BaseChart.extend({
       .on('mouseout', this.tip.hide);
 
     bars.transition()
-      .duration(2)
+      .duration(2500)
       .attr('y', d => this.y(d.val))
       .attr('height', d => this.height - this.y(d.val));
 

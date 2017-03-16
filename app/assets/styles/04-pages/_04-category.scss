@@ -1,24 +1,33 @@
 #page--category {
 
-	&.commitment {
+	&.governance {
 		.page--title,
 		.page--subtitle,
 		h3 {
-		color: $cat-commitment !important;	
+			color: $cat-commitment !important;
+			a {
+				color: $cat-commitment !important;
+			}
 		}	
 	}
 	&.freedom-of-expression {
 		.page--title,
 		.page--subtitle,
 		h3 {
-		color: $cat-freedom !important;
+			color: $cat-freedom !important;
+			a {
+				color: $cat-freedom !important;
+			}
 		}	
 	}
 	&.privacy {
 		.page--title,
 		.page--subtitle,
 		h3 {
-		color: $cat-privacy !important;	
+			color: $cat-privacy !important;
+			a {
+				color: $cat-privacy !important;
+			}
 		}	
 	}
 
@@ -38,7 +47,7 @@
 						.tick {}
 					}
 					.bar {
-						&.bar--commitment {
+						&.bar--governance {
 						fill: $cat-commitment !important;
 						  &:hover {
 						  fill: $cat-commitment-hover !important;

@@ -4,9 +4,9 @@ var Service = require('./collections/services/services');
 var Survey = require('./collections/survey');
 var CompanyServices = require('./collections/company-services');
 var Barchart = require('./views/services-barchart');
-var CompanyService = require('./views/service');
+var CompanyService = require('./views/services/service');
 
-
+var DotChart = require('./views/services/service-line-dot-chart');
 var Indicators = require('./views/category-indicators');
 var Collapse = require('./views/collapse');
 var barsort = require('./util/services-barsort');
@@ -33,7 +33,7 @@ module.exports = function generateService (serviceType) {
     }).sort(barsort);
     var barchart = new Barchart({
       width: $parent.width(),
-      height: 400,
+      height: 250,
       data: data
     });
     barchart.render($parent[0]);
@@ -42,7 +42,14 @@ module.exports = function generateService (serviceType) {
       data: data,
       parent: $("#service--companies")
     });
+    
     companyService.render();
+
+    var dotChart = new DotChart({
+      data: data
+    });
+
+    dotChart.render();
   }
 
   service.fetch({success: overviewSuccess});

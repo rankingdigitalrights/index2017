@@ -64,13 +64,9 @@ module.exports = BaseChart.extend({
     var g = svg.append('g')
       .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
 
-    g.append('path')
-    .attr('class', 'domain')
-    .attr('d', 'M0,0V1H' + this.width + 'V0')
-    .style('fill', '#b1b1b1');
 
     g.append('g')
-      .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_service')
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -78,7 +74,7 @@ module.exports = BaseChart.extend({
       .attr('transform', 'translate(0,25)');
 
       g.append('g')
-      // .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_rank')
       // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -89,7 +85,7 @@ module.exports = BaseChart.extend({
       .html(d => + d.rank);
 
       g.append('g')
-      // .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_percent')
       // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -99,7 +95,7 @@ module.exports = BaseChart.extend({
       .html(d => + d.t + '%');
 
       g.append('g')
-      // .attr('class', 'bar--axis_x')
+      .attr('class', 'bar--axis_x_company')
       // .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
@@ -109,9 +105,8 @@ module.exports = BaseChart.extend({
       .html(d => d.company )
       .on('click', function (d) {
         var href = d.company;
-        console.info(href);
         href = href.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '');
+          .replace('.', '').replace(' ', '').replace('ó', 'o').replace('é', 'e');
         window.location.href = baseurl + '/companies/' + href;
       });
 
@@ -125,6 +120,28 @@ module.exports = BaseChart.extend({
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
 
+
+/**************************************
+ ************ Governance bars *********
+ **************************************/
+
+//  background bars
+    var barsGBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsGBg.transition()
+      .duration(1000)
+      .attr('y', '0')
+      .attr('height', d => this.height);
+
+
+// value bars
     var barsG = g.selectAll('.barG')
       .data(this.data)
       .enter().append('rect')
@@ -138,7 +155,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
+      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -146,6 +163,26 @@ module.exports = BaseChart.extend({
       .on('mouseover', this.tipG.show)
       .on('mouseout', this.tipG.hide);
 
+/*************************************************
+ ************ Freedom of expression bars *********
+ *************************************************/
+
+// background bars
+    var barsGBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.service))
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsGBg.transition()
+      .duration(1000)
+      .attr('y', '0')
+      .attr('height', d => this.height);
+
+// value bars
     var barsFoE = g.selectAll('.barFoE')
       .data(this.data)
       .enter().append('rect')
@@ -159,7 +196,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.service) - this.x.rangeBand() - 5)
+      .attr('x', (d, i) => this.x(d.service))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -167,6 +204,27 @@ module.exports = BaseChart.extend({
       .on('mouseover', this.tipFoE.show)
       .on('mouseout', this.tipFoE.hide);
 
+
+/**************************************
+ *************** Privacy bars *********
+ **************************************/
+
+//  background bars
+    var barsGBg = g.selectAll('.barBg')
+      .data(this.data)
+      .enter().append('rect')
+      .style('fill', '#E5DBD2')
+      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
+      .attr('width', this.x.rangeBand())
+      .attr('y', this.height)
+      .attr('height', 0);
+
+    barsGBg.transition()
+      .duration(1000)
+      .attr('y', '0')
+      .attr('height', d => this.height);
+
+// values bars
     var barsP = g.selectAll('.barP')
       .data(this.data)
       .enter().append('rect')
@@ -180,7 +238,7 @@ module.exports = BaseChart.extend({
         }
         return className;
       })
-      .attr('x', (d, i) => this.x(d.service))
+      .attr('x', (d, i) => this.x(d.service) + this.x.rangeBand() + 5)
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
       .attr('height', 0)
@@ -191,15 +249,15 @@ module.exports = BaseChart.extend({
       
 
     barsG.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.g))
       .attr('height', d => this.height - this.y(d.g));
     barsFoE.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.foe))
       .attr('height', d => this.height - this.y(d.foe));
     barsP.transition()
-      .duration(200)
+      .duration(2000)
       .attr('y', d => this.y(d.p))
       .attr('height', d => this.height - this.y(d.p));
     

@@ -55,8 +55,7 @@ module.exports = function () {
       }
     });
 
-    $this.on('mouseenter', activate)
-    .on('click', function () {
+    $this.on('mouseenter', function () {
       if (isActive) {
         off();
       } else {

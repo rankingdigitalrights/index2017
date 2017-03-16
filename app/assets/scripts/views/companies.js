@@ -57,10 +57,11 @@ module.exports = BaseChart.extend({
         .value();
       this.childViews = childViews;
     }
-
+    
+    var No = 1;
     _.sortBy(childViews, view => direction * view.model.get(category))
       .forEach(function (view) {
-        $bars.append(view.render());
+        $bars.append(view.render(No++));
       });
 
     var $container = this.$('.js--bars');

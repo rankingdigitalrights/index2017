@@ -71,6 +71,170 @@
 		.service-graph-content {
 		background-image: url("../graphics/content/service_page_Video_and_Photo.png");
 		}	
-	}					
+	}
+
+
+	section.service--section {
+
+		.contain.spaced-row.row {
+			border-bottom: 1px solid #313131;
+
+			.title-section {
+	    	display: flex;
+	    	justify-content: flex-start;
+	    	align-items: center;
+	    	margin-bottom: .8em;
+	      h3 {
+	      	margin-bottom: 0;  
+	      }     
+	      .overall-score {
+	        margin-left: 1em;  
+	        label {
+	          font-family: $simplon-light;  
+	          text-transform: uppercase;
+	          color: $black;
+	          font-size: 12px;
+	          line-height: 1.3; 
+	          letter-spacing: 1px;
+	          margin-bottom: 0px;
+	          @include media(small-up) {
+	            font-size: 12px;  
+	          }
+	          @include media(medium-up) {
+	            font-size: 13px;  
+	          }
+	          @include media(large-up) {
+	            font-size: 14px;
+	          }
+	          @include media(xlarge-up) {
+	            font-size: 14px;  
+	          } 
+	        }
+	        .overall-score-value {
+	        font-family: $simplon-bold;
+	        color: $gray;
+	        font-size: 34px;
+	        line-height: 1.3; 
+	        letter-spacing: 1px;
+	        margin-bottom: 0px;
+	        text-transform: uppercase;
+	          @include media(small-up) {
+	          font-size: 19px;  
+	          }
+	          @include media(medium-up) {
+	          font-size: 20px;  
+	          }
+	          @include media(large-up) {
+	          font-size: 25px;
+	          }
+	          @include media(xlarge-up) {
+	          font-size: 34px;  
+	          }           
+	        }
+	      }
+
+	      .overall-score.service {
+	      	margin-left: 0;
+	      	.overall-score-value {
+	      		color: $black;
+	      	}
+	      }      
+	    }
+
+	    .rank--section {
+	    	display: flex;
+	    	justify-content: flex-start;
+	    	align-items: center;
+	    	margin: 1em 0 1.2em;     
+	      .overall-score {
+	      	font-family: $simplon-bold;
+	      	font-size: 42px;
+	        margin-left: 0.5em;  
+	      }
+	      
+        .rank--section_rank_value {
+        	width: 2.2em;
+        	height: 2.2em;
+        	text-align: center;
+        	background-color: $light-grey;         
+        	@include gz-border-radius (50%);
+          @include media(small-up) {
+          	width: 1.8em;
+          	height: 1.8em;  
+          }
+          @include media(medium-up) {
+          	width: 1.4em;
+          	height: 1.4em;                
+          } 
+          @include media(large-up) {
+          	width: 1.5em;  
+          	height: 1.5em;                
+          }            
+          @include media(xlarge-up) {
+          	width: 2.2em;  
+          	height: 2.2em;                
+          }               
+          span {
+          	font-family: $simplon-bold;
+          	color: $white-pure;
+          	font-size: 18px;
+          	line-height: 2.4;
+            @include media(small-up) {
+            	font-size: 10px;
+            	line-height: 2.4;
+            }
+            @include media(medium-up) {
+            	font-size: 10px;
+            	line-height: 2.4;  
+            }
+            @include media(large-up) {
+            	font-size: 18px;
+            	line-height: 2.2; 
+            }
+            @include media(xlarge-up) {
+            	font-size: 18px;
+            	line-height: 2.2; 
+            }                                              
+          }                           
+        } 
+			}
+
+	    label {
+		    font-family: $simplon-light;  
+		    text-transform: uppercase;
+		    color: $black;
+		    font-size: 12px;
+		    line-height: 1.3; 
+		    letter-spacing: 1px;
+		    margin-bottom: 0px;
+		    @include media(small-up) {
+		      font-size: 12px;  
+		    }
+		    @include media(medium-up) {
+		      font-size: 13px;  
+		    }
+		    @include media(large-up) {
+		      font-size: 14px;
+		    }
+		    @include media(xlarge-up) {
+		      font-size: 14px;  
+		    } 
+		  }
+
+	    .container--left {
+	      @include media(medium-up) {
+	        @include span-columns(6);
+	      }
+	    }
+	    .container--right {
+	      margin-right: 0;
+	      @include media(medium-up) {
+	        @include span-columns(6);
+	      }
+	    }
+	  }
+
+	}
+
 
 }
