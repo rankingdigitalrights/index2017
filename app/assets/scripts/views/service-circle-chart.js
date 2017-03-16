@@ -36,8 +36,9 @@ module.exports = BaseChart.extend({
       .style('text-anchor', 'middle')
       .attr('dy', '110px')
       .on('click', function (d) {
-        var href = label.name.toLowerCase().split(' ').join('-');
-        // window.location.href = baseurl + '/categories/' + href; // to do
+        var href = label.name.toLowerCase().replace('&', '')
+          .replace('.', '').replace(' ', '').replace('ó', 'o').replace('é', 'e');
+        window.location.href = baseurl + '/companies/' + href;
       });
     var service = g.append('text')
       .attr('class', 'circle--label_service')
@@ -52,16 +53,16 @@ module.exports = BaseChart.extend({
 
     var paths = g.selectAll('arc')
       .data(pie(data))
-    .enter()
+      .enter()
       .append('g')
       .attr('class', 'circle--arc')
-    .append('path')
+      .append('path')
       .attr('d', arc)
       .attr('class', (d) => 'circle--arc--chart--val circle--arc_' + d.data.id);
 
     toDefaultLabel();
 
-    function toDefaultLabel () {
+    function toDefaultLabel() {
       name.text(label.name);
       score.text(Math.round(label.val) + '%');
     }
