@@ -14,21 +14,24 @@
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    padding: 5px;
     border: 1px solid #888;
-    width: 70%; /* Could be more or less, depending on screen size */
+    width: 96%; /* Could be more or less, depending on screen size */
 
-    .container--left {
-        @include media(medium-up) {
-            @include span-columns(5);
-        }
+
+    h3.indicator--name {
+      color: #28749e;
     }
-    .container--right {
-        margin-right: 0;
-        @include media(medium-up) {
-            @include span-columns(7);
-        }
+    #paragraph--1 {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    #paragraph--2 {
+      font-size: 14px;
+      margin-bottom: 12px; 
     }
     table {
         width: 100%;
@@ -39,6 +42,8 @@
             }
             th,
             td {
+                font-size: 12px;
+                padding: 10px 5px;
                 text-align: right;
             }
             th.cell--first {
@@ -48,10 +53,20 @@
                 text-align: left;
             }
         }
+
+        tr.header {
+          background-color: #E5DCD1;
+          th {
+            font-size: 12px;
+          }
+        }
+
         tr.average {
             background-color: #E5DCD1;
             td {
+                font-weight: bold;
                 text-align: right;
+                text-transform: uppercase;
             }
             td.cell--first {
                 text-align: left;
