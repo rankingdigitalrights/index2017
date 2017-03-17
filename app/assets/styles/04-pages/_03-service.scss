@@ -17,11 +17,124 @@
 				.indicator-item + .indicator-item {
 				margin-top: 2em;	
 				}			
-			}			
+			}
+			.service-chart {
+				.bar--chart {
+					.bar--axis_x_service,
+					.bar--axis_x_percent {
+						.tick {
+						font-family: $simplon-bold;                 
+						color: $black;
+						line-height: 1;	
+						font-weight: 600;
+						text-transform: uppercase;
+						font-size: 14px;
+						  @include media(small-up) {
+						  font-size: 14px;
+						  }
+						  @include media(medium-up) {
+						  font-size: 14px;  
+						  }
+						  @include media(large-up) {
+						  font-size: 14px;
+						  }
+						  @include media(xlarge-up) {
+						  font-size: 14px;  
+						  }							
+						}
+					}
+					.bar--axis_x_rank {
+						.tick {
+						text-align: center;
+						line-height: 2;               
+						fill: $white-pure;
+						font-weight: 600;
+						font-family: $simplon-bold;                 
+						font-size: 14px;
+							@include media(small-up) {
+							font-size: 14px;
+							}
+							@include media(medium-up) {
+							font-size: 14px;  
+							}
+							@include media(large-up) {
+							font-size: 14px;
+							}
+							@include media(xlarge-up) {
+							font-size: 14px;  
+							} 							
+						}
+						circle {
+						fill: yellow;	
+						}
+					}
+					.bar--axis_x_company {
+					font-family: $simplon-light;                 
+					color: $black;					
+					line-height: 1;	
+					text-transform: uppercase;
+					font-size: 16px;
+					  @include media(small-up) {
+					  font-size: 16px;
+					  }
+					  @include media(medium-up) {
+					  font-size: 16px;  
+					  }
+					  @include media(large-up) {
+					  font-size: 16px;
+					  }
+					  @include media(xlarge-up) {
+					  font-size: 16px;  
+					  }
+					  text {
+					  fill: $black;	
+					  }
+					}
+				}
+			}				
+			.graph-legend {
+			justify-content: flex-end;
+				.governance {
+				color: $cat-commitment !important;
+					&:hover {
+					color: $cat-commitment !important;	
+					}
+				}   
+				.freedom {
+				color: $cat-freedom !important;
+					&:hover {
+					color: $cat-freedom !important;	
+					}
+				}   
+				.privacy {
+				color: $cat-privacy !important;
+					&:hover {
+					color: $cat-privacy !important;	
+					}
+				}
+				.service-rank {
+				margin-bottom: 10px;	
+					i {
+					color: $gray;
+					font-size: 20px;	
+					}
+				}
+				.graph-legend-values-label {
+				margin-bottom: 0px;	
+				}
+			}
+			
 		}
 
 		.service--companies {
 			.service--section {
+				.comp--industry {
+					.rank--section {
+						.rank--section_rank_value {
+						background-color: $gray;	
+						}
+					}
+				}
 				.comp--mark {
 					.dotchart {
 						.dot {
@@ -49,6 +162,15 @@
 							  font-size: 13px;  
 							  }								
 							}
+						}
+						.dotchart--label {
+						top: 2.4em;	
+							&.dotchart--label_left {
+							left: -25px;	
+							}
+							&.dotchart--label_right {
+							right: -40px;	
+							}							
 						}
 						.collecticon {
 							&.collecticon-arrow-down {
