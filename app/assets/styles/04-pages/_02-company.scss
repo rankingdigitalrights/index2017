@@ -499,8 +499,30 @@
         display: none;  
         }
         .highlight {
-        border-color: $red;
-        background-color: $red;  
+        border-color: $gray;
+        background-color: $red;
+
+        text-align: center;
+        width: 2em;
+        height: 2em;
+        top: 2em;
+        line-height: 2;
+        color: $white-pure;
+        font-weight: 600;
+        font-family: "Simplon-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+          @include media(small-up) {
+          font-size: 13px;
+          }
+          @include media(medium-up) {
+          font-size: 13px;  
+          }
+          @include media(large-up) {
+          font-size: 13px;
+          }
+          @include media(xlarge-up) {
+          font-size: 13px;  
+          }                   
         }
       }
     }        
