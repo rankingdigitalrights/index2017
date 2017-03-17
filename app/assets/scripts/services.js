@@ -33,7 +33,7 @@ module.exports = function generateService (serviceType) {
     }).sort(barsort);
     var barchart = new Barchart({
       width: $parent.width(),
-      height: 250,
+      height: 270,
       data: data
     });
     barchart.render($parent[0]);

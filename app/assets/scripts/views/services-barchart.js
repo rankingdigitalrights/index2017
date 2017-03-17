@@ -5,7 +5,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: {top: 40, right: 20, bottom: 55, left: 40},
+  margin: {top: 40, right: 20, bottom: 90, left: 40},
 
   initialize: function (options) {
     /* options
@@ -71,18 +71,27 @@ module.exports = BaseChart.extend({
       .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'middle')
-      .attr('transform', 'translate(0,25)');
+      .attr('transform', 'translate(0,50)');
 
-      g.append('g')
+      var rank = g.append('g')
       .attr('class', 'bar--axis_x_rank')
       // .attr('transform', 'translate(0,' + this.height + ')')
-      .call(this.xAxis)
+      
+      rank.call(this.xAxis)
       .selectAll('text')
-      .style('text-anchor', 'end')
+      .style('text-anchor', 'middle')
       .attr('class', 'rank')
-      .attr('transform', 'translate(-15,' + this.height + ')')
+      .attr('transform', 'translate(-15,' + (this.height + 20) + ')')
       .data(this.data)
       .html(d => + d.rank);
+
+      rank.selectAll(".tick")
+      .insert('circle', ':first-child')
+      .attr("cx", '0')
+      .attr("cy", '10')
+      .attr("r", '10')
+      .attr('transform', 'translate(-15,' + (this.height + 20) + ')')
+      .style("fill", "#B0B0B0");
 
       g.append('g')
       .attr('class', 'bar--axis_x_percent')
@@ -90,7 +99,7 @@ module.exports = BaseChart.extend({
       .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'start')
-      .attr('transform', 'translate(0,' + this.height + ')')
+      .attr('transform', 'translate(0,' + (this.height + 20) + ')')
       .data(this.data)
       .html(d => + d.t + '%');
 
@@ -100,7 +109,7 @@ module.exports = BaseChart.extend({
       .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'middle')
-      .attr('transform', 'translate(0,' + (this.height + 40) + ')')
+      .attr('transform', 'translate(0,' + (this.height + 65) + ')')
       .data(this.data)
       .html(d => d.company )
       .on('click', function (d) {

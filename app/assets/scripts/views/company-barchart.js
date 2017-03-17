@@ -82,7 +82,7 @@ module.exports = BaseChart.extend({
       .attr("cx", '0')
       .attr("cy", '10')
       .attr("r", '8')
-      .style("fill", "#B0B0B0");
+      .style("fill", "#ed1b24");
 
     var barsBg = g.selectAll('.barBg')
       .data(this.data)
