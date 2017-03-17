@@ -86,17 +86,72 @@ $dc-active-dot-top: $dc-height / 2 - $dc-active-dot-height / 2;
 }
 
 .dotchart--tooltip {
-  position: absolute;
-  text-align: center;
-  padding: .8em 1em .6em;
-  background-color: $black;
-  color: $white;
-  bottom: $dc-dot-top + 2em;
-  opacity: 0;
-  transition: bottom .2s ease-out, opacity .2s ease-out;
-
+position: absolute;
+text-align: center;
+padding: .8em 1em .6em;
+background-color: $black;
+color: $white;
+bottom: $dc-dot-top + 2em;
+opacity: 0;
+transition: bottom .2s ease-out, opacity .2s ease-out;
+text-transform: uppercase;
+font-weight: 600;
+font-family: $simplon-bold;                 
+font-size: 12px;
+  @include media(small-up) {
+  font-size: 12px;
+  }
+  @include media(medium-up) {
+  font-size: 12px;  
+  }
+  @include media(large-up) {
+  font-size: 12px;
+  }
+  @include media(xlarge-up) {
+  font-size: 12px;  
+  }
+  .rank {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  color: $black;
+  background-color: white;
+  @include border-radius (50%);
+  line-height: 1.5;
+  font-size: 12px;
+  margin-right: 2px;
+    @include media(small-up) {
+    font-size: 12px;
+    }
+    @include media(medium-up) {
+    font-size: 12px;  
+    }
+    @include media(large-up) {
+    font-size: 12px;
+    }
+    @include media(xlarge-up) {
+    font-size: 12px;  
+    }  
+  }
+  .percent {
+  color: $gray;
+  margin-left: 2px;
+  font-size: 12px;
+    @include media(small-up) {
+    font-size: 12px;
+    }
+    @include media(medium-up) {
+    font-size: 12px;  
+    }
+    @include media(large-up) {
+    font-size: 12px;
+    }
+    @include media(xlarge-up) {
+    font-size: 12px;  
+    }       
+  }
   &.active {
-    opacity: 1;
-    bottom: $dc-dot-top + 2.5em;
+  opacity: 1;
+  bottom: $dc-dot-top + 2.5em;
   }
 }

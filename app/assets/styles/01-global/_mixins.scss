@@ -69,7 +69,7 @@
 
 
 // BORDER RADIUS @include border-radius ($radius);
-@mixin gz-border-radius ($radius) {
+@mixin border-radius ($radius) {
 -webkit-border-radius: $radius;
 -moz-border-radius: $radius;
 border-radius: $radius; 
