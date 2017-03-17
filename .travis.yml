@@ -15,7 +15,7 @@ cache:
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_17bff3baff3d_key -iv $encrypted_17bff3baff3d_iv -in rdr.enc -out rdr -d
-  - chmod 400 test
+  - chmod 400 rdr
   - chmod +x ./.build_scripts/deploy.sh
   - chmod +x ./.build_scripts/build.sh
   - chmod +x ./.build_scripts/lint.sh
