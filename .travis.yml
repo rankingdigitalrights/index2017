@@ -6,7 +6,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - DEPLOY_BRANCH=master
-  - BLUEHOST_PATH=rankingdigitalrights.org:public_html/index2017
+  - BLUEHOST_PATH=rankingdigitalrights.org:public_html/UAoQeiIYotYRO1NtnCee
   - secure: "W3Ux0ogmDtI9jhUwMeHjkZZ9prxb6dhJ/TzMBfObAxMM2AypBaZMGdjQCeTGS/Sl26dlW/qvIlpNEuPlj7uqRsmTg/1ma2+euKo2jyAWo5+UxYqkDtduhX25WBPGcIyZBfZDchpWyLOBRHxh+xLJN9VSXp0A6kOEZWr2xWZm+xAkBCj43+YwY3eq7WlozjKYzdvAbLgMW0h9J5HNGGu4DkyYmLdDvjAMyQOF+VPKuoexWNnnM6aCDgSsNrNlX2I+r1SLcYvaCfral0JrIUbGf8TuVt3YHLYE+wwD4L/Ewt+M8Ay2tC4s4/s8r5m+NGfnyYQbmB2Fh2UGJ972jLdDxLY1TkuC/WTEvCz0hPNiMFi2AFYssMMgkRzU+m5CTzskAdl58v/iQE+/+KOO+3g9af6mmmwWVwBy/nilM0n92ohnZnNAXLQ13pOD4soZopcfqvcriRIbTijxjH9Zz1tExjfQCHaZjZZCj1Mq9/y6D5yfMWq22QjW1MnGIX9lzNdCLx+MMAVncNbG54xja+st03HyZnCbu1AMxUwprfYIrKBjlmu3dyuPgLr3JQRyGS1AD8lO16uY5xEnMYo4hvtjRHQ5lwvsEvj4dbV2oUS8Khf+7EBsmjdjp1inhzMGyJXbmqDCGs4zIzL2BCOUplv4L5JTqeS4S5p0Ws6DKXuLP9A="
 cache:
   directories:
