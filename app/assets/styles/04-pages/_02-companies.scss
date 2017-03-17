@@ -60,7 +60,7 @@
             width: 1.6em;
             height: 1.6em;
             display: inline-block;          
-            @include gz-border-radius (50%);
+            @include border-radius (50%);
               @include media(small-up) {
               width: 1.6em;
               height: 1.6em;  
