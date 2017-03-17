@@ -65,7 +65,7 @@ module.exports = BaseChart.extend({
         }
       })
       .style('text-anchor', 'middle')
-      .attr('transform', 'translate(0,2)')
+      .attr('transform', 'translate(0,4)')
       .html(function (d) {
         if (d.src == companyName) {
           return count;
@@ -82,6 +82,7 @@ module.exports = BaseChart.extend({
       .attr("cx", '0')
       .attr("cy", '10')
       .attr("r", '9')
+      .attr('transform', 'translate(0,2)')
       .style("fill", "#ed1b24");
 
     var barsBg = g.selectAll('.barBg')
