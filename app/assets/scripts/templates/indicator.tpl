@@ -22,9 +22,15 @@
   <div class="bar--container"></div>
 <% } else { %>
   <div class="container--left">
-    <div class="bar--container--telco"></div>
+    <div class="company-type">
+      <i class="fa fa-circle"></i> INTERNET COMPANIES
+    </div>
+    <div class="bar--container--internet"></div>
   </div>
   <div class="container--right">
-    <div class="bar--container--internet"></div>
+    <div class="company-type">
+      <i class="fa fa-circle"></i> TELECOM COMPANIES
+    </div>
+    <div class="bar--container--telco"></div>
   </div>
 <% }%>
