@@ -20,7 +20,7 @@ key_findings:
 
 services_evaluated:
   - item:
-    key: <a href=\"/services/search\" target=\"_blank\">search engine</a>
+    key: <a href=\"services/search\" target=\"_blank\">search engine</a>
     name: baidu search  
   - item:
     key: cloud storage
