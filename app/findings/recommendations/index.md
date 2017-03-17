@@ -7,18 +7,17 @@ published: true
 ---
 <p>Based on what we have learned from the Index results, below are recommendations for companies as well as for governments.</p>
 
-<p>ToC with anchored links to headers with # below, or some sort of click-to-expand</p>
-<ul>
+<ul><strong>
 <li>For companies [insert anchor link]
 <li>Governance and general recommendations [insert anchor link]
 <li>Mobile ecosystems
 <li>Freedom of expression
 <li>Handling of user information
-<li>Security
+<li>Security</strong>
 </ul>
-
+<br />
 <h2>For companies</h2>
-<p>All companies in the Index can make improvements. Below is a basic guide. More specific recommendations for each company can be found in the individual company report cards. </p>
+<p>All companies in the Index can make improvements. Below is a basic guide. More specific recommendations for each company can be found in the individual company report cards.</p>
 <h3>Governance and general recommendations</h3>
 <ul>
 <li><strong>Communicate with users in a clear, accessible, and organized way.</strong> Companies should disclose and explain how they comply with laws and what that compliance means for users. Companies that are serious about demonstrating respect for users' rights should strive for well-organized disclosures in places that users can reasonably be expected find. Users should not have to depend on external sources or be specialists in telecommunications or privacy law in order to learn about the company's commitments and practices.</li>
@@ -41,7 +40,7 @@ published: true
 <ul>
 <li><strong>Establish effective grievance and remedy mechanisms.</strong> Grievance mechanisms and remedy processes should be more prominently available to users. Companies should more clearly indicate that they accept concerns related to potential or actual violations of freedom of expression and privacy as part of these processes. Beyond this, disclosure pertaining to how complaints are processed, along with reporting on complaints and outcomes, would add considerable support to stakeholder perception that the mechanisms follow strong procedural principles and that the company takes its grievance and remedy mechanisms seriously.</li>
 </ul>
-<p><br /></p>
+<p></p>
 <h3>Mobile ecosystems</h3>
 <ul>
 <li><strong>Recognize app store content as a freedom of expression issue.</strong> Companies that have committed to freedom of expression principles should ensure that mobile ecosystems and app stores are clearly covered by due diligence and governance processes necessary to implement those principles. </li>
