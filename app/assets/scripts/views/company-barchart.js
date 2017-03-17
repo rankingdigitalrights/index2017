@@ -65,7 +65,7 @@ module.exports = BaseChart.extend({
         }
       })
       .style('text-anchor', 'middle')
-      .attr('transform', 'rotate(0)')
+      .attr('transform', 'translate(0,2)')
       .html(function (d) {
         if (d.src == companyName) {
           return count;
@@ -81,7 +81,7 @@ module.exports = BaseChart.extend({
       .insert('circle', ':first-child')
       .attr("cx", '0')
       .attr("cy", '10')
-      .attr("r", '8')
+      .attr("r", '9')
       .style("fill", "#ed1b24");
 
     var barsBg = g.selectAll('.barBg')
@@ -101,6 +101,11 @@ module.exports = BaseChart.extend({
     var bars = g.selectAll('.bar')
       .data(this.data)
       .enter().append('rect')
+      .attr('class', function (d) {
+          if (d.src == companyName) {
+          return "bar--axis_x_current_company_bar";
+        }
+      })
       .attr('x', (d, i) => this.x(d.name))
       .attr('width', this.x.rangeBand())
       .attr('y', this.height)
