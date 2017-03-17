@@ -2,10 +2,10 @@
 layout: article
 visualization: none
 entity: findings
-header: "Network shutdowns: Users are in the dark about why they're cut off"
+header: "Network shutdowns:"
 published: true
 ---
-
+<h2>Users are in the dark about why they're cut off</h2>
 <p>Network shutdowns are a growing threat to human rights around the world. In a resolution passed in June 2016, the <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/32/L.20">UN Human Rights Council </a>affirmed that network shutdowns threaten freedom of expression and the right to access information, condemned them to be a violation of international human rights law and called on governments to refrain from taking these actions. Yet governments are <a href="https://www.accessnow.org/keepiton">increasingly ordering </a>telecommunications companies to shut down their networks, which in turn puts pressure on companies to take actions that violate their responsibility to respect human rights. </p>
 <p>Unfortunately, results of our indicator examining network shutdowns reveal that companies are failing to disclose sufficient information about how they handle government shutdown demands. </p>
 <p>[IMAGE]</p><br /><br />
@@ -18,7 +18,7 @@ published: true
 <p>Vodafone, on the other hand, <a href="http://www.vodafone.com/content/dam/vodafone-images/sustainability/downloads/vodafone_law_enforcement_disclosure_report_2015-4.pdf.">committed </a>to challenge requests that are overbroad or do not have a proper legal basis. Like Telefónica, it also explained the legal reasons why it may be required to shut down service, explaining that it is bound by the legal powers that governments can invoke during an emergency or national crisis. For example, Vodafone <a href="http://www.vodafone.com/content/dam/vodafone-images/sustainability/downloads/vodafone_law_enforcement_disclosure_report_2015-4.pdf.">cited an incident</a> in January 2011 when "the Egyptian government forced all operators- including Vodafone-to shut down their networks entirely."</p>
 <p><strong>Disclosure among members of Telecommunications Industry Dialogue (TID) was inconsistent. </strong>TID members have publicly committed to uphold <a href="http://www.telecomindustrydialogue.org/wp-content/uploads/Telecoms_Industry_Dialogue_Principles_Version_1_-_ENGLISH.pdf">principles </a>of freedom of expression and privacy, and have <a href="http://globalnetworkinitiative.org/news/global-network-initiative-and-telecommunications-industry-dialogue-joint-statement-network-and">called for increased transparency</a> by governments about their role in network shutdowns. However, our research shows inconsistent disclosure of policies and practices regarding network shutdowns among TID-members (AT&T, Orange, Telefónica, and Vodafone). While Vodafone and Telefónica disclosed the most, Orange and AT&T disclosed no more than companies that scored at or near the bottom of the Index. Neither company disclosed a commitment to push back on requests to shut down a network or restrict access to a service. </p>
 <p>Orange scored on par with Etisalat and MTN for disclosing the reasons why it may restrict access to its networks, including "force majeure" events like natural disasters or legal restrictions. AT&T scored on par with Axiata, Ooredoo, and Bharti Airtel for its disclosure of reasons why it may restrict access to its networks, like in cases of national emergencies, major weather disturbances, or as a result of requests from any government, military, or civil authority. However, neither company disclosed any additional information about whether they push back on, or their rates of compliance with, these requests.</p>
-<p><strong>Companies should be more transparent.</p>
+<h3>Companies should be more transparent.</h3>
 <p>While companies do not control government actions, or the laws that justify and enable governments to demand network shutdowns, companies do have a responsibility to disclose what actions they are taking under whose authority so that those responsible can appropriately be held accountable. In fulfilling their responsibility to respect human rights, companies also have an obligation to do everything possible to minimize the human rights harms that may result from compliance with government shutdown orders, to minimize the scope and extent of compliance, and to avoid compliance with orders of dubious legality.</p>
 <p>In some cases, companies may be prohibited from disclosing certain information by laws in jurisdictions where they operate. However, there are areas where all companies could improve their disclosure without requiring a change in laws.</p>
 <ul>
@@ -30,7 +30,7 @@ published: true
 <ul>
 <li>To the extent legally possible, report the number of network shutdown requests received and complied with, in each country or jurisdiction where the company has operations, on a regular basis (preferably annually). Disclose any legal restrictions preventing the company from publishing these numbers.</li>
 </ul>
-<p><strong>Governments should not compel companies shut down networks.</strong></p>
+<h3>Governments should not compel companies shut down networks.</h3>
 <p>As the Internet Society <a href="https://www.internetsociety.org/lets-keep-internet-everyone">puts it</a>: </p>
 <p><em>"We understand that governments are faced with sometimes challenging situations that may threaten public order and national security. But we do not believe that shutting down communications for whole or part of a country is an appropriate and proportional measure. We encourage governments to look at alternative means to address such issues."</em></p>
 <p>In evaluating companies on their disclosure, the Ranking Digital Rights <a href="http://rankingdigitalrights.org/index2017/findings/methodology">methodology </a>penalizes the absence of disclosure, regardless of the reason. Thus when governments make it illegal-or otherwise forbid in licensing agreements-for companies to disclose information related to shutdown orders, the Index scores of companies operating under such governments' authority are brought down. </p>

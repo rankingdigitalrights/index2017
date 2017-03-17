@@ -1,19 +1,30 @@
 <% if (label) { %>
 <label><%= label %></label>
 <% } %>
+
 <% if (categoryTitle) { %>
   <h2 class="page--subtitle">
-  	<%= categoryTitle.display %>  
-  	<!--
-  	<a href="<%= baseurl %>/categories/<%= categoryTitle.src %>">
-  		<%= categoryTitle.display %>  
-		</a>
-		-->
+    <%= categoryTitle.display %>  
+    <!--
+    <a href="<%= baseurl %>/categories/<%= categoryTitle.src %>">
+      <%= categoryTitle.display %>  
+    </a>
+    -->
   </h2>
 <% } %>
 <h3>
-	<%= name %>
+  <%= name %>
   <!--<a href="<%= baseurl %>/indicators/<%= indicator %>"><%= name %></a>-->
 </h3>
 <p><%- text %></p>
-<div class="bar--container"></div>
+
+<% if (indicator_type=='G') { %>
+  <div class="bar--container"></div>
+<% } else { %>
+  <div class="container--left">
+    <div class="bar--container--telco"></div>
+  </div>
+  <div class="container--right">
+    <div class="bar--container--internet"></div>
+  </div>
+<% }%>

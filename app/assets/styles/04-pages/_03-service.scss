@@ -20,57 +20,46 @@
 			}			
 		}
 
-	}
+		.service--companies {
+			.service--section {
+				.comp--mark {
+					.dotchart {
+						.dot {
+							&.highlight {
+							text-align: center;
+						    width: 2em;
+						    height: 2em;
+						    top: 2em;
+						    line-height: 2;								
+							color: $white-pure;
+							font-weight: 600;
+							font-family: $simplon-bold; 								
+							background-color: $violet;
+							font-size: 13px;
+							  @include media(small-up) {
+							  font-size: 13px;
+							  }
+							  @include media(medium-up) {
+							  font-size: 13px;  
+							  }
+							  @include media(large-up) {
+							  font-size: 13px;
+							  }
+							  @include media(xlarge-up) {
+							  font-size: 13px;  
+							  }								
+							}
+						}
+						.collecticon {
+							&.collecticon-arrow-down {
+							display: none;	
+							}
+						}						
+					}
+				}
+			}
+		}
 
-	.service-graph-content {
-	height: 600px;
-	@include bg-image(contain);	
-	}
-
-	&.cloudservices {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Cloud.png");
-		}	
-	}
-	&.emailservice {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Email.png");
-		}	
-	}
-	&.fixedbroadband {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Fixed_Broad_band.png");
-		}	
-	}
-	&.messagingvoip {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Message_and_VOIP.png");
-		}	
-	}
-	&.mobileeco {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_mobile_Eco.png");
-		}	
-	}
-	&.prepostpaidmobile {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Pre_and_post_paid.png");
-		}	
-	}
-	&.searchservice {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Search.png");
-		}	
-	}
-	&.socialnetworkblog {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Social_Network.png");
-		}	
-	}
-	&.videophoto {
-		.service-graph-content {
-		background-image: url("../graphics/content/service_page_Video_and_Photo.png");
-		}	
 	}
 
 

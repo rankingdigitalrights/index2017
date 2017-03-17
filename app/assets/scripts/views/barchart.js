@@ -161,10 +161,10 @@ module.exports = BaseChart.extend({
           // console.info(href);
           
           // create header
-          var header = "<tr><th class='cell--first' width='50%'>"+name+"</th>";
+          var header = "<tr class='header'><th class='cell--first' width='25%'>"+name+"</th>";
           var headers = company[0].headers;
           var columns = headers.length;
-          var width = 50/columns
+          var width = 75/columns
           for (var i = 0; i < headers.length; i++) {
             header += "<th class='cell--"+i+"' width="+width+"%>" + headers[i].text + "</th>";
           };
