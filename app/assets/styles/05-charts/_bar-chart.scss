@@ -35,6 +35,23 @@
   text-align: center;
 }
 
+.G {
+  .bar {
+    fill: $cat-commitment;
+  }
+}
+.F {
+  .bar {
+    fill: $cat-freedom;
+  }
+}
+.P {
+    .bar {
+    fill: $cat-privacy;
+  }
+}
+
+
 .bar--tip.n:after {
   margin: -1px 0 0 0;
   top: 100%;
