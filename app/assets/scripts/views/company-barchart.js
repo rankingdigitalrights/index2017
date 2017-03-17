@@ -5,7 +5,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: {top: 40, right: 10, bottom: 25, left: 0},
+  margin: { top: 40, right: 10, bottom: 25, left: 0 },
 
   initialize: function (options) {
     /* options
@@ -58,20 +58,33 @@ module.exports = BaseChart.extend({
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
-      .attr('class', 'bar--axis_x_company')
+      .data(this.data)
+      .attr('class', function (d) {
+        if (d.src == companyName) {
+          return 'bar--axis_x_current_company';
+        }
+      })
       .style('text-anchor', 'middle')
       .attr('transform', 'rotate(0)')
-      .data(this.data)
       .html(function (d) {
         if (d.src == companyName) {
           return count;
         }
-        else{
+        else {
           count++;
         }
       });
 
-       var barsBg = g.selectAll('.barBg')
+    var circle = g.selectAll(".bar--axis_x_current_company").node().parentNode;
+
+    d3.select(circle)
+      .insert('circle', ':first-child')
+      .attr("cx", '0')
+      .attr("cy", '10')
+      .attr("r", '8')
+      .style("fill", "#ed1b24");
+
+    var barsBg = g.selectAll('.barBg')
       .data(this.data)
       .enter().append('rect')
       .style('fill', '#E5DBD2')

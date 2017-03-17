@@ -1,7 +1,7 @@
 /* Index page */
 
 #page--index {
-	
+
 	/* Page intro */
 	.page--intro {
 		p {
@@ -701,45 +701,51 @@
 
 
 	/* Data stories items */
-	.data-stories-items {
-	clear: both;
-	margin-top: 0em;
-	margin-bottom: .325em;	
-		.data-stories-item {
-			@include media(medium-up) {
-			@include span-columns(3);
-			}
-			h3 {
-			margin-top: .8em;
-	    	margin-bottom: 1em;
-				@include media(small-up) {
+	.data-stories {
+		.data-stories-items {
+		clear: both;
+		margin-top: 0em;
+		margin-bottom: .325em;	
+			.data-stories-item {
+				@include media(medium-up) {
+				@include span-columns(3);
+				}
+				h3 {
+				margin-top: .8em;
+		    	margin-bottom: 1em;
+					@include media(small-up) {
 
+					}
+					@include media(medium-up) {
+
+					}
+					@include media(large-up) {
+
+					}
+					@include media(xlarge-up) {
+
+					}
+					a {
+					color: $black;	
+					}     		
+				}	
+			}
+			.data-stories-item + .data-stories-item {
+			margin-top: 1.5em;	
+				@include media(small-up) {
+				margin-top: 2em;
 				}
 				@include media(medium-up) {
-
+				margin-top: 0em;
 				}
 				@include media(large-up) {
-
+				margin-top: 0em;
 				}
 				@include media(xlarge-up) {
-
-				}     		
-			}	
-		}
-		.data-stories-item + .data-stories-item {
-		margin-top: 1.5em;	
-			@include media(small-up) {
-			margin-top: 2em;
+				margin-top: 0em;
+				}		
 			}
-			@include media(medium-up) {
-			margin-top: 0em;
-			}
-			@include media(large-up) {
-			margin-top: 0em;
-			}
-			@include media(xlarge-up) {
-			margin-top: 0em;
-			}		
 		}
 	}
+
 }	

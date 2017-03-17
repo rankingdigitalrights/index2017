@@ -135,7 +135,7 @@
       font-family: $platform-bold;        
       color: $gray;                          
       line-height: 1;
-      font-size: 60px;
+      font-size: 70px;
       letter-spacing: 2px;
       }
     }
@@ -160,6 +160,29 @@
       font-size: 13px;  
       }
       .comp--bar_chart {
+      margin-top: 1.5em;
+        .bar--chart {
+          .bar--axis_x_current_company {
+          text-align: center;
+          line-height: 2;               
+          fill: $white-pure;
+          font-weight: 600;
+          font-family: $simplon-bold;                 
+          font-size: 12px;
+            @include media(small-up) {
+            font-size: 12px;
+            }
+            @include media(medium-up) {
+            font-size: 12px;  
+            }
+            @include media(large-up) {
+            font-size: 12px;
+            }
+            @include media(xlarge-up) {
+            font-size: 12px;  
+            }            
+          }
+        }  
       }  
     }
   }
@@ -184,55 +207,60 @@
       margin-top: 2em;
       text-transform: uppercase;
       padding-bottom: 0.5em;  
-      border-bottom: 1px solid $red;         
+      border-bottom: 1px solid $black;         
       }
       .comp--instant_mess-wrapper {
       margin-top: 1em;
       display: flex;
-      justify-content: space-between;
-      align-items: center;      
-        label {
-        font-family: $simplon-light;  
-        text-transform: uppercase;
-        color: $black;
-        font-size: 12px;
-        line-height: 1.3; 
-        letter-spacing: 1px;
-        margin-bottom: 0px;
-          @include media(small-up) {
-          font-size: 12px;  
+      justify-content: flex-start;
+      align-items: center;
+        .comp--instant_mess {
+          label {
+          font-family: $simplon-light;  
+          text-transform: uppercase;
+          color: $black;
+          font-size: 12px;
+          line-height: 1.3; 
+          letter-spacing: 1px;
+          margin-bottom: 0px;
+            @include media(small-up) {
+            font-size: 12px;  
+            }
+            @include media(medium-up) {
+            font-size: 13px;  
+            }
+            @include media(large-up) {
+            font-size: 14px;
+            }
+            @include media(xlarge-up) {
+            font-size: 14px;  
+            }   
           }
-          @include media(medium-up) {
-          font-size: 13px;  
+          .comp--name {
+          margin-top: 0.5em;  
+          font-family: $simplon-bold;
+          color: $black;
+          font-size: 16px;
+          line-height: 1.3; 
+          letter-spacing: 1px;
+          text-transform: uppercase;
+            @include media(small-up) {
+            font-size: 16px;  
+            }
+            @include media(medium-up) {
+            font-size: 17px;  
+            }
+            @include media(large-up) {
+            font-size: 18px;
+            }
+            @include media(xlarge-up) {
+            font-size: 20px;  
+            }          
           }
-          @include media(large-up) {
-          font-size: 14px;
-          }
-          @include media(xlarge-up) {
-          font-size: 14px;  
-          }   
         }
-        .comp--name {
-        margin-top: 0.5em;  
-        font-family: $simplon-bold;
-        color: $black;
-        font-size: 16px;
-        line-height: 1.3; 
-        letter-spacing: 1px;
-        text-transform: uppercase;
-          @include media(small-up) {
-          font-size: 16px;  
-          }
-          @include media(medium-up) {
-          font-size: 17px;  
-          }
-          @include media(large-up) {
-          font-size: 18px;
-          }
-          @include media(xlarge-up) {
-          font-size: 20px;  
-          }          
-        }  
+        .comp--instant_mess + .comp--instant_mess {
+        margin-left: 2em;  
+        }        
       }
     }
   }
@@ -243,7 +271,9 @@
     .circle--charts_container {
       .circle--chart {
         .circle--container {
-          .circle--label_name {
+          .circle--label_name_G,
+          .circle--label_name_F,
+          .circle--label_name_P {
           font-family: $simplon-bold; 
           font-size: 16px;
           line-height: 1.3; 
@@ -262,6 +292,15 @@
             @include media(xlarge-up) {
             font-size: 18px;  
             }
+          }
+          .circle--label_name_G {
+          fill: $cat-commitment;   
+          }
+          .circle--label_name_F {
+          fill: $cat-freedom;   
+          }
+          .circle--label_name_P {
+          fill: $cat-privacy;   
           }
           .circle--label_val {
           font-family: $simplon-bold; 
@@ -291,6 +330,7 @@
       }
     }
   }
+
 
 
   /* Section analysis */
@@ -391,7 +431,7 @@
   padding-top: 0;
   padding-bottom: 0;  
     .row {
-    border-top: 2px solid $red;
+    border-top: 2px solid $black;
     padding-top: 1.5em;
     padding-bottom: 1em;
     }
@@ -459,8 +499,30 @@
         display: none;  
         }
         .highlight {
-        border-color: $red;
-        background-color: $red;  
+        border-color: $gray;
+        background-color: $red;
+
+        text-align: center;
+        width: 2em;
+        height: 2em;
+        top: 2em;
+        line-height: 2;
+        color: $white-pure;
+        font-weight: 600;
+        font-family: "Simplon-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+          @include media(small-up) {
+          font-size: 13px;
+          }
+          @include media(medium-up) {
+          font-size: 13px;  
+          }
+          @include media(large-up) {
+          font-size: 13px;
+          }
+          @include media(xlarge-up) {
+          font-size: 13px;  
+          }                   
         }
       }
     }        

@@ -6,7 +6,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: {top: 40, right: 20, bottom: 70, left: 40},
+  margin: { top: 40, right: 20, bottom: 100, left: 40 },
 
   initialize: function (options) {
     /* options
@@ -45,7 +45,7 @@ module.exports = BaseChart.extend({
 
   render: function (container) {
     this.container = container;
-    var indicator_id  = this.id;
+    var indicator_id = this.id;
     var svg = d3.select(container).append('svg')
       .attr('class', 'bar--chart')
       .attr('width', this.width + this.margin.left + this.margin.right)
@@ -59,47 +59,55 @@ module.exports = BaseChart.extend({
     g.append('g')
       .attr('class', 'bar--axis_x')
       .attr('transform', 'translate(0,' + this.height + ')')
-    .call(this.xAxis)
+      .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'end')
-      .attr('transform', 'rotate(-35),translate(-10,10)')
+      .attr('transform', 'rotate(-35),translate(-15,20)')
 
       .attr('indicator_id', indicator_id) // parameter for ajax calls
 
       .on('click', function (d) {
         var href = d.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '');
-          if(indicator_id){
-            ajax_call(href, indicator_id);
-          }
-          else {
-            window.location.href = baseurl + '/companies/' + href;
-          }
-        });
+        if (indicator_id) {
+          ajax_call(href, indicator_id);
+        }
+        else {
+          window.location.href = baseurl + '/companies/' + href;
+        }
+      });
 
-        g.append('g')
-      // .attr('class', 'bar--axis_x')
-      // .attr('transform', 'translate(0,' + this.height + ')')
-      .call(this.xAxis)
+    var rank = g.append('g')
+      .attr('class', 'bar--axis_x_rank');
+    // .attr('transform', 'translate(0,' + this.height + ')')
+
+    rank.call(this.xAxis)
       .selectAll('text')
-      .style('text-anchor', 'end')
+      .style('text-anchor', 'middle')
       .attr('class', 'rank')
-      .attr('transform', 'translate(0,' + this.height + ')')
+      .attr('transform', 'translate(0,' + (this.height + 7) + ')')
       .data(this.data)
       .html(d => + d.rank);
+
+    rank.selectAll(".tick").insert('circle', ':first-child')
+      .attr("cx", '0')
+      .attr("cy", '10')
+      .attr("r", '10')
+      .attr('transform', 'translate(0,' + (this.height + 7) + ')')
+      .style("fill", "#B0B0B0");
 
     g.append('g')
       .attr('class', 'bar--axis_y')
       .call(this.yAxis)
-    .append('text')
+      .append('text')
       .attr('transform', 'rotate(-90)')
       .attr('y', 6)
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
 
-      var barsBg = g.selectAll('.barBg')
+    var barsBg = g.selectAll('.barBg')
       .data(this.data)
-    .enter().append('rect')
+      .enter().append('rect')
       .style('fill', '#E5DBD2')
       .attr('x', (d, i) => this.x(d.name))
       .attr('width', this.x.rangeBand())
@@ -108,12 +116,12 @@ module.exports = BaseChart.extend({
 
     barsBg.transition()
       .duration(1000)
-      .attr('y','0')
+      .attr('y', '0')
       .attr('height', d => this.height);
 
     var bars = g.selectAll('.bar')
       .data(this.data)
-    .enter().append('rect')
+      .enter().append('rect')
       .attr('class', function (d) {
         if (!d.className) {
           d.className = 'default';
