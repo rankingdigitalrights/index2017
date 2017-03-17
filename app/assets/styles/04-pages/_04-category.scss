@@ -38,13 +38,90 @@
 		}
 
 		.category-graph {
-			#category--overview_chart {
+			.category-chart {
+				#category--overview_chart_left,
+				#category--overview_chart_right {
+					@include media(medium-up) {
+					@include span-columns(6);
+					}
+				}
+				#category--overview_chart_left {
+					i {
+					color: $red;	
+					}
+				}
+				#category--overview_chart_right {
+					i {
+					color: $orange;	
+					}					
+				}				
+				.graph-title {
+					p {
+					font-family: $simplon-light;
+				    color: $black;
+				    font-size: 11px;
+				    line-height: 1.3; 
+				    letter-spacing: 1px;
+				    text-transform: uppercase;
+				      @include media(small-up) {
+				      font-size: 11px;  
+				      }
+				      @include media(medium-up) {
+				      font-size: 12px;  
+				      }
+				      @include media(large-up) {
+				      font-size: 13px;
+				      }
+				      @include media(xlarge-up) {
+				      font-size: 13px;  
+				      }
+					}
+			    }   
 				.bar--chart {
 					.bar--axis_x {
-						.tick {}
+						.tick {
+						text-align: center;
+						line-height: 2;               
+						fill: $black;
+						font-weight: 600;
+						font-family: $simplon-regular;
+						text-transform: uppercase;                 
+						font-size: 14px;
+							@include media(small-up) {
+							font-size: 14px;
+							}
+							@include media(medium-up) {
+							font-size: 14px;  
+							}
+							@include media(large-up) {
+							font-size: 14px;
+							}
+							@include media(xlarge-up) {
+							font-size: 14px;  
+							} 														
+						}
 					}
-					.bar--axis_y {
-						.tick {}
+					.bar--axis_x_rank {
+						.tick {
+						text-align: center;
+						line-height: 2;               
+						fill: $white-pure;
+						font-weight: 600;
+						font-family: $simplon-bold;						                 
+						font-size: 14px;
+							@include media(small-up) {
+							font-size: 14px;
+							}
+							@include media(medium-up) {
+							font-size: 14px;  
+							}
+							@include media(large-up) {
+							font-size: 14px;
+							}
+							@include media(xlarge-up) {
+							font-size: 14px;  
+							} 							
+						}
 					}
 					.bar {
 						&.bar--governance {
@@ -68,6 +145,19 @@
 					}						
 				}
 			}
+			.graph-legend {
+			clear: both;	
+			justify-content: flex-end;
+				.service-rank {	
+					i {
+					color: $gray;
+					font-size: 20px;	
+					}
+				}
+				.graph-legend-values-value {					
+				font-family: $simplon-medium;
+				}				
+			}			
 		}
 
 

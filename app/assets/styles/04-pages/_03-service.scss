@@ -64,9 +64,6 @@
 							font-size: 14px;  
 							} 							
 						}
-						circle {
-						fill: yellow;	
-						}
 					}
 					.bar--axis_x_company {
 					font-family: $simplon-light;                 
@@ -122,6 +119,9 @@
 				.graph-legend-values-label {
 				margin-bottom: 0px;	
 				}
+				.graph-legend-values-value {					
+				font-family: $simplon-medium;
+				}				
 			}
 			
 		}
