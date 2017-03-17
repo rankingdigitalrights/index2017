@@ -6,7 +6,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: {top: 40, right: 20, bottom: 55, left: 40},
+  margin: {top: 40, right: 20, bottom: 70, left: 40},
 
   initialize: function (options) {
     /* options
@@ -53,7 +53,8 @@ module.exports = BaseChart.extend({
     svg.call(this.tip);
 
     var g = svg.append('g')
-      .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
+      .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')')
+      .attr('class', this.id[0]);
 
     g.append('g')
       .attr('class', 'bar--axis_x')
