@@ -333,12 +333,14 @@
 		  }
 
 	    .container--left {
+	    	padding-right: 10px;
 	      @include media(medium-up) {
 	        @include span-columns(6);
 	      }
 	    }
 	    .container--right {
 	      margin-right: 0;
+	      padding-left: 10px;
 	      @include media(medium-up) {
 	        @include span-columns(6);
 	      }

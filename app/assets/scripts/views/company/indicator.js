@@ -94,7 +94,7 @@ module.exports = BaseChart.extend({
             svg.call(tip);
 
             var indicator_width = $('#indicators--privacy').width();
-            var wrap_width = Number(indicator_width) - 120;
+            var wrap_width = Number(indicator_width) - 100;
 
             var gy = svg.append("g")
                 .attr("class", "y axis")

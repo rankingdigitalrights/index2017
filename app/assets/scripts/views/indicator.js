@@ -41,7 +41,7 @@ module.exports = Backbone.View.extend({
     {
       this.graphic = new Barchart({
         width: options.width,
-        height: 250,
+        height: 275,
         data: this.model.getSortedScores(),
         id: options.indicator_id
       });
@@ -50,14 +50,14 @@ module.exports = Backbone.View.extend({
     {
       this.graphic_telco = new Barchart({
         width: options.width/2,
-        height: 250,
+        height: 275,
         data: a_telco,
         id: options.indicator_id
       });
 
       this.graphic_internet = new Barchart({
         width: options.width/2,
-        height: 250,
+        height: 275,
         data: a_internet,
         id: options.indicator_id
       }); 
