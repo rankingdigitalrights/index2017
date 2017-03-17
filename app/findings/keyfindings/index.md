@@ -14,9 +14,12 @@ published: true
 <p></p>
 <p>We are also pleased to report, however, that many companies made meaningful improvements since <a href="https://rankingdigitalrights.org/index2015/">the 2015 Index.</a></p>
 <p></p>
-<p>Download the full report and analysis. </p>
-<p></p>
-<p>[INSERT ToC here linking to anchored section headers below which I am marking with #, or make them expandable/contractable or something.]</p>
+<p>Download the <a href="/download">full report and analysis.</a> </p>
+<ul><strong>
+<li>Company highlights</li>
+<li>Key Lessons</li>
+<li>Key Concerns</li></strong>
+</ul>
 <p></p>
 <h2>Company highlights:</h2>
 <p></p>
@@ -62,16 +65,14 @@ published: true
 <p></p>
 <ul>
 <li><strong>Mobile ecosystems: We don't know enough about the impact of smartphones on our digital rights. </strong>Smartphones are chokepoints for freedom of expression and gatekeepers for digital security. It is important that companies controlling mobile ecosystems have strong commitments and disclosed policies.</li>
-</ul>
 <p></p>
 <p>We evaluated three mobile ecosystems: Apple's iOS ecosystem, the Google Android mobile ecosystem, and Samsung's implementation of Android. All three offered poor disclosure about policies affecting freedom of expression and privacy. </p>
 <p></p>
 <p><strong>Google</strong> disclosed the most information across the board about policies and practices affecting Android smartphone users' freedom of expression and privacy. <strong>Apple</strong>'s iOS mobile ecosystem was most competitive on privacy-related disclosures and generally had better disclosure than<strong> Samsung</strong>-controlled Android devices. <a href="https://rankingdigitalrights.org/index2017/findings/mobileecosystems">Explore our in-depth analysis of mobile ecosystems. </a></p>
-<p></p>
+</ul>
 <ul>
 <li><strong>Freedom of expression is getting short-changed. </strong>How do company actions affect our ability to publish, transmit, or access content? With a couple of notable exceptions, most companies disclosed much less information about policies that affect users' freedom of expression than about policies affecting privacy. Here is what that means in practice:</li>
 </ul>
-<p></p>
 <ul>
 <li><strong>Third-party requests to restrict speech:</strong> Companies don't disclose enough about how they respond when governments and other parties ask them to block, delete, or otherwise restrict content or deactivate users' accounts. Companies are receiving growing numbers of requests not only from governments but from private organizations and individuals. If and how companies respond to and comply with these requests can have a critical impact on freedom of expression and on human rights more broadly. (For a detailed analysis see section 5.1 of the <a href="https://rankingdigitalrights.org/download">full report</a>.) </li>
 </ul>
@@ -87,7 +88,7 @@ published: true
 <ul>
 <li><strong>Network shutdowns:</strong> A growing number of governments are requiring telecommunications companies to shut down service either for a whole country or in a specific area for specified periods - and for a range of reasons. In 2016, the U.N. Human Rights Council <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/32/L.20">affirmed</a> that network shutdowns threaten freedom of expression and the right to access information, condemned them to be a violation of international human rights law and called on governments to refrain from taking these actions. Users are generally in the dark about why they are cut off and . <a href="https://rankingdigitalrights.org/index2017/findings/networkshutdowns">Explore our in-depth analysis related to network shutdowns</a>. </li>
 </ul>
-<p><br /><br /></p>
+<p></p>
 <ul>
 <li><strong>Handling of user information is opaque. </strong>How and for what purpose is our information collected, shared, retained, and used? If somebody were to build a profile on us using this information, what would it look like? Companies don't disclose enough for users to understand risks and make informed choices.</li>
 </ul>
