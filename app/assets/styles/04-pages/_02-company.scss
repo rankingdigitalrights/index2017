@@ -25,6 +25,11 @@
       @include media(medium-up) {
         @include span-columns(5);
       }
+
+      .dotchart {
+        margin: 0;
+      }
+      
     }
     .container--right {
       margin-right: 0;
@@ -190,13 +195,20 @@
     }
   }
 
-
   /* Key findings */
   .key-findings {
     .row {
       .container--left {
         @include media(medium-up) {
           @include span-columns(6);
+        }
+        .comp--key_findings {
+          ul {
+            li {
+              list-style-type: disc;
+              list-style-position: outside;
+            }
+          }
         }
       }
       .container--right {
