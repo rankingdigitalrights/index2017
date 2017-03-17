@@ -162,6 +162,9 @@
       .comp--bar_chart {
       margin-top: 1.5em;
         .bar--chart {
+          .bar--axis_x_current_company_bar {
+          fill: $red; 
+          }
           .bar--axis_x_current_company {
           text-align: center;
           line-height: 2;               
