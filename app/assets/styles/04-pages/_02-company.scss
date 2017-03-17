@@ -162,29 +162,24 @@
       .comp--bar_chart {
       margin-top: 1.5em;
         .bar--chart {
-          .bar--axis_x_company {
+          .bar--axis_x_current_company {
           text-align: center;
-          width: 2em;
-          height: 2em;
-          top: 2em;
           line-height: 2;               
-          color: $white-pure;
-          fill: $red;
+          fill: $white-pure;
           font-weight: 600;
           font-family: $simplon-bold;                 
-          background-color: $red;
-          font-size: 13px;
+          font-size: 12px;
             @include media(small-up) {
-            font-size: 13px;
+            font-size: 12px;
             }
             @include media(medium-up) {
-            font-size: 13px;  
+            font-size: 12px;  
             }
             @include media(large-up) {
-            font-size: 13px;
+            font-size: 12px;
             }
             @include media(xlarge-up) {
-            font-size: 13px;  
+            font-size: 12px;  
             }            
           }
         }  
