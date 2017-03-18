@@ -31,7 +31,7 @@
 	},
 	{
 		"id": "6",
-		"total": "64.48",
+		"total": "64.57",
 		"service": "Outlook.com",
 		"company": "Microsoft"
 	},
@@ -151,7 +151,7 @@
 	},
 	{
 		"id": "26",
-		"total": "65.48",
+		"total": "55.79",
 		"service": "Google Android",
 		"company": "Google"
 	},
@@ -295,13 +295,13 @@
 	},
 	{
 		"id": "50",
-		"total": "39.43",
+		"total": "40.62",
 		"service": "Vine",
 		"company": "Twitter"
 	},
 	{
 		"id": "51",
-		"total": "40.62",
+		"total": "39.43",
 		"service": "Periscope",
 		"company": "Twitter"
 	},

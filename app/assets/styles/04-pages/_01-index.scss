@@ -65,6 +65,11 @@
 	.key-findings {
 		.description--texts {
 			.description--text {
+				ul {
+					li {
+						list-style-type: disc !important; 
+					}
+				}
 				@include media(medium-up) {
 				@include span-columns(6);
 				}
@@ -672,7 +677,8 @@
 							flex-direction: row;
 							}
 							.service--circle--chart {
-							padding-bottom: 15px;	
+							padding-bottom: 15px;
+							margin: 0 10px;
 							}						    				    	
 			    		}
 			    		.tab-pane-chart-row + .tab-pane-chart-row {

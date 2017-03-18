@@ -1387,15 +1387,15 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"33.33333333"
+            "value":"50"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
-            "value":"25.92592593"
+            "value":"39"
          },
          {
             "name":"F7.Data about private requests for content or account restriction",
-            "value":"33.33333333"
+            "value":"50"
          },
          {
             "name":"F8.User notification about content and account restriction",
@@ -1481,7 +1481,7 @@
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"50"
+            "value":"75"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
