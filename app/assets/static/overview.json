@@ -60,7 +60,7 @@
         "total": "52.67"
     },
     {
-        "commitment": "17.64",
+        "commitment": "16.53",
         "display": "Apple",
         "freedom": "21.68",
         "id": "apple",
@@ -105,7 +105,7 @@
         "freedom": "14.37",
         "id": "tencent",
         "name": "tencent",
-        "privacy": "30.26",
+        "privacy": "30.73",
         "telco": "false",
         "total": "21.99"
     },
