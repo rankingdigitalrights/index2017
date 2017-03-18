@@ -12,15 +12,15 @@ Together, the companies evaluated in the Index offer products and services that 
 Company disclosure is inadequate across the board. Similar to the 2015 results, the average score for all companies evaluated was just 33 percent. The highest score in the 2017 Index was 65 percent overall. While examples of good practice can be found across the Index, all companies failed to sufficiently disclose policies affecting users' freedom of expression and privacy. Even the better performing companies had significant gaps in disclosure on key issues that affect what a user can and cannot say or do, or who knows what about their activities. </p>
 <p></p>
 <p>We are also pleased to report, however, that many companies made meaningful improvements since <a href="https://rankingdigitalrights.org/index2015/">the 2015 Index.</a></p>
-<p></p>
-<p>Download the <a href="/download">full report and analysis.</a> </p>
+<p>Download the <a href="/download">full report and analysis.</a></p>
+<div style="text-align: right">
 
 ### Contents
 [**Company Highlights**](#chapter-1)
 [**Key Lessons**](#chapter-2)
 [**Key Concerns**](#chapter-3)
 
-
+<br /></div>
 <a id="chapter-1"></a>
 <h2>Company Highlights</h2>
 <p></p>
@@ -49,6 +49,7 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 </ul>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
+<br />
 <a id="chapter-2"></a>
 <p></p>
 <h2>Key Lessons</h2> 
@@ -60,6 +61,7 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p>The <a href="https://rankingdigitalrights.org/index2017/indicators">2017 Index data</a> shows that GNI and TID member companies performed better on indicators in the <a href="https://rankingdigitalrights.org/index2017/categories/governance">Governance</a> category -measuring the institutionalization of corporate-level commitments to freedom of expression and privacy - than all other companies. However, in other areas of the Index, GNI or TID membership was not necessarily a predictor of strong performance. </p>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p> 
+<br />
 <a id="chapter-3"></a>
 <p></p>
 <h2>Key Concerns</h2>
