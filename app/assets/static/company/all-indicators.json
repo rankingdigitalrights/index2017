@@ -219,7 +219,7 @@
          },
          {
             "name":"F11.Identity policy",
-            "value":"50"
+            "value":"100"
          }
       ],
       "privacy":[
@@ -471,7 +471,7 @@
          },
          {
             "name":"G6.Remedy",
-            "value":"26.66666667"
+            "value":"20"
          }
       ],
       "freedom":[
@@ -765,7 +765,7 @@
          },
          {
             "name":"G5.Stakeholder engagement",
-            "value":"12.5"
+            "value":"17"
          },
          {
             "name":"G6.Remedy",
@@ -783,7 +783,7 @@
          },
          {
             "name":"F3.Process for terms of service enforcement",
-            "value":"20.83333333"
+            "value":"17"
          },
          {
             "name":"F4.Data about terms of service enforcement",
@@ -1276,7 +1276,7 @@
          },
          {
             "name":"P3.Collection of user information",
-            "value":"62.5"
+            "value":"60"
          },
          {
             "name":"P4.Sharing of user information",
@@ -1332,7 +1332,7 @@
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"70.83333333"
+            "value":"94"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
@@ -1536,7 +1536,7 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"2.777777778"
+            "value":"4"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
@@ -1655,7 +1655,7 @@
          },
          {
             "name":"G4.Impact assessment",
-            "value":"84.72222222"
+            "value":"86"
          },
          {
             "name":"G5.Stakeholder engagement",
@@ -1664,13 +1664,13 @@
          {
             "name":"G6.Remedy",
             "value":"40"
-         },
-         {
-            "name":"F1.Access to terms of service",
-            "value":"100"
          }
       ],
       "freedom":[
+         {
+            "name":"F1.Access to terms of service",
+            "value":"100"
+         },
          {
             "name":"F2.Changes to terms of service",
             "value":"54.16666667"
@@ -1685,15 +1685,15 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"27.77777778"
+            "value":"42"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
-            "value":"16.66666667"
+            "value":"25"
          },
          {
             "name":"F7.Data about private requests for content or account restriction",
-            "value":"25"
+            "value":"38"
          },
          {
             "name":"F8.User notification about content and account restriction",
@@ -1709,7 +1709,7 @@
          },
          {
             "name":"F11.Identity policy",
-            "value":"66.66666667"
+            "value":"100"
          }
       ],
       "privacy":[
@@ -1779,7 +1779,7 @@
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"66.66666667"
+            "value":"100"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
