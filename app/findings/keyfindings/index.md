@@ -14,13 +14,15 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p>We are also pleased to report, however, that many companies made meaningful improvements since <a href="https://rankingdigitalrights.org/index2015/">the 2015 Index.</a></p>
 <p></p>
 <p>Download the <a href="/download">full report and analysis.</a> </p>
+
 ### Contents
 [**Company Highlights**](#chapter-1)
 [**Key Lessons**](#chapter-2)
 [**Key Concerns**](#chapter-3)
-<br />
+
+
 <a id="chapter-1"></a>
-## Company Highlights 
+<h2>Company Highlights</h2>
 <p></p>
 <ul>
 <li><a href="https://rankingdigitalrights.org/index2017/companies/google"><strong>Google</strong></a> and <a href="https://rankingdigitalrights.org/index2017/companies/microsoft"><strong>Microsoft</strong></a> were the only companies in the entire Index to score more than 60 percent overall. However, Google's lead over the other companies near the top of the Index narrowed since <a href="https://rankingdigitalrights.org/index2015/">2015</a>, while Microsoft moved from third to second place primarily due to improved disclosures about its policies affecting freedom of expression.</li>
