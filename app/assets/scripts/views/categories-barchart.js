@@ -6,7 +6,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: { top: 40, right: 20, bottom: 100, left: 40 },
+  margin: { top: 40, right: 20, bottom: 115, left: 40 },
 
   initialize: function (options) {
     /* options
@@ -61,8 +61,10 @@ module.exports = BaseChart.extend({
       .attr('transform', 'translate(0,' + this.height + ')')
       .call(this.xAxis)
       .selectAll('text')
+      .attr('x', '-10')
+      .attr('y','0')
       .style('text-anchor', 'end')
-      .attr('transform', 'rotate(-35),translate(-15,20)')
+      .attr('transform', 'rotate(-45),translate(-15,20)')
 
       .attr('indicator_id', indicator_id) // parameter for ajax calls
 
@@ -91,7 +93,7 @@ module.exports = BaseChart.extend({
 
     rank.selectAll(".tick").insert('circle', ':first-child')
       .attr("cx", '0')
-      .attr("cy", '10')
+      .attr("cy", '8')
       .attr("r", '10')
       .attr('transform', 'translate(0,' + (this.height + 7) + ')')
       .style("fill", "#B0B0B0");
