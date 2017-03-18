@@ -13,14 +13,13 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p></p>
 <p>We are also pleased to report, however, that many companies made meaningful improvements since <a href="https://rankingdigitalrights.org/index2015/">the 2015 Index.</a></p>
 <p>Download the <a href="/download">full report and analysis.</a></p>
-<div style="text-align: right">
 
 ### Contents
 [**Company Highlights**](#chapter-1)
 [**Key Lessons**](#chapter-2)
 [**Key Concerns**](#chapter-3)
 
-<br /></div>
+<br />
 <a id="chapter-1"></a>
 <h2>Company Highlights</h2>
 <p></p>
