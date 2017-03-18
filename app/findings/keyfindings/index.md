@@ -16,9 +16,9 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p>Download the <a href="/download">full report and analysis.</a> </p>
 
 ### Jump To
-[**Company Highlights**](#chapter-1)
-[**Key Lessons**](#chapter-2)
-[**Key Concerns**](#chapter-3)
+*[**Company Highlights**](#chapter-1)
+*[**Key Lessons**](#chapter-2)
+*[**Key Concerns**](#chapter-3)
 
 ## Company Highlights <a id="chapter-1"></a>
 <p></p>
