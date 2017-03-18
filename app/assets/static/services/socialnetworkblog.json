@@ -4,19 +4,19 @@
    "Service ": "Baidu PostBar",
    "text": "Baidu PostBar is a communication platform tied to search results operated by the Chinese search engine company, Baidu",
    "rank": "1",
-   "Total": "63.13",
-   "G": "29.77",
-   "FoE": "71.87",
-   "P": "69.89"
+   "Total": "63",
+   "G": "30",
+   "FoE": "72",
+   "P": "70"
  },
  {
    "Company": "Facebook",
    "Service ": "Facebook",
    "text": "Facebook is the social networking service operated by Facebook Inc.",
    "rank": "2",
-   "Total": "59.56",
-   "G": "89.17",
-   "FoE": "58.93",
+   "Total": "60",
+   "G": "89",
+   "FoE": "59",
    "P": "50"
  },
  {
@@ -24,39 +24,39 @@
    "Service ": "Vkontakte",
    "text": "VKontakte is an online social media and social networking service based in St Petersburg, owned by the Russian internet company Mail.Ru since 2014. ",
    "rank": "3",
-   "Total": "53.89",
-   "G": "81.3",
-   "FoE": "35.63",
-   "P": "53.88"
+   "Total": "54",
+   "G": "81",
+   "FoE": "36",
+   "P": "54"
  },
  {
    "Company": "Twitter",
    "Service ": "Twitter",
    "text": "Twitter is an online news and social networking service where users post and interact with \"tweets,\" restricted to 140 characters. ",
    "rank": "4",
-   "Total": "24.86",
-   "G": "7.08",
-   "FoE": "14.95",
-   "P": "35.74"
+   "Total": "25",
+   "G": "7",
+   "FoE": "15",
+   "P": "36"
  },
  {
    "Company": "Yahoo\n",
    "Service ": "Tumblr",
    "text": "Tumblr is a microblogging and social networking service owned by Yahoo! since 2013. The service allows users to post multimedia and other content to a short-form blog. ",
    "rank": "5",
-   "Total": "20.61",
-   "G": "7.5",
-   "FoE": "12.96",
-   "P": "28.79"
+   "Total": "21",
+   "G": "8",
+   "FoE": "13",
+   "P": "29"
  },
  {
    "Company": "Tencent",
    "Service ": "QZone",
    "text": "Qzone is a social networking service created by Tencent Holding Limited in 2005. It allows users to write blogs, keep diaries, send photos, listen to music, and watch videos. ",
    "rank": "6",
-   "Total": "13.67",
+   "Total": "14",
    "G": "0",
-   "FoE": "14.02",
-   "P": "18.05"
+   "FoE": "14",
+   "P": "18"
  }
 ]
