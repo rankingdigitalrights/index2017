@@ -133,7 +133,7 @@
    },
    {  
       "governance":{  
-         "val":"17.64",
+         "val":"16.53",
          "rank":"14"
       },
       "display":"Apple",
@@ -232,7 +232,7 @@
       "id":"tencent",
       "name":"tencent",
       "privacy":{  
-         "val":"30.26",
+         "val":"30.73",
          "rank":"9"
       },
       "telco":"false",
