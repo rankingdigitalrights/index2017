@@ -6,21 +6,21 @@ header: Key findings
 published: true
 ---
 
-<p>Together, the companies evaluated in the Index offer products and services that are used by at least half of the world's 3.7 billion internet users. </p>
-<p></p>
-<p><strong>We regret to report that companies do not disclose enough information to their users about policies and practices affecting freedom of expression and privacy. As a result most of the world's internet users lack the information they need to make informed choices. </strong></p>
-<p></p>
-<p>Company disclosure is inadequate across the board. Similar to the 2015 results, the average score for all companies evaluated was just 33 percent. The highest score in the 2017 Index was 65 percent overall. While examples of good practice can be found across the Index, all companies failed to sufficiently disclose policies affecting users' freedom of expression and privacy. Even the better performing companies had significant gaps in disclosure on key issues that affect what a user can and cannot say or do, or who knows what about their activities. </p>
+Together, the companies evaluated in the Index offer products and services that are used by at least half of the world's 3.7 billion internet users.
+**We regret to report that companies do not disclose enough information to their users about policies and practices affecting freedom of expression and privacy. As a result most of the world's internet users lack the information they need to make informed choices.**
+
+Company disclosure is inadequate across the board. Similar to the 2015 results, the average score for all companies evaluated was just 33 percent. The highest score in the 2017 Index was 65 percent overall. While examples of good practice can be found across the Index, all companies failed to sufficiently disclose policies affecting users' freedom of expression and privacy. Even the better performing companies had significant gaps in disclosure on key issues that affect what a user can and cannot say or do, or who knows what about their activities. </p>
 <p></p>
 <p>We are also pleased to report, however, that many companies made meaningful improvements since <a href="https://rankingdigitalrights.org/index2015/">the 2015 Index.</a></p>
 <p></p>
 <p>Download the <a href="/download">full report and analysis.</a> </p>
-<ul><strong>
-<li>Company highlights</li>
-<li>Key Lessons</li>
-<li>Key Concerns</li></strong>
-</ul>
+
+[Company Highlights](#example)
+[Key Lessons](#example2)
+[Key Concerns](#third-example)
+
 <p></p>
+#example
 <h2>Company highlights:</h2>
 <p></p>
 <ul>
@@ -49,7 +49,8 @@ published: true
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
 <p></p>
-<h2>Key lesson: </h2>
+#example2
+<h2>Key lessons: </h2>
 <p></p>
 <p><strong>When companies work together and with stakeholders to implement human rights commitments, they can make a real difference.</strong></p>
 <p></p>
@@ -59,6 +60,7 @@ published: true
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
 <p></p>
+#third-example
 <h2>Key concerns:</h2>
 <p></p>
 <p>The Index offers a roadmap for companies to credibly demonstrate respect for their users' rights around the globe. After analyzing this year's data we have identified several major concerns: </p>
