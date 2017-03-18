@@ -15,13 +15,12 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p></p>
 <p>Download the <a href="/download">full report and analysis.</a> </p>
 
-[Company Highlights](#example)
-[Key Lessons](#example2)
-[Key Concerns](#third-example)
+[Company Highlights](#chapter-1)
+[Key Lessons](#chapter-2)
+[Key Concerns](#chapter-3)
 
-<p></p>
-#example
-<h2>Company highlights:</h2>
+
+## Company Highlights <a id="chapter-1"></a>
 <p></p>
 <ul>
 <li><a href="https://rankingdigitalrights.org/index2017/companies/google"><strong>Google</strong></a> and <a href="https://rankingdigitalrights.org/index2017/companies/microsoft"><strong>Microsoft</strong></a> were the only companies in the entire Index to score more than 60 percent overall. However, Google's lead over the other companies near the top of the Index narrowed since <a href="https://rankingdigitalrights.org/index2015/">2015</a>, while Microsoft moved from third to second place primarily due to improved disclosures about its policies affecting freedom of expression.</li>
@@ -49,8 +48,7 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
 <p></p>
-#example2
-<h2>Key lessons: </h2>
+## Key Lessons <a id="chapter-2"></a>
 <p></p>
 <p><strong>When companies work together and with stakeholders to implement human rights commitments, they can make a real difference.</strong></p>
 <p></p>
@@ -60,8 +58,7 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
 <p></p>
-#third-example
-<h2>Key concerns:</h2>
+## Key Concerns <a id="chapter-3"></a>
 <p></p>
 <p>The Index offers a roadmap for companies to credibly demonstrate respect for their users' rights around the globe. After analyzing this year's data we have identified several major concerns: </p>
 <p></p>
