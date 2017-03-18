@@ -12,7 +12,7 @@
     {
         "Company": "Microsoft",
         "Service ": "Bing",
-        "text": "Bing is a web search engine operated by Microsoft. Launched in 2009. The service evolved from Microsoft's previous search engines: MSN Search, Windows Live Search and later Live Search.",
+        "text": "Bing is a web search engine operated by Microsoft. Launched in 2009, the service evolved from Microsoft's previous search engines: MSN Search, Windows Live Search and later Live Search.",
         "rank": "2",
         "Total": "64",
         "G": "87",
@@ -22,7 +22,7 @@
     {
         "Company": "Kakao",
         "Service ": "Daum Search ",
-        "text": "Daum Search is a search engine operated by Kakao, a South Korean internet company established in 2014 following the merger of Daum Communications and Kakao ",
+        "text": "Daum Search is a search engine operated by Kakao, a South Korean internet company established in 2014 following the merger of Daum Communications and Kakao. ",
         "rank": "3",
         "Total": "47",
         "G": "36",
