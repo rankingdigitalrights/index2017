@@ -67,7 +67,8 @@ module.exports = BaseChart.extend({
       .style('text-anchor', 'middle')
       .attr('transform', 'translate(0,4)')
       .html(function (d) {
-        if (d.src == companyName) {
+        if (d.src === 'vodafone') { count--; }
+        if (d.src === companyName) {
           return count;
         }
         else {
@@ -103,7 +104,7 @@ module.exports = BaseChart.extend({
       .data(this.data)
       .enter().append('rect')
       .attr('class', function (d) {
-          if (d.src == companyName) {
+        if (d.src == companyName) {
           return "bar--axis_x_current_company_bar";
         }
       })

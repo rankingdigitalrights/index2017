@@ -19,10 +19,10 @@ module.exports = BaseChart.extend({
   initialize: function (options) {
     _.extend(this, options);
     var type = this.telco ? 'Telecommunications' : 'Internet';
-    this.$el.html(this.template({type}));
+    this.$el.html(this.template({ type }));
     $(this.parent).append(this.$el);
   },
-  
+
   openTooltip: function (e) {
     var $target = $(e.currentTarget).find('.vis--horiz_bar');
     this.tip = new Tooltip({
@@ -53,14 +53,15 @@ module.exports = BaseChart.extend({
     if (!childViews.length) {
       childViews = _.chain(this.collection.models)
         .filter(m => m.get('telco') === telco)
-        .map(m => new HorizontalRow({model: m}))
+        .map(m => new HorizontalRow({ model: m }))
         .value();
       this.childViews = childViews;
     }
-    
+
     var No = 1;
     _.sortBy(childViews, view => direction * view.model.get(category))
       .forEach(function (view) {
+        if (view.model.get('id') === 'vodafone') { No--; }
         $bars.append(view.render(No++));
       });
 
