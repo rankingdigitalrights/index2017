@@ -109,7 +109,7 @@ module.exports = BaseChart.extend({
             var title = svg.selectAll('.tick')
                 .style("cursor", "pointer")
                 .append("svg:title")
-                .text("Go to indicators page");
+                .text("Click for element level detail");
 
             var bars = svg.selectAll(".bar")
                 .data(data)

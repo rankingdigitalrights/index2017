@@ -65,7 +65,7 @@ module.exports = BaseChart.extend({
       .attr('transform', 'rotate(-35)')
 
       .attr('indicator_id', indicator_id) // parameter for ajax calls
-
+      .html(d => "→ " + d)
       .on('click', function (d) {
         var href = d.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '').replace('é', 'e').replace('ó', 'o');
