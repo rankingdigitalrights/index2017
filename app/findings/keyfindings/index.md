@@ -41,8 +41,6 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 </ul>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
-<br />
-<a id="chapter-2"></a>
 <p></p>
 <h2>Key Lessons</h2> 
 <p></p>
@@ -53,8 +51,6 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p>The <a href="https://rankingdigitalrights.org/index2017/indicators">2017 Index data</a>shows that GNI and TID member companies performed better on indicators in the<a href="https://rankingdigitalrights.org/index2017/categories/governance">Governance</a> category - measuring the institutionalization of corporate-level commitments to freedom of expression and privacy - than all other companies. However, in other areas of the Index, GNI or TID membership was not necessarily a predictor of strong performance. </p>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p> 
-<br />
-<a id="chapter-3"></a>
 <p></p>
 <h2>Key Concerns</h2>
 <p></p>
