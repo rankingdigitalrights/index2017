@@ -2,7 +2,7 @@
 layout: article
 visualization: none
 entity: findings
-header: Russia
+header: Russian Companies
 published: true
 ---
 <h2>Russian internet companies can do better despite tough legal environment </h2>
@@ -42,7 +42,7 @@ published: true
 </ul>
 </li>
 </ul>
-<p><br /><br /></p>
+<p></p>
 <p><strong>Figure 3: Table of privacy scores </strong></p>
 <h3>Privacy</h3>
 <p>The biggest difference between the Russian internet companies evaluated was found in the <a href="https://rankingdigitalrights.org/2017-indicators/#P">Privacy</a> category, where Yandex outscored Mail.Ru by more than 10 percentage points. Differences in scores highlight the following areas for improvement:</p>
@@ -62,5 +62,5 @@ published: true
 </ul>
 </li>
 </ul>
-<p><br /><br /><br />Read more about our <a href="https://rankingdigitalrights.org/index2017/findings/keyfindings">Key Findings</a> and <a href="https://rankingdigitalrights.org/index2017/findings/recommendations">Recommendations</a>.</p>
+<p><br /><br />Read more about our <a href="https://rankingdigitalrights.org/index2017/findings/keyfindings">Key Findings</a> and <a href="https://rankingdigitalrights.org/index2017/findings/recommendations">Recommendations</a>.</p>
 ---
