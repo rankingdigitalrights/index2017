@@ -20,10 +20,6 @@ before_install:
 - chmod 400 rdr
 - chmod +x ./.build_scripts/deploy.sh
 - chmod +x ./.build_scripts/build.sh
-- chmod +x ./.build_scripts/lint.sh
-
-before_script:
-- "./.build_scripts/lint.sh"
 
 script:
 - "./.build_scripts/build.sh"
