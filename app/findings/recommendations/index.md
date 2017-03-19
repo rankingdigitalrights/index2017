@@ -6,16 +6,6 @@ header: Recommendations
 published: true
 ---
 <p>Based on what we have learned from the Index results, below are recommendations for companies as well as for governments.</p>
-
-<ul><strong>
-<li>For companies [insert anchor link]
-<li>Governance and general recommendations [insert anchor link]
-<li>Mobile ecosystems
-<li>Freedom of expression
-<li>Handling of user information
-<li>Security</strong>
-</ul>
-<br />
 <h2>For companies</h2>
 <p>All companies in the Index can make improvements. Below is a basic guide. More specific recommendations for each company can be found in the individual company report cards.</p>
 <h3>Governance and general recommendations</h3>
@@ -69,7 +59,7 @@ published: true
 <li>Data about private requests for content restriction.</li>
 </ul>
 </ul>
-<p>If a company does not receive or entertain a particular type of request, or if it doesn't entertain requests from certain types of third parties (e.g., private individuals acting without legal authority), the company should also clearly disclose that information.</p>
+<p style="padding-left: 30px;">If a company does not receive or entertain a particular type of request, or if it doesn't entertain requests from certain types of third parties (e.g., private individuals acting without legal authority), the company should also clearly disclose that information.</p>
 <ul>
 <li><strong>Telecommunications companies should provide as much information as possible about their policies for responding to network shutdowns</strong>, including details such as the number of requests they received and the number with which they complied.</li>
 </ul>
@@ -77,7 +67,7 @@ published: true
 <li><strong>Companies that host or serve as a conduit for content should disclose sufficient detail to meet standards for transparency and accountability around terms of service enforcement. </strong>Specifically, companies should publish data on a regular basis about the volume and nature of content removals and account restrictions that the company makes to enforce its terms of service so that users have a clearer understanding of the level of effort the company is making to keep different types of speech from appearing on or through its service.</li>
 </ul>
 <ul>
-<li><strong>Where the law does not explicitly mandate it</strong>, <strong>refrain from requiring users to register their identity, </strong>such as by providing a government-issued document or a credit card (other than for billing purposes, if applicable). </li>
+<li><strong>Where the law does not explicitly mandate it</strong>, <strong>refrain from requiring users to register their identity, </strong>such as by providing a government-issued document or a credit card (other than for billing purposes, if applicable).</li>
 </ul>
 <h3>Handling of user information</h3>
 <ul>
@@ -136,10 +126,10 @@ published: true
 <li><strong>Disclose processes for mitigating the risk and severity of data breaches. </strong>Companies should also disclose procedures for dealing with breaches when they occur. Communicate with users and provide them with an appropriate remedy.</li>
 </ul>
 <ul>
-<li><strong>Where permitted by law, publicly commit to implement the highest encryption standards available. </strong>This disclosure should include encryption in transit, end-to-end encryption, and forward secrecy. At minimum, make it possible for users to encrypt their own data as securely as possible and communicate this to users clearly.. Where the law prohibits strong encryption, clearly say so to users, explaining the specific legal barrier and the potential consequences for user privacy and safety. </li>
+<li><strong>Where permitted by law, publicly commit to implement the highest encryption standards available. </strong>This disclosure should include encryption in transit, end-to-end encryption, and forward secrecy. At minimum, make it possible for users to encrypt their own data as securely as possible and communicate this to users clearly. Where the law prohibits strong encryption, clearly say so to users, explaining the specific legal barrier and the potential consequences for user privacy and safety. </li>
 </ul>
 <h2>For governments</h2>
-<p>Full corporate accountability will only be achieved when governments are also held accountable. Governments must work with the private sector and civil society to ensure that legal and regulatory frameworks make it possible for companies respect digital rights. </p>
+<p>Full corporate accountability will only be achieved when governments are also held accountable. Governments must work with the private sector and civil society to ensure that legal and regulatory frameworks make it possible for companies to respect digital rights. </p>
 <ul>
 <li><strong>Publish government transparency reports</strong> that disclose the volume, nature, and legal basis for requests made to companies to share user information or restrict speech. This should be a fundamental component of any nation's <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">commitment to open government</a>.</li>
 </ul>
