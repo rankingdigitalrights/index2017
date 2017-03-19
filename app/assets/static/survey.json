@@ -1,11 +1,11 @@
 [
 	{
-		"text": "The company should publicly commit to respect users? human rights to freedom of expression and privacy.",
+		"text": "The company should publicly commit to respect users' human rights to freedom of expression and privacy.",
 		"id": "G1",
 		"name": " G1. Policy Commitment"
 	},
 	{
-		"text": "The company?s senior leadership should exercise oversight over how its policies and practices affect freedom of expression and privacy.",
+		"text": "The company's senior leadership should exercise oversight over how its policies and practices affect freedom of expression and privacy.",
 		"id": "G2",
 		"name": "G2. Governance and management oversight"
 	},
@@ -25,7 +25,7 @@
 		"name": "G5. Stakeholder engagement"
 	},
 	{
-		"text": "The company should have grievance and remedy mechanisms to address users? freedom of expression and privacy concerns.",
+		"text": "The company should have grievance and remedy mechanisms to address users' freedom of expression and privacy concerns.",
 		"id": "G6",
 		"name": "G6. Remedy"
 	},
@@ -45,7 +45,7 @@
 		"name": "F3. Process for terms of service enforcement"
 	},
 	{
-		"text": "The company should clearly disclose and regularly publish data about the volume and nature of actions taken to restrict content or accounts that violate the company?s rules.",
+		"text": "The company should clearly disclose and regularly publish data about the volume and nature of actions taken to restrict content or accounts that violate the company's rules.",
 		"id": "F4",
 		"name": "F4. Data about terms of service enforcement"
 	},
@@ -115,14 +115,14 @@
 		"name": "P6. Retention of user information"
 	},
 	{
-		"text": "The company should clearly disclose to users what options they have to control the company?s collection, retention and use of their user information.",
+		"text": "The company should clearly disclose to users what options they have to control the company's collection, retention and use of their user information.",
 		"id": "P7",
-		"name": "P7. Users? control over their own user information"
+		"name": "P7. Users' control over their own user information"
 	},
 	{
 		"text": "Companies should allow users to obtain all of their user information the company holds.",
 		"id": "P8",
-		"name": "P8. Users? access to their own user information"
+		"name": "P8. Users' access to their own user information"
 	},
 	{
 		"text": "The company should clearly disclose its practices with regard to user information it collects from third-party websites or apps through technical means.",

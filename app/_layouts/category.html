@@ -28,7 +28,7 @@
           <p>{{ page.introduction }}</p>
 
           <div class="action-links">
-            <a href="#">
+            <a href="#category--indicators">
                <span>Go to Indicators</span>
                <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
             </a>  
@@ -41,13 +41,13 @@
         
         <div class="row spaced-row contain">
         
-          <div id="category--overview_chart" class=""></div>
+          <div id="category--overview_chart" class="category-chart"></div>
 
           <div class="graph-legend">
 
             <div class="graph-legend-values">
                 <div class="graph-legend-values-item">
-                   <div class="graph-legend-values-value rank">
+                   <div class="graph-legend-values-value service-rank">
                       <i class="fa fa-circle"></i> Rank
                    </div>                                        
                 </div>                                    
@@ -55,7 +55,7 @@
 
             <div class="graph-legend-interaction">
                 <div class="graph-legend-interaction-item">
-                   <a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                   <a href="{{ site.baseurl }}/download/"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
                 </div>
                 <div class="graph-legend-interaction-item">
                    <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>

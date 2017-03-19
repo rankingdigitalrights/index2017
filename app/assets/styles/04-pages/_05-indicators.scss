@@ -31,10 +31,89 @@
         .indicator-item + .indicator-item {
         margin-left: 4em;	
         }
+		.governance {
+		color: $cat-commitment !important;
+			&:hover {
+			color: $cat-commitment !important;	
+			}
+		}   
+		.freedom {
+		color: $cat-freedom !important;
+			&:hover {
+			color: $cat-freedom !important;	
+			}
+		}   
+		.privacy {
+		color: $cat-privacy !important;
+			&:hover {
+			color: $cat-privacy !important;	
+			}
+		}        
 	}
 	.indicators-wrapper {
+		#G1, #G2, #G3, #G4, #G5, 
+		#F1, #F2, #F3, #F4, #F5, #F6, #F7, #F8, #F9, #F10, #F11,
+		#P1, #P2, #P3, #P4, #P5, #P6, #P7, #P8, #P9, #P10, #P11, #P12, #P13, #P14, #P15, #P16, #P17, #P18 {
+		padding-top: 1.5em;
+    	padding-bottom: 1em;
+    	clear: both;
+		}
+		#G1, #G2, #G3, #G4, #G5 {
+			h3 {
+			color: $cat-commitment !important;
+			  &:hover {
+			  color: $cat-commitment !important;
+			  }
+	        }
+		}
+		#F1, #F2, #F3, #F4, #F5, #F6, #F7, #F8, #F9, #F10, #F11 {
+			h3 {
+			color: $cat-freedom !important;
+			  &:hover {
+			  color: $cat-freedom !important;
+			  }
+			}
+		}
+		#P1, #P2, #P3, #P4, #P5, #P6, #P7, #P8, #P9, #P10, #P11, #P12, #P13, #P14, #P15, #P16, #P17, #P18 {
+			h3 {
+			color: $cat-privacy !important;
+			  &:hover {
+			  color: $cat-privacy !important;
+			  }				
+			}
+		}
+	    .company-type {
+	    margin-top: 1em;	
+	    font-family: $simplon-light;
+	    color: $black;
+	    font-size: 11px;
+	    line-height: 1.3; 
+	    letter-spacing: 1px;
+	    text-transform: uppercase;
+	      @include media(small-up) {
+	      font-size: 11px;  
+	      }
+	      @include media(medium-up) {
+	      font-size: 12px;  
+	      }
+	      @include media(large-up) {
+	      font-size: 13px;
+	      }
+	      @include media(xlarge-up) {
+	      font-size: 13px;  
+	      }        
+	    }
+	    .container--left {
+	    	i {
+	    	color: $red;	
+	    	}
+	    }
+	    .container--right {
+	    	i {
+	    	color: $orange;	
+	    	}
+	    }	    
 		.bar--container {
-		margin-top: 1em;
 	        label {
 	        font-family: $simplon-light;  
 	        text-transform: uppercase;
@@ -55,9 +134,61 @@
 	          @include media(xlarge-up) {
 	          font-size: 14px;  
 	          }   
-	        }			
+	        }					
 		}
-
+        .bar--chart {
+	        .bar--axis_x {
+				.tick {
+				cursor: pointer;	
+				text-align: center;
+				line-height: 2;               
+				fill: $black;
+				font-weight: 600;
+				font-family: $simplon-regular;
+				text-transform: uppercase;                 
+				font-size: 13px;
+					@include media(small-up) {
+					font-size: 13px;
+					}
+					@include media(medium-up) {
+					font-size: 13px;  
+					}
+					@include media(large-up) {
+					font-size: 13px;
+					}
+					@include media(xlarge-up) {
+					font-size: 13px;  
+					}
+					&:hover {
+					text-decoration: underline; 	
+					} 														
+				}
+	        }
+	        .G {
+		        .bar--default {
+				fill: $cat-commitment !important;
+				  &:hover {
+				  fill: $cat-commitment-hover !important;
+				  }
+		        }
+	        }
+	        .F {
+		        .bar--default {
+				fill: $cat-freedom !important;
+				  &:hover {
+				  fill: $cat-freedom-hover !important;
+				  }
+		        }
+	        }
+	        .P {
+		        .bar--default {
+				fill: $cat-privacy !important;
+				  &:hover {
+				  fill: $cat-privacy-hover !important;
+				  }
+		        }
+	        }	        	
+        }
 		.container--left {
 	    @include media(medium-up) {
 	      @include span-columns(6);

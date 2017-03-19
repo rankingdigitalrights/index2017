@@ -88,7 +88,7 @@ module.exports = BaseChart.extend({
       rank.selectAll(".tick")
       .insert('circle', ':first-child')
       .attr("cx", '0')
-      .attr("cy", '10')
+      .attr("cy", '8')
       .attr("r", '10')
       .attr('transform', 'translate(-15,' + (this.height + 20) + ')')
       .style("fill", "#B0B0B0");

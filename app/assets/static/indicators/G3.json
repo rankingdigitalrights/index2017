@@ -1,67 +1,67 @@
-{  
+{
    "id":"G3",
    "name":"G3. INTERNAL IMPLEMENTATION",
    "paragraph_1":"The company should have mechanisms in place to implement its commitments to freedom of expression and privacy within the company.",
-  
-   "companies":[  
-      {  
+
+   "companies":[
+      {
          "name":"américa Móvil",
          "id":"americaMovil",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - América Móvil - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - América Móvil - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Telcel - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Telcel - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile (Telcel)- Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile (Telcel)- Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile (Telcel)- Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile (Telcel)- Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -91,8 +91,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -124,64 +124,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Apple",
          "id":"apple",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Apple - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Apple - Privacy"
             },
-            {  
+            {
                "text":"iOS mobile ecosystem - Freedom of Expression"
             },
-            {  
+            {
                "text":"iOS mobile ecosystem - Privacy"
             },
-            {  
+            {
                "text":"iMessage - Freedom of Expression"
             },
-            {  
+            {
                "text":"iMessage - Privacy"
             },
-            {  
+            {
                "text":"iCloud - Freedom of Expression"
             },
-            {  
+            {
                "text":"iCloud - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -211,8 +211,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -244,64 +244,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"AT&T",
          "id":"att",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - AT&T - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - AT&T - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Freedom of Expression"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"75"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"75"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"75"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"75"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -331,8 +331,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -364,64 +364,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Axiata",
          "id":"axiata",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Axiata - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Axiata - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Celcom - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Celcom - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile (Celcom)- Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile (Celcom)- Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -451,8 +451,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -484,64 +484,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Baidu",
          "id":"baidu",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Baidu - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Baidu - Privacy"
             },
-            {  
+            {
                "text":"Baidu Search - Freedom of Expression"
             },
-            {  
+            {
                "text":"Baidu Search - Privacy"
             },
-            {  
+            {
                "text":"Baidu Cloud - Freedom of Expression"
             },
-            {  
+            {
                "text":"Baidu Cloud - Privacy"
             },
-            {  
+            {
                "text":"Baidu PostBar - Freedom of Expression"
             },
-            {  
+            {
                "text":"Baidu PostBar - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -571,8 +571,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -604,76 +604,76 @@
             }
          ]
       },
-      {  
+      {
          "name":"Bharti Airtel",
          "id":"bhartiairtel",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Bharti Airtel - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Bharti Airtel - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Airtel India - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Airtel India - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Freedom of Expression"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -709,8 +709,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -748,76 +748,76 @@
             }
          ]
       },
-      {  
+      {
          "name":"Etisalat",
          "id":"etisalat",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Etisalat - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Etisalat - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Etisalat UAE - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Etisalat UAE - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Freedom of Expression"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -851,13 +851,13 @@
    {
       "value": "0"
    },
-                  {  
+                  {
                      "value":"12.34"
                   }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -895,76 +895,76 @@
             }
          ]
       },
-      {  
+      {
          "name":"Facebook",
          "id":"facebook",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Facebook - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Facebook - Privacy"
             },
-            {  
+            {
                "text":"Facebook - Freedom of Expression"
             },
-            {  
+            {
                "text":"Facebook - Privacy"
             },
-            {  
+            {
                "text":"Instagram - Freedom of Expression"
             },
-            {  
+            {
                "text":"Instagram - Privacy"
             },
-            {  
+            {
                "text":"WhatsApp - Freedom of Expression"
             },
-            {  
+            {
                "text":"WhatsApp - Privacy"
             },
-            {  
+            {
                "text":"Messenger - Freedom of Expression"
             },
-            {  
+            {
                "text":"Messenger - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1000,8 +1000,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1039,76 +1039,76 @@
             }
          ]
       },
-      {  
+      {
          "name":"Google",
          "id":"google",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Google - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Google - Privacy"
             },
-            {  
+            {
                "text":"Search - Freedom of Expression"
             },
-            {  
+            {
                "text":"Search - Privacy"
             },
-            {  
+            {
                "text":"Gmail - Freedom of Expression"
             },
-            {  
+            {
                "text":"Gmail - Privacy"
             },
-            {  
+            {
                "text":"Youtube - Freedom of Expression"
             },
-            {  
+            {
                "text":"Youtube - Privacy"
             },
-            {  
+            {
                "text":"Android mobile ecosystem - Freedom of Expression"
             },
-            {  
+            {
                "text":"Android mobile ecosystem - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1144,8 +1144,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                  {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1183,64 +1183,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Kakao",
          "id":"kakao",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Kakao - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Kakao - Privacy"
             },
-            {  
+            {
                "text":"Daum Search - Freedom of Expression"
             },
-            {  
+            {
                "text":"Daum Search - Privacy"
             },
-            {  
+            {
                "text":"Daum Mail - Freedom of Expression"
             },
-            {  
+            {
                "text":"Daum Mail - Privacy"
             },
-            {  
+            {
                "text":"Kakao Talk - Freedom of Expression"
             },
-            {  
+            {
                "text":"Kakao Talk - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1270,8 +1270,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1303,64 +1303,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Mail.ru",
          "id":"mailru",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Mail.Ru - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Mail.Ru - Privacy"
             },
-            {  
+            {
                "text":"Vkontakte - Freedom of Expression"
             },
-            {  
+            {
                "text":"Vkontakte - Privacy"
             },
-            {  
+            {
                "text":"Mail.Ru - Freedom of Expression"
             },
-            {  
+            {
                "text":"Mail.Ru - Privacy"
             },
-            {  
+            {
                "text":"Mail.Ru Agent - Freedom of Expression"
             },
-            {  
+            {
                "text":"Mail.Ru Agent - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"25"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1390,8 +1390,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1423,64 +1423,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Microsoft",
          "id":"microsoft",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Microsoft - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Microsoft - Privacy"
             },
-            {  
+            {
                "text":"Bing - Freedom of Expression"
             },
-            {  
+            {
                "text":"Bing - Privacy"
             },
-            {  
+            {
                "text":"Outlook.com - Freedom of Expression"
             },
-            {  
+            {
                "text":"Outlook.com - Privacy"
             },
-            {  
+            {
                "text":"Skype - Freedom of Expression"
             },
-            {  
+            {
                "text":"Skype - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1510,8 +1510,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1543,64 +1543,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"MTN",
          "id":"mtn",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - MTN - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - MTN - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - MTN South Africa - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - MTN South Africa - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1630,8 +1630,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1663,64 +1663,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Ooredoo",
          "id":"ooredoo",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Ooredoo - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Ooredoo - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Ooredoo Qatar - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Ooredoo Qatar - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1750,8 +1750,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1783,64 +1783,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Orange",
          "id":"orange",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Orange - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Orange - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Orange France - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Orange France - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1870,8 +1870,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1903,40 +1903,40 @@
             }
          ]
       },
-      {  
+      {
          "name":"Samsung",
          "id":"samsung",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Samsung - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Samsung - Privacy"
             },
-            {  
+            {
                "text":"Samsung implementation of Android - Freedom of Expression"
             },
-            {  
+            {
                "text":"Samsung implementation of Android - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -1954,8 +1954,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -1975,76 +1975,76 @@
             }
          ]
       },
-      {  
+      {
          "name":"Telefónica",
          "id":"telefonica",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Telefónicaa - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Telefónica - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Telefónica de España - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Telefónica de España - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Freedom of Expression"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -2080,8 +2080,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -2119,64 +2119,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Tencent",
          "id":"tencent",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - TenCent - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - TenCent - Privacy"
             },
-            {  
+            {
                "text":"QZone - Freedom of Expression"
             },
-            {  
+            {
                "text":"QZone - Privacy"
             },
-            {  
+            {
                "text":"QQ - Freedom of Expression"
             },
-            {  
+            {
                "text":"QQ - Privacy"
             },
-            {  
+            {
                "text":"WeChat - Freedom of Expression"
             },
-            {  
+            {
                "text":"WeChat - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -2206,8 +2206,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -2239,64 +2239,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Twitter",
          "id":"twitter",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Twitter - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Twitter - Privacy"
             },
-            {  
+            {
                "text":"Twitter - Freedom of Expression"
             },
-            {  
+            {
                "text":"Twitter - Privacy"
             },
-            {  
+            {
                "text":"Vine - Freedom of Expression"
             },
-            {  
+            {
                "text":"Vine - Privacy"
             },
-            {  
+            {
                "text":"Periscope - Freedom of Expression"
             },
-            {  
+            {
                "text":"Periscope - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -2326,8 +2326,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -2359,76 +2359,76 @@
             }
          ]
       },
-      {  
+      {
          "name":"Vodafone",
          "id":"vodafone",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Vodafone - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Vodafone - Privacy"
             },
-            {  
+            {
                "text":"OperatingCo - Vodafone UK - Freedom of Expression"
             },
-            {  
+            {
                "text":"OperatingCo - Vodafone UK - Privacy"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Prepaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Freedom of Expression"
             },
-            {  
+            {
                "text":"Postpaid Mobile - Privacy"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Freedom of Expression"
             },
-            {  
+            {
                "text":"Fixed Line Broadband - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -2464,8 +2464,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -2503,64 +2503,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Yahoo",
          "id":"yahoo",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Yahoo - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Yahoo - Privacy"
             },
-            {  
+            {
                "text":"Yahoo Mail - Freedom of Expression"
             },
-            {  
+            {
                "text":"Yahoo Mail - Privacy"
             },
-            {  
+            {
                "text":"Flickr - Freedom of Expression"
             },
-            {  
+            {
                "text":"Flickr - Privacy"
             },
-            {  
+            {
                "text":"Tumblr - Freedom of Expression"
             },
-            {  
+            {
                "text":"Tumblr - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -2590,8 +2590,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -2623,64 +2623,64 @@
             }
          ]
       },
-      {  
+      {
          "name":"Yandex",
          "id":"yandex",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Group - Yandex - Freedom of Expression"
             },
-            {  
+            {
                "text":"Group - Yandex - Privacy"
             },
-            {  
+            {
                "text":"Yandex Mail - Freedom of Expression"
             },
-            {  
+            {
                "text":"Yandex Mail - Privacy"
             },
-            {  
+            {
                "text":"Yandex Search - Freedom of Expression"
             },
-            {  
+            {
                "text":"Yandex Search - Privacy"
             },
-            {  
+            {
                "text":"Yandex Disk (cloud storage) - Freedom of Expression"
             },
-            {  
+            {
                "text":"Yandex Disk (cloud storage) - Privacy"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
-               "value":"0"
-            },
-            {  
-               "value":"N/A"
-            },
-            {  
-               "value":"0"
-            },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"25"
             },
-            {  
+            {
                "value":"0"
+            },
+            {
+               "value":"25"
+            },
+            {
+               "value":"0"
+            },
+            {
+               "value":"25"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                {
       "value": "Does the company clearly disclose that it provides employee training on freedom of expression and privacy issues?"
    },
@@ -2691,7 +2691,7 @@
       "value": "0"
    },
    {
-      "value": "exclude"
+      "value": "0"
    },
    {
       "value": "0"
@@ -2710,8 +2710,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
    },
@@ -2719,10 +2719,13 @@
       "value": "0"
    },
    {
+      "value": "50"
+   },
+   {
       "value": "0"
    },
    {
-      "value": "exclude"
+      "value": "50"
    },
    {
       "value": "0"

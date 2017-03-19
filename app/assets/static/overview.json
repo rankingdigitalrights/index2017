@@ -10,7 +10,7 @@
         "total": "64.72"
     },
     {
-        "commitment": "87.45",
+        "commitment": "87.69",
         "display": "Microsoft",
         "freedom": "53.33",
         "id": "microsoft",
@@ -60,7 +60,7 @@
         "total": "52.67"
     },
     {
-        "commitment": "17.64",
+        "commitment": "16.53",
         "display": "Apple",
         "freedom": "21.68",
         "id": "apple",
@@ -90,7 +90,7 @@
         "total": "48.11"
     },
     {
-        "commitment": "8.56",
+        "commitment": "9.95",
         "display": "Yandex",
         "freedom": "22.67",
         "id": "yandex",
@@ -105,7 +105,7 @@
         "freedom": "14.37",
         "id": "tencent",
         "name": "tencent",
-        "privacy": "30.26",
+        "privacy": "30.73",
         "telco": "false",
         "total": "21.99"
     },

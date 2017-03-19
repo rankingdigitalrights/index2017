@@ -94,7 +94,7 @@ module.exports = BaseChart.extend({
             svg.call(tip);
 
             var indicator_width = $('#indicators--privacy').width();
-            var wrap_width = Number(indicator_width) - 120;
+            var wrap_width = Number(indicator_width) - 100;
 
             var gy = svg.append("g")
                 .attr("class", "y axis")
@@ -114,15 +114,26 @@ module.exports = BaseChart.extend({
             var bars = svg.selectAll(".bar")
                 .data(data)
                 .enter().append("rect")
-                .attr("class", "bar")
+                //.attr("class", "bar")
+
+                .attr('class', function (d) {
+                    var className = 'bar';
+                    if (d.value == 0) className = 'bar--zero';
+                    return className;
+                })
+
                 .attr("x", function (d) {
-                    var neg = d.value * (-1);
-                    return 100 - Number(d.value);
+                    var width = 100;
+                    if(d.value == 0) width = 98;
+                    return width - Number(d.value);
                 })
-                .attr("y", function (d) { return y(d.name); })
                 .attr("width", function (d) {
-                    return d.value;
+                    var width = d.value;
+                    if(d.value == 0) width = 2;
+                    return width;
                 })
+
+                .attr("y", function (d) { return y(d.name); })
                 .attr("height", y.rangeBand())
 
                 .on('mouseover', tip.show)
@@ -135,7 +146,9 @@ module.exports = BaseChart.extend({
                 .attr("x", 0)
                 .attr("y", function (d) { return y(d.name); })
                 .attr("width", function (d) {
-                    return 100 - Number(d.value);
+                    var width = 100;
+                    if(d.value == 0) width = 98;
+                    return width - Number(d.value);
                 })
                 .attr("height", y.rangeBand());
         })

@@ -33,12 +33,12 @@
             </h1> 
 
             <div class="comp--sub_headquarters">
-              <label>Headquarters:</label>
+              <label><strong>Domicile:</strong></label>
               {{ page.headquarters }}
             </div> 
 
             <div class="comp--sub_website">
-              <label>Link:</label>
+              <label><strong>Link:</strong></label>
               <a href="{{ page.link }}" target="_blank">
                 {{ page.link }}             
               </a> 
@@ -46,7 +46,7 @@
 
             {% if page.operating %}
             <div class="comp--sub_operating">
-              <label>Operating Company Evaluated:</label>
+              <label><strong>Operating Company Evaluated:</strong></label>
               {{ page.operating }} 
             </div>
             {% endif %}
@@ -77,9 +77,11 @@
           <div class="container--left">
             <div class="comp--key_findings">
               <h2>Key findings</h2>
+              <ul>
                 {% for item in page.key_findings %}
-                <p>- {{ item }}</p>
+                <li>{{ item }}</li>
                 {% endfor %}
+              </ul>
             </div> 
           </div>         
           <div class="container--right">                     
