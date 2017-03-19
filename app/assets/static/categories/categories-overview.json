@@ -343,7 +343,7 @@
       "name":"americaMovil",
       "privacy":{  
          "val":"23.89",
-         "rank":"5"
+         "rank":"4"
       },
       "telco":"true",
       "total":{  
@@ -359,7 +359,7 @@
       "display":"Axiata",
       "freedom":{  
          "val":"12.99",
-         "rank":"9"
+         "rank":"8"
       },
       "id":"axiata",
       "name":"axiata",

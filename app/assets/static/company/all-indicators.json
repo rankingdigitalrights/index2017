@@ -99,11 +99,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"25"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -219,7 +219,7 @@
          },
          {
             "name":"F11.Identity policy",
-            "value":"50"
+            "value":"100"
          }
       ],
       "privacy":[
@@ -248,11 +248,11 @@
             "value":"10"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"25"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"18.75"
          },
          {
@@ -397,11 +397,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"0"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -471,7 +471,7 @@
          },
          {
             "name":"G6.Remedy",
-            "value":"26.66666667"
+            "value":"20"
          }
       ],
       "freedom":[
@@ -546,11 +546,11 @@
             "value":"12.38095238"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"26.66666667"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -695,11 +695,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"12.5"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -765,7 +765,7 @@
          },
          {
             "name":"G5.Stakeholder engagement",
-            "value":"12.5"
+            "value":"17"
          },
          {
             "name":"G6.Remedy",
@@ -783,7 +783,7 @@
          },
          {
             "name":"F3.Process for terms of service enforcement",
-            "value":"20.83333333"
+            "value":"17"
          },
          {
             "name":"F4.Data about terms of service enforcement",
@@ -844,11 +844,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"0"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -993,11 +993,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"0"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -1018,7 +1018,7 @@
          },
          {
             "name":"P13.Security oversight",
-            "value":"0"
+            "value":"17"
          },
          {
             "name":"P14.Addressing security vulnerabilities",
@@ -1142,11 +1142,11 @@
             "value":"25"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"6.25"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"56.25"
          },
          {
@@ -1276,7 +1276,7 @@
          },
          {
             "name":"P3.Collection of user information",
-            "value":"62.5"
+            "value":"60"
          },
          {
             "name":"P4.Sharing of user information",
@@ -1291,11 +1291,11 @@
             "value":"26.07142857"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"35.625"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"63.75"
          },
          {
@@ -1332,7 +1332,7 @@
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"70.83333333"
+            "value":"94"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
@@ -1440,11 +1440,11 @@
             "value":"40"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"29.16666667"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"33.33333333"
          },
          {
@@ -1536,7 +1536,7 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"2.777777778"
+            "value":"4"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
@@ -1589,11 +1589,11 @@
             "value":"26.66666667"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"16.66666667"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -1655,7 +1655,7 @@
          },
          {
             "name":"G4.Impact assessment",
-            "value":"84.72222222"
+            "value":"86"
          },
          {
             "name":"G5.Stakeholder engagement",
@@ -1664,13 +1664,13 @@
          {
             "name":"G6.Remedy",
             "value":"40"
-         },
-         {
-            "name":"F1.Access to terms of service",
-            "value":"100"
          }
       ],
       "freedom":[
+         {
+            "name":"F1.Access to terms of service",
+            "value":"100"
+         },
          {
             "name":"F2.Changes to terms of service",
             "value":"54.16666667"
@@ -1685,15 +1685,15 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"27.77777778"
+            "value":"42"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
-            "value":"16.66666667"
+            "value":"25"
          },
          {
             "name":"F7.Data about private requests for content or account restriction",
-            "value":"25"
+            "value":"38"
          },
          {
             "name":"F8.User notification about content and account restriction",
@@ -1709,7 +1709,7 @@
          },
          {
             "name":"F11.Identity policy",
-            "value":"66.66666667"
+            "value":"100"
          }
       ],
       "privacy":[
@@ -1738,11 +1738,11 @@
             "value":"36.66666667"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"41.66666667"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"50"
          },
          {
@@ -1779,7 +1779,7 @@
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"66.66666667"
+            "value":"100"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
@@ -1854,7 +1854,7 @@
          },
          {
             "name":"F10.Network shutdown (telecommunications companies)",
-            "value":"18.75"
+            "value":"38"
          },
          {
             "name":"F11.Identity policy",
@@ -1887,11 +1887,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"0"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -2036,11 +2036,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"0"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -2185,11 +2185,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"6.25"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"25"
          },
          {
@@ -2334,11 +2334,11 @@
             "value":"14.28571429"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"20"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -2483,11 +2483,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"12.5"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {
@@ -2537,41 +2537,41 @@
       "commitment":[
          {
             "name":"G1.Policy Commitment",
-            "value":"100"
-         },
-         {
-            "name":"G2.Governance and management oversight",
-            "value":"16.66666667"
-         },
-         {
-            "name":"G3.Internal implementation",
-            "value":"75"
-         },
-         {
-            "name":"G4.Impact assessment",
             "value":"25"
          },
          {
+            "name":"G2.Governance and management oversight",
+            "value":"0"
+         },
+         {
+            "name":"G3.Internal implementation",
+            "value":"0"
+         },
+         {
+            "name":"G4.Impact assessment",
+            "value":"0"
+         },
+         {
             "name":"G5.Stakeholder engagement",
-            "value":"83.33333333"
+            "value":"0"
          },
          {
             "name":"G6.Remedy",
-            "value":"45"
+            "value":"27"
          }
       ],
       "freedom":[
          {
             "name":"F1.Access to terms of service",
-            "value":"75"
+            "value":"72"
          },
          {
             "name":"F2.Changes to terms of service",
-            "value":"81.25"
+            "value":"0"
          },
          {
             "name":"F3.Process for terms of service enforcement",
-            "value":"60"
+            "value":"54"
          },
          {
             "name":"F4.Data about terms of service enforcement",
@@ -2579,11 +2579,11 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"20.83333333"
+            "value":"3"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
-            "value":"5"
+            "value":"0"
          },
          {
             "name":"F7.Data about private requests for content or account restriction",
@@ -2595,11 +2595,11 @@
          },
          {
             "name":"F9.Network management (telecommunications companies)",
-            "value":"12.5"
+            "value":"0"
          },
          {
             "name":"F10.Network shutdown (telecommunications companies)",
-            "value":"12.5"
+            "value":"0"
          },
          {
             "name":"F11.Identity policy",
@@ -2613,15 +2613,15 @@
          },
          {
             "name":"P2.Changes to privacy policies",
-            "value":"9.375"
+            "value":"38"
          },
          {
             "name":"P3.Collection of user information",
-            "value":"50"
+            "value":"67"
          },
          {
             "name":"P4.Sharing of user information",
-            "value":"0"
+            "value":"50"
          },
          {
             "name":"P5.Purpose for collecting and sharing user information",
@@ -2632,24 +2632,24 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
-            "value":"12.5"
+            "name":"P7.users' control over their own user information",
+            "value":"25"
          },
          {
-            "name":"P8.Users? access to their own user information",
-            "value":"0"
+            "name":"P8.users' access to their own user information",
+            "value":"25"
          },
          {
             "name":"P9.Collection of user information from third parties (Internet companies)",
-            "value":"0.0000"
+            "value":"10"
          },
          {
             "name":"P10.Process for responding to third-party requests for user information",
-            "value":"8.333333333"
+            "value":"3"
          },
          {
             "name":"P11.Data about third-party requests for user information",
-            "value":"18.18181818"
+            "value":"0"
          },
          {
             "name":"P12.User notification about third-party requests for user information",
@@ -2657,23 +2657,23 @@
          },
          {
             "name":"P13.Security oversight",
-            "value":"50"
-         },
-         {
-            "name":"P14.Addressing security vulnerabilities",
             "value":"0"
          },
          {
+            "name":"P14.Addressing security vulnerabilities",
+            "value":"67"
+         },
+         {
             "name":"P15.Data breaches",
-            "value":"50"
+            "value":"0"
          },
          {
             "name":"P16.Encryption of user communication and private content (Internet, software, and device companies)",
-            "value":"0.0000"
+            "value":"8"
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"0.0000"
+            "value":"28"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
@@ -2781,11 +2781,11 @@
             "value":"50"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"41.66666667"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"25"
          },
          {
@@ -2901,7 +2901,7 @@
          },
          {
             "name":"F11.Identity policy",
-            "value":"25"
+            "value":"100"
          }
       ],
       "privacy":[
@@ -2930,11 +2930,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"25"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"50"
          },
          {
@@ -3026,15 +3026,15 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"43.05555556"
+            "value":"65"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
-            "value":"35"
+            "value":"53"
          },
          {
             "name":"F7.Data about private requests for content or account restriction",
-            "value":"24.07407407"
+            "value":"36"
          },
          {
             "name":"F8.User notification about content and account restriction",
@@ -3079,12 +3079,12 @@
             "value":"36.66666667"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"29.16666667"
          },
          {
-            "name":"P8.Users? access to their own user information",
-            "value":"59.72222222"
+            "name":"P8.users' access to their own user information",
+            "value":"63"
          },
          {
             "name":"P9.Collection of user information from third parties (Internet companies)",
@@ -3141,7 +3141,7 @@
          },
          {
             "name":"G3.Internal implementation",
-            "value":"4.166666667"
+            "value":"13"
          },
          {
             "name":"G4.Impact assessment",
@@ -3175,7 +3175,7 @@
          },
          {
             "name":"F5.Process for responding to third-party requests for content or account restriction",
-            "value":"23.61111111"
+            "value":"35"
          },
          {
             "name":"F6.Data about government requests for content or account restriction",
@@ -3183,7 +3183,7 @@
          },
          {
             "name":"F7.Data about private requests for content or account restriction",
-            "value":"7.407407407"
+            "value":"11"
          },
          {
             "name":"F8.User notification about content and account restriction",
@@ -3228,11 +3228,11 @@
             "value":"0"
          },
          {
-            "name":"P7.Users? control over their own user information",
+            "name":"P7.users' control over their own user information",
             "value":"37.5"
          },
          {
-            "name":"P8.Users? access to their own user information",
+            "name":"P8.users' access to their own user information",
             "value":"0"
          },
          {

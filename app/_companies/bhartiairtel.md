@@ -16,7 +16,7 @@ telco: true
 
 key_findings:
   - Bharti Airtel’s weak commitments and disclosures related to freedom of expression and privacy could be significantly improved even without any changes being made to India’s laws and regulations.
-  - Bharti Airtel’s lack of disclosure about policies related to network shutdowns is of particular concern given that as many as 30 government-ordered internet shutdowns occurred in India in 2016.
+  - Bharti Airtel’s lack of disclosure about policies related to network shutdowns is of particular concern given that <a href=\"http://internetshutdowns.in/\" target=\"_blank\">as many as 30 government-ordered internet shutdowns occurred in India in 2016</a>.
   - The company led its telecommunications peers in offering grievance and remedy mechanisms due to the requirements of Indian law.
 
 
@@ -33,7 +33,7 @@ services_evaluated:
     name: Airtel India
 
 total: 14
-analysis_text_left: Bharti Airtel ranked seventh out of the 10 telecommunications companies evaluated and 18th in the Index overall. In 2016, Freedom House rated the internet environment in India as <a href=\"https://freedomhouse.org/report/freedom-net/2016/india\" target=\"_blank\">partly free, </a> citing the growing frequency of internet shutdowns around the country as a threat to internet users’ rights. While Bharti Airtel has a corporate social responsibility program that stresses the importance of a <a href=\"http://www.airtel.in/sustainability-file/home.html\" target=\"_blank\">“responsible business approach”</a> addressing “every dimension of how business operates in the social, cultural, and economic environment,” the company demonstrated weak respect for users’ freedom of expression and privacy rights.  
+analysis_text_left: Bharti Airtel ranked seventh out of the 10 telecommunications companies evaluated and 18th in the Index overall. In 2016, Freedom House rated the internet environment in India as <a href=\"https://freedomhouse.org/report/freedom-net/2016/india\" target=\"_blank\">"partly free,"</a> citing the growing frequency of internet shutdowns around the country as a threat to internet users’ rights. While Bharti Airtel has a corporate social responsibility program that stresses the importance of a <a href=\"http://www.airtel.in/sustainability-file/home.html\" target=\"_blank\">“responsible business approach”</a> addressing “every dimension of how business operates in the social, cultural, and economic environment,” the company demonstrated weak respect for users’ freedom of expression and privacy rights.  
 
 analysis_text_right: "<strong>Bharti Airtel Limited</strong> provides telecommunication systems and services worldwide, including in India, South Asia, and Africa. The group delivers a variety of fixed and mobile voice and data telecommunications services across these markets. As of December 2016, it had served approximately 346 million customers in India and Africa."
 
