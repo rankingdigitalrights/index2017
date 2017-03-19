@@ -18,7 +18,7 @@ module.exports = BaseChart.extend({
       });
     }
 
-    var categories = [{id: 'total',display: 'Total'}];
+    var categories = [{ id: 'total', display: 'Total' }];
 
     var childViews = _.map(categories, function (cat, idx) {
       return new HorizontalBarChart({
@@ -35,6 +35,8 @@ module.exports = BaseChart.extend({
       .map(view => view.render().$el.html())
       .reduce((a, b) => a + b)
       .value();
+
+    if (model.get('id') === 'vodafone') { No--; }
 
     this.$el = $(this.template({
       href: model.get('id'),
