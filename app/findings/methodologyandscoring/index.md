@@ -21,7 +21,6 @@ published: true
 <ul>
 <li><a href="https://rankingdigitalrights.org/2017-indicators/#P"><strong>Privacy (P)</strong></a><strong>: </strong>This category contains 18 indicators measuring company disclosure of policies and practices that affect users' privacy rights.</li>
 </ul>
-<br />
 <h3>Company types</h3>
 <p>The 2017 Index evaluates 22 companies. While every company examined has attributes that make it unique, for the purpose of our evaluation and scoring we divided the 22 companies into two groups. </p>
 <p><strong>Internet and mobile:</strong> :These company types were evaluated together because Google is both an one of the internet company and is also a mobile ecosystem company, and Apple also offers services such as iMessage and iCloud. We did not evaluate hardware attributes of devices, focusing our assessment on disclosures pertaining to the newest devices offered by those companies and their operating systems. The freedom of expression and privacy issues faced by mobile cloud data and operating systems overlap with the issues faced by traditional internet services. Additional elements relevant only to mobile ecosystems were added to some indicators. For each company we examined up to four services, as follows:</p>
@@ -52,17 +51,17 @@ published: true
 <li><strong>Telefónica (Spain):</strong> Movistar Mobile, Movistar Broadband</li>
 <li><strong>Vodafone (UK):</strong> Vodafone UK Mobile, Vodafone UK Broadband</li>
 </ul>
-<p><br /><br /></p>
-<p>All companies evaluated in the Index are multinational corporations listed on a major stock exchange. The following factors influenced company selection: </p>
+<p></p>
+<p>All companies evaluated in the Index are multinational corporations listed on a major stock exchange. <strong>The following factors influenced company selection: </strong></p>
 <p><strong>User Base: </strong>The companies in the Index have a significant footprint in the areas where they operate. The telecommunications companies have a substantial user base in their home markets, and the internet companies have a large number of global users as identified by established global traffic rankings such as Alexa. The policies and practices of the selected companies, and their potential to improve, thus affects a large percentage of the world's 3.75 billion internet users. </p>
 <p><strong>Geographic reach and distribution: </strong>The Index includes companies that are headquartered in North America, Europe, Africa, Asia, and the Middle East, and collectively, the companies in the Index have users in many regions around the world. </p>
 <p><strong>Relevance to users' freedom of expression and privacy rights:</strong> Most of the companies in the Index operate in or have a significant user base in countries where human rights are not universally respected. This is based on relevant research from such organizations as Freedom House, the Web Foundation, and Reporters Without Borders as well as stakeholder feedback. </p>
-<p><br /></p>
-<p>The following factors guided the selection of services: </p>
+<p></p>
+<p><strong>The following factors guided the selection of services:</strong> </p>
 <p><strong>Telecommunications services:</strong> These operators provide a breadth of services. To keep the scope of the Index manageable while still evaluating services that directly affect freedom of expression and privacy, the Index focused on: 1) post-paid and pre-paid mobile services, including the reasonable expected mobile offerings of voice, text, and data services; and, 2) fixed-line broadband, in cases where it was available in the company's home operating market. Only consumer services were included.</p>
 <p><strong>Internet services: </strong>Two or three discrete services were selected based on their comparability across companies, the size of their user base, and their ability to paint a fuller picture of the overall company approach to freedom of expression and privacy. This enabled researchers to discern whether company commitments, policies, and practices applied to the entire corporate entity or only to specific services. </p>
 <p><strong>Mobile ecosystems: </strong>In 2016 most of the world's mobile devices were running either Apple's iOS operating system, or some version of Google's Android mobile operating system. Thus we evaluated Apple's iOS ecosystem plus two different variants of the Android ecosystem: Android on devices controlled directly by Google (the Nexus smartphone and Pixel tablet product lines), and Android on devices controlled by Samsung, which in 2016 held the largest worldwide market share for Android devices. </p>
-<p><br /><br /></p>
+<p></p>
 <h2>Evaluation </h2>
 <p>Research for the 2017 Index was conducted from September 1, 2016 through January 13, 2017. New information published by companies after that date was not evaluated. RDR works with a network of international researchers to collect data on each company, and to evaluate company policies in the language of the company's operating market. </p>
 <p>RDR's <a href="https://rankingdigitalrights.org/who/affiliates/">external research team</a> in 2017 consisted of 28 researchers from 19 countries. The <a href="https://rankingdigitalrights.org/2017-research-process/">research process </a>for the 2017 Index consisted of several steps involving rigorous cross-checking and internal and external review.</p>
@@ -116,7 +115,7 @@ published: true
 </ul>
 </li>
 </ul>
-<p><br /><br /></p>
+<p></p>
 <h3>Indicator and element scoring</h3>
 <p>Telecommunications companies were evaluated on 32 of the 35 indicators; internet and mobile ecosystem companies were evaluated on 33 of the 35 indicators. Some elements within indicators were not applicable to certain services. </p>
 <p>The following list identifies which indicators or elements were N/A for certain companies or services:</p>
@@ -149,5 +148,5 @@ published: true
 <li>P8, Element 5</li>
 <li>P14, Elements 4, 7-8</li>
 </ul>
-<p><br /><br /></p>
+<p></p>
 <p><strong>Go the results of the 2017 Index.</strong></p>
