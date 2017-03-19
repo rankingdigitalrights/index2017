@@ -1,6 +1,6 @@
 [
 	{
-		"text": "The company should publicly commit to respect users' human rights to freedom of expression and privacy.",
+		"text": "<strong>The company should publicly commit to respect users' human rights to freedom of expression and privacy.</strong> <br />1.  Does the company make an explicit, clearly articulated policy commitment to human rights, including freedom of expression and privacy?",
 		"id": "G1",
 		"name": " G1. Policy Commitment",
 		 "scores": {
@@ -246,7 +246,7 @@
 		"AT&T": "48.93",
 		"Axiata": "20.00",
 		"Baidu": "42.62",
-		"Bharti Airtel": "20.83",
+		"Bharti Airtel": "17.14",
 		"Etisalat": "51.43",
 		"Facebook": "69.64",
 		"Google": "71.37",
@@ -308,10 +308,10 @@
 		"Bharti Airtel": "0.00",
 		"Etisalat": "4.17",
 		"Facebook": "70.83",
-		"Google": "71.88",
-		"Kakao": "33.33",
-		"Mail.Ru": "2.78",
-		"Microsoft": "27.78",
+		"Google": "95.83",
+		"Kakao": "50.00",
+		"Mail.Ru": "4.17",
+		"Microsoft": "41.67",
 		"MTN": "0.00",
 		"Ooredoo": "0.00",
 		"Orange": "0.00",
@@ -320,8 +320,8 @@
 		"Tencent": "2.78",
 		"Twitter": "33.33",
 		"Vodafone": "70.83",
-		"Yahoo": "43.06",
-		"Yandex": "23.61"
+		"Yahoo": "64.58",
+		"Yandex": "35.42"
 
 		  }
 	},
@@ -338,10 +338,10 @@
 		"Bharti Airtel": "0.00",
 		"Etisalat": "0.00",
 		"Facebook": "31.67",
-		"Google": "62.22",
-		"Kakao": "25.93",
+		"Google": "83.33",
+		"Kakao": "38.89",
 		"Mail.Ru": "0.00",
-		"Microsoft": "16.67",
+		"Microsoft": "25.00",
 		"MTN": "0.00",
 		"Ooredoo": "0.00",
 		"Orange": "0.00",
@@ -350,7 +350,7 @@
 		"Tencent": "0.00",
 		"Twitter": "23.33",
 		"Vodafone": "0.00",
-		"Yahoo": "35.00",
+		"Yahoo": "52.5",
 		"Yandex": "0.00"
 
 		  }
@@ -368,10 +368,10 @@
 		"Bharti Airtel": "0.00",
 		"Etisalat": "0.00",
 		"Facebook": "5.90",
-		"Google": "18.75",
-		"Kakao": "33.33",
+		"Google": "25.00",
+		"Kakao": "50.00",
 		"Mail.Ru": "0.00",
-		"Microsoft": "25.00",
+		"Microsoft": "37.50",
 		"MTN": "0.00",
 		"Ooredoo": "0.00",
 		"Orange": "0.00",
@@ -380,8 +380,8 @@
 		"Tencent": "0.00",
 		"Twitter": "46.30",
 		"Vodafone": "0.00",
-		"Yahoo": "24.07",
-		"Yandex": "7.41"
+		"Yahoo": "36.11",
+		"Yandex": "11.11"
 
 		  }
 	},
@@ -462,11 +462,11 @@
 		"Kakao": "N/A",
 		"Mail.Ru": "N/A",
 		"Microsoft": "N/A",
-		"MTN": "18.75",
+		"MTN": "12.50",
 		"Ooredoo": "6.25",
 		"Orange": "12.50",
 		"Samsung": "N/A",
-		"Telefónica": "12.50",
+		"Telefónica": "37.50",
 		"Tencent": "N/A",
 		"Twitter": "N/A",
 		"Vodafone": "37.50",
@@ -481,16 +481,16 @@
 		 "scores": {
 		 			"América Móvil": "0.00",
 		"Apple": "50.00",
-		"AT&T": "50.00",
+		"AT&T": "100.00",
 		"Axiata": "0.00",
 		"Baidu": "0.00",
 		"Bharti Airtel": "0.00",
 		"Etisalat": "0.00",
 		"Facebook": "50.00",
-		"Google": "62.50",
+		"Google": "83.33",
 		"Kakao": "50.00",
 		"Mail.Ru": "66.67",
-		"Microsoft": "66.67",
+		"Microsoft": "100.00",
 		"MTN": "0.00",
 		"Ooredoo": "0.00",
 		"Orange": "0.00",
@@ -498,7 +498,7 @@
 		"Telefónica": "0.00",
 		"Tencent": "0.00",
 		"Twitter": "100.00",
-		"Vodafone": "25.00",
+		"Vodafone": "100.00",
 		"Yahoo": "33.33",
 		"Yandex": "0.00"
 
@@ -577,7 +577,7 @@
 		"Bharti Airtel": "33.33",
 		"Etisalat": "0.00",
 		"Facebook": "66.67",
-		"Google": "62.50",
+		"Google": "60.00",
 		"Kakao": "88.89",
 		"Mail.Ru": "55.56",
 		"Microsoft": "50.00",
@@ -879,7 +879,7 @@
 		"Axiata": "50.00",
 		"Baidu": "0.00",
 		"Bharti Airtel": "33.33",
-		"Etisalat": "0.00",
+		"Etisalat": "16.67",
 		"Facebook": "16.67",
 		"Google": "100.00",
 		"Kakao": "100.00",
@@ -1005,10 +1005,10 @@
 		"Bharti Airtel": "N/A",
 		"Etisalat": "N/A",
 		"Facebook": "54.17",
-		"Google": "70.83",
-		"Kakao": "50.00",
+		"Google": "94.44",
+		"Kakao": "75.00",
 		"Mail.Ru": "77.78",
-		"Microsoft": "66.67",
+		"Microsoft": "100.00",
 		"MTN": "N/A",
 		"Ooredoo": "N/A",
 		"Orange": "N/A",
@@ -1018,7 +1018,7 @@
 		"Twitter": "27.78",
 		"Vodafone": "N/A",
 		"Yahoo": "94.44",
-		"Yandex": "66.67"
+		"Yandex": "100.00"
 
 		  }
 	},
