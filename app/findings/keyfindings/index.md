@@ -7,20 +7,13 @@ published: true
 ---
 
 Together, the companies evaluated in the Index offer products and services that are used by at least half of the world's 3.7 billion internet users.
-**We regret to report that companies do not disclose enough information to their users about policies and practices affecting freedom of expression and privacy. As a result most of the world's internet users lack the information they need to make informed choices.**
+<p></p>
+<strong>We regret to report that companies do not disclose enough information to their users about policies and practices affecting freedom of expression and privacy. As a result most of the world's internet users lack the information they need to make informed choices.</strong>
 
-Company disclosure is inadequate across the board. Similar to the 2015 results, the average score for all companies evaluated was just 33 percent. The highest score in the 2017 Index was 65 percent overall. While examples of good practice can be found across the Index, all companies failed to sufficiently disclose policies affecting users' freedom of expression and privacy. Even the better performing companies had significant gaps in disclosure on key issues that affect what a user can and cannot say or do, or who knows what about their activities. </p>
+Company disclosure is inadequate across the board. Similar to the 2015 results, the average score for all companies evaluated was just 33 percent. The highest score in the 2017 Index was 65 percent overall. While examples of good practice can be found across the Index, all companies failed to sufficiently disclose policies affecting users' freedom of expression and privacy. Even the better performing companies had significant gaps in disclosure on key issues that affect what a user can and cannot say or do, or who knows what about their activities.
 <p></p>
 <p>We are also pleased to report, however, that many companies made meaningful improvements since <a href="https://rankingdigitalrights.org/index2015/">the 2015 Index.</a></p>
 <p>Download the <a href="/download">full report and analysis.</a></p>
-
-### Contents
-[**Company Highlights**](#chapter-1)
-[**Key Lessons**](#chapter-2)
-[**Key Concerns**](#chapter-3)
-
-<br />
-<a id="chapter-1"></a>
 <h2>Company Highlights</h2>
 <p></p>
 <ul>
@@ -48,8 +41,6 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 </ul>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
-<br />
-<a id="chapter-2"></a>
 <p></p>
 <h2>Key Lessons</h2> 
 <p></p>
@@ -57,11 +48,9 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 <p></p>
 <p>While even the highest scores in the Index showed major room for improvement, many of the top-scoring companies shared one commonality: all are members of either the <a href="https://globalnetworkinitiative.org/">Global Network Initiative</a> (GNI) or the <a href="http://www.telecomindustrydialogue.org/">Telecommunications Industry Dialogue</a> (TID), organizations whose company members commit to uphold principles of freedom of expression and privacy. Additionally, GNI conducts an <a href="http://globalnetworkinitiative.org/content/public-report-201516-independent-company-assessments-0">assessment</a> of whether members have implemented the principles satisfactorily. It has multi-stakeholder <a href="http://globalnetworkinitiative.org/participants/index.php">membership</a>, and is governed by a <a href="http://globalnetworkinitiative.org/content/gni-board-directors">multi-stakeholder board</a>. </p>
 <p></p>
-<p>The <a href="https://rankingdigitalrights.org/index2017/indicators">2017 Index data</a> shows that GNI and TID member companies performed better on indicators in the <a href="https://rankingdigitalrights.org/index2017/categories/governance">Governance</a> category -measuring the institutionalization of corporate-level commitments to freedom of expression and privacy - than all other companies. However, in other areas of the Index, GNI or TID membership was not necessarily a predictor of strong performance. </p>
+<p>The <a href="https://rankingdigitalrights.org/index2017/indicators">2017 Index data</a>shows that GNI and TID member companies performed better on indicators in the<a href="https://rankingdigitalrights.org/index2017/categories/governance">Governance</a> category - measuring the institutionalization of corporate-level commitments to freedom of expression and privacy - than all other companies. However, in other areas of the Index, GNI or TID membership was not necessarily a predictor of strong performance. </p>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p> 
-<br />
-<a id="chapter-3"></a>
 <p></p>
 <h2>Key Concerns</h2>
 <p></p>
@@ -90,7 +79,7 @@ Company disclosure is inadequate across the board. Similar to the 2015 results, 
 </ul>
 <p></p>
 <ul>
-<li><strong>Network shutdowns:</strong> A growing number of governments are requiring telecommunications companies to shut down service either for a whole country or in a specific area for specified periods - and for a range of reasons. In 2016, the U.N. Human Rights Council <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/32/L.20">affirmed</a> that network shutdowns threaten freedom of expression and the right to access information, condemned them to be a violation of international human rights law and called on governments to refrain from taking these actions. Users are generally in the dark about why they are cut off and . <a href="https://rankingdigitalrights.org/index2017/findings/networkshutdowns">Explore our in-depth analysis related to network shutdowns</a>. </li>
+<li><strong>Network shutdowns:</strong> A growing number of governments are requiring telecommunications companies to shut down service either for a whole country or in a specific area for specified periods - and for a range of reasons. In 2016, the U.N. Human Rights Council <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/32/L.20">affirmed</a> that network shutdowns threaten freedom of expression and the right to access information, condemned them to be a violation of international human rights law and called on governments to refrain from taking these actions. Users are generally in the dark about why they are cut off. <a href="https://rankingdigitalrights.org/index2017/findings/networkshutdowns">Explore our in-depth analysis related to network shutdowns</a>. </li>
 </ul>
 <p></p>
 <ul>
