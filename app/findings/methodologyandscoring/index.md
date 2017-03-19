@@ -60,7 +60,7 @@ published: true
 <p><br /></p>
 <p>The following factors guided the selection of services: </p>
 <p><strong>Telecommunications services:</strong> These operators provide a breadth of services. To keep the scope of the Index manageable while still evaluating services that directly affect freedom of expression and privacy, the Index focused on: 1) post-paid and pre-paid mobile services, including the reasonable expected mobile offerings of voice, text, and data services; and, 2) fixed-line broadband, in cases where it was available in the company's home operating market. Only consumer services were included.</p>
-<p><strong>Internet services: </strong>Two or three discrete services were selected based on their comparability across companies, the size of their user base, and their ability to paint a fuller picture of the overall company' approach to freedom of expression and privacy. This enabled researchers to discern whether company commitments, policies, and practices applied to the entire corporate entity or only to specific services. </p>
+<p><strong>Internet services: </strong>Two or three discrete services were selected based on their comparability across companies, the size of their user base, and their ability to paint a fuller picture of the overall company approach to freedom of expression and privacy. This enabled researchers to discern whether company commitments, policies, and practices applied to the entire corporate entity or only to specific services. </p>
 <p><strong>Mobile ecosystems: </strong>In 2016 most of the world's mobile devices were running either Apple's iOS operating system, or some version of Google's Android mobile operating system. Thus we evaluated Apple's iOS ecosystem plus two different variants of the Android ecosystem: Android on devices controlled directly by Google (the Nexus smartphone and Pixel tablet product lines), and Android on devices controlled by Samsung, which in 2016 held the largest worldwide market share for Android devices. </p>
 <p><br /><br /></p>
 <h2>Evaluation </h2>
@@ -71,7 +71,7 @@ published: true
 <p>For telecommunications companies, with the exception of AT&T, the parent company did not directly provide consumer services, so researchers also examined a subsidiary or operating company based in the home market to ensure the Index captured operational policies alongside corporate commitments. Given AT&T's external presentation of its group-level and U.S. operating company as an integrated unit, we evaluated the group-level policies for AT&T.</p>
 <p>The evaluation includes an assessment of disclosure for every element of each indicator, based on one of the following possible answers:</p>
 <ul>
-<li>"Yes" - :Company disclosure meets the element requirement. </li>
+<li>"Yes" - Company disclosure meets the element requirement. </li>
 </ul>
 <ul>
 <li>"Partial" - Company disclosure has met some but not all aspects of the element, or the disclosure is not comprehensive enough to satisfy the full scope of the what the element is asking for. </li>
@@ -80,20 +80,14 @@ published: true
 <li>"No disclosure found" - Researchers were not able to find information provided by the company on their website that answers the element question. </li>
 </ul>
 <ul>
-<li>"No" - :Company disclosure exists, but it specifically does not disclose to users what the element is asking. This is distinct from the option of "no disclosure found," although both result in no credit.</li>
+<li>"No" - Company disclosure exists, but it specifically does not disclose to users what the element is asking. This is distinct from the option of "no disclosure found," although both result in no credit.</li>
 </ul>
 <ul>
 <li>"N/A" - Not applicable. This element does not apply to the company or service. Elements marked as N/A will not be counted for or against a company in the scoring process. </li>
 </ul>
 <h2>Scoring</h2>
-<table>
-<tbody>
-<tr>
-<td>
 <p>Companies receive a cumulative score of their performance across all Index categories, and results show how companies performed by each category and indicator. Scores for the <a href="https://rankingdigitalrights.org/2017-indicators/#F">Freedom of Expression</a> and <a href="https://rankingdigitalrights.org/2017-indicators/#P">Privacy </a>categories are calculated by averaging scores for each individual service. Scores for the <a href="https://rankingdigitalrights.org/2017-indicators/#G">Governance</a> category indicators include parent- and operating-level performance (depending on company type).</p>
-</td>
-<td>
-<p><strong> ::::::::::::::::Points </strong></p>
+<p><strong>Points </strong></p>
 <ul>
 <li>Yes = 100</li>
 <li>Partial = 50</li>
@@ -101,33 +95,26 @@ published: true
 <li>No disclosure found = 0</li>
 <li>N/A excluded from the score and averages</li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
 <h3>Governance category scoring</h3>
 <ul>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G1">G1</a> and<a href="https://rankingdigitalrights.org/2017-indicators/#G5"> G5</a>:
 <ul>
-<li><a href="https://rankingdigitalrights.org/2017-indicators/#G1">G1</a> and<a href="https://rankingdigitalrights.org/2017-indicators/#G5"> G5</a>: </li>
+<li>Internet and mobile ecosystem companies: scores were based on the "group" level scores;</li>
+<li>Telecommunications companies: scores based on average "group" and operating company scores</li>
 </ul>
-</ul>
+</li>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G2">G2</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#G3">G3</a>,<a href="https://rankingdigitalrights.org/2017-indicators/#G4"> G4</a>: :
 <ul>
-<li><strong>Internet and mobile ecosystem companies: scores were based on the "group" level scores; </strong></li>
+<li>nternet and mobile ecosystem companies: :scores based on average of "group"-level and services scores;</li>
+<li>Telecommunications companies: Average of group, operating, and services scores</li>
 </ul>
-<ul>
-<li>Telecommunications companies: scores based on average "group" and operating company scores </li>
-</ul>
-<ul>
-<li><a href="https://rankingdigitalrights.org/2017-indicators/#G2">G2</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#G3">G3</a>,<a href="https://rankingdigitalrights.org/2017-indicators/#G4"> G4</a>: :</li>
-<ul>
-<li>Internet and mobile ecosystem companies: :scores based on average of "group"-level and services scores;</li>
-<li>Telecommunications companies: Average of group, operating, and services scores </li>
-</ul>
-<li><a href="https://rankingdigitalrights.org/2017-indicators/#G6">G6</a>: </li>
+</li>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G6">G6</a>:
 <ul>
 <li>Internet and mobile ecosystem companies: Average of service-level scores.</li>
 <li>Telecommunications companies: Average of service-level scores.</li>
 </ul>
+</li>
 </ul>
 <p><br /><br /></p>
 <h3>Indicator and element scoring</h3>
