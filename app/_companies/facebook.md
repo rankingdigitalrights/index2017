@@ -23,15 +23,19 @@ key_findings:
 services_evaluated:
   - item:
     key: Social network
+    key_href: socialnetworkblog
     name: facebook
   - item:
     key: Photo sharing
+    key_href: videophoto
     name: instagram
   - item:
     key: Messaging & VoIP
+    key_href: messagingvoip
     name: messenger
   - item:
     key: Messaging & VoIP
+    key_href: messagingvoip
     name: whatsapp
 
 total: 53
