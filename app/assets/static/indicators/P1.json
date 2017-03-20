@@ -1,1948 +1,1951 @@
-{  
+{
    "id":"P1",
    "name":"P1. ACCESS TO PRIVACY POLICIES",
    "paragraph_1":"The company should offer privacy policies that are easy to find and easy to understand.",
-   "companies":[  
-      {  
+   "companies":[
+      {
          "name":"América Móvil",
          "id":"americamovil",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Apple",
          "id":"apple",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"iOS mobile ecosystem"
             },
-            {  
+            {
                "text":"iMessage"
             },
-            {  
+            {
                "text":"iCloud"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"75"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"AT&T",
          "id":"att",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Axiata",
          "id":"axiata",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Baidu",
          "id":"baidu",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Baidu Search"
             },
-            {  
+            {
                "text":"Baidu Cloud"
             },
-            {  
+            {
                "text":"Baidu PostBar"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Bharti Airtel",
          "id":"bhartiairtel",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Etisalat",
          "id":"etisalat",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "values":"Are the company's privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users?"
+            {
+               "cells":[
+                  {
+                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users'"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "values":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "values":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Facebook",
          "id":"facebook",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Instagram"
             },
-            {  
+            {
                "text":"WhatsApp"
             },
-            {  
+            {
                "text":"Messenger"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"67"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Google",
          "id":"google",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Search"
             },
-            {  
+            {
                "text":"Gmail"
             },
-            {  
+            {
                "text":"Youtube"
             },
-            {  
+            {
                "text":"Android mobile ecosystem"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"75"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Kakao",
          "id":"kakao",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Daum Search"
             },
-            {  
+            {
                "text":"Daum Mail"
             },
-            {  
+            {
                "text":"Kakao Talk"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "values":"Are the company?s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users?"
+            {
+               "cells":[
+                  {
+                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "values":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Mail.ru",
          "id":"mailru",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Vkontakte"
             },
-            {  
+            {
                "text":"Mail.Ru"
             },
-            {  
+            {
                "text":"Mail.Ru Agent"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Microsoft",
          "id":"microsoft",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Bing"
             },
-            {  
+            {
                "text":"Outlook.com"
             },
-            {  
+            {
                "text":"Skype"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"MTN",
          "id":"mtn",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Ooredoo",
          "id":"ooredoo",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users?"
+            {
+               "cells":[
+                  {
+                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users'"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "values":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Orange",
          "id":"orange",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Samsung",
          "id":"samsung",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Samsung implementation of Android"
             }
          ],
-         "average":[  
-            {  
-               "value":"100"
+         "average":[
+            {
+               "value":"63"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Telefónica",
          "id":"telefonica",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"Tencent"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Tencent",
          "id":"tencent",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"QZone"
             },
-            {  
+            {
                "text":"QQ"
             },
-            {  
+            {
                "text":"WeChat"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Twitter",
          "id":"twitter",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Twitter"
             },
-            {  
+            {
                "text":"Vine"
             },
-            {  
+            {
                "text":"Periscope"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"67"
             },
-            {  
+            {
                "value":"67"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"0"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Vodafone",
          "id":"vodafone",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Yahoo",
          "id":"yahoo",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Yahoo Mail"
             },
-            {  
+            {
                "text":"Flickr"
             },
-            {  
+            {
                "text":"Tumblr"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"67"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"0"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
             }
          ]
       },
-      {  
+      {
          "name":"Yandex",
          "id":"yandex",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Yandex Mail"
             },
-            {  
+            {
                "text":"Yandex Search"
             },
-            {  
+            {
                "text":"Yandex Disk (cloud storage)"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             },
-            {  
+            {
                "value":"83"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {  
+         "rows":[
+            {
+               "cells":[
+                  {
                      "value":"Are the company’s privacy policies easy to find?"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
-                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users?"
+            {
+               "cells":[
+                  {
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company’s users'"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   },
-                  {  
+                  {
                      "value":"100"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"Are the policies presented in an understandable manner?"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   },
-                  {  
+                  {
                      "value":"50"
                   }
                ]
             },
-            {  
-               "cells":[  
-                  {  
+            {
+               "cells":[
+                  {
                      "value":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   },
-                  {  
+                  {
                      "value":"exclude"
                   }
                ]
