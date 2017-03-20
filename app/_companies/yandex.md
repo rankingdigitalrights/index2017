@@ -20,12 +20,15 @@ key_findings:
 services_evaluated:
   - item:
     key: email
+    key_href: emailservice
     name: yandex mail
   - item:
     key: search engine
+    key_href: search
     name: yandex search
   - item:
     key: cloud storage
+    key_href: cloudservices
     name: yandex disk
 
 total: 28
