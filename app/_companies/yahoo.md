@@ -20,12 +20,15 @@ key_findings:
 services_evaluated:
   - item:
     key: email
+    key_href: emailservice
     name: yahoo mail
   - item:
     key: photo sharing
+    key_href: videophoto
     name: flickr
   - item:
     key: blog
+    key_href: socialnetworkblog
     name: tumblr
 
 total: 58

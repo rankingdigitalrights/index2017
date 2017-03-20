@@ -166,7 +166,7 @@
 	        }
 	        .G {
 		        .bar--default {
-				fill: $cat-commitment !important;
+				fill: $cat-commitment;
 				  &:hover {
 				  fill: $cat-commitment-hover !important;
 				  }
@@ -174,7 +174,7 @@
 	        }
 	        .F {
 		        .bar--default {
-				fill: $cat-freedom !important;
+				fill: $cat-freedom;
 				  &:hover {
 				  fill: $cat-freedom-hover !important;
 				  }
@@ -182,7 +182,7 @@
 	        }
 	        .P {
 		        .bar--default {
-				fill: $cat-privacy !important;
+				fill: $cat-privacy;
 				  &:hover {
 				  fill: $cat-privacy-hover !important;
 				  }

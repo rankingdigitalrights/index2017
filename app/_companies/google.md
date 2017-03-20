@@ -22,15 +22,19 @@ key_findings:
 services_evaluated:
   - item:
     key: search engine
+    key_href: search
     name: google search
   - item:
     key: email
+    key_href: emailservice
     name: gmail
   - item:
     key: video sharing
+    key_href: videophoto
     name: youtube
   - item:
     key: mobile ecosystem
+    key_href: mobileeco
     name: android
 
 total: 65

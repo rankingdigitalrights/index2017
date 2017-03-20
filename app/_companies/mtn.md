@@ -22,9 +22,11 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: prepostpaidmobile
     name: MTN South Africa
   - item:
     key: post-paid mobile
+    key_href: prepostpaidmobile
     name: MTN South Africa
 
 total: 15

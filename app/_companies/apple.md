@@ -20,12 +20,15 @@ key_findings:
 services_evaluated:
   - item:
     key: messaging and voip
+    key_href: messagingvoip
     name: imessage
   - item:
     key: cloud storage
+    key_href: cloudservices
     name: icloud
   - item:
     key: mobile ecosystem
+    key_href: mobileeco
     name: ios
 
 total: 35

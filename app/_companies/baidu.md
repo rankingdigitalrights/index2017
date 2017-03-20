@@ -20,13 +20,16 @@ key_findings:
 
 services_evaluated:
   - item:
-    key: <a href=\"{{ site.baseurl }}/services/search\" target=\"_blank\">search engine</a>
+    key: search engine
+    key_href: search
     name: baidu search
   - item:
-    key: <a href=\"{{ site.baseurl }}/services/cloudservices\" target=\"_blank\">cloud storage</a>
+    key: cloud storage
+    key_href: cloudservices
     name: baidu cloud
   - item:
-    key: <a href=\"{{ site.baseurl }}/services/socialnetworkblog\" target=\"_blank\">social network</a>
+    key: social network
+    key_href: socialnetworkblog
     name: baidu postbar
 
 total: 13

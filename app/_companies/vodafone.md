@@ -21,12 +21,15 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: prepostpaidmobile
     name: Vodafone UK
   - item:
     key: post-paid mobile
+    key_href: prepostpaidmobile
     name: Vodafone UK
   - item:
     key: fixed-line broadband
+    key_href: fixedbroadband
     name: Vodafone UK
 
 total: 48

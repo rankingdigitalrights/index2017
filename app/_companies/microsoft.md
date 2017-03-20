@@ -21,12 +21,15 @@ key_findings:
 services_evaluated:
   - item:
     key: search engine
+    key_href: search
     name: bing
   - item:
     key: email
+    key_href: emailservice
     name: outlook
   - item:
     key: messaging & voip
+    key_href: messagingvoip
     name: skype
 
 total: 62

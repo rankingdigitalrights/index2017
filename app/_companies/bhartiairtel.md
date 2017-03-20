@@ -24,12 +24,15 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: socialnetworkblog
     name: Airtel India
   - item:
     key: post-paid mobile
+    key_href: socialnetworkblog
     name: Airtel India
   - item:
     key: fixed-line broadband
+    key_href: fixedbroadband
     name: Airtel India
 
 total: 14

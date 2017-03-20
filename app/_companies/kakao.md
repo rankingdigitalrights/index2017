@@ -20,12 +20,15 @@ key_findings:
 services_evaluated:
   - item:
     key: search engine
+    key_href: search
     name: daum search
   - item:
     key: email
+    key_href: emailservice
     name: daum mail
   - item:
     key: messaging and voip
+    key_href: messagingvoip
     name: kakaotalk
 
 total: 50

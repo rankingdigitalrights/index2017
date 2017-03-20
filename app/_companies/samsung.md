@@ -21,6 +21,7 @@ key_findings:
 services_evaluated:
   - item:
     key: mobile ecosystem
+    key_href: mobileeco
     name: samsung implementation of android
 
 total: 26
