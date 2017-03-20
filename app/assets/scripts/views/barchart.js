@@ -34,6 +34,7 @@ module.exports = BaseChart.extend({
       .scale(this.y)
       .tickFormat(d => d + '%')
       .ticks(1)
+      .tickSize(0)
       .orient('left');
 
     this.tip = d3.tip()
