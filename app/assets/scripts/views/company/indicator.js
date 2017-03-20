@@ -88,7 +88,11 @@ module.exports = BaseChart.extend({
                 .attr('class', 'bar--tip')
                 .offset([-10, 0])
                 .html(function (d) {
-                    return Math.round(d.value) + "%";
+                    var value = Math.round(d.value) + "%";
+                    if(d.value == '0.0000'){
+                        value = 'N/A';
+                    }
+                    return value;
                 });
 
             svg.call(tip);
