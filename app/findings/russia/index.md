@@ -43,7 +43,7 @@ published: true
 </li>
 </ul>
 <p></p>
-<p><strong>Figure 3: Table of privacy scores </strong></p>
+<p><img src="/assets/graphics/content/Privacy PNG-08.jpg" alt="russiap" title="russiap" /></p>
 <h3>Privacy</h3>
 <p>The biggest difference between the Russian internet companies evaluated was found in the <a href="https://rankingdigitalrights.org/2017-indicators/#P">Privacy</a> category, where Yandex outscored Mail.Ru by more than 10 percentage points. Differences in scores highlight the following areas for improvement:</p>
 <ul>
