@@ -113,7 +113,7 @@ module.exports = BaseChart.extend({
             svg.selectAll('.tick')
                 .style("cursor", "pointer")
                 .append("svg:title")
-                .text("Go to indicators page.");
+                .text("Go to indicators page");
 
             var bars = svg.selectAll(".bar")
                 .data(data)
@@ -163,7 +163,7 @@ module.exports = BaseChart.extend({
                     pos = text.text().indexOf("."),
                     indic = text.text().slice(0, pos),
                     href = text.on('click', function () {
-                        return window.location.href = baseurl + '/indicators/#' + indic;
+                        window.location.href = baseurl + '/indicators/#' + indic;
                     }),
                     words = text.text().split(/\s+/).reverse(),
                     word,

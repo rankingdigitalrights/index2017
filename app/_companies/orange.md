@@ -22,12 +22,15 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: prepostpaidmobile
     name: Orange France
   - item:
     key: post-paid mobile
+    key_href: prepostpaidmobile
     name: Orange France
   - item:
     key: fixed-line broadband
+    key_href: fixedbroadband
     name: Orange France
 
 total: 32

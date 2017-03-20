@@ -22,12 +22,15 @@ key_findings:
 services_evaluated:
   - item:
     key: social network
+    key_href: socialnetworkblog
     name: QZone
   - item:
     key: messaging and voip
+    key_href: messagingvoip
     name: QQ
   - item:
     key: messaging and voip
+    key_href: messagingvoip
     name: WeChat
 
 total: 22

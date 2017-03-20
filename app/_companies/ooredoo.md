@@ -24,9 +24,11 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: prepostpaidmobile
     name: Ooredoo Qatar
   - item:
     key: post-paid mobile
+    key_href: prepostpaidmobile
     name: Ooredoo Qatar
 
 total: 5

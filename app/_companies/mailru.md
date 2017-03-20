@@ -22,12 +22,15 @@ key_findings:
 services_evaluated:
   - item:
     key: email
+    key_href: emailservice
     name: mail.ru
   - item:
     key: messaging and voip
+    key_href: messagingvoip
     name: mail.ru agent
   - item:
     key: social network
+    key_href: socialnetworkblog
     name: vkontakte
 
 total: 22

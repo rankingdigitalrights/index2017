@@ -22,9 +22,11 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: prepostpaidmobile
     name: Telcel
   - item:
     key: post-paid mobile
+    key_href: prepostpaidmobile
     name: Telcel
 
 total: 21

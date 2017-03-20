@@ -20,12 +20,15 @@ key_findings:
 services_evaluated:
   - item:
     key: social network
+    key_href: socialnetworkblog
     name: twitter
   - item:
     key: video sharing
+    key_href: videophoto
     name: vine
   - item:
     key: video sharing
+    key_href: videophoto
     name: periscope
 
 total: 48

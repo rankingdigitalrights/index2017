@@ -23,9 +23,11 @@ key_findings:
 services_evaluated:
   - item:
     key: pre-paid mobile
+    key_href: prepostpaidmobile
     name: Celcom
   - item:
     key: post-paid mobile
+    key_href: prepostpaidmobile
     name: Celcom
 
 total: 13

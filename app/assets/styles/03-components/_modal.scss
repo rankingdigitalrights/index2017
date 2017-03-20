@@ -1,91 +1,95 @@
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1050; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
+    /* Modal Content/Box */
+    .modal-content {
+    margin-top: 10em;    
+    background-color: $white;
+    /*margin: 15% auto;*/ /* 15% from the top and centered */
+    padding:15px;
+    border: 1px solid #888;
     /*position: absolute;
     top: 20%;
-    left: 2%;*/
-    padding: 15px;
-    border: 1px solid #888;
-    /*width: 96%;*/ /* Could be more or less, depending on screen size */
+    left: 2%;
+    width: 90%; 
+    width: 96%; /* Could be more or less, depending on screen size */
 
+        /* The Close Button */
+        .close {
+        color: $gray;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+            &:hover,
+            &:focus {
+            color: $black;
+            text-decoration: none;
+            cursor: pointer;
+            }        
+        }
 
-    h3.indicator--name {
-      color: #28749e;
-    }
-    #paragraph--1 {
-      font-size: 16px;
-      margin-bottom: 12px;
-    }
-    #paragraph--2 {
-      font-size: 14px;
-      margin-bottom: 12px; 
-    }
-    table {
-        width: 100%;
-        tr {
-            border-bottom: 1px solid #E5DCD1;
-            td {
-                text-align: right;
+        h3 {
+            &.indicator--name {
+            color: $black;
             }
-            th,
-            td {
+        }
+
+        table {
+        width: 100%;
+
+            tr {
+                &.header {
+                    th {
+                    font-weight: normal;    
+                        &.cell--first {
+                        text-align: left;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        }                        
+                    }
+                }
+            }
+
+            tr {
+            border-bottom: 1px solid $beige;
+                th, td {
                 font-size: 12px;
+                font-weight: bold;
                 padding: 10px 5px;
                 text-align: right;
+                }
+                th {
+                    &.cell--0 {
+                    text-align: left;
+                    font-weight: normal;
+                    }
+                }               
             }
-            th.cell--first {
-                text-align: left;
-            }
-            td.cell--0 {
-                text-align: left;
-            }
-        }
 
-        tr.header {
-          background-color: #E5DCD1;
-          th {
-            font-size: 12px;
-          }
-        }
+            tr {
+                &.average {
+                background-color: $beige;
+                    td {
+                        &.cell--first {
+                        text-align: left;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        }                        
+                    }
+                }
+            }
 
-        tr.average {
-            background-color: #E5DCD1;
-            td {
-                font-weight: bold;
-                text-align: right;
-                text-transform: uppercase;
-            }
-            td.cell--first {
-                text-align: left;
-            }
-        }
+        }        
+
     }
-}
 
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
 }
