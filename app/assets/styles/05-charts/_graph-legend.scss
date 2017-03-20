@@ -45,7 +45,7 @@ flex-direction: column;
 		border-left: 1px solid $black;
 		}
 		@include media(xlarge-up) {
-		padding: 1em 3.85em;
+		padding: 1em 6.1em;
 		border-top: none;	
 		border-left: 1px solid $black;
 		} 	
@@ -110,7 +110,7 @@ flex-direction: column;
 			margin-left: 1em;	
 			}
 			@include media(xlarge-up) {
-			margin-left: 0.6em;	
+			margin-left: 2.5em;	
 			} 
 		}
 	}
