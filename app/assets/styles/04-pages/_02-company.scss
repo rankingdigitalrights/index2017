@@ -164,6 +164,9 @@
       @include media(xlarge-up) {
       font-size: 13px;  
       }
+      #comp--position_among_label {
+        padding-left: 5px;  
+      }
       .comp--bar_chart {
       margin-top: 1.5em;
         .bar--chart {
