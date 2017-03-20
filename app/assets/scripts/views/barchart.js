@@ -6,7 +6,7 @@ var baseurl = require('../util/base-url');
 
 module.exports = BaseChart.extend({
 
-  margin: {top: 40, right: 20, bottom: 70, left: 40},
+  margin: { top: 40, right: 20, bottom: 70, left: 40 },
 
   initialize: function (options) {
     /* options
@@ -23,7 +23,7 @@ module.exports = BaseChart.extend({
 
     this.y = d3.scale.linear()
       .range([this.height, 0])
-      .domain([0, 100]);
+      .domain([-1, 100]);
 
     this.xAxis = d3.svg.axis()
       .scale(this.x)
@@ -44,7 +44,7 @@ module.exports = BaseChart.extend({
 
   render: function (container) {
     this.container = container;
-    var indicator_id  = this.id;
+    var indicator_id = this.id;
     var svg = d3.select(container).append('svg')
       .attr('class', 'bar--chart')
       .attr('width', this.width + this.margin.left + this.margin.right)
@@ -59,7 +59,7 @@ module.exports = BaseChart.extend({
     g.append('g')
       .attr('class', 'bar--axis_x')
       .attr('transform', 'translate(0,' + this.height + ')')
-    .call(this.xAxis)
+      .call(this.xAxis)
       .selectAll('text')
       .style('text-anchor', 'end')
       .attr('transform', 'rotate(-35)')
@@ -69,26 +69,30 @@ module.exports = BaseChart.extend({
       .on('click', function (d) {
         var href = d.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '').replace('é', 'e').replace('ó', 'o');
-          if(indicator_id){
-            ajax_call(href, indicator_id);
-          }
-          else {
-            window.location.href = baseurl + '/companies/' + href;
-          }
-        });
+        if (indicator_id) {
+          ajax_call(href, indicator_id);
+        }
+        else {
+          window.location.href = baseurl + '/companies/' + href;
+        }
+      });
+
+    g.selectAll('.tick')
+      .append("svg:title")
+      .text("Click for element level detail");
 
 
     g.append('g')
       .attr('class', 'bar--axis_y')
       .call(this.yAxis)
-    .append('text')
+      .append('text')
       .attr('transform', 'rotate(-90)')
       .attr('y', 6)
       .attr('dy', '.71em')
       .style('text-anchor', 'end');
 
-// background bars
-      var barsBg = g.selectAll('.barBg')
+    // background bars
+    var barsBg = g.selectAll('.barBg')
       .data(this.data)
       .enter().append('rect')
       .style('fill', '#E5DBD2')
@@ -103,10 +107,10 @@ module.exports = BaseChart.extend({
       .attr('y', '0')
       .attr('height', d => this.height);
 
-// value bars
+    // value bars
     var bars = g.selectAll('.bar')
       .data(this.data)
-    .enter().append('rect')
+      .enter().append('rect')
       .attr('class', function (d) {
         if (!d.className) {
           d.className = 'default';
@@ -136,16 +140,15 @@ module.exports = BaseChart.extend({
 
     // TO DO
 
-    $('.close').click(function() {
+    $('.close').click(function () {
       $('.modal').hide();
     });
 
-    function ajax_call(href,  id)
-    {
+    function ajax_call(href, id) {
       // alert(baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json');
-      $.ajax({ 
-        type: 'GET', 
-        url: baseurl + '/assets/static/indicators/' + id.toUpperCase() + '.json', 
+      $.ajax({
+        type: 'GET',
+        url: baseurl + '/assets/static/indicators/' + id.toUpperCase() + '.json',
         dataType: 'json',
         success: function (data) {
 
@@ -160,18 +163,18 @@ module.exports = BaseChart.extend({
           var company = getObjects(companies, 'id', href);
 
           // console.info(href);
-          
+
           // create header
-          var header = "<tr class='header'><th class='cell--first' width='25%'>"+name+"</th>";
+          var header = "<tr class='header'><th class='cell--first' width='25%'>" + name + "</th>";
           var headers = company[0].headers;
           var columns = headers.length;
-          var width = 75/columns
+          var width = 75 / columns
           for (var i = 0; i < headers.length; i++) {
-            header += "<th class='cell--"+i+"' width="+width+"%>" + headers[i].text + "</th>";
+            header += "<th class='cell--" + i + "' width=" + width + "%>" + headers[i].text + "</th>";
           };
           header += "</tr>";
           $('#indicatorsTable').append(header);
-          
+
           var company_name = company[0].name;
           var company_score = company[0].score;
 
@@ -192,7 +195,7 @@ module.exports = BaseChart.extend({
             var row = "<tr>";
             var cells = rows[i].cells;
             for (var j = 0; j < cells.length; j++) {
-              row += "<td class='cell--"+j+"'>" + cells[j].value + "</td>";
+              row += "<td class='cell--" + j + "'>" + cells[j].value + "</td>";
             }
             row += "</tr>";
             $('#indicatorsTable > tbody:last-child').append(row);
@@ -202,7 +205,7 @@ module.exports = BaseChart.extend({
           var sum = "<tr class='average'><td class='cell--first'>Average</td>";
           var average = company[0].average;
           for (var i = 0; i < average.length; i++) {
-            sum += "<td class='cell--"+i+"'>" + average[i].value + "</td>";
+            sum += "<td class='cell--" + i + "'>" + average[i].value + "</td>";
           }
           sum += "</tr>";
           $('#indicatorsTable > tbody:last-child').append(sum);
@@ -214,10 +217,10 @@ module.exports = BaseChart.extend({
       var objects = [];
       for (var i in obj) {
         if (!obj.hasOwnProperty(i)) continue;
-          if (typeof obj[i] == 'object') {
-            objects = objects.concat(getObjects(obj[i], key, val));
-          } else if (i == key && obj[key] == val) {
-            objects.push(obj);
+        if (typeof obj[i] == 'object') {
+          objects = objects.concat(getObjects(obj[i], key, val));
+        } else if (i == key && obj[key] == val) {
+          objects.push(obj);
         }
       }
       return objects;

@@ -106,10 +106,10 @@ module.exports = BaseChart.extend({
 
                 .call(wrap, wrap_width);
 
-            var title = svg.selectAll('.tick')
+            svg.selectAll('.tick')
                 .style("cursor", "pointer")
                 .append("svg:title")
-                .text("Click for element level detail");
+                .text("Go to indicators page.");
 
             var bars = svg.selectAll(".bar")
                 .data(data)
@@ -124,12 +124,12 @@ module.exports = BaseChart.extend({
 
                 .attr("x", function (d) {
                     var width = 100;
-                    if(d.value == 0) width = 98;
+                    if (d.value == 0) width = 98;
                     return width - Number(d.value);
                 })
                 .attr("width", function (d) {
                     var width = d.value;
-                    if(d.value == 0) width = 2;
+                    if (d.value == 0) width = 2;
                     return width;
                 })
 
@@ -147,7 +147,7 @@ module.exports = BaseChart.extend({
                 .attr("y", function (d) { return y(d.name); })
                 .attr("width", function (d) {
                     var width = 100;
-                    if(d.value == 0) width = 98;
+                    if (d.value == 0) width = 98;
                     return width - Number(d.value);
                 })
                 .attr("height", y.rangeBand());
