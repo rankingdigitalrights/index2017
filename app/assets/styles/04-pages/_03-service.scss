@@ -92,18 +92,21 @@
 			.graph-legend {
 			justify-content: flex-end;
 				.governance {
+				font-family: $simplon-medium;
 				color: $cat-commitment !important;
 					&:hover {
 					color: $cat-commitment !important;	
 					}
 				}   
 				.freedom {
+				font-family: $simplon-medium;
 				color: $cat-freedom !important;
 					&:hover {
 					color: $cat-freedom !important;	
 					}
 				}   
 				.privacy {
+				font-family: $simplon-medium;
 				color: $cat-privacy !important;
 					&:hover {
 					color: $cat-privacy !important;	
