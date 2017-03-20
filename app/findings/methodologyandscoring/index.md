@@ -11,7 +11,7 @@ published: true
 <p>The first <a href="https://rankingdigitalrights.org/index2015/">Corporate Accountability Index </a>was launched in November 2015, applying the methodology to rank <a href="https://rankingdigitalrights.org/phase-1-full-ranking/the-2015-companies/">16 internet and telecommunications companies</a>. </p>
 <p>For the 2017 Index, we <a href="https://rankingdigitalrights.org/2017-companies/">expanded the ranking</a> to cover additional types of companies and services, including those that produce software and devices that create what we call "<a href="https://rankingdigitalrights.org/2016/09/15/what-are-mobile-ecosystems/">mobile ecosystems</a>." As a result, we also <a href="https://rankingdigitalrights.org/2016/09/15/rdr-launches-2017-research/">expanded the methodology</a>, which included a period of <a href="https://rankingdigitalrights.org/2016/07/05/new-draft-methodology/">public consultation</a>, adding new indicators and elements to account for the potential threats to users' freedom of expression and privacy that can arise from use of networked devices and software</p>
 <p>The 2017 Index consists of <a href="https://rankingdigitalrights.org/2017-indicators/">35 indicators </a>in three main categories:<strong> Governance</strong>, <strong>Freedom of Expression, </strong>and <strong>Privacy</strong>. Each category contains<strong> indicators</strong> measuring company disclosure for that category; each indicator is comprised of a series of <strong>elements</strong> that measure company disclosure for that indicator.</p>
-<p>View or download<a href="https://rankingdigitalrights.org/2017-indicators/">the full methodology here</a>.
+<p>View or download <a href="https://rankingdigitalrights.org/2017-indicators/">the full methodology here</a>.
 <h3>Index categories :</h3>
 <ul>
 <li><a href="https://rankingdigitalrights.org/2017-indicators/#G."><strong>Governance: (G)</strong></a> This category contains six indicators measuring company disclosure of commitments to freedom of expression and privacy principles along with measures taken to implement those commitments across the company's global operations.</li>
@@ -150,4 +150,4 @@ published: true
 <li>P14, Elements 4, 7-8</li>
 </ul>
 <p></p>
-<p><strong>Go the results of the 2017 Index.</strong></p>
+<p><a href="https://rankingdigitalrights.org/index2017"><strong>Go the results of the 2017 Index.</strong></a></p>
