@@ -67,8 +67,9 @@ module.exports = BaseChart.extend({
       .style('text-anchor', 'middle')
       .attr('transform', 'translate(0,4)')
       .html(function (d) {
-        if (d.src === 'vodafone') { count--; }
+        
         if (d.src === companyName) {
+          if (d.src === 'vodafone') { return 1; }
           return count;
         }
         else {

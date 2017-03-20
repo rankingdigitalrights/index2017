@@ -61,7 +61,6 @@ module.exports = BaseChart.extend({
     var No = 1;
     _.sortBy(childViews, view => direction * view.model.get(category))
       .forEach(function (view) {
-        if (view.model.get('id') === 'vodafone') { No--; }
         $bars.append(view.render(No++));
       });
 
