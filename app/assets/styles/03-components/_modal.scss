@@ -39,13 +39,13 @@
         tr {
             border-bottom: 1px solid #E5DCD1;
             td {
-                text-align: right;
+                text-align: center;
             }
             th,
             td {
                 font-size: 12px;
                 padding: 10px 5px;
-                text-align: right;
+                text-align: center;
             }
             th.cell--first {
                 text-align: left;
@@ -65,7 +65,7 @@
             background-color: #E5DCD1;
             td {
                 font-weight: bold;
-                text-align: right;
+                text-align: center;
                 text-transform: uppercase;
             }
             td.cell--first {
