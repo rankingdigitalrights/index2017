@@ -8,7 +8,7 @@ published: true
 <h2>Russian internet companies can do better despite tough legal environment </h2>
 <p>The Russian internet environment has grown <a href="https://freedomhouse.org/report/freedom-net/2016/russia">increasingly restrictive</a>. Companies face serious legal, regulatory, and political challenges that limit their ability to respect users' freedom of expression and privacy rights.</p>
 <p>In 2017 the Corporate Accountability Index evaluated two Russian internet companies, <a href="https://rankingdigitalrights.org/index2017/companies/mailru">Mail.Ru</a> and <a href="https://rankingdigitalrights.org/index2017/companies/yandex">Yandex</a>. Both companies scored poorly: Yandex ranked eighth out of the 12 internet companies evaluated, and Mail.Ru performed even worse, ranking 10th. Results showed that both companies disclosed little about policies and practices affecting users' freedom of expression and privacy next to most other internet companies evaluated. </p>
-<p><img src="/assets/graphics/content/russia12.PNG" alt="russia1" title="russia1" align="right" /></p>
+<p><img src="/assets/graphics/content/russia12.png" alt="russia1" title="russia1" align="right" /></p>
 <p><strong>While both companies failed to meet the basic benchmarks of transparency, variations in levels of disclosure indicate there is room for Russian internet companies to make different policy choices that reflect different levels of respect for users' rights, even within the country's restrictive internet environment. </strong></p>
 <h3>Legal constraints</h3>
 <p>While the Russian constitution guarantees freedom of expression, in practice that right is increasingly curtailed, <a href="https://russiadigitalrights.org/">especially online</a><a href="https://freedomhouse.org/report/freedom-net/2016/russia">.</a> However, unlike in <a href="https://rankingdigitalrights.org/index2017/findings/china">China</a>, in Russia there is relatively limited blocking of foreign platforms, with the notable exception of LinkedIn, which has been blocked since late 2016, <a href="http://www.reuters.com/article/us-russia-linkedin-idUSKBN13C0RN">in part due to non-compliance with Russia's data localization law</a>. Foreign companies like Facebook, Google, and Twitter have access to the Russian market, though it remains to be seen how long that will last, given that Russia's media regulator<a href="https://www.article19.org/resources.php/resource/38337/en/russia:-increased-internet-regulation-poses-serious-challenge-to-online-expression"> Roskomnadzor</a> stated plans to start enforcing the data localization law against international companies this year.</p>
@@ -25,7 +25,7 @@ published: true
 </ul>
 </li>
 </ul>
-<h3>Freedom of Expression (Yandex: 23 vs. Mail.Ru 21)</h3>
+<h3>Freedom of Expression</h3>
 <p>Likewise, in the <a href="https://rankingdigitalrights.org/2017-indicators/#F">Freedom of Expression</a> category, both companies scored poorly, although Yandex scored ahead of Mail.Ru by two percentage points. Yet, variations in disclosure between Mail.Ru and Yandex reveal areas where both companies can improve:</p>
 <ul>
 <li><strong>Tell users more about processes for responding to government and private requests for user information, or to restrict content or accounts.</strong> Russian internet companies can disclose more information about how they handle these types of third-party requests.
