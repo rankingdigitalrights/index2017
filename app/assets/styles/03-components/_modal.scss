@@ -14,7 +14,7 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     .modal-content {
     margin-top: 10em;    
     background-color: $white;
-    margin: 15% auto; /* 15% from the top and centered */
+    /*margin: 15% auto;*/ /* 15% from the top and centered */
     padding:15px;
     border: 1px solid #888;
     /*position: absolute;
@@ -49,8 +49,10 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
             tr {
                 &.header {
                     th {
+                    font-weight: normal;    
                         &.cell--first {
                         text-align: left;
+                        font-weight: bold;
                         text-transform: uppercase;
                         }                        
                     }
@@ -79,6 +81,7 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
                     td {
                         &.cell--first {
                         text-align: left;
+                        font-weight: bold;
                         text-transform: uppercase;
                         }                        
                     }
