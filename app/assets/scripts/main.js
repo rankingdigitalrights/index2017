@@ -152,8 +152,7 @@ $(window).load(function () {
   // share feature
   document.getElementById('linkToCopy').innerHTML = window.location;
   $('#CopyToClipboard').click(function () {
-    var p = document.getElementById('linkToCopy');
-      p.select();
-      document.execCommand('copy');
+    document.getElementById('linkToCopy').select();
+    document.execCommand('copy');
   });
 });
