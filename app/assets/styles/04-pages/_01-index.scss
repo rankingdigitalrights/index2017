@@ -640,12 +640,14 @@
 						border-left-color: #4D9ECF;
 						border-width: 9px;
 						margin-top: -9px;
+						z-index: 10;
 						}
 						&:before {
 						border-color: rgba(255, 255, 255, 0);
 						border-left-color: $white-pure;
 						border-width: 10px;
 						margin-top: -10px;
+						z-index: 9;
 						}			
 					}
 				}
@@ -673,6 +675,8 @@
 				display: none;				
 				overflow-x: hidden;
 				overflow-y: auto;
+				width: 100%;
+    			justify-content: center;
 					@include media(small-up) {
 					overflow-x: auto;
 					overflow-y: auto;		
@@ -694,19 +698,23 @@
 		    		flex-direction: column;							
 				    justify-content: center;
 				    align-items: center;
-				    padding: 15px;
+				    padding: 10px;
 				    min-height: -webkit-min-content;
 						@include media(small-up) {
 						flex-direction: column;
+						padding: 15px;
 						}
 						@include media(medium-up) {
 						flex-direction: row;
+						padding: 15px;
 						}
 						@include media(large-up) {
 						flex-direction: column;
+						padding: 10px;
 						}
 						@include media(xlarge-up) {
 						flex-direction: column;
+						padding: 15px;
 						}		    
 				    	.tab-pane-chart-row {
 						display: flex;				
@@ -784,9 +792,35 @@
 		margin-top: 0em;
 		margin-bottom: .325em;	
 			.data-stories-item {
-				@include media(medium-up) {
-				@include span-columns(3);
+			@include span-columns(12);	
+				@include media(small-up) {
+				@include span-columns(12);
 				}
+				@include media(medium-up) {
+				@include span-columns(6);
+					&:nth-child(2n) {
+					margin-right: 0;
+					}										
+				}
+				@include media(large-up) {
+				@include span-columns(3);
+					&:nth-child(2n) {
+					margin-right: 2.3576515979%;
+					}
+					&:last-child {
+					margin-right: 0;
+					}										
+				}
+				@include media(xlarge-up) {
+				@include span-columns(3);
+					&:nth-child(2n) {
+					margin-right: 2.3576515979%;
+					}
+					&:last-child {
+					margin-right: 0;
+					}										
+				}
+				    				
 				h3 {
 				margin-top: 0.8em;
 		    	margin-bottom: 0.5em;
@@ -814,12 +848,21 @@
 				}
 				@include media(medium-up) {
 				margin-top: 0em;
+					&:nth-child(n+3) {
+					margin-top: 1.5em;	
+					}				
 				}
 				@include media(large-up) {
 				margin-top: 0em;
+					&:nth-child(n+3) {
+					margin-top: 0em;	
+					}				
 				}
 				@include media(xlarge-up) {
 				margin-top: 0em;
+					&:nth-child(n+3) {
+					margin-top: 0em;	
+					}				
 				}		
 			}
 		}
