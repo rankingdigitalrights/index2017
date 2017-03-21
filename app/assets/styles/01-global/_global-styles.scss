@@ -47,15 +47,15 @@ font-size: 26px;
 
 h2 {
 color: $black;
-font-size: 20px; 
+font-size: 16px; 
   @include media(small-up) {
   font-size: 20px;  
   }
   @include media(medium-up) {
-  font-size: 24px;   
+  font-size: 19px;   
   }
   @include media(large-up) { 
-  font-size: 28px;  
+  font-size: 25px;  
   }
   @include media(xlarge-up) {
   font-size: 32px;  
@@ -64,7 +64,7 @@ font-size: 20px;
 
 h3 {
 color: $black;  
-font-size: 17px; 
+font-size: 14px; 
   @include media(small-up) {
   font-size: 18px; 
   }
@@ -72,7 +72,7 @@ font-size: 17px;
   font-size: 17px;  
   }
   @include media(large-up) {
-  font-size: 18px; 
+  font-size: 20px; 
   }
   @include media(xlarge-up) {
   font-size: 23px;  
