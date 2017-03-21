@@ -73,7 +73,10 @@ flex-direction: column;
 		}
 		@media only screen and (min-width: 1680px) {
 		padding: 1em 7em;     
-		}		
+		}
+		@media only screen and (min-width: 1870px) {
+		padding: 1em 8.5em;       
+		}				
 		@media only screen and (min-width: 1920px) {
 		padding: 1em 8.5em;       
 		}		 			
@@ -166,9 +169,12 @@ flex-direction: column;
 		@media only screen and (min-width: 1680px) {
 		padding: 1em 6em;     
 		}		
+		@media only screen and (min-width: 1870px) {
+		padding: 1em 7.5em;       
+		}
 		@media only screen and (min-width: 1920px) {
 		padding: 1em 7.5em;       
-		}				
+		}						
 		.graph-legend-values-item {	
 			.graph-legend-values-label {
 			font-family: $simplon-medium;	
@@ -298,9 +304,12 @@ flex-direction: column;
 		@media only screen and (min-width: 1680px) {
 		padding: 1em 6em;     
 		}		
+		@media only screen and (min-width: 1870px) {
+		padding: 1em 7.5em;       
+		}
 		@media only screen and (min-width: 1920px) {
 		padding: 1em 7.5em;       
-		}		 		
+		}				 		
 		.graph-legend-interaction-item {
 		display: flex;	
 		background-color: $black;	
