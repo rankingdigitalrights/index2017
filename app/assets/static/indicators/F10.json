@@ -2053,6 +2053,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -2060,6 +2063,9 @@
                "cells":[
                   {
                      "value":"Does the company clearly explain its process for responding to requests to shut down a network or restrict access to a service?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -2079,6 +2085,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -2086,6 +2095,9 @@
                "cells":[
                   {
                      "value":"Does the company clearly disclose that it notifies users directly when it shuts down the network or restricts access to a service?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -2105,6 +2117,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -2118,6 +2133,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -2125,6 +2143,9 @@
                "cells":[
                   {
                      "value":"Does the company list the number of requests with which it complied?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
