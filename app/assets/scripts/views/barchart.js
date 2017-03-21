@@ -145,6 +145,16 @@ module.exports = BaseChart.extend({
       $('.modal').hide();
     });
 
+    $('.modal').click(function () {
+      $('.modal').hide();
+    });
+
+    $('.modal-content').click(function(e) {
+        e.stopPropagation();
+    });
+
+    
+
     function ajax_call(href, id) {
       // alert(baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json');
       $.ajax({
