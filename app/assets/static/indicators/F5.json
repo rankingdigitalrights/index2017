@@ -104,7 +104,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -117,7 +117,7 @@
             {
                "cells":[
                   {
-                     "value":"7Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -130,7 +130,7 @@
             {
                "cells":[
                   {
-                     "value":"8Does the company commit to push back on inappropriate or overbroad requests made by governments?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad requests made by governments?"
                   },
                   {
                      "value":"0"
@@ -143,7 +143,7 @@
             {
                "cells":[
                   {
-                     "value":"9Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -156,7 +156,7 @@
             {
                "cells":[
                   {
-                     "value":"10Does the company provide clear guidance or examples of implementation of its process of responding to government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process of responding to government requests?"
                   },
                   {
                      "value":"0"
@@ -169,7 +169,7 @@
             {
                "cells":[
                   {
-                     "value":"11Does the company provide clear guidance or examples of implementation of its process of responding to private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process of responding to private requests?"
                   },
                   {
                      "value":"0"
@@ -306,7 +306,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -526,7 +526,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -722,7 +722,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -924,7 +924,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1144,7 +1144,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1357,14 +1357,14 @@
                      "value":"0"
                   },
                   {
-                     "value":"0"
+                     "value":"100"
                   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1608,7 +1608,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -1870,7 +1870,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -2108,7 +2108,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"50"
@@ -2328,7 +2328,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2548,7 +2548,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -2744,7 +2744,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2830,9 +2830,15 @@
             },
             {
                "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Line Broadband"
             }
          ],
          "average":[
+            {
+               "value":"0"
+            },
             {
                "value":"0"
             },
@@ -2851,7 +2857,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2864,7 +2873,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2877,7 +2889,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2890,7 +2905,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2903,7 +2921,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2916,20 +2937,26 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2942,7 +2969,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2955,7 +2985,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2968,7 +3001,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2981,7 +3017,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             },
             {
@@ -2994,7 +3033,10 @@
                   },
                   {
                      "value":"0"
-                  }
+                  },
+            {
+               "value":"0"
+            }
                ]
             }
          ]
@@ -3124,7 +3166,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3287,7 +3329,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3471,7 +3513,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3691,7 +3733,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3791,6 +3833,8 @@
          "id":"twitter",
          "headers":[
             {
+               "text":"twitter"
+            },{
                "text":"Vine"
             },
             {
@@ -3908,7 +3952,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -4128,7 +4172,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -4319,7 +4363,7 @@
                      "value":"Do the company's explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
-                     "value":"100"
+                     "value":"exclude"
                   },
                   {
                      "value":"100"
@@ -4335,7 +4379,7 @@
                      "value":"Do the company's explanations clearly disclose the basis under which it may comply with private requests?"
                   },
                   {
-                     "value":"50"
+                     "value":"exclude"
                   },
                   {
                      "value":"50"
@@ -4348,10 +4392,10 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
-                     "value":"100"
+                     "value":"exclude"
                   },
                   {
                      "value":"100"
@@ -4568,7 +4612,7 @@
             {
                "cells":[
                   {
-                     "value":"6Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"exclude"
