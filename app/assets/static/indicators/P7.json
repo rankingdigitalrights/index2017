@@ -801,9 +801,7 @@
             },
             {
                "cells":[
-                  {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
+                    {
       "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
    },
    {
