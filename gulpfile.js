@@ -29,7 +29,7 @@ var jstify = require('jstify');
 var pkg;
 var shouldReload = true;
 var jekyllLimit = null;
-var environment = 'development';
+var environment = 'production';
 
 ////////////////////////////////////////////////////////////////////////////////
 //------------------------- Helper functions ---------------------------------//
