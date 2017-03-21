@@ -30,6 +30,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"exclude"
                   }
                ]
             }
@@ -137,6 +140,8 @@
          "average":[
             {
                "value":"0"
+            },{
+               "value":"N/A"
             }
          ],
          "rows":[
@@ -513,6 +518,9 @@
                      "value":"Does the company require users to verify their identity with their government-issued identification, or with other forms of identification that could be connected to their offline identity?"
                   },
                   {
+                     "value":"exclude"
+                  },
+                  {
                      "value":"100"
                   },
                   {
@@ -536,6 +544,8 @@
          "average":[
             {
                "value":"0"
+            },{
+               "value":"N/A"
             }
          ],
          "rows":[
@@ -563,11 +573,17 @@
             },
             {
                "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Line Broadband"
             }
          ],
          "average":[
             {
                "value":"0"
+            },
+            {
+               "value":"N/A"
             },
             {
                "value":"N/A"
@@ -584,7 +600,10 @@
                   },
                   {
                      "value":"N/A"
-                  }
+                  },
+            {
+               "value":"N/A"
+            }
                ]
             }
          ]
@@ -752,6 +771,8 @@
          "id":"twitter",
          "headers":[
             {
+               "text":"Twitter"
+            },{
                "text":"Vine"
             },
             {
