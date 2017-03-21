@@ -5,18 +5,23 @@
 	/* Page intro */
 	.page--intro {
 		p {
-		font-size: 14px;
+		font-size: 13px;
+		text-align: center;
 		  @include media(small-up) {
-		  font-size: 14px;
+		  font-size: 15px;
+          text-align: center;
 		  }
 		  @include media(medium-up) {
-		  font-size: 16px; 
+		  font-size: 16px;
+		  text-align: center;
 		  }
 		  @include media(large-up) {
 		  font-size: 18px;
+		  text-align: left;
 		  }
 		  @include media(xlarge-up) {
 		  font-size: 21px; 
+		  text-align: left;
 		  }   
 		}	
 	}
