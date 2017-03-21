@@ -49,12 +49,15 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
             tr {
                 &.header {
                     th {
-                    font-weight: normal;    
+                    font-weight: normal;
+                    text-transform: uppercase;    
                         &.cell--first {
                         text-align: left;
                         font-weight: bold;
-                        text-transform: uppercase;
-                        }                        
+                        }
+                        &.cell--0 {
+                        text-align: center;
+                        }                                                
                     }
                 }
             }
@@ -65,9 +68,9 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
                 font-size: 16px;
                 font-weight: bold;
                 padding: 10px 5px;
-                text-align: right;
+                text-align: center
                 }
-                th {
+                th, td {
                     &.cell--0 {
                     text-align: left;
                     font-weight: normal;
@@ -83,7 +86,11 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
                         text-align: left;
                         font-weight: bold;
                         text-transform: uppercase;
-                        }                        
+                        }
+                        &.cell--0 {
+                        text-align: center;
+                        font-weight: bold;
+                        }                                                 
                     }
                 }
             }
