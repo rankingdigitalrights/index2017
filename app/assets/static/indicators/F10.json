@@ -2010,9 +2010,15 @@
             },
             {
                "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Line Broadband"
             }
          ],
          "average":[
+            {
+               "value":"6"
+            },
             {
                "value":"6"
             },
@@ -2025,6 +2031,9 @@
                "cells":[
                   {
                      "value":"Does the company clearly explain the reason(s) why it may shut down service to a particular area or group of users?"
+                  },
+                  {
+                     "value":"50"
                   },
                   {
                      "value":"50"
