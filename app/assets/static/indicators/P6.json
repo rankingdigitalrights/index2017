@@ -2578,7 +2578,7 @@
       },
       {
          "name":"Vodafone",
-         "id":"Vodafone",
+         "id":"vodafone",
          "headers":[
             {
                "text":"Prepaid Mobile"
