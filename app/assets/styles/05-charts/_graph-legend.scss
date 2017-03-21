@@ -19,38 +19,64 @@ flex-direction: column;
 	@include media(xlarge-up) {
 	margin-top: 1em;	
 	flex-direction: row;
-	}  
+	}
 	.graph-legend-content,
 	.graph-legend-values,
 	.graph-legend-interaction {
 	display: flex;
     justify-content: space-around;
-    align-items: flex-start;		
-	padding: 0.5em 0.5em;	
+    align-items: flex-start;			
 	border-left: none;
 	border-top: 1px solid $black;
 		@include media(small-up) {
-		padding: 1em 1em;
 		border-left: none;
 		border-top: 1px solid $black;
 		}
 		@include media(medium-up) {
-		padding: 1em 1em;
 		border-left: none;
 		border-top: 1px solid $black;		
 		}
 		@include media(large-up) {
-		padding: 1em 1.5em;
 		border-top: none;	
 		border-left: 1px solid $black;
 		}
 		@include media(xlarge-up) {
-		padding: 1em 6.1em;
 		border-top: none;	
 		border-left: 1px solid $black;
 		} 	
 	}
-	.graph-legend-content {		
+
+
+
+	.graph-legend-content {
+	padding: 0.5em 0.5em;	
+		@include media(small-up) {
+		padding: 1em 1em;
+		}
+		@include media(medium-up) {
+		padding: 1em 1em;	
+		}
+		@include media(large-up) {
+		padding: 1em 3em;
+		}
+		@include media(xlarge-up) {
+		padding: 1em 5em;
+		}
+		@media only screen and (min-width: 1366px) {
+		padding: 1em 6em;   
+		}  
+		@media only screen and (min-width: 1440px) {
+		padding: 1em 5em;    
+		}  
+		@media only screen and (min-width: 1600px) {
+		padding: 1em 6.5em;     
+		}
+		@media only screen and (min-width: 1680px) {
+		padding: 1em 7em;     
+		}		
+		@media only screen and (min-width: 1920px) {
+		padding: 1em 8.5em;       
+		}		 			
 		.graph-legend-content-item {	
 		text-align: center;				
 			.graph-legend-content-item-value {
@@ -115,6 +141,34 @@ flex-direction: column;
 		}
 	}
 	.graph-legend-values {
+	padding: 0.5em 0.5em;	
+		@include media(small-up) {
+		padding: 1em 1em;
+		}
+		@include media(medium-up) {
+		padding: 1em 1em;	
+		}
+		@include media(large-up) {
+		padding: 1em 3em;
+		}
+		@include media(xlarge-up) {
+		padding: 1em 4em;
+		} 
+		@media only screen and (min-width: 1366px) {
+		padding: 1em 4em;   
+		}  
+		@media only screen and (min-width: 1440px) {
+		padding: 1em 3em;    
+		}  
+		@media only screen and (min-width: 1600px) {
+		padding: 1em 5em;     
+		}
+		@media only screen and (min-width: 1680px) {
+		padding: 1em 6em;     
+		}		
+		@media only screen and (min-width: 1920px) {
+		padding: 1em 7.5em;       
+		}				
 		.graph-legend-values-item {	
 			.graph-legend-values-label {
 			font-family: $simplon-medium;	
@@ -211,14 +265,42 @@ flex-direction: column;
 			margin-left: 2.5em;	
 			}
 			@include media(large-up) {
-			margin-left: 1em;	
+			margin-left: 1.5em;	
 			}
 			@include media(xlarge-up) {
-			margin-left: 1em;
+			margin-left: 2em;
 			}				
 		}			
 	}
 	.graph-legend-interaction {
+	padding: 0.5em 0.5em;	
+		@include media(small-up) {
+		padding: 1em 1em;
+		}
+		@include media(medium-up) {
+		padding: 1em 1em;	
+		}
+		@include media(large-up) {
+		padding: 1em 3em;
+		}
+		@include media(xlarge-up) {
+		padding: 1em 5em;
+		}
+		@media only screen and (min-width: 1366px) {
+		padding: 1em 5em;   
+		}  
+		@media only screen and (min-width: 1440px) {
+		padding: 1em 5em;    
+		}  
+		@media only screen and (min-width: 1600px) {
+		padding: 1em 5.5em;     
+		}
+		@media only screen and (min-width: 1680px) {
+		padding: 1em 6em;     
+		}		
+		@media only screen and (min-width: 1920px) {
+		padding: 1em 7.5em;       
+		}		 		
 		.graph-legend-interaction-item {
 		display: flex;	
 		background-color: $black;	

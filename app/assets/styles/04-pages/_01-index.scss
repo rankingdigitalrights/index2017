@@ -638,16 +638,48 @@
 						&:after {
 						border-color: rgba(77, 158, 207, 0);
 						border-left-color: #4D9ECF;
-						border-width: 9px;
-						margin-top: -9px;
+						border-width: 5px;
+						margin-top: -5px;
 						z-index: 10;
+							@include media(small-up) {
+							border-width: 7px;
+							margin-top: -7px;
+							}
+							@include media(medium-up) {
+							border-width: 8px;
+							margin-top: -8px;
+							}
+							@include media(large-up) {
+							border-width: 9px;
+							margin-top: -9px;
+							} 
+							@include media(xlarge-up) {
+ 							border-width: 9px;
+							margin-top: -9px;
+							} 						
 						}
 						&:before {
 						border-color: rgba(255, 255, 255, 0);
 						border-left-color: $white-pure;
-						border-width: 10px;
-						margin-top: -10px;
+						border-width: 6px;
+						margin-top: -6px;
 						z-index: 9;
+							@include media(small-up) {
+							border-width: 8px;
+							margin-top: -8px;
+							}
+							@include media(medium-up) {
+							border-width: 9px;
+							margin-top: -9px;
+							}
+							@include media(large-up) {
+							border-width: 10px;
+							margin-top: -10px;
+							} 
+							@include media(xlarge-up) {
+							border-width: 10px;
+							margin-top: -10px; 
+							}						
 						}			
 					}
 				}
@@ -698,11 +730,11 @@
 		    		flex-direction: column;							
 				    justify-content: center;
 				    align-items: center;
-				    padding: 10px;
+				    padding: 15px 10px;
 				    min-height: -webkit-min-content;
 						@include media(small-up) {
 						flex-direction: column;
-						padding: 15px;
+						padding: 25px 15px;
 						}
 						@include media(medium-up) {
 						flex-direction: row;
@@ -734,6 +766,18 @@
 							.service--circle--chart {
 							padding-bottom: 15px;
 							margin: 0 10px;
+								@include media(small-up) {
+								padding-bottom: 15px;	
+								}
+								@include media(medium-up) {
+								padding-bottom: 15px;
+								}
+								@include media(large-up) {
+								padding-bottom: 10px;	
+								}
+								@include media(xlarge-up) {
+								padding-bottom: 15px;
+								}							
 							}						    				    	
 			    		}
 			    		.tab-pane-chart-row + .tab-pane-chart-row {
