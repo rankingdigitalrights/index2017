@@ -34,7 +34,7 @@ module.exports = BaseChart.extend({
     var name = g.append('text')
       .attr('class', 'circle--label_name')
       .style('text-anchor', 'middle')
-      .attr('dy', '110px')
+      .attr('dy', '100px')
       .on('click', function (d) {
         var href = label.name.toLowerCase().replace('&', '')
           .replace('.', '').replace(' ', '').replace('ó', 'o').replace('é', 'e');
@@ -43,7 +43,7 @@ module.exports = BaseChart.extend({
     var service = g.append('text')
       .attr('class', 'circle--label_service')
       .style('text-anchor', 'middle')
-      .attr('dy', '95px')
+      .attr('dy', '85px')
       .html(this.data[1].name);
 
     var score = g.append('text')
