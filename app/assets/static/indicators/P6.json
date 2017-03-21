@@ -1792,7 +1792,7 @@
       },
       {
          "name":"Ooredoo",
-         "id":"Ooredoo",
+         "id":"ooredoo",
          "headers":[
             {
                "text":"Prepaid Mobile"
@@ -2578,7 +2578,7 @@
       },
       {
          "name":"Vodafone",
-         "id":"Vodafone",
+         "id":"vodafone",
          "headers":[
             {
                "text":"Prepaid Mobile"

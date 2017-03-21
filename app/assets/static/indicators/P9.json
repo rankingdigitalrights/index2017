@@ -1576,7 +1576,7 @@
       },
       {  
          "name":"Samsung",
-         "id":"Samsung",
+         "id":"samsung",
          "headers":[  
                {
       "value": "Does the company clearly disclose what user information it collects from third-party websites through technical means?"
