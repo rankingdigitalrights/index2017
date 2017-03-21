@@ -99,12 +99,12 @@ flex-direction: column;
 			}
 		}
 		.graph-legend-content-item + .graph-legend-content-item {
-		margin-left: 0.5em;	
+		margin-left: 1em;	
 			@include media(small-up) {
-			margin-left: 1em;	
+			margin-left: 2em;	
 			}
 			@include media(medium-up) {
-			margin-left: 1em;	
+			margin-left: 3em;	
 			}
 			@include media(large-up) {
 			margin-left: 1em;	
