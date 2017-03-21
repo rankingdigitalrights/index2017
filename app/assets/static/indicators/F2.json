@@ -1191,8 +1191,15 @@
             {
                "text":"Postpaid Mobile"
             }
+            ,
+            {
+               "text":"Fixed Line Broadband"
+            }
          ],
          "average":[
+            {
+               "value":"13"
+            },
             {
                "value":"13"
             },
@@ -1205,6 +1212,9 @@
                "cells":[
                   {
                      "value":"Does the company clearly disclose that it notifies users about changes to its terms of service?"
+                  },
+                  {
+                     "value":"50"
                   },
                   {
                      "value":"50"
@@ -1224,6 +1234,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -1237,6 +1250,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -1244,6 +1260,9 @@
                "cells":[
                   {
                      "value":"Does the company maintain a public archive or change log?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -1275,6 +1294,9 @@
             },
             {
                "value":"0"
+            },
+            {
+               "value":"38"
             }
          ],
          "rows":[
@@ -1588,7 +1610,9 @@
          "name":"Twitter",
          "id":"twitter",
          "headers":[
-            {
+             {
+               "text":"Twitter"
+            },{
                "text":"Vine"
             },
             {
@@ -1937,13 +1961,13 @@
                      "value":"Does the company maintain a public archive or change log?"
                   },
                   {
-                     "value":"0"
+                     "value":"100"
                   },
                   {
-                     "value":"0"
+                     "value":"100"
                   },
                   {
-                     "value":"0"
+                     "value":"100"
                   }
                ]
             }

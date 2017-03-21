@@ -91,7 +91,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -104,7 +104,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -180,9 +180,6 @@
                      "value":"Does the company clearly disclose the process for de-identifying user information?"
                   },
                   {
-                     "value":"Does the company clearly disclose the process for de-identifying user information?"
-                  },
-                  {
                      "value":"0"
                   },
                   {
@@ -203,6 +200,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"50"
                   }
                ]
             },
@@ -225,7 +225,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"0"
@@ -241,7 +241,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"0"
@@ -286,9 +286,6 @@
                "cells":[
                   {
                      "value":"For each type of user information the company collects, does the company clearly disclose how long it retains that user information?"
-                  },
-                  {
-                     "value":"For each type of user information the company collects"
                   },
                   {
                      "value":"0"
@@ -368,7 +365,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -384,7 +381,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -487,7 +484,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -500,7 +497,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -621,7 +618,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -637,7 +634,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -761,7 +758,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -777,7 +774,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -892,7 +889,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -908,7 +905,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -927,6 +924,9 @@
          "name":"Facebook",
          "id":"facebook",
          "headers":[
+            {
+               "text":"Facebook"
+            },
             {
                "text":"Instagram"
             },
@@ -1041,13 +1041,19 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"100"
                   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                  },
+                  {
+                     "value":"exclude"
                   },
                   {
                      "value":"exclude"
@@ -1063,7 +1069,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -1211,7 +1217,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -1230,7 +1236,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -1357,7 +1363,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -1373,7 +1379,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -1497,7 +1503,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -1513,7 +1519,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -1640,7 +1646,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -1656,7 +1662,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -1759,7 +1765,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -1772,7 +1778,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -1793,9 +1799,15 @@
             },
             {
                "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Line Broadband"
             }
          ],
          "average":[
+            {
+               "value":"0"
+            },
             {
                "value":"0"
             },
@@ -1808,6 +1820,9 @@
                "cells":[
                   {
                      "value":"For each type of user information the company collects, does the company clearly disclose how long it retains that user information?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -1827,6 +1842,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -1834,6 +1852,9 @@
                "cells":[
                   {
                      "value":"Does the company clearly disclose the process for de-identifying user information?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -1853,6 +1874,9 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -1866,13 +1890,19 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                  },
+                  {
+                     "value":"exclude"
                   },
                   {
                      "value":"exclude"
@@ -1885,7 +1915,10 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                  },
+                  {
+                     "value":"exclude"
                   },
                   {
                      "value":"exclude"
@@ -2006,7 +2039,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2022,7 +2055,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -2104,7 +2137,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"0"
@@ -2114,7 +2147,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"0"
@@ -2232,7 +2265,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2248,7 +2281,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -2372,7 +2405,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2388,7 +2421,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -2512,7 +2545,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2528,7 +2561,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -2652,7 +2685,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2668,7 +2701,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -2779,10 +2812,10 @@
                      "value":"Does the company clearly disclose the time frame in which it will delete user information after users terminate their account?"
                   },
                   {
-                     "value":"0"
+                     "value":"50"
                   },
                   {
-                     "value":"0"
+                     "value":"50"
                   },
                   {
                      "value":"0"
@@ -2792,7 +2825,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2808,7 +2841,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
@@ -2932,7 +2965,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose how long they retains user information?"
                   },
                   {
                      "value":"exclude"
@@ -2948,7 +2981,7 @@
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store state that all user information is deleted when users terminate their accounts or delete the app?"
                   },
                   {
                      "value":"exclude"
