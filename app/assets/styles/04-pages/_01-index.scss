@@ -653,34 +653,43 @@
 
 			.tab-content {
 			display: flex;
+			position: relative;
 			justify-content: center;
 			width: 69%;
 			border: 1px solid $white-pure;
-			overflow-x: hidden;
-			overflow-y: auto;
 				@include media(small-up) {
-				width: 65%;
-				overflow-x: auto;
-				overflow-y: auto;		
+				width: 65%;		
 				}
 				@include media(medium-up) {
 				width: 79%;
-				overflow-x: auto;
-				overflow-y: auto;
 				}
 				@include media(large-up) {
 				width: 83%;
-				overflow-x: initial;
-				overflow-y: initial;
 				}
 				@include media(xlarge-up) {
 				width: 79%;
-				overflow-x: initial;
-				overflow-y: initial;
 				}	
 				.tab-pane-wrapper {
-				display: none;	
-					.tab-pane {
+				display: none;				
+				overflow-x: hidden;
+				overflow-y: auto;
+					@include media(small-up) {
+					overflow-x: auto;
+					overflow-y: auto;		
+					}
+					@include media(medium-up) {
+					overflow-x: auto;
+					overflow-y: auto;
+					}
+					@include media(large-up) {
+					overflow-x: initial;
+					overflow-y: initial;
+					}
+					@include media(xlarge-up) {
+					overflow-x: initial;
+					overflow-y: initial;
+					}					
+					.tab-pane {						
 					display: flex;
 		    		flex-direction: column;							
 				    justify-content: center;
@@ -734,6 +743,30 @@
 							margin-top: 0em;	
 							}
 			    		}
+			    		i {
+			    		position: absolute;
+			    		bottom: 10px;
+			    		right: 10px;
+			    		display: block;
+			    		color: $white-pure;
+			    		font-size: 15px;	
+							@include media(small-up) {
+			    			bottom: 15px;
+			    			right: 15px;								
+							display: block;	
+							}
+							@include media(medium-up) {
+			    			bottom: 20px;
+			    			right: 20px;								
+							display: block;	
+							}
+							@include media(large-up) {
+							display: none;	
+							}
+							@include media(xlarge-up) {
+							display: none;	
+							}			    			
+			    		}
 					}
 					&.current {
 					display: flex;
@@ -755,8 +788,8 @@
 				@include span-columns(3);
 				}
 				h3 {
-				margin-top: .8em;
-		    	margin-bottom: 1em;
+				margin-top: 0.8em;
+		    	margin-bottom: 0.5em;
 					@include media(small-up) {
 
 					}
@@ -777,7 +810,7 @@
 			.data-stories-item + .data-stories-item {
 			margin-top: 1.5em;	
 				@include media(small-up) {
-				margin-top: 2em;
+				margin-top: 1.5em;
 				}
 				@include media(medium-up) {
 				margin-top: 0em;
