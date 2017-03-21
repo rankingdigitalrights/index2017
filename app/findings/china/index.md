@@ -12,10 +12,8 @@ published: true
 <p><img src="/index2017/assets/graphics/content/china1.png" alt="china1" title="china1" align="right" /></p>
 <p>Two key trends emerge from these results:</p>
 <ul>
-<li><strong>Tencent disclosed much more information than Baidu about its policies affecting user's rights.</strong></li>
-</ul>
-<ul>
-<li><strong>Both companies disclosed more about privacy-related policies than those affecting users' freedom of expression.</strong></li>
+	<li><strong>Tencent disclosed much more information than Baidu about its policies affecting user's rights.</strong></li>
+	<li><strong>Both companies disclosed more about privacy-related policies than those affecting users' freedom of expression.</strong></li>
 </ul>
 <p>These trends highlight areas in which Chinese companies can and should be held responsible for their policies and disclosures-and provide a roadmap for improvement for these specific companies and the Chinese internet sector more broadly. </p>
 <h3>Legal and regulatory challenges </h3>
@@ -32,31 +30,33 @@ published: true
 <p>While state secrets laws make it unrealistic to expect Chinese companies to reveal information related to government requests, there is no legal obstacle to disclosing a range of information about how the company handles user information, as well as the security measures it takes to protect user information.</p>
 <p>Tencent's 13-point score differential over Baidu in the <a href="https://rankingdigitalrights.org/2017-indicators/#P">Privacy</a> category underscores the extent to which Chinese companies can and should be expected to disclose maximum possible information in these areas.</p>
 <p>Specifically, there are many areas related to the security and handling of user information on which Chinese companies can improve, and even compete:</p>
+
 <ul>
-<li><strong>Demonstrate strong commitment to users' security. </strong>Chinese internet companies can do a better job of communicating with users about the steps they take to keep users' accounts and information secure.</li>
+	<li><strong>Demonstrate strong commitment to users' security. </strong>Chinese internet companies can do a better job of communicating with users about the steps they take to keep users' accounts and information secure.
+		<ul>
+			<li>Tencent performed at the top of the Index on two security-related indicators: It earned a perfect score for user education about security threats (<a href="https://rankingdigitalrights.org/2017-indicators/#P18">P18</a>), while Baidu scored only half. Tencent also tied with several other companies in the Index for first place the indicator that seeks disclosure about how the company addresses security vulnerabilities (<a href="https://rankingdigitalrights.org/2017-indicators/#P14">P14</a>). The only indicator on which Baidu performed better than Tencent was on disclosure about how the company helps users keep user accounts secure (<a href="https://rankingdigitalrights.org/2017-indicators/#P17">P17</a><strong>)</strong>.
+			</li>
+			<li>Neither company discloses any policy for notifying users about data breaches (<a href="https://rankingdigitalrights.org/2017-indicators/#P15">P15</a>). While national law requires companies to notify relevant authorities, it does not require notification of users. However some localities (such as Shanghai) do require consumer notification of breaches. This demonstrates that there is no legal obstacle to notifying users of breaches and that by doing so, companies would send a message to users that they are committed to being held accountable - by the public as well as by the government - for user security.</li>
+		</ul>
+	</li>
 </ul>
+
 <ul>
+	<li><strong>Be as transparent as possible with users about how their information is handled. </strong>There is no reason why Chinese internet companies cannot more clearly notify users of privacy policy changes (<a href="https://rankingdigitalrights.org/2017-indicators/#P2">P2</a>).
+		<ul>
+			<li>Tencent disclosed substantially more information about how it notifies users about changes in its privacy policies than Baidu, and should be in a position to do even better. Tencent and Baidu both scored higher than the Index average among internet and mobile companies for disclosure about the collection of user information (<a href="https://rankingdigitalrights.org/2017-indicators/#P3">P3</a>), demonstrating that this is an area on which Chinese companies can compete not only with one another but with their global peers. Tencent disclosed twice as much detail as Baidu about the sharing of user information (<a href="https://rankingdigitalrights.org/2017-indicators/#P4">P4</a>), and the purpose for doing so (<a href="https://rankingdigitalrights.org/2017-indicators/#P5">P5</a>), indicating that this is also an area where Chinese companies can and should be more up-front with their users. 
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
 <ul>
-<li>Tencent performed at the top of the Index on two security-related indicators: It earned a perfect score for user education about security threats (<a href="https://rankingdigitalrights.org/2017-indicators/#P18">P18</a>), while Baidu scored only half. Tencent also tied with several other companies in the Index for first place the indicator that seeks disclosure about how the company addresses security vulnerabilities (<a href="https://rankingdigitalrights.org/2017-indicators/#P14">P14</a>). The only indicator on which Baidu performed better than Tencent was on disclosure about how the company helps users keep user accounts secure (<a href="https://rankingdigitalrights.org/2017-indicators/#P17">P17</a><strong>)</strong>.</li>
+	<li><strong>Be as transparent as possible about the handling of requests for user information that do not come from government.</strong>
+		<ul>
+			<li>While neither company reveals any information related to government requests for reasons discussed above, both companies reveal different types of information to varying degrees about requests they may receive from private individuals or entities (<a href="https://rankingdigitalrights.org/2017-indicators/#P10">P10</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#P11">P11</a>). Baidu receives some credit because its PostBar service states that it does not entertain private requests for user information, while Tencent gets credit for statements by different services about either rejecting private requests or subjecting them to scrutiny. These results demonstrate that Chinese companies have room to improve disclosures on how they handle requests for user information from entities other than branches of government.</li>
+		</ul>
+	</li>
 </ul>
-</ul>
-<ul>
-<ul>
-<li>Neither company discloses any policy for notifying users about data breaches (<a href="https://rankingdigitalrights.org/2017-indicators/#P15">P15</a>). While national law requires companies to notify relevant authorities, it does not require notification of users. However some localities (such as Shanghai) do require consumer notification of breaches. This demonstrates that there is no legal obstacle to notifying users of breaches and that by doing so, companies would send a message to users that they are committed to being held accountable - by the public as well as by the government - for user security.</li>
-</ul>
-</ul>
-<ul>
-<li><strong>Be as transparent as possible with users about how their information is handled. </strong>There is no reason why Chinese internet companies cannot more clearly notify users of privacy policy changes (<a href="https://rankingdigitalrights.org/2017-indicators/#P2">P2</a>).
-<ul>
-<li>Tencent disclosed substantially more information about how it notifies users about changes in its privacy policies than Baidu, and should be in a position to do even better. Tencent and Baidu both scored higher than the Index average among internet and mobile companies for disclosure about the collection of user information (<a href="https://rankingdigitalrights.org/2017-indicators/#P3">P3</a>), demonstrating that this is an area on which Chinese companies can compete not only with one another but with their global peers. Tencent disclosed twice as much detail as Baidu about the sharing of user information (<a href="https://rankingdigitalrights.org/2017-indicators/#P4">P4</a>), and the purpose for doing so (<a href="https://rankingdigitalrights.org/2017-indicators/#P5">P5</a>), indicating that this is also an area where Chinese companies can and should be more up-front with their users. </li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong>Be as transparent as possible about the handling of requests for user information that do not come from government.</strong>
-<ul>
-<li>While neither company reveals any information related to government requests for reasons discussed above, both companies reveal different types of information to varying degrees about requests they may receive from private individuals or entities (<a href="https://rankingdigitalrights.org/2017-indicators/#P10">P10</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#P11">P11</a>). Baidu receives some credit because its PostBar service states that it does not entertain private requests for user information, while Tencent gets credit for statements by different services about either rejecting private requests or subjecting them to scrutiny. These results demonstrate that Chinese companies have room to improve disclosures on how they handle requests for user information from entities other than branches of government.</li>
-</ul>
-</li>
-</ul>
-<p><br /><br /><strong>Read our more on our Key Findings and Recommendations. </strong></p>
+
+<p class="closing-sentance"><strong>Read our more on our Key Findings and Recommendations. </strong></p>

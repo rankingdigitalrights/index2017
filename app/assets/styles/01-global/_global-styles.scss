@@ -72,7 +72,7 @@ font-size: 14px;
   font-size: 17px;  
   }
   @include media(large-up) {
-  font-size: 20px; 
+  font-size: 19px; 
   }
   @include media(xlarge-up) {
   font-size: 23px;  
@@ -127,7 +127,16 @@ line-height: 1.3;
   font-size: 16px;  
   }   
 }
- 
+
+
+/* Strong */
+
+strong {
+font-family: $simplon-medium;
+font-weight: 600; 
+}
+
+
 /* Labels */
 
 label {
