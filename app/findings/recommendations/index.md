@@ -36,30 +36,22 @@ published: true
 <li><strong>Recognize app store content as a freedom of expression issue.</strong> Companies that have committed to freedom of expression principles should ensure that mobile ecosystems and app stores are clearly covered by due diligence and governance processes necessary to implement those principles. </li>
 </ul>
 <ul>
-<li><strong>Clearly disclose policies and processes for handling requests to remove or pre-emptively restrict apps</strong>, whether such requests come from governments or from other entities. Companies should also disclose in their transparency reports information about app removals and restrictions from their app store, including the number of requests received and complied with as well as data about apps or other content removed in the process of terms of service enforcement.<br /><br /></li>
-<li><strong>Commit to enforce app store terms of service that require all apps collecting user information to have a privacy policy. </strong>Commit to evaluate the content of those privacy policies, and disclose information about this enforcement process in transparency reports.<br /><br /></li>
+<li><strong>Clearly disclose policies and processes for handling requests to remove or pre-emptively restrict apps</strong>, whether such requests come from governments or from other entities. Companies should also disclose in their transparency reports information about app removals and restrictions from their app store, including the number of requests received and complied with as well as data about apps or other content removed in the process of terms of service enforcement.</li>
+<li><strong>Commit to enforce app store terms of service that require all apps collecting user information to have a privacy policy. </strong>Commit to evaluate the content of those privacy policies, and disclose information about this enforcement process in transparency reports.</li>
 <li><strong>Commit to deliver all security updates to users within 30 days </strong>of a patch being made available. Companies should also clearly communicate to users for how long after purchase (or until what date) they should expect to receive software updates.</li>
 </ul>
 <h3>Freedom of expression</h3>
 <ul>
-<li><strong>Improve transparency and accountability about all types of third-party requests to restrict content or user accounts</strong> - government requests as well as requests by private individuals and organizations. To the maximum extent possible under the law, companies should publish comprehensive information (including transparency reports) related to the following types of third-party requests:</li>
+	<li><strong>Improve transparency and accountability about all types of third-party requests to restrict content or user accounts</strong> - government requests as well as requests by private individuals and organizations. To the maximum extent possible under the law, companies should publish comprehensive information (including transparency reports) related to the following types of third-party requests:
+	<ul>
+		<li>Process for responding to all types of third-party requests to restrict content, access, or service;</li>
+		<li>Data about government requests to restrict content, access, or service;</li>
+		<li>Data about private requests for content restriction.</li>
+	</ul>
+	</li>
 </ul>
-<ul>
-<ul>
-<li>Process for responding to all types of third-party requests to restrict content, access, or service;</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Data about government requests to restrict content, access, or service;</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Data about private requests for content restriction.</li>
-</ul>
-</ul>
-<p style="padding-left: 30px;">If a company does not receive or entertain a particular type of request, or if it doesn't entertain requests from certain types of third parties (e.g., private individuals acting without legal authority), the company should also clearly disclose that information.</p>
+
+<p>If a company does not receive or entertain a particular type of request, or if it doesn't entertain requests from certain types of third parties (e.g., private individuals acting without legal authority), the company should also clearly disclose that information.</p>
 <ul>
 <li><strong>Telecommunications companies should provide as much information as possible about their policies for responding to network shutdowns</strong>, including details such as the number of requests they received and the number with which they complied.</li>
 </ul>
@@ -71,53 +63,23 @@ published: true
 </ul>
 <h3>Handling of user information</h3>
 <ul>
-<li><strong>Provide users with a more comprehensive picture of the lifecycle of their personal information, from collection to use to sharing to retention and deletion. </strong>Disclosures should include: </li>
+	<li><strong>Provide users with a more comprehensive picture of the lifecycle of their personal information, from collection to use to sharing to retention and deletion. </strong>Disclosures should include: 
+	<ul>
+		<li>What specific types of information the company collects (P3);</li>
+		<li>How the company collects that information (e.g., does a company ask users to provide certain information, or does the company collect it automatically?) (P3); </li>
+		<li>Whether users have an option not to provide that information (P7); </li>
+		<li>Specifically, what information the company shares and with whom (P4);</li>
+		<li>Why the company shares that information (P5);</li>
+		<li>Whether -and the extent to which - users can control how their information is used (P7);</li>
+		<li>How long the company retains that information (P6);</li>
+		<li>Whether the user can access all public-facing and private user information a company holds about them (P8);</li>
+		<li>Whether and how the company destroys that information when users delete their accounts or cancel their service (P6). </li>
+	</ul>
+	</li>
 </ul>
-<ul>
-<ul>
-<li>What specific types of information the company collects (P3);</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>How the company collects that information (e.g., does a company ask users to provide certain information, or does the company collect it automatically?) (P3); </li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Whether users have an option not to provide that information (P7); </li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Specifically, what information the company shares and with whom (P4);</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Why the company shares that information (P5);</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Whether -and the extent to which - users can control how their information is used (P7);</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>How long the company retains that information (P6);</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Whether the user can access all public-facing and private user information a company holds about them (P8);</li>
-</ul>
-</ul>
-<ul>
-<ul>
-<li>Whether and how the company destroys that information when users delete their accounts or cancel their service (P6). </li>
-</ul>
-</ul>
+
+
+
 <h3>Security</h3>
 <ul>
 <li><strong>Disclose clear information about policies for addressing security vulnerabilities.</strong> This disclosure should include bug bounty programs and the company's practices for relaying security updates to mobile phones. </li>
