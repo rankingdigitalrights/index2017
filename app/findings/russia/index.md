@@ -21,7 +21,7 @@ published: true
 <ul>
 <li><strong>Russian companies can make commitments to respect users' rights and demonstrate efforts to implement those commitments. </strong>
 <ul>
-<li>Both companies were among the worst performers in this year's Index on governance indicators, along with the two Chinese internet companies, Baidu and Tencent. Neither company offered a formal policy commitment to human rights, as measured in Indictor (<a href="https://rankingdigitalrights.org/2017-indicators/#G1">G1</a>), and both disclosed little about if and how respect for users' freedom of expression and privacy are institutionalized with the company. </li>
+<li>Both companies were among the worst performers in this year's Index on governance indicators, along with the two Chinese internet companies, Baidu and Tencent. Neither company offered a formal policy commitment to human rights, as measured in Indictor (<a href="https://rankingdigitalrights.org/2017-indicators/#G1">G1</a>), and both disclosed little about if and how respect for users' freedom of expression and privacy are institutionalized within the company. </li>
 <li>Yet even in this category, Yandex proved some disclosure of human rights commitments is possible: the company received some credit on human rights due diligence for publishing a risk assessment of the impact of Russian law on user privacy (<a href="https://rankingdigitalrights.org/2017-indicators/#G4">G4</a>)-an indicator on which few companies across entire the Index scored well.</li>
 </ul>
 </li>
@@ -31,7 +31,7 @@ published: true
 <ul>
 <li><strong>Tell users more about processes for responding to government and private requests for user information, or to restrict content or accounts.</strong> Russian internet companies can disclose more information about how they handle these types of third-party requests.
 <ul>
-<li>Both companies disclosed little information about they handle government or private requests to block content or restrict user accounts (F5-F7), and neither published any data about the number of government requests it receives or complies with (<a href="https://rankingdigitalrights.org/2017-indicators/#F6">F6</a>)-although there are no laws prohibiting Russian companies from doing so.</li>
+<li>Both companies disclosed little information about they handle government or private requests to block content or restrict user accounts (<a href="https://rankingdigitalrights.org/index2017indicators/#F5">F5-F7</a>), and neither published any data about the number of government requests it receives or complies with (<a href="https://rankingdigitalrights.org/2017-indicators/#F6">F6</a>)-although there are no laws prohibiting Russian companies from doing so.</li>
 <li>Yandex offered more disclosure than Mail.ru about its process for considering such requests (<a href="https://rankingdigitalrights.org/2017-indicators/#F5">F5</a>). It also stood out for being among just a few companies-including top-performing Google, Yahoo, Microsoft, and Twitter-that disclosed any information about compliance with private requests to remove content in response to Russia's new "<a href="https://www.article19.org/resources.php/resource/38099/en/legal-analysis:-russia%27s-right-to-be-forgotten">Right to be Forgotten</a>" law (<a href="https://rankingdigitalrights.org/2017-indicators/#F7">F7</a>). This indicates that Russian companies can disclose more about their processes for responding to both government and private requests to remove content.</li>
 </ul>
 </li>

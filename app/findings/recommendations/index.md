@@ -5,9 +5,9 @@ entity: findings
 header: Recommendations
 published: true
 ---
-<p>Based on what we have learned from the Index results, below are recommendations for companies as well as for governments.</p>
+<p>Based on what we have learned from the  <a href="https://rankingdigitalrights.org/index2017/findings/keyfindings">Index results,</a> below are recommendations for companies as well as for governments.</p>
 <h2>For companies</h2>
-<p>All companies in the Index can make improvements. Below is a basic guide. More specific recommendations for each company can be found in the individual company report cards.</p>
+<p>All companies in the Index can make improvements. Below is a basic guide. More specific recommendations for each company can be found in the individual <a href="https://rankingdigitalrights.org/index2017/companies">company reports</a>.</p>
 <h3>Governance and general recommendations</h3>
 <ul>
 <li><strong>Communicate with users in a clear, accessible, and organized way.</strong> Companies should disclose and explain how they comply with laws and what that compliance means for users. Companies that are serious about demonstrating respect for users' rights should strive for well-organized disclosures in places that users can reasonably be expected find. Users should not have to depend on external sources or be specialists in telecommunications or privacy law in order to learn about the company's commitments and practices.</li>
@@ -19,7 +19,7 @@ published: true
 <li><strong>Conduct regular assessments to determine the impact of the company's products, services, and business operations on users' freedom of expression and privacy.</strong> Several companies in the Index conduct different types of human rights impact assessments, a systematic approach to due diligence that enables companies to identify risks to users' freedom of expression and privacy as well as opportunities for companies to enhance users' enjoyment of those rights. While it may be counterproductive for companies to publish all details of their processes and findings, it is important to disclose information about the fact that the company conducts assessments and basic information about the scope, frequency, and use of these assessments. For such disclosures to be credible, companies' assessments should be assured by an external third party accredited by an independent body whose own governance structure demonstrates strong commitment and accountability to human rights principles. As of 2017, only the Global Network Initiative meets the requirements for such an accrediting organization.</li>
 </ul>
 <ul>
-<li><strong>Publish transparency reports</strong> including the the volume, nature, and legal basis of requests made by governments and other third parties to access user information or restrict speech. Disclosures should <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">include information about</a> the number or percentage of requests complied with, and about content or accounts restricted or removed under the company's own terms of service.</li>
+<li><strong>Publish transparency reports</strong> including the volume, nature, and legal basis of requests made by governments and other third parties to access user information or restrict speech. Disclosures should <a href="https://www.freedomonlinecoalition.com/wp-content/uploads/2015/10/FOC-WG3-Privacy-and-Transparency-Online-Report-November-2015.pdf">include information about</a> the number or percentage of requests complied with, and about content or accounts restricted or removed under the company's own terms of service.</li>
 </ul>
 <ul>
 <li><strong>Commit to push back against excessively broad or extra-legal requests, including in a court of law</strong> while complying with bona fide requests to restrict speech or share user information within the bounds of the law. Companies should use every opportunity available to pressure governments to move away from mass surveillance and institute meaningful oversight over national security and law enforcement authorities.</li>
@@ -63,7 +63,7 @@ published: true
 </ul>
 <h3>Handling of user information</h3>
 <ul>
-	<li><strong>Provide users with a more comprehensive picture of the lifecycle of their personal information, from collection to use to sharing to retention and deletion. </strong>Disclosures should include: 
+	<li><strong>Provide users with a more comprehensive picture of the lifecycle of their personal information, from collection to use to sharing to retention and deletion. </strong>Disclosures should include:
 	<ul>
 		<li>What specific types of information the company collects (P3);</li>
 		<li>How the company collects that information (e.g., does a company ask users to provide certain information, or does the company collect it automatically?) (P3); </li>
@@ -108,10 +108,10 @@ published: true
 <li><strong>Require companies to implement effective mechanisms for grievance and remedy </strong>that are accessible to users who believe that their freedom of expression and privacy rights have been violated in connection with the use of companies' products and services.</li>
 </ul>
 <ul>
-<li><strong>Limit legal liability imposed on companies for their users' speech and other activities, </strong>consistent with the Manila Principles on Intermediary Liability, a framework of baseline practices and standards to ensure that regulation of ICT sector companies does not result in the violation of users' rights.</li>
+<li><strong>Limit legal liability imposed on companies for their users' speech and other activities, </strong>consistent with the <a href="https://www.manilaprinciples.org/">Manila Principles on Intermediary Liability</a>, a framework of baseline practices and standards to ensure that regulation of ICT sector companies does not result in the violation of users' rights.</li>
 </ul>
 <ul>
-<li><strong>Respect the right to anonymous online activity </strong>as central to freedom of expression, privacy and human rights. Refrain from requiring companies to document users' identities when it is not essential to provision of service.</li>
+<li><strong>Respect the right to anonymous online activity </strong>as central to freedom of expression, privacy and human rights. Refrain from requiring companies to document users' identities when it is not essential to the provision of service.</li>
 </ul>
 <ul>
 <li><strong>Develop effective data protection regimes and privacy regulations </strong>in consultation with industry and civil society, with impact assessments to ensure that the laws can avoid unintended consequences for freedom of expression.</li>
