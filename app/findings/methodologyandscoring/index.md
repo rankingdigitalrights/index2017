@@ -6,25 +6,33 @@ header: Index methodology and scoring
 published: true
 ---
 
+---
+layout: article
+visualization: none
+entity: findings
+header: Index methodology and scoring
+published: true
+---
+
 <p><a href="https://rankingdigitalrights.org/about/">Ranking Digital Rights (RDR)</a> produces a Corporate Accountability Index that ranks the world's most powerful internet, mobile, and telecommunications companies' disclosed commitments and policies affecting users' freedom of expression and privacy. The Index is a standard-setting tool aimed at encouraging companies to abide by international human rights principles and standards for safeguarding freedom of expression and privacy.</p>
 <p>The Index methodology was<a href="https://rankingdigitalrights.org/methodology-development/"> developed</a> over three years of research, testing, consultation, and revision. Since inception the project has worked closely with researchers around the globe. For methodology development, pilot study, and the inaugural Index we also partnered with Sustainalytics, a leading provider of ESG (environmental, social, and governance) research to investors.</p>
 <p>The first <a href="https://rankingdigitalrights.org/index2015/">Corporate Accountability Index </a>was launched in November 2015, applying the methodology to rank <a href="https://rankingdigitalrights.org/phase-1-full-ranking/the-2015-companies/">16 internet and telecommunications companies</a>. </p>
-<p>For the 2017 Index, we <a href="https://rankingdigitalrights.org/2017-companies/">expanded the ranking</a> to cover additional types of companies and services, including those that produce software and devices that create what we call "<a href="https://rankingdigitalrights.org/2016/09/15/what-are-mobile-ecosystems/">mobile ecosystems</a>." As a result, we also <a href="https://rankingdigitalrights.org/2016/09/15/rdr-launches-2017-research/">expanded the methodology</a>, which included a period of <a href="https://rankingdigitalrights.org/2016/07/05/new-draft-methodology/">public consultation</a>, adding new indicators and elements to account for the potential threats to users' freedom of expression and privacy that can arise from use of networked devices and software</p>
+<p>For the 2017 Index, we <a href="https://rankingdigitalrights.org/2017-companies/">expanded the ranking</a> to cover additional types of companies and services, including those that produce software and devices that create what we call "<a href="https://rankingdigitalrights.org/2016/09/15/what-are-mobile-ecosystems/">mobile ecosystems</a>." As a result, we also <a href="https://rankingdigitalrights.org/2016/09/15/rdr-launches-2017-research/">expanded the methodology</a>, which included a period of <a href="https://rankingdigitalrights.org/2016/07/05/new-draft-methodology/">public consultation</a>, adding new indicators and elements to account for the potential threats to users' freedom of expression and privacy that can arise from use of networked devices and software.</p>
 <p>The 2017 Index consists of <a href="https://rankingdigitalrights.org/2017-indicators/">35 indicators </a>in three main categories:<strong> Governance</strong>, <strong>Freedom of Expression, </strong>and <strong>Privacy</strong>. Each category contains<strong> indicators</strong> measuring company disclosure for that category; each indicator is comprised of a series of <strong>elements</strong> that measure company disclosure for that indicator.</p>
 <p>View or download <a href="https://rankingdigitalrights.org/2017-indicators/">the full methodology here</a>.
 <h3>Index categories :</h3>
 <ul>
-<li><a href="https://rankingdigitalrights.org/2017-indicators/#G."><strong>Governance: (G)</strong></a> This category contains six indicators measuring company disclosure of commitments to freedom of expression and privacy principles along with measures taken to implement those commitments across the company's global operations.</li>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G."><strong>Governance (G):</strong></a> This category contains six indicators measuring company disclosure of commitments to freedom of expression and privacy principles along with measures taken to implement those commitments across the company's global operations.</li>
 </ul>
 <ul>
-<li><a href="https://rankingdigitalrights.org/2017-indicators/#F."><strong>Freedom of Expression (F):</strong></a>his category contains 11 indicators measuring company disclosure of policies that affect users' freedom of expression.</li>
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#F."><strong>Freedom of Expression (F):</strong></a> This category contains 11 indicators measuring company disclosure of policies that affect users' freedom of expression.</li>
 </ul>
 <ul>
 <li><a href="https://rankingdigitalrights.org/2017-indicators/#P"><strong>Privacy (P):</strong></a>This category contains 18 indicators measuring company disclosure of policies and practices that affect users' privacy rights.</li>
 </ul>
 <h3>Company types</h3>
 <p>The 2017 Index evaluates 22 companies. While every company examined has attributes that make it unique, for the purpose of our evaluation and scoring we divided the 22 companies into two groups. </p>
-<p><strong>Internet and mobile:</strong> :These company types were evaluated together because Google is both an one of the internet company and is also a mobile ecosystem company, and Apple also offers services such as iMessage and iCloud. We did not evaluate hardware attributes of devices, focusing our assessment on disclosures pertaining to the newest devices offered by those companies and their operating systems. The freedom of expression and privacy issues faced by mobile cloud data and operating systems overlap with the issues faced by traditional internet services. Additional elements relevant only to mobile ecosystems were added to some indicators. For each company we examined up to four services, as follows:</p>
+<p><strong>Internet and mobile:</strong> These company types were evaluated together because Google is both an internet company and is also a mobile ecosystem company, and Apple also offers services such as iMessage and iCloud. We did not evaluate hardware attributes of devices, focusing our assessment on disclosures pertaining to the newest devices offered by those companies and their operating systems. The freedom of expression and privacy issues faced by mobile cloud data and operating systems overlap with the issues faced by traditional internet services. Additional elements relevant only to mobile ecosystems were added to some indicators. For each company we examined up to four services, as follows:</p>
 <ul>
 <li><strong>Apple (U.S.):</strong> iOS mobile ecosystem, iMessage, iCloud</li>
 <li><strong>Baidu (China):</strong> Baidu Search, Baidu Cloud, Baidu PostBar</li>
@@ -54,7 +62,7 @@ published: true
 </ul>
 <p></p>
 <p>All companies evaluated in the Index are multinational corporations listed on a major stock exchange. <strong>The following factors influenced company selection: </strong></p>
-<p><strong>User Base: </strong>The companies in the Index have a significant footprint in the areas where they operate. The telecommunications companies have a substantial user base in their home markets, and the internet companies have a large number of global users as identified by established global traffic rankings such as Alexa. The policies and practices of the selected companies, and their potential to improve, thus affects a large percentage of the world's 3.75 billion internet users. </p>
+<p><strong>User Base: </strong>The companies in the Index have a significant footprint in the areas where they operate. The telecommunications companies have a substantial user base in their home markets, and the internet companies have a large number of global users as identified by established global traffic rankings such as Alexa. The policies and practices of the selected companies, and their potential to improve, thus affects a large percentage of the world's <a href="http://www.internetworldstats.com/stats.htm">3.7 billion internet users.</a></p>
 <p><strong>Geographic reach and distribution: </strong>The Index includes companies that are headquartered in North America, Europe, Africa, Asia, and the Middle East, and collectively, the companies in the Index have users in many regions around the world. </p>
 <p><strong>Relevance to users' freedom of expression and privacy rights:</strong> Most of the companies in the Index operate in or have a significant user base in countries where human rights are not universally respected. This is based on relevant research from such organizations as Freedom House, the Web Foundation, and Reporters Without Borders as well as stakeholder feedback. </p>
 <p></p>
@@ -71,19 +79,19 @@ published: true
 <p>For telecommunications companies, with the exception of AT&T, the parent company did not directly provide consumer services, so researchers also examined a subsidiary or operating company based in the home market to ensure the Index captured operational policies alongside corporate commitments. Given AT&T's external presentation of its group-level and U.S. operating company as an integrated unit, we evaluated the group-level policies for AT&T.</p>
 <p>The evaluation includes an assessment of disclosure for every element of each indicator, based on one of the following possible answers:</p>
 <ul>
-<li>"Yes" - Company disclosure meets the element requirement. </li>
+<li><strong>"Yes"</strong> - Company disclosure meets the element requirement. </li>
 </ul>
 <ul>
-<li>"Partial" - Company disclosure has met some but not all aspects of the element, or the disclosure is not comprehensive enough to satisfy the full scope of the what the element is asking for. </li>
+<li><strong>"Partial"</strong> - Company disclosure has met some but not all aspects of the element, or the disclosure is not comprehensive enough to satisfy the full scope of the what the element is asking for. </li>
 </ul>
 <ul>
-<li>"No disclosure found" - Researchers were not able to find information provided by the company on their website that answers the element question. </li>
+<li><strong>"No disclosure found"</strong> - Researchers were not able to find information provided by the company on their website that answers the element question. </li>
 </ul>
 <ul>
-<li>"No" - Company disclosure exists, but it specifically does not disclose to users what the element is asking. This is distinct from the option of "no disclosure found," although both result in no credit.</li>
+<li><strong>"No"</strong> - Company disclosure exists, but it specifically does not disclose to users what the element is asking. This is distinct from the option of "no disclosure found," although both result in no credit.</li>
 </ul>
 <ul>
-<li>"N/A" - Not applicable. This element does not apply to the company or service. Elements marked as N/A will not be counted for or against a company in the scoring process. </li>
+<li><strong>"N/A"</strong> - Not applicable. This element does not apply to the company or service. Elements marked as N/A will not be counted for or against a company in the scoring process. </li>
 </ul>
 <h2>Scoring</h2>
 <p>Companies receive a cumulative score of their performance across all Index categories, and results show how companies performed by each category and indicator. Scores for the <a href="https://rankingdigitalrights.org/2017-indicators/#F">Freedom of Expression</a> and <a href="https://rankingdigitalrights.org/2017-indicators/#P">Privacy </a>categories are calculated by averaging scores for each individual service. Scores for the <a href="https://rankingdigitalrights.org/2017-indicators/#G">Governance</a> category indicators include parent- and operating-level performance (depending on company type).</p>
@@ -103,9 +111,9 @@ published: true
 <li>Telecommunications companies: scores based on average "group" and operating company scores</li>
 </ul>
 </li>
-<li><a href="https://rankingdigitalrights.org/2017-indicators/#G2">G2</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#G3">G3</a>,<a href="https://rankingdigitalrights.org/2017-indicators/#G4"> G4</a>: :
+<li><a href="https://rankingdigitalrights.org/2017-indicators/#G2">G2</a>, <a href="https://rankingdigitalrights.org/2017-indicators/#G3">G3</a>,<a href="https://rankingdigitalrights.org/2017-indicators/#G4"> G4</a>:
 <ul>
-<li>nternet and mobile ecosystem companies: scores based on average of "group"-level and services scores;</li>
+<li>Internet and mobile ecosystem companies: scores based on average of "group"-level and services scores;</li>
 <li>Telecommunications companies: Average of group, operating, and services scores</li>
 </ul>
 </li>
