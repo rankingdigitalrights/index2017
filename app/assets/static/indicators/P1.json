@@ -564,7 +564,7 @@
             {
                "cells":[
                   {
-                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users'"
+                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company's users'"
                   },
                   {
                      "value":"0"
@@ -616,6 +616,8 @@
          "id":"facebook",
          "headers":[
             {
+               "text":"Facebook"
+            },{
                "text":"Instagram"
             },
             {
@@ -857,7 +859,7 @@
             {
                "cells":[
                   {
-                     "values":"Are the company?s privacy policies easy to find?"
+                     "values":"Are the company's privacy policies easy to find?"
                   },
                   {
                      "value":"100"
@@ -873,7 +875,7 @@
             {
                "cells":[
                   {
-                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company?s users'"
+                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company's users'"
                   },
                   {
                      "value":"100"
