@@ -6,14 +6,6 @@ header: Index methodology and scoring
 published: true
 ---
 
----
-layout: article
-visualization: none
-entity: findings
-header: Index methodology and scoring
-published: true
----
-
 <p><a href="https://rankingdigitalrights.org/about/">Ranking Digital Rights (RDR)</a> produces a Corporate Accountability Index that ranks the world's most powerful internet, mobile, and telecommunications companies' disclosed commitments and policies affecting users' freedom of expression and privacy. The Index is a standard-setting tool aimed at encouraging companies to abide by international human rights principles and standards for safeguarding freedom of expression and privacy.</p>
 <p>The Index methodology was<a href="https://rankingdigitalrights.org/methodology-development/"> developed</a> over three years of research, testing, consultation, and revision. Since inception the project has worked closely with researchers around the globe. For methodology development, pilot study, and the inaugural Index we also partnered with Sustainalytics, a leading provider of ESG (environmental, social, and governance) research to investors.</p>
 <p>The first <a href="https://rankingdigitalrights.org/index2015/">Corporate Accountability Index </a>was launched in November 2015, applying the methodology to rank <a href="https://rankingdigitalrights.org/phase-1-full-ranking/the-2015-companies/">16 internet and telecommunications companies</a>. </p>
