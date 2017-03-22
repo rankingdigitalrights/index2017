@@ -5,7 +5,7 @@
    "companies":[
       {
          "name":"América Móvil",
-         "id":"americaMovil",
+         "id":"americamovil",
          "headers":[
             {
                "text":"Prepaid Mobile"
@@ -2157,7 +2157,7 @@
             },
             {
                "name":"Twitter",
-               "id":"Twitter",
+               "id":"twitter",
                "headers":[
                   {
                      "text":"Twitter"
@@ -2405,7 +2405,7 @@
             },
             {
                "name":"Yahoo",
-               "id":"Yahoo",
+               "id":"yahoo",
                "headers":[
                   {
                      "text":"Yahoo Mail"
@@ -2529,7 +2529,7 @@
             },
             {
                "name":"Yandex",
-               "id":"Yandex",
+               "id":"yandex",
                "headers":[
                   {
                      "text":"Yandex Mail"
