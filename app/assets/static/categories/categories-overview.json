@@ -23,8 +23,8 @@
    },
    {  
       "governance":{  
-         "val":"87.45",
-         "rank":"2"
+         "val":"87.69",
+         "rank":"1"
       },
       "display":"Microsoft",
       "freedom":{  
@@ -101,7 +101,7 @@
       "name":"kakao",
       "privacy":{  
          "val":"52.57",
-         "rank":"5"
+         "rank":"4"
       },
       "telco":"false",
       "total":{  
@@ -178,7 +178,7 @@
    {  
       "governance":{  
          "val":"81.30",
-         "rank":"4"
+         "rank":"3"
       },
       "display":"Vodafone",
       "freedom":{  
@@ -199,8 +199,8 @@
    },
    {  
       "governance":{  
-         "val":"8.56",
-         "rank":"17"
+         "val":"9.95",
+         "rank":"16"
       },
       "display":"Yandex",
       "freedom":{  
@@ -222,7 +222,7 @@
    {  
       "governance":{  
          "val":"8.61",
-         "rank":"16"
+         "rank":"17"
       },
       "display":"TenCent",
       "freedom":{  
@@ -315,7 +315,7 @@
       "display":"Orange",
       "freedom":{  
          "val":"16.20",
-         "rank":"5"
+         "rank":"4"
       },
       "id":"orange",
       "name":"orange",
