@@ -4,10 +4,10 @@
         "Service ": "Skype",
         "text": "Skype is an application that provides video chat and voice call services owned by Microsoft. It was first released in August 2003 and was purchased by Microsoft in 2011.",
         "rank": "1",
-        "Total": "60",
-        "G": "87",
+        "Total": "59",
+        "G": "88",
         "FoE": "43",
-        "P": "58"
+        "P": "59"
     },
     {
         "Company": "Facebook",
@@ -45,7 +45,7 @@
         "text": "iMessage is an instant messaging service developed by Apple Inc. released in 2011. It allows users to send texts, documents, photos, videos, contact information, and group messages over Wi-Fi, mobile phone Internet access, or other forms of Internet access to other iOS or macOS users.",
         "rank": "5",
         "Total": "35",
-        "G": "18",
+        "G": "17",
         "FoE": "18",
         "P": "50"
     },
@@ -54,16 +54,16 @@
         "Service ": "QQ",
         "text": "Tencent QQ, popularly known as QQ, is an instant messaging software service developed by Tencent Holdings Limited. It also offers a variety of services, including online social games, music, shopping, microblogging, movies, and group and voice chat.",
         "rank": "6",
-        "Total": "22.73",
-        "G": "7.50",
-        "FoE": "15.65",
-        "P": "31.34"
+        "Total": "23",
+        "G": "8",
+        "FoE": "16",
+        "P": "33"
     },
     {
         "Company": "Tencent",
         "Service ": "WeChat",
         "text": "WeChat is a free, cross-platform instant messaging application developed by Tencent. It was first released in January 2011.",
-        "rank": "7",
+        "rank": "6",
         "Total": "23",
         "G": "11",
         "FoE": "14",

@@ -21,6 +21,22 @@
 <% if (indicator_type=='G') { %>
   <div class="bar--container"></div>
 <% } else { %>
+<% if (no_internet) { %>
+<div class="container--right">
+    <div class="company-type">
+      <i class="fa fa-circle"></i> Telecomunications companies
+    </div>
+    <div class="bar--container--telco"></div>
+  </div>
+<%} else if (no_telco) { %>
+<div class="container--left">
+    <div class="company-type">
+      <i class="fa fa-circle"></i> Internet and mobile companies
+    </div>
+    <div class="bar--container--internet"></div>
+  </div>
+<% } else { %>
+
   <div class="container--left">
     <div class="company-type">
       <i class="fa fa-circle"></i> Internet and mobile companies
@@ -33,4 +49,5 @@
     </div>
     <div class="bar--container--telco"></div>
   </div>
+  <% } %>
 <% }%>

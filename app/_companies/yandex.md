@@ -41,7 +41,7 @@ analysis_industry: Internet Software and Services
 analysis_market_cap: USD 7,452 million
 analysis_stock_symbol: "NasdaqGS: YNDX"
 
-governance: 9
+governance: 10
 governance_text: "Yandex ranked 16th among all 22 companies evaluated in the Index in the Governance category. However, the company did have some notable disclosures: it disclosed a mechanism for employees and users to report violations to its code of conduct, which includes some aspects of privacy-related issues (G3), and received some credit on human rights due diligence for publishing a <a href=\"http://cache-default06e.cdn.yandex.net/download.cdn.yandex.net/company/annual_2015.pdf\" target=\"_blank\">risk assessment</a> on the impact of Russian law on user privacy (G4). Yandex also disclosed a <a href=\"http://yandex.ru/support/common/support/complaints-about.html\" target=\"_blank\">grievance mechanism</a> for users to file complaints about content removed for alleged copyright infringements, but not about content removed for terms of service violations (G6)."
 
 freedom: 23

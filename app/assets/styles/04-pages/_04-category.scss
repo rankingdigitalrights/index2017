@@ -78,28 +78,61 @@
 					}
 			    }   
 				.bar--chart {
+				height: 260px;
+			        @include media(small-up) {
+					height: 300px;
+			        }
+			        @include media(medium-up) {
+					height: 300px;
+			        }
+			        @include media(large-up) {
+					height: 300px;
+			        }
+			        @include media(xlarge-up) {
+					height: 300px;			 
+			        }				
+
 					.bar--axis_x {
 						.tick {
+						cursor: pointer;	
 						text-align: center;
 						line-height: 2;               
 						fill: $black;
 						font-weight: 600;
 						font-family: $simplon-regular;
 						text-transform: uppercase;                 
-						font-size: 14px;
+						font-size: 9px;
 							@include media(small-up) {
-							font-size: 14px;
+							font-size: 9px;
 							}
 							@include media(medium-up) {
-							font-size: 14px;  
+							font-size: 10px;  
 							}
 							@include media(large-up) {
-							font-size: 14px;
+							font-size: 11px;
 							}
 							@include media(xlarge-up) {
-							font-size: 14px;  
+							font-size: 13px;  
+							}
+							&:hover {
+							text-decoration: underline; 	
+							}
+							text {
+							transform: rotate(-90deg);
+						        @include media(small-up) {
+						        transform: rotate(-90deg);	
+						        }
+						        @include media(medium-up) {
+								transform: none;				  
+						        }
+						        @include media(large-up) {
+								transform: none;
+						        }
+						        @include media(xlarge-up) {
+								transform: none;				 
+						        }						
 							} 														
-						}
+						}						
 					}
 					.bar--axis_x_rank {
 						.tick {
@@ -170,8 +203,42 @@
 				@include span-columns(6);
 				}
 			}
+			.container--right {
+				@include media(medium-up) {
+				@include span-columns(6);
+				}
+				.indicator-item {
+					&:first-child {				
+						margin-top: 1em;			
+				        @include media(small-up) {
+				        margin-top: 1em;	        	
+				        }
+				        @include media(medium-up) {
+						margin-top: 0em;						  
+				        }
+				        @include media(large-up) {
+						margin-top: 0em;
+				        }
+				        @include media(xlarge-up) {
+						margin-top: 0em;		 
+				        }
+				    }    				
+				}				
+			}			
 			.indicator-item + .indicator-item {
-			margin-top: 2em;	
+			margin-top: 1em;			
+		        @include media(small-up) {
+		        margin-top: 1em;	        	
+		        }
+		        @include media(medium-up) {
+				margin-top: 2em;						  
+		        }
+		        @include media(large-up) {
+				margin-top: 2em;
+		        }
+		        @include media(xlarge-up) {
+				margin-top: 2em;		 
+		        }				
 			}			
 		}
 

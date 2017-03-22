@@ -141,9 +141,21 @@ module.exports = BaseChart.extend({
 
     // TO DO
 
+    /* Modal close + backdrop */
+    
     $('.close').click(function () {
       $('.modal').hide();
     });
+
+    $('.modal').click(function () {
+      $('.modal').hide();
+    });
+
+    $('.modal-content').click(function(e) {
+        e.stopPropagation();
+    });
+
+    
 
     function ajax_call(href, id) {
       // alert(baseurl + '/assets/static/indicators/' + id.toLowerCase() + '.json');

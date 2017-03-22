@@ -2,9 +2,27 @@
 
 	.introduction {
     display: flex;
+	flex-direction: column;    
     justify-content: flex-start;
-    align-items: flex-end;
-    border-bottom: 1px solid $black;		
+    align-items: flex-start;
+    border-bottom: 1px solid $black;
+        @include media(small-up) {
+        flex-direction: column;	
+        }
+        @include media(medium-up) {
+		flex-direction: row; 
+		align-items: space-around;		 
+        }
+        @include media(large-up) {
+		flex-direction: row;
+		align-items: flex-start;
+        }
+        @include media(xlarge-up) {
+		flex-direction: row;
+		align-items: flex-start; 
+        }
+
+
         .indicator-item {
 	        label {
 	        font-family: $simplon-light;  
@@ -29,7 +47,20 @@
 	        }        	
         }
         .indicator-item + .indicator-item {
-        margin-left: 4em;	
+        margin-left: 0em;
+	        @include media(small-up) {
+	        margin-left: 0em;		
+	        }
+	        @include media(medium-up) {
+			margin-left: 4em;	  
+	        }
+	        @include media(large-up) {
+			margin-left: 4em;
+	        }
+	        @include media(xlarge-up) {
+			margin-left: 4em;	 
+	        }
+
         }
 		.governance {
 		color: $cat-commitment !important;
@@ -51,13 +82,34 @@
 		}        
 	}
 	.indicators-wrapper {
+
 		#G1, #G2, #G3, #G4, #G5, 
 		#F1, #F2, #F3, #F4, #F5, #F6, #F7, #F8, #F9, #F10, #F11,
 		#P1, #P2, #P3, #P4, #P5, #P6, #P7, #P8, #P9, #P10, #P11, #P12, #P13, #P14, #P15, #P16, #P17, #P18 {
 		padding-top: 1.5em;
-    	padding-bottom: 1em;
+    	padding-bottom: 0em;
     	clear: both;
+	        @include media(small-up) {
+			padding-top: 1.5em;
+	    	padding-bottom: 0em;
+	        }
+	        @include media(medium-up) {
+			padding-top: 1.5em;
+	    	padding-bottom: 0em;	  
+	        }
+	        @include media(large-up) {
+			padding-top: 1.5em;
+	    	padding-bottom: 0em;
+	        }
+	        @include media(xlarge-up) {
+			padding-top: 1.5em;
+	    	padding-bottom: 0em;	 
+	        }    	
 		}
+		#G1 {
+		padding-top: 0 !important;
+		padding-bottom: 1em !important;	
+		}		
 		#G1, #G2, #G3, #G4, #G5 {
 			h3 {
 			color: $cat-commitment !important;
@@ -137,6 +189,7 @@
 	        }					
 		}
         .bar--chart {
+        width: 100%;	
 	        .bar--axis_x {
 				.tick {
 				cursor: pointer;	
@@ -146,25 +199,41 @@
 				font-weight: 600;
 				font-family: $simplon-regular;
 				text-transform: uppercase;                 
-				font-size: 13px;
+				font-size: 9px;
 					@include media(small-up) {
-					font-size: 13px;
+					font-size: 9px;
 					}
 					@include media(medium-up) {
-					font-size: 13px;  
+					font-size: 10px;  
 					}
 					@include media(large-up) {
-					font-size: 13px;
+					font-size: 11px;
 					}
 					@include media(xlarge-up) {
 					font-size: 13px;  
 					}
 					&:hover {
 					text-decoration: underline; 	
+					}
+					text {
+					transform: rotate(-90deg);
+				        @include media(small-up) {
+				        transform: rotate(-90deg);	
+				        }
+				        @include media(medium-up) {
+						transform: none;				  
+				        }
+				        @include media(large-up) {
+						transform: none;
+				        }
+				        @include media(xlarge-up) {
+						transform: none;				 
+				        }						
 					} 														
 				}
 	        }
 	        .G {
+	        width: 100% !important;	
 		        .bar--default {
 				fill: $cat-commitment;
 				  &:hover {
@@ -173,6 +242,7 @@
 		        }
 	        }
 	        .F {
+	        width: 100% !important;	
 		        .bar--default {
 				fill: $cat-freedom;
 				  &:hover {
@@ -181,6 +251,7 @@
 		        }
 	        }
 	        .P {
+	        width: 100% !important;	
 		        .bar--default {
 				fill: $cat-privacy;
 				  &:hover {
@@ -190,15 +261,36 @@
 	        }	        	
         }
 		.container--left {
+        @include media(small-up) {
+        @include span-columns(12);	
+        }
+        @include media(medium-up) {
+		@include span-columns(6);  
+        }
+        @include media(large-up) {
+
+        }
+        @include media(xlarge-up) {
+ 
+        }			
 	    @include media(medium-up) {
 	      @include span-columns(6);
 	    }
 	  }
 	  .container--right {
 	    margin-right: 0;
-	    @include media(medium-up) {
-	      @include span-columns(6);
-	    }
+        @include media(small-up) {
+        @include span-columns(12);	
+        }
+        @include media(medium-up) {
+		@include span-columns(6);  
+        }
+        @include media(large-up) {
+
+        }
+        @include media(xlarge-up) {
+ 
+        }	    
 	  }
 
 	}
