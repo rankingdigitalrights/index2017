@@ -124,7 +124,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "0"
@@ -275,7 +275,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "0"
@@ -426,7 +426,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "100"
@@ -577,7 +577,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "0"
@@ -728,7 +728,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
             {
       "value": "0"
@@ -903,7 +903,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
             {
       "value": "0"
@@ -1084,7 +1084,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "0"
@@ -1265,7 +1265,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "100"
@@ -1446,7 +1446,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
             {
       "value": "100"
@@ -1604,7 +1604,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "0"
@@ -1755,7 +1755,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
             {
       "value": "0"
@@ -1906,7 +1906,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
             {
       "value": "100"
@@ -2057,7 +2057,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
          {
       "value": "50"
@@ -2114,9 +2114,21 @@
          },
          {
             "text":"Postpaid Mobile - Privacy"
+         },
+         {
+            "text":"Fixed Line Broadband - Freedom of Expression"
+         },
+         {
+            "text":"Fixed Line Broadband - Privacy"
          }
       ],
       "average":[
+         {
+            "value":"0"
+         },
+         {
+            "value":"0"
+         },
          {
             "value":"0"
          },
@@ -2147,6 +2159,12 @@
             "cells":[
                {
       "value": "Does the company clearly disclose that the board of directors exercises formal oversight over how company practices affect freedom of expression and privacy?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    },
    {
       "value": "0"
@@ -2202,15 +2220,27 @@
    },
    {
       "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    }
             ]
          },
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
       "value": "0"
    },
    {
@@ -2359,7 +2389,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "100"
@@ -2782,7 +2812,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
               {
       "value": "0"
@@ -2933,7 +2963,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "50"
@@ -3108,7 +3138,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "100"
@@ -3265,7 +3295,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "100"
@@ -3407,7 +3437,7 @@
          {
             "cells":[
                {
-                  "values": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
+                  "value": "Does the company clearly disclose that a management-level committee, team, program or officer oversees how company practices affect freedom of expression and privacy?"
                },
                {
       "value": "0"
