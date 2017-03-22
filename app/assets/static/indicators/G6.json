@@ -510,7 +510,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its processes for receiving complaints?"
+                        "value":"Does the company clearly disclose its processes for receiving complaints?"
                      },
                      {
                         "value":"0"
@@ -529,7 +529,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
+                        "value":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
                      },
                      {
                         "value":"0"
@@ -548,7 +548,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its process for responding to complaints?"
+                        "value":"Does the company clearly disclose its process for responding to complaints?"
                      },
                      {
                         "value":"0"
@@ -567,7 +567,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
+                        "value":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
                      },
                      {
                         "value":"0"
@@ -632,7 +632,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its processes for receiving complaints?"
+                        "value":"Does the company clearly disclose its processes for receiving complaints?"
                      },
                      {
                         "value":"0"
@@ -657,7 +657,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
+                        "value":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
                      },
                      {
                         "value":"0"
@@ -682,7 +682,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its process for responding to complaints?"
+                        "value":"Does the company clearly disclose its process for responding to complaints?"
                      },
                      {
                         "value":"0"
@@ -707,7 +707,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
+                        "value":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
                      },
                      {
                         "value":"0"
@@ -2047,129 +2047,19 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its processes for receiving complaints?"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     }
-                  ]
-               },
-               {
-                  "cells":[
-                     {
-                        "values":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     }
-                  ]
-               },
-               {
-                  "cells":[
-                     {
-                        "values":"Does the company clearly disclose its process for responding to complaints?"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     }
-                  ]
-               },
-               {
-                  "cells":[
-                     {
-                        "values":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     },
-                     {
-                        "value":"0"
-                     }
-                  ]
-               }
-            ]
-         },
-         {
-            "name":"Ooredoo",
-            "id":"ooredoo",
-            "headers":[
-               {
-                  "text":"Prepaid Mobile - Freedom of Expression"
-               },
-               {
-                  "text":"Prepaid Mobile - Privacy"
-               },
-               {
-                  "text":"Postpaid Mobile - Freedom of Expression"
-               },
-               {
-                  "text":"Postpaid Mobile - Privacy"
-               }
-            ],
-            "average":[
-               {
-                  "value":"10"
-               },
-               {
-                  "value":"10"
-               },
-               {
-                  "value":"10"
-               },
-               {
-                  "value":"10"
-               }
-            ],
-            "rows":[
-               {
-                  "cells":[
-                     {
                         "value":"Does the company clearly disclose its processes for receiving complaints?"
                      },
                      {
-                        "value":"50"
+                        "value":"0"
                      },
                      {
-                        "value":"50"
+                        "value":"0"
                      },
                      {
-                        "value":"50"
+                        "value":"0"
                      },
                      {
-                        "value":"50"
+                        "value":"0"
                      }
                   ]
                },
@@ -2229,11 +2119,160 @@
                         "value":"0"
                      }
                   ]
+               }
+            ]
+         },
+         {
+            "name":"Ooredoo",
+            "id":"ooredoo",
+            "headers":[
+               {
+                  "text":"Prepaid Mobile - Freedom of Expression"
+               },
+               {
+                  "text":"Prepaid Mobile - Privacy"
+               },
+               {
+                  "text":"Postpaid Mobile - Freedom of Expression"
+               },
+               {
+                  "text":"Postpaid Mobile - Privacy"
+               },
+               {
+                  "text":"Fixed Line Broadband - Freedom of Expression"
+               },
+               {
+                  "text":"Fixed Line Broadband - Privacy"
+               }
+            ],
+            "average":[
+               {
+                  "value":"10"
+               },
+               {
+                  "value":"10"
+               },
+               {
+                  "value":"10"
+               },
+               {
+                  "value":"10"
+               },
+               {
+                  "value":"10"
+               },
+               {
+                  "value":"10"
+               }
+            ],
+            "rows":[
+               {
+                  "cells":[
+                     {
+                        "value":"Does the company clearly disclose its processes for receiving complaints?"
+                     },
+                     {
+                        "value":"50"
+                     },
+                     {
+                        "value":"50"
+                     },
+                     {
+                        "value":"50"
+                     },
+                     {
+                        "value":"50"
+                     },
+                     {
+                        "value":"50"
+                     },
+                     {
+                        "value":"50"
+                     }
+                  ]
+               },
+               {
+                  "cells":[
+                     {
+                        "value":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     }
+                  ]
+               },
+               {
+                  "cells":[
+                     {
+                        "value":"Does the company clearly disclose its process for responding to complaints?"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     }
+                  ]
+               },
+               {
+                  "cells":[
+                     {
+                        "value":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
+                     }
+                  ]
                },
                {
                   "cells":[
                      {
                         "value":"Does the company provide clear evidence that it is responding to complaints?"
+                     },
+                     {
+                        "value":"0"
+                     },
+                     {
+                        "value":"0"
                      },
                      {
                         "value":"0"
@@ -2266,6 +2305,12 @@
                },
                {
                   "text":"Postpaid Mobile - Privacy"
+               },
+               {
+                  "text":"Fixed Line Broadband - Freedom of Expression"
+               },
+               {
+                  "text":"Fixed Line Broadband - Privacy"
                }
             ],
             "average":[
@@ -2439,7 +2484,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its processes for receiving complaints?"
+                        "value":"Does the company clearly disclose its processes for receiving complaints?"
                      },
                      {
                         "value":"0"
@@ -2452,7 +2497,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
+                        "value":"Does the company clearly disclose that its process includes complaints related to freedom of expression and privacy?"
                      },
                      {
                         "value":"0"
@@ -2465,7 +2510,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company clearly disclose its process for responding to complaints?"
+                        "value":"Does the company clearly disclose its process for responding to complaints?"
                      },
                      {
                         "value":"0"
@@ -2478,7 +2523,7 @@
                {
                   "cells":[
                      {
-                        "values":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
+                        "value":"Does the company report on the number of complaints received related to freedom of expression and privacy?"
                      },
                      {
                         "value":"0"
