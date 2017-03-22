@@ -29,7 +29,7 @@
       "display":"Microsoft",
       "freedom":{  
          "val":"53.33",
-         "rank":"3"
+         "rank":"1"
       },
       "id":"microsoft",
       "name":"microsoft",
@@ -101,7 +101,7 @@
       "name":"kakao",
       "privacy":{  
          "val":"52.57",
-         "rank":"5"
+         "rank":"4"
       },
       "telco":"false",
       "total":{  
@@ -178,7 +178,7 @@
    {  
       "governance":{  
          "val":"81.30",
-         "rank":"4"
+         "rank":"3"
       },
       "display":"Vodafone",
       "freedom":{  
@@ -315,7 +315,7 @@
       "display":"Orange",
       "freedom":{  
          "val":"16.20",
-         "rank":"5"
+         "rank":"4"
       },
       "id":"orange",
       "name":"orange",
