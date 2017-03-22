@@ -599,13 +599,13 @@
                      "values":"(For mobile ecosystems): Does the company disclose that it requires apps made available through its app store to provide users with a privacy policy?"
                   },
                   {
-                     "value":"0"
+                     "value":"exclude"
                   },
                   {
-                     "value":"0"
+                     "value":"exclude"
                   },
                   {
-                     "value":"0"
+                     "value":"exclude"
                   }
                ]
             }
