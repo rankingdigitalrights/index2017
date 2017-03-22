@@ -1,6 +1,19 @@
 .secondary-navigation {
 background-color: $dark-grey;
 padding: 16px 0 14px 0;
+display: none;
+	@include media(small-up) {
+	display: none;  
+	}
+	@include media(medium-up) {
+	display: block; 
+	}
+	@include media(large-up) {
+	display: block;	
+	}
+	@include media(xlarge-up) { 
+	display: block;	
+	}
 	.medium-up {
 	float: right;
 		.nav {
