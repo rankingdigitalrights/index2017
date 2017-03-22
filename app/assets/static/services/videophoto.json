@@ -17,7 +17,7 @@
         "Total": "57",
         "G": "87",
         "FoE": "35",
-        "P": "57"
+        "P": "58"
     },
     {
         "Company": "Facebook",
@@ -33,7 +33,7 @@
         "Company": "Twitter",
         "Service ": "Periscope",
         "text": "Periscope is a live video streaming mobile app for iOS and Android acquired by Twitter before it launched in 2015. In December 2016, some of Periscope's features were integrated into the main Twitter app.",
-        "rank": "4",
+        "rank": "5",
         "Total": "39",
         "G": "30",
         "FoE": "33",
@@ -43,7 +43,7 @@
         "Company": "Twitter",
         "Service ": "Vine",
         "text": "Vine, acquired by Twitter shortly after it was launched in 2012, was a download-only short-form video hosting service where users could share six-second-long looping video clips. On October 27, 2016, Twitter announced it would disable uploads, but viewing and download would continue to work. Users' videos were published through Vine's social network and could be shared on other services such as Facebook and Twitter.",
-        "rank": "5",
+        "rank": "4",
         "Total": "41",
         "G": "30",
         "FoE": "43",
