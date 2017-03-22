@@ -152,6 +152,15 @@
                "cells":[
                   {
                      "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -729,6 +738,8 @@
          "id":"facebook",
          "headers":[
             {
+               "text":"Facebook"
+            },{
                "text":"Instagram"
             },
             {
@@ -1151,7 +1162,7 @@
                      "value":"Are the policies presented in an understandable manner?"
                   },
                   {
-                     "value":"50"
+                     "value":"0"
                   },
                   {
                      "value":"0"
