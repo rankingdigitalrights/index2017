@@ -12,7 +12,8 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 
     /* Modal Content/Box */
     .modal-content {
-    margin-top: 7.5em;    
+    margin-top: 7.5em;
+    margin-bottom: 7.5em;    
     background-color: $white;
     /*margin: 15% auto;*/ /* 15% from the top and centered */
     padding:15px;
@@ -27,8 +28,26 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
         .close {
         color: $gray;
         float: right;
-        font-size: 28px;
+        font-size: 23px;
+        line-height: 1;
         font-weight: bold;
+        margin-top: -3px;
+            @include media(small-up) {
+            font-size: 23px;
+            margin-top: -3px;
+            }
+            @include media(medium-up) {
+            font-size: 24px;
+            margin-top: -3px;
+            }
+            @include media(large-up) {
+            font-size: 25px;
+            margin-top: -3px;
+            }
+            @include media(xlarge-up) {
+            font-size: 28px;
+            margin-top: -3px;  
+            }        
             &:hover,
             &:focus {
             color: $black;
@@ -66,11 +85,24 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
             tr {
             border-bottom: 1px solid $beige;
                 th, td {
-                font-size: 16px;
+                font-size: 10px;
                 line-height: 1.2;
                 font-weight: bold;
                 padding: 10px 5px;
-                text-align: center
+                text-align: center;
+                  @include media(small-up) {
+                  font-size: 11px;
+                  }
+                  @include media(medium-up) {
+                  font-size: 13px;
+                  }
+                  @include media(large-up) {
+                  font-size: 14px;
+                  }
+                  @include media(xlarge-up) {
+                  font-size: 16px;   
+                  }
+
                 }
                 th, td {
                     &.cell--0 {

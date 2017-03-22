@@ -141,6 +141,8 @@ module.exports = BaseChart.extend({
 
     // TO DO
 
+    /* Modal close + backdrop */
+    
     $('.close').click(function () {
       $('.modal').hide();
     });
