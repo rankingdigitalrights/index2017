@@ -63,7 +63,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -400,7 +400,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -737,7 +737,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -1074,7 +1074,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -1411,7 +1411,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -1760,7 +1760,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -2163,7 +2163,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -2566,7 +2566,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"100"
@@ -2969,7 +2969,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"100"
@@ -3360,7 +3360,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -3697,7 +3697,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -4034,7 +4034,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"100"
@@ -4371,7 +4371,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -4672,13 +4672,25 @@
                "text":"Prepaid Mobile - Privacy"
             },
             {
-               "text":"Postpaid Mobile - Freedom of Expression"
+               "text":"Prepaid Mobile - Freedom of Expression"
             },
             {
-               "text":"Postpaid Mobile - Privacy"
+               "text":"Prepaid Mobile - Privacy"
+            },
+            {
+               "text":"Fixed Line Broadband - Freedom of Expression"
+            },
+            {
+               "text":"Fixed Line Broadband - Privacy"
             }
          ],
          "average":[
+            {
+               "value":"0"
+            },
+            {
+               "value":"0"
+            },
             {
                "value":"0"
             },
@@ -4708,7 +4720,13 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -4764,6 +4782,12 @@
                   },
                   {
                      "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
                   }
                ]
             },
@@ -4771,6 +4795,12 @@
                "cells":[
                   {
                      "value":"Does the company assess freedom of expression and privacy risks associated with a new activity"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -4826,31 +4856,6 @@
    },
    {
       "value": "0"
-   }
-               ]
-            },
-            {
-               "cells":[
-                  {
-      "value": "Does the company conduct additional evaluation wherever the company’s risk assessments identify concerns?"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
    },
    {
       "value": "0"
@@ -4864,6 +4869,49 @@
                "cells":[
                   {
       "value": "Does the company conduct additional evaluation wherever the company’s risk assessments identify concerns?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                  {
+      "value": "Does the company conduct additional evaluation wherever the company’s risk assessments identify concerns?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    },
    {
       "value": "0"
@@ -4919,6 +4967,9 @@
    },
    {
       "value": "0"
+   },
+   {
+      "value": "0"
    }
                ]
             },
@@ -4950,6 +5001,12 @@
    },
    {
       "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    }
                ]
             },
@@ -4957,6 +5014,12 @@
                "cells":[
                   {
       "value": "Is the external third party that assures the assessment accredited to a relevant and reputable human rights standard by a credible organization?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    },
    {
       "value": "0"
@@ -5045,7 +5108,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"100"
@@ -5358,7 +5421,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -5599,7 +5662,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"50"
@@ -5990,7 +6053,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -6326,7 +6389,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
@@ -6675,7 +6738,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"50"
@@ -7066,7 +7129,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"100"
@@ -7397,7 +7460,7 @@
             {
                "cells":[
                   {
-                     "value":"As part of its decision-making"
+                     "value":"As part of its decision-making, does the company consider how laws affect freedom of expression and privacy in jurisdictions where it operates?"
                   },
                   {
                      "value":"0"
