@@ -66,6 +66,5 @@ published: true
 		</ul>
 	</li>
 </ul>
-
 <p class="closing-sentance">Read more about our <a href="https://rankingdigitalrights.org/index2017/findings/keyfindings">Key Findings</a> and <a href="https://rankingdigitalrights.org/index2017/findings/recommendations">Recommendations</a>.</p>
 ---
