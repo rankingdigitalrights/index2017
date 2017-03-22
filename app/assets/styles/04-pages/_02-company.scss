@@ -666,7 +666,7 @@
           @include span-columns(12);
         }
         @include media(large-up) {
-          @include span-columns(6);
+          @include span-columns(5);
         }        
       }
 
@@ -680,7 +680,7 @@
           @include span-columns(12);
         }
         @include media(large-up) {
-          @include span-columns(6);
+          @include span-columns(7);
         }
       }
 
