@@ -859,7 +859,7 @@
             {
                "cells":[
                   {
-                     "values":"Are the company's privacy policies easy to find?"
+                     "value":"Are the company's privacy policies easy to find?"
                   },
                   {
                      "value":"100"
@@ -875,7 +875,7 @@
             {
                "cells":[
                   {
-                     "values":"Are the privacy policies available in the language(s) most commonly spoken by the company's users'"
+                     "value":"Are the privacy policies available in the language(s) most commonly spoken by the company's users'"
                   },
                   {
                      "value":"100"
@@ -891,7 +891,7 @@
             {
                "cells":[
                   {
-                     "values":"Are the policies presented in an understandable manner?"
+                     "value":"Are the policies presented in an understandable manner?"
                   },
                   {
                      "value":"100"
@@ -982,6 +982,9 @@
             },
             {
                "cells":[
+                    {
+                     "value":"Are the policies presented in an understandable manner?"
+                  },
                   {
                      "value":"50"
                   },
@@ -1486,9 +1489,6 @@
                   },
                   {
                      "value":"exclude"
-                  },
-                  {
-                     "value":"Tencent"
                   }
                ]
             }
