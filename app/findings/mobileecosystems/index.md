@@ -2,14 +2,15 @@
 layout: article
 visualization: none
 entity: findings
-header: Mobile ecosystems
+header: 
 published: true
 ---
-<strong>We don't know enough about the impact of smartphones on our digital rights </strong>
+<h2>Mobile Ecosystems</h2>
+<strong>We don't know enough about the impact of smartphones on our digital rights</strong>
 <p>Most people today access the internet via <a href="https://techcrunch.com/2016/08/18/gartner-androids-smartphone-marketshare-hit-86-2-in-q2/">mobile devices</a> we call smartphones. Through these devices, users can access data stored in remote servers, navigate with GPS-enabled maps, photograph their daily lives, read the news, and connect with family, friends, and colleagues around the globe.</p>
 <p>But smartphones are also tracking devices that leave a digital trace of our every movement, both online and offline. Companies that produce these devices are the custodians of sensitive user information, as well as gatekeepers to countless types of apps available in their app stores-and therefore have tremendous influence over users' freedom of expression and privacy. </p>
 <p>In 2016, most of the world's mobile devices were running either Apple's iOS operating system or some version of Google's <a href="https://www.statista.com/statistics/236027/global-smartphone-os-market-share-of-android/">Android mobile operating system</a>. For this reason, the 2017 Index was expanded to include Apple iOS, Google Android, and Samsung's implementation of Android-makers of mobile devices and software products that we call "<a href="https://rankingdigitalrights.org/2016/09/15/what-are-mobile-ecosystems/">mobile ecosystems</a>." Mobile ecosystems, as the Index defines it, is "the indivisible set of goods and services offered by a mobile device company, comprising the device hardware, operating system, app store, and user account."</p>
-<p><span style="font-weight: 400;">Click here to explore </span><a href="https://rankingdigitalrights.org/index2017/services/mobileeco"><span style="font-weight: 400;">mobile ecosystems visualization.</span></a></p>
+Click here to explore <a href="https://rankingdigitalrights.org/index2017/services/mobileeco/">mobile ecosystems visualization.</a>
 <p><img src="/index2017//assets/graphics/content/MEOverallscores.png" alt="overall" ></p>
 <p><strong>Our findings showed that all three mobile ecosystems evaluated failed to sufficiently disclose policies affecting users' freedom of expression and privacy. </strong>This means that it is difficult for users to know and understand how their Apple or Android smartphones control their ability to create, share, and access content, or how mobile ecosystem companies determine who has access to their information under what circumstances.</p>
 
@@ -22,7 +23,7 @@ published: true
 <ul>
 <li><strong>Samsung made a </strong><a href="http://www.samsung.com/us/aboutsamsung/sustainability/sustainabilityreports/download/2016/business-conduct-guidelines-eng-2016.pdf"><strong>commitment </strong></a><strong>to respect users' freedom of expression and privacy at the corporate level but does not sufficiently disclose how (or whether) those commitments are implemented in practice</strong>.</li>
 </ul>
-<h3>Why does Google outperform Apple and Samsung? </h3>
+<strong>Why does Google outperform Apple and Samsung? </strong>
 <p>It is important to note that of these three companies, Google is the only member of the <a href="https://www.globalnetworkinitiative.org/">Global Network Initiative</a> (GNI), an organization whose company members commit to uphold principles of freedom of expression and privacy. Additionally, GNI conducts an assessment of whether members have implemented the principles satisfactorily. It has multi-stakeholder membership, and is governed by a multi-stakeholder board. Index data showed that GNI members performed better on the Governance category than other companies, like Apple and Samsung. (<a href="https://rankingdigitalrights.org/index2017/download/"><strong>Download the full report </strong></a> for more detailed analysis.)</p>
 <p>It is possible that both Apple and Samsung may have internal policies and practices aimed at protecting users' freedom of expression and privacy that they do not formally disclose to the public. However the Index only gives credit for policies that are publicly accessible and presented in a company's policy documents. We take this approach as a way to encourage companies to formalize their commitments into policy so that users can make informed decisions about the products and services they use.</p>
 <p>Leading figures at Apple for instance have made numerous <a href="http://fortune.com/2016/06/13/apple-wwdc-event-privacy/">statements in the media</a> about the company's commitments to <a href="https://www.wired.com/2015/06/apples-latest-selling-point-little-knows/.">privacy and security</a>—and the consensus in the technical community is that Apple's products are the most secure on the market. However its commitments in this regard were not always clearly specified in the policy documents evaluated for this Index.</p>
