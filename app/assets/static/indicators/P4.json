@@ -5,7 +5,7 @@
    "companies":[
       {
          "name":"América Móvil",
-         "id":"americaMovil",
+         "id":"americamovil",
          "headers":[
             {
                "text":"Prepaid Mobile"
@@ -828,6 +828,8 @@
          "id":"facebook",
          "headers":[
             {
+               "text":"Facebook"
+            },{
                "text":"Instagram"
             },
             {
@@ -1704,6 +1706,9 @@
                   },
                   {
                      "value":"exclude"
+                  },
+                  {
+                     "value":"exclude"
                   }
                ]
             }
@@ -1717,7 +1722,7 @@
                "text":"Prepaid Mobile"
             },
             {
-               "text":"Prepaid Mobile"
+               "text":"Postpaid Mobile"
             },
             {
                "text":"Fixed Line Broadband"
@@ -1748,10 +1753,10 @@
                   },
                   {
                      "value":"0"
-                  }
-               ]
-            },
-            {
+                       }
+                     ]
+                  },
+                  {
                      "cells":[
                         {
                            "value":"For each type of user information the company shares, does the company clearly disclose the types of third parties with which it shares that user information?"
@@ -2159,7 +2164,7 @@
             },
             {
                "name":"Twitter",
-               "id":"Twitter",
+               "id":"twitter",
                "headers":[
                   {
                      "text":"Twitter"
@@ -2407,7 +2412,7 @@
             },
             {
                "name":"Yahoo",
-               "id":"Yahoo",
+               "id":"yahoo",
                "headers":[
                   {
                      "text":"Yahoo Mail"
@@ -2531,7 +2536,7 @@
             },
             {
                "name":"Yandex",
-               "id":"Yandex",
+               "id":"yandex",
                "headers":[
                   {
                      "text":"Yandex Mail"
@@ -2655,5 +2660,3 @@
             }
          ]
       }
-   ]
-}
