@@ -1690,9 +1690,21 @@
             },
             {
                "text":"Postpaid Mobile - Privacy"
+            },
+            {
+               "text":"Fixed Line Broadband - Freedom of Expression"
+            },
+            {
+               "text":"Fixed Line Broadband - Privacy"
             }
          ],
          "average":[
+            {
+               "value":"0"
+            },
+            {
+               "value":"0"
+            },
             {
                "value":"0"
             },
@@ -1747,6 +1759,12 @@
    },
    {
       "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    }
                ]
             },
@@ -1754,6 +1772,12 @@
                "cells":[
                   {
       "value": "Does the company clearly disclose that it maintains an employee whistleblower program through which employees can report concerns related to how the company treats its users’ freedom of expression and privacy rights?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
    },
    {
       "value": "0"
