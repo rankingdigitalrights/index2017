@@ -140,7 +140,7 @@
          },
          {
             "name":"P17.Account Security (Internet, software, and device companies)",
-            "value":"0"
+            "value":"0.0000"
          },
          {
             "name":"P18.Inform and educate users about potential risks",
@@ -2595,11 +2595,11 @@
          },
          {
             "name":"F9.Network management (telecommunications companies)",
-            "value":"0"
+            "value":"0.0000"
          },
          {
             "name":"F10.Network shutdown (telecommunications companies)",
-            "value":"0"
+            "value":"0.0000"
          },
          {
             "name":"F11.Identity policy",
