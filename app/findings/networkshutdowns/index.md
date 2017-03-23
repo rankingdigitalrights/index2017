@@ -5,8 +5,7 @@ entity: findings
 header: 
 published: true
 ---
-<h2>Network Shutdowns</h2>
-<strong>Users are in the dark about why they're cut off</strong>
+<h2>Network Shutdowns: Users are in the dark about why they're cut off</h2>>
 <p>Network shutdowns are a growing threat to human rights around the world. In a resolution passed in June 2016, the <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/32/L.20">UN Human Rights Council </a>affirmed that network shutdowns threaten freedom of expression and the right to access information, condemned them to be a violation of international human rights law and called on governments to refrain from taking these actions. Yet governments are <a href="https://www.accessnow.org/keepiton">increasingly ordering </a>telecommunications companies to shut down their networks, which in turn puts pressure on companies to take actions that violate their responsibility to respect human rights. </p>
 <p>Unfortunately, results of our indicator examining network shutdowns reveal that companies are failing to disclose sufficient information about how they handle government shutdown demands. </p>
 <p><img src="/index2017/assets/graphics/content/F10.PNG" alt="F10" title="F10" align="right" /></p>
