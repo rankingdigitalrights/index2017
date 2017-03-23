@@ -70,6 +70,7 @@ module.exports = BaseChart.extend({
         
         if (d.src === companyName) {
           if (d.src === 'vodafone') { return 1; }
+          if (d.src === 'tencent') { return 10; }
           return count;
         }
         else {
