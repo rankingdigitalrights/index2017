@@ -1,7 +1,7 @@
 {
-   "id":"P2",
-   "name":"P2. CHANGES TO PRIVACY POLICIES",
-   "paragraph_1":"The company should clearly disclose that it provides notice and documentation to users when it changes its privacy policies.",
+   "id":"P3",
+   "name":"P3. COLLECTION OF USER INFORMATION",
+   "paragraph_1":"The company should clearly disclose what user information it collects and how.",
    "companies":[
       {
          "name":"América Móvil",
@@ -16,76 +16,76 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"17"
             },
             {
-               "value":"0"
+               "value":"17"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+               {
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+               {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -106,110 +106,94 @@
          ],
          "average":[
             {
-               "value":"10"
+               "value":"20"
             },
             {
-               "value":"10"
+               "value":"33"
             },
             {
-               "value":"10"
+               "value":"33"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -243,81 +227,81 @@
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -335,76 +319,76 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -425,94 +409,94 @@
          ],
          "average":[
             {
-               "value":"25"
+               "value":"67"
             },
             {
-               "value":"25"
+               "value":"67"
             },
             {
-               "value":"25"
+               "value":"50"
             }
          ],
          "rows":[
             {
                "cells":[
-                  {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+                     {
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "50"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -533,94 +517,94 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -654,81 +638,81 @@
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                {
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -752,112 +736,112 @@
          ],
          "average":[
             {
-               "value":"25"
-            },
-            {
-               "value":"38"
-            },
-            {
                "value":"50"
             },
             {
-               "value":"25"
+               "value":"67"
+            },
+            {
+               "value":"100"
+            },
+            {
+               "value":"50"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -881,112 +865,112 @@
          ],
          "average":[
             {
-               "value":"63"
+               "value":"67"
             },
             {
-               "value":"63"
+               "value":"67"
             },
             {
-               "value":"63"
+               "value":"67"
             },
             {
-               "value":"50"
+               "value":"40"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+                 {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"0"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "0"
+   }
                ]
             }
          ]
@@ -1007,94 +991,93 @@
          ],
          "average":[
             {
+               "value":"83"
+            },
+            {
+               "value":"83"
+            },
+            {
                "value":"100"
-            },
-            {
-               "value":"75"
-            },
-            {
-               "value":"75"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "100"
+   }
+               ]
+            },
+            {
+               "cells":[{
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
                   {
-                     "value":"100"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1115,94 +1098,94 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"100"
             },
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1223,94 +1206,94 @@
          ],
          "average":[
             {
-               "value":"63"
+               "value":"50"
             },
             {
-               "value":"63"
+               "value":"50"
             },
             {
-               "value":"63"
+               "value":"50"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
+              "cells":[
+                 {
+     "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+  },
+  {
+     "value": "exclude"
+  },
+  {
+     "value": "exclude"
+  },
+  {
+     "value": "exclude"
+  }
+              ]
+           },
+           {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1328,76 +1311,76 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "exclued"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1431,81 +1414,81 @@
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                 {
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1526,94 +1509,94 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"17"
             },
             {
-               "value":"0"
+               "value":"17"
             },
             {
-               "value":"0"
+               "value":"17"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1635,51 +1618,51 @@
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "0"
+   }
                ]
             }
          ]
@@ -1700,94 +1683,94 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"17"
             },
             {
-               "value":"0"
+               "value":"17"
             },
             {
-               "value":"0"
+               "value":"17"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose the time frame within which it provides notification prior to changes coming into effect?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1808,94 +1791,94 @@
          ],
          "average":[
             {
-               "value":"38"
+               "value":"67"
             },
             {
-               "value":"38"
+               "value":"67"
             },
             {
-               "value":"38"
+               "value":"67"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -1916,94 +1899,94 @@
          ],
          "average":[
             {
-               "value":"75"
+               "value":"67"
             },
             {
-               "value":"50"
+               "value":"67"
             },
             {
-               "value":"25"
+               "value":"67"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"50"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"50"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -2024,94 +2007,94 @@
          ],
          "average":[
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             },
             {
-               "value":"0"
+               "value":"33"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -2132,94 +2115,94 @@
          ],
          "average":[
             {
-               "value":"25"
+               "value":"67"
             },
             {
-               "value":"25"
+               "value":"67"
             },
             {
-               "value":"100"
+               "value":"67"
             }
          ],
          "rows":[
             {
                "cells":[
-                  {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"100"
-                  }
+                     {
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"50"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"100"
-                  }
+      "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"100"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
@@ -2240,94 +2223,93 @@
          ],
          "average":[
             {
-               "value":"25"
+               "value":"67"
             },
             {
-               "value":"25"
+               "value":"67"
             },
             {
-               "value":"25"
+               "value":"67"
             }
          ],
          "rows":[
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose that it notifies users about changes to its privacy policies?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "Does the company clearly disclose what types of user information it collects?"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
+               ]
+            },
+            {
+               "cells":[
+                     {
+      "value": "For each type of user information the company collects"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   },
+   {
+      "value": "50"
+   }
+               ]
+            },
+            {
+               "cells":[
+                  {     "value": "Does the company clearly disclose that it limits collection of user information to what is directly relevant and necessary to accomplish the purpose of its service?"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   },
+   {
+      "value": "100"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Does the company clearly disclose how it will directly notify users of changes?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether the privacy policies of third-party apps made available through its app store disclose what user information the apps collect?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             },
             {
                "cells":[
                   {
-                     "value":"Are the policies presented in an understandable manner?"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"Does the company maintain a public archive or change log?"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  },
-                  {
-                     "value":"100"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "value":"(For mobile ecosystems): Does the company clearly disclose that it requires apps sold through its app store to notify users when the app changes its privacy policy?"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  },
-                  {
-                     "value":"exclude"
-                  }
+      "value": "(For mobile ecosystems): Does the company clearly disclose that it evaluates whether third-party apps made available through its app store limit collection of user information to what is directly relevant and necessary to accomplish the purpose of the app?"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   },
+   {
+      "value": "exclude"
+   }
                ]
             }
          ]
