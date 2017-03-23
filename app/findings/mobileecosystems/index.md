@@ -5,8 +5,7 @@ entity: findings
 header: 
 published: true
 ---
-<h2>Mobile Ecosystems</h2>
-<strong>We don't know enough about the impact of smartphones on our digital rights</strong>
+<h2>Mobile Ecosystems: We don't know enough about the impact of smartphones on our digital rights</h2>
 <p>Most people today access the internet via <a href="https://techcrunch.com/2016/08/18/gartner-androids-smartphone-marketshare-hit-86-2-in-q2/">mobile devices</a> we call smartphones. Through these devices, users can access data stored in remote servers, navigate with GPS-enabled maps, photograph their daily lives, read the news, and connect with family, friends, and colleagues around the globe.</p>
 <p>But smartphones are also tracking devices that leave a digital trace of our every movement, both online and offline. Companies that produce these devices are the custodians of sensitive user information, as well as gatekeepers to countless types of apps available in their app stores-and therefore have tremendous influence over users' freedom of expression and privacy. </p>
 <p>In 2016, most of the world's mobile devices were running either Apple's iOS operating system or some version of Google's <a href="https://www.statista.com/statistics/236027/global-smartphone-os-market-share-of-android/">Android mobile operating system</a>. For this reason, the 2017 Index was expanded to include Apple iOS, Google Android, and Samsung's implementation of Android-makers of mobile devices and software products that we call "<a href="https://rankingdigitalrights.org/2016/09/15/what-are-mobile-ecosystems/">mobile ecosystems</a>." Mobile ecosystems, as the Index defines it, is "the indivisible set of goods and services offered by a mobile device company, comprising the device hardware, operating system, app store, and user account."</p>
