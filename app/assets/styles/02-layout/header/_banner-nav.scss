@@ -14,9 +14,9 @@
                 font-size: 16px;
                 font-weight: 600;
                 font-family: $simplon-medium;
-                letter-spacing: 0;    
+                letter-spacing: 0;
                 }
-            }    
+            }
         }
     }
 }
@@ -81,10 +81,10 @@
 
 /* Mobile menu */
 .nav--mobile {
-  background: darken($base-color, 10%);
+  /*background: darken($base-color, 10%);*/
   width: 100%;
   display: none;
-  padding: .5 1em .3;
+  /*padding: .5 1em .3;*/
   &.active { display: block; }
   .nav { padding: .5em; }
   @include media(medium-up) {
@@ -93,8 +93,95 @@
 
 .nav--vertical {
   text-align: left;
-  padding-bottom: 1em;
+  /*padding-bottom: 1em;*/
 }
+
+
+.blue-nav-bg {
+background-color: $base-color-darken;
+padding-bottom: 1em;
+  a,
+  a:link,
+  a:hover,
+  a:active,
+  a:visited {
+  color: $white;
+  line-height: 1;
+  font-family: $simplon-regular;
+  font-weight: 600;
+  font-size: 15px;
+  }
+  a:hover,
+  a:active {
+  text-decoration: underline !important;
+  }
+  .dropdown--mobile {
+  background-color: $white-pure;
+  }
+  .dropdown--trigger_mobile {
+    .collecticon {
+    color: $white-pure !important;
+    }
+  }
+  .dropdown--mobile {
+    a,
+    a:link,
+    a:hover,
+    a:active,
+    a:visited {
+    font-family: $simplon-light;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 13px;
+    padding: 0.75em 1em;
+    }
+  }
+}
+
+.gray-nav-bg {
+background-color: $dark-grey;
+padding-bottom: 1em;
+  a,
+  a:link,
+  a:hover,
+  a:active,
+  a:visited {
+  color: $black;
+  font-family: $simplon-regular;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 15px;
+  }
+  a:hover,
+  a:active {
+  text-decoration: underline !important;
+  }
+  .dropdown--mobile {
+  background-color: $white-pure;
+  }
+  .dropdown--trigger_mobile {
+    .collecticon {
+    color: $black !important;
+    }
+  }
+  .dropdown--mobile {
+    a,
+    a:link,
+    a:hover,
+    a:active,
+    a:visited {
+    color: $black;
+    font-family: $simplon-light;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 13px;
+    padding: 0.75em 1em;
+    }
+  }
+}
+
+
+
 
 .nav--item_vertical {
   line-height: 1.2em;
