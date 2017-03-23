@@ -1,7 +1,7 @@
 {
    "id":"P15",
-   "name":"P15. DATA BREACHES",
-   "paragraph_1":"The company should publicly disclose information about its processes for responding to data breaches.",
+   "name":"P14. ADDRESSING SECURITY VULNERABILITIES",
+   "paragraph_1":"The company should address security vulnerabilities when they are discovered.",
    "companies":[
       {
          "name":"América Móvil",
@@ -26,7 +26,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -39,20 +39,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
-                  },                  
-                  {
-                     "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -65,7 +52,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -78,7 +65,20 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "cells":[
+                  {
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -104,7 +104,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -117,7 +117,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
@@ -133,7 +133,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -174,7 +174,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -254,7 +254,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -270,7 +270,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
@@ -289,7 +289,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"0"
@@ -305,7 +305,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -429,7 +429,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -445,7 +445,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -461,7 +461,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -477,7 +477,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -515,7 +515,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -528,7 +528,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -541,7 +541,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -554,7 +554,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -567,7 +567,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -593,7 +593,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -606,7 +606,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -619,7 +619,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -660,7 +660,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -676,7 +676,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -692,7 +692,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -708,7 +708,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -724,7 +724,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"exclude"
@@ -740,7 +740,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -756,7 +756,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -772,7 +772,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -788,7 +788,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -832,7 +832,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -848,7 +848,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -864,7 +864,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -880,7 +880,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -896,7 +896,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -912,7 +912,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -928,7 +928,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -944,7 +944,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -960,7 +960,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -1004,7 +1004,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -1020,7 +1020,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -1036,7 +1036,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1052,7 +1052,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1068,7 +1068,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -1084,7 +1084,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -1100,7 +1100,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -1116,7 +1116,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -1132,7 +1132,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -1151,6 +1151,9 @@
          "name":"Facebook",
          "id":"facebook",
          "headers":[
+            {
+               "text":"Facebook"
+            },
             {
                "text":"Instagram"
             },
@@ -1179,7 +1182,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -1198,7 +1201,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -1217,7 +1220,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"100"
@@ -1236,7 +1239,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"100"
@@ -1255,7 +1258,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what"
@@ -1277,7 +1280,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -1296,7 +1299,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -1315,7 +1318,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -1334,7 +1337,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -1387,7 +1390,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -1406,7 +1409,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"100"
@@ -1425,7 +1428,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1444,7 +1447,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1463,7 +1466,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what"
@@ -1485,7 +1488,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -1504,7 +1507,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -1523,7 +1526,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -1542,7 +1545,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -1589,7 +1592,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -1605,7 +1608,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -1621,7 +1624,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1637,7 +1640,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1653,7 +1656,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"exclude"
@@ -1669,7 +1672,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -1685,7 +1688,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -1701,7 +1704,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -1717,7 +1720,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -1761,7 +1764,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -1777,7 +1780,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -1793,7 +1796,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1809,7 +1812,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1825,7 +1828,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"exclude"
@@ -1841,7 +1844,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -1857,7 +1860,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -1873,7 +1876,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -1889,7 +1892,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -1933,7 +1936,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -1949,7 +1952,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"50"
@@ -1965,7 +1968,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1981,7 +1984,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -1997,7 +2000,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"exclude"
@@ -2013,7 +2016,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -2029,7 +2032,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -2045,7 +2048,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -2061,7 +2064,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -2099,7 +2102,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"50"
@@ -2112,7 +2115,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -2125,7 +2128,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2138,7 +2141,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2151,7 +2154,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -2164,7 +2167,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -2177,7 +2180,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -2190,7 +2193,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -2203,7 +2206,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -2224,9 +2227,15 @@
             },
             {
                "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Broad Band"
             }
          ],
          "average":[
+            {
+               "value":"0"
+            },
             {
                "value":"0"
             },
@@ -2238,20 +2247,10 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -2264,20 +2263,10 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2290,20 +2279,10 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
-                  },
-                  {
-                     "value":"0"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -2316,23 +2295,61 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "cells":[
+                  {
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "cells":[
+                  {
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  },
+                  {
+                     "value":"0"
+                  }
+               ]
+            },
+            {
+               "cells":[
+                  {
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
                   },
                   {
                      "value":"exclude"
-                  }
-               ]
-            },
-            {
-               "cells":[
-                  {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
-                  },
-                  {
-                     "value":"exclude"
                   },
                   {
                      "value":"exclude"
@@ -2342,7 +2359,26 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                  },
+                  {
+                     "value":"exclude"
+                  },
+                  {
+                     "value":"exclude"
+                  },
+                  {
+                     "value":"exclude"
+                  }
+               ]
+            },
+            {
+               "cells":[
+                  {
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                  },
+                  {
+                     "value":"0"
                   },
                   {
                      "value":"0"
@@ -2383,7 +2419,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -2399,7 +2435,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -2415,7 +2451,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2431,7 +2467,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2447,7 +2483,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -2463,7 +2499,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -2479,7 +2515,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -2495,7 +2531,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -2511,7 +2547,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -2543,7 +2579,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -2553,7 +2589,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"100"
@@ -2563,7 +2599,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2573,7 +2609,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2583,7 +2619,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"50"
@@ -2593,7 +2629,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"100"
@@ -2603,7 +2639,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"0"
@@ -2613,7 +2649,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"0"
@@ -2623,7 +2659,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -2661,7 +2697,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -2677,7 +2713,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -2693,7 +2729,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2709,7 +2745,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2725,7 +2761,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -2741,7 +2777,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -2757,7 +2793,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -2773,7 +2809,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -2789,7 +2825,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -2833,7 +2869,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -2849,7 +2885,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"100"
@@ -2865,7 +2901,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2881,7 +2917,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -2897,7 +2933,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"exclude"
@@ -2913,7 +2949,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -2929,7 +2965,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -2945,7 +2981,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -2961,7 +2997,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -3005,7 +3041,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -3021,7 +3057,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"100"
@@ -3037,7 +3073,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3053,7 +3089,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3069,7 +3105,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"exclude"
@@ -3085,7 +3121,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -3101,7 +3137,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -3117,7 +3153,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -3133,7 +3169,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -3177,7 +3213,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"0"
@@ -3193,7 +3229,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"0"
@@ -3209,7 +3245,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3225,7 +3261,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3241,7 +3277,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -3257,7 +3293,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"0"
@@ -3273,7 +3309,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -3289,7 +3325,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -3305,7 +3341,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"0"
@@ -3349,7 +3385,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -3365,7 +3401,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"100"
@@ -3381,7 +3417,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3397,7 +3433,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3413,7 +3449,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -3429,7 +3465,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -3445,7 +3481,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -3461,7 +3497,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -3477,7 +3513,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
@@ -3521,7 +3557,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
+                     "value":"Does the company clearly disclose that it has a mechanism through which security researchers can submit vulnerabilities they discover?"
                   },
                   {
                      "value":"100"
@@ -3537,7 +3573,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
+                     "value":"Does the company clearly disclose the timeframe in which it will review reports of vulnerabilities?"
                   },
                   {
                      "value":"100"
@@ -3553,7 +3589,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3569,7 +3605,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
+                     "value":"Does the company commit not to pursue legal action against researchers who report vulnerabilities within the terms of the company’s reporting mechanism?"
                   },
                   {
                      "value":"0"
@@ -3585,7 +3621,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, modifications it has made to a mobile operating system?"
                   },
                   {
                      "value":"0"
@@ -3601,7 +3637,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
+                     "value":"(For mobile ecosystems and telecommunications companies) Does the company clearly disclose what, if any, effect such modifications have on the company’s ability to send security updates to users?"
                   },
                   {
                      "value":"exclude"
@@ -3617,7 +3653,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose the date through which it will continue to provide security updates for the device/OS?"
                   },
                   {
                      "value":"exclude"
@@ -3633,7 +3669,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
+                     "value":"(For mobile ecosystems) Does the company commit to provide security updates for the operating system and other critical software for a minimum of five years after release?"
                   },
                   {
                      "value":"exclude"
@@ -3649,7 +3685,7 @@
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
+                     "value":"(For mobile ecosystems and telecommunications companies) If the company uses an operating system adapted from an existing system, does the company commit to provide security patches within one month of a vulnerability being announced to the public?"
                   },
                   {
                      "value":"exclude"
