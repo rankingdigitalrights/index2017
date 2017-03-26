@@ -510,6 +510,9 @@
          "id":"facebook",
          "headers":[
             {
+               "text":"Facebook"
+            },
+            {
                "text":"Instagram"
             },
             {
@@ -979,9 +982,15 @@
             },
             {
                "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Line Broadband"
             }
          ],
          "average":[
+            {
+               "value":"0"
+            },
             {
                "value":"0"
             },
@@ -994,6 +1003,9 @@
                "cells":[
                      {
       "value": "Does the company clearly disclose that it will notify the relevant authorities without undue delay when a data breach occurs?"
+   },
+   {
+      "value": "0"
    },
    {
       "value": "0"
@@ -1013,6 +1025,9 @@
    },
    {
       "value": "0"
+   },
+   {
+      "value": "0"
    }
                ]
             },
@@ -1020,6 +1035,9 @@
                "cells":[
                      {
       "value": "Does the company clearly disclose what kinds of steps it will take to address the impact of a data breach on its users?"
+   },
+   {
+      "value": "0"
    },
    {
       "value": "0"
