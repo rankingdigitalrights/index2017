@@ -1,30 +1,30 @@
-{  
+{
    "id":"P13",
    "name":"P13. SECURITY OVERSIGHT",
    "paragraph_1":"The company should clearly disclose information about its institutional processes to ensure the security of its products and services.",
-   "companies":[  
-      {  
+   "companies":[
+      {
          "name":"América Móvil",
-         "id":"americaMovil",
-         "headers":[  
-            {  
+         "id":"americamovil",
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -36,8 +36,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -49,8 +49,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -64,34 +64,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Apple",
          "id":"apple",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"iOS mobile ecosystem"
             },
-            {  
+            {
                "text":"iMessage"
             },
-            {  
+            {
                "text":"iCloud"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -106,8 +106,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -122,8 +122,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -140,34 +140,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"AT&T",
          "id":"att",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                  {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -182,8 +182,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "100"
    },
@@ -195,8 +195,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -213,28 +213,28 @@
             }
          ]
       },
-      {  
+      {
          "name":"Axiata",
          "id":"axiata",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -246,8 +246,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -259,8 +259,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -274,34 +274,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Baidu",
          "id":"baidu",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Baidu Search"
             },
-            {  
+            {
                "text":"Baidu Cloud"
             },
-            {  
+            {
                "text":"Baidu PostBar"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -316,8 +316,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -332,8 +332,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -350,34 +350,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Bharti Airtel",
-         "id":"bhartiAirtel",
-         "headers":[  
-            {  
+         "id":"bhartiairtel",
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -392,8 +392,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -408,8 +408,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                 {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -426,34 +426,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Etisalat",
          "id":"etisalat",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -468,8 +468,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -484,8 +484,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -502,37 +502,40 @@
             }
          ]
       },
-      {  
+      {
          "name":"Facebook",
          "id":"facebook",
-         "headers":[  
-            {  
+         "headers":[
+            {
+               "text":"Facebook"
+            },
+            {
                "text":"Instagram"
             },
-            {  
+            {
                "text":"WhatsApp"
             },
-            {  
+            {
                "text":"Messenger"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"33"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -550,8 +553,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -569,8 +572,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -590,40 +593,40 @@
             }
          ]
       },
-      {  
+      {
          "name":"Google",
          "id":"google",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Search"
             },
-            {  
+            {
                "text":"Gmail"
             },
-            {  
+            {
                "text":"Youtube"
             },
-            {  
+            {
                "text":"Android mobile ecosystem"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -641,8 +644,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -660,8 +663,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -681,34 +684,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Kakao",
          "id":"kakao",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Daum Search"
             },
-            {  
+            {
                "text":"Daum Mail"
             },
-            {  
+            {
                "text":"Kakao Talk"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             },
-            {  
+            {
                "value":"100"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -723,8 +726,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -739,8 +742,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -757,34 +760,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Mail.ru",
          "id":"mailru",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Vkontakte"
             },
-            {  
+            {
                "text":"Mail.Ru"
             },
-            {  
+            {
                "text":"Mail.Ru Agent"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -799,8 +802,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -815,8 +818,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -833,34 +836,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Microsoft",
          "id":"microsoft",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Bing"
             },
-            {  
+            {
                "text":"Outlook.com"
             },
-            {  
+            {
                "text":"Skype"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"50"
             },
-            {  
+            {
                "value":"50"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -875,8 +878,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -891,8 +894,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -909,28 +912,28 @@
             }
          ]
       },
-      {  
+      {
          "name":"MTN",
          "id":"mtn",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -942,8 +945,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -955,8 +958,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -970,95 +973,110 @@
             }
          ]
       },
-      {  
+      {
          "name":"Ooredoo",
          "id":"ooredoo",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
-               "text":"Postpaid Mobile"
-            }
-         ],
-         "average":[  
-            {  
-               "value":"17"
-            },
-            {  
-               "value":"17"
-            }
-         ],
-         "rows":[  
-            {  
-               "cells":[  
-                  {
-      "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   }
-               ]
-            },
-            {  
-               "cells":[  
-                  {
-      "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   }
-               ]
-            },
-            {  
-               "cells":[  
-                  {
-      "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
-   },
-   {
-      "value": "0"
-   },
-   {
-      "value": "0"
-   }
-               ]
-            }
-         ]
-      },
-      {  
-         "name":"Orange",
-         "id":"orange",
-         "headers":[  
-            {  
-               "text":"Prepaid Mobile"
-            },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
+               "value":"0"
+            },
+            {
+               "value":"0"
+            },
+            {
+               "value":"0"
+            }
+         ],
+         "rows":[
+            {
+               "cells":[
+                  {
+      "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                  {
+      "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            },
+            {
+               "cells":[
+                  {
+      "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   },
+   {
+      "value": "0"
+   }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Orange",
+         "id":"orange",
+         "headers":[
+            {
+               "text":"Prepaid Mobile"
+            },
+            {
+               "text":"Postpaid Mobile"
+            },
+            {
+               "text":"Fixed Line Broadband"
+            }
+         ],
+         "average":[
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1073,8 +1091,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1089,8 +1107,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1107,22 +1125,22 @@
             }
          ]
       },
-      {  
+      {
          "name":"Samsung",
          "id":"samsung",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Samsung implementation of Android"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"83"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1131,8 +1149,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1141,8 +1159,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1153,34 +1171,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Telefónica",
          "id":"telefonica",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             },
-            {  
+            {
                "value":"33"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1195,8 +1213,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1211,8 +1229,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1229,34 +1247,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Tencent",
          "id":"tencent",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"QZone"
             },
-            {  
+            {
                "text":"QQ"
             },
-            {  
+            {
                "text":"WeChat"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1271,8 +1289,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1287,8 +1305,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1305,34 +1323,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Twitter",
          "id":"twitter",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Twitter"
             },
-            {  
+            {
                "text":"Vine"
             },
-            {  
+            {
                "text":"Periscope"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"67"
             },
-            {  
+            {
                "value":"67"
             },
-            {  
+            {
                "value":"67"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1347,8 +1365,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1363,8 +1381,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1381,34 +1399,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Vodafone",
          "id":"vodafone",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Prepaid Mobile"
             },
-            {  
+            {
                "text":"Postpaid Mobile"
             },
-            {  
+            {
                "text":"Fixed Line Broadband"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"67"
             },
-            {  
+            {
                "value":"67"
             },
-            {  
+            {
                "value":"67"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1423,8 +1441,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1439,8 +1457,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1457,34 +1475,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Yahoo",
          "id":"yahoo",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Yahoo Mail"
             },
-            {  
+            {
                "text":"Flickr"
             },
-            {  
+            {
                "text":"Tumblr"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"0"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1499,8 +1517,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1515,8 +1533,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
@@ -1533,34 +1551,34 @@
             }
          ]
       },
-      {  
+      {
          "name":"Yandex",
          "id":"yandex",
-         "headers":[  
-            {  
+         "headers":[
+            {
                "text":"Yandex Mail"
             },
-            {  
+            {
                "text":"Yandex Search"
             },
-            {  
+            {
                "text":"Yandex Disk (cloud storage)"
             }
          ],
-         "average":[  
-            {  
+         "average":[
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             },
-            {  
+            {
                "value":"17"
             }
          ],
-         "rows":[  
-            {  
-               "cells":[  
+         "rows":[
+            {
+               "cells":[
                   {
       "value": "Does the company clearly disclose that it has systems in place to limit and monitor employee access to user information?"
    },
@@ -1575,8 +1593,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it has a security team that conducts security audits on the company’s products and services?"
    },
@@ -1591,8 +1609,8 @@
    }
                ]
             },
-            {  
-               "cells":[  
+            {
+               "cells":[
                      {
       "value": "Does the company clearly disclose that it commissions third-party security audits on its products and services?"
    },
