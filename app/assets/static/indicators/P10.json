@@ -26,7 +26,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -39,7 +39,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -52,7 +52,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -65,7 +65,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -78,7 +78,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -91,7 +91,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -104,7 +104,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -117,7 +117,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -130,7 +130,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -143,7 +143,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -156,7 +156,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -169,7 +169,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -210,7 +210,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -226,7 +226,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -242,7 +242,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -258,7 +258,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -274,7 +274,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -290,7 +290,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -306,7 +306,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -322,7 +322,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -338,7 +338,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"100"
@@ -354,7 +354,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -370,7 +370,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"100"
@@ -386,7 +386,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -430,7 +430,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -446,7 +446,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -462,7 +462,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -478,7 +478,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"100"
@@ -494,7 +494,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -510,7 +510,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"100"
@@ -526,7 +526,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -542,7 +542,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -558,7 +558,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"100"
@@ -574,7 +574,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -590,7 +590,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"100"
@@ -606,7 +606,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -644,7 +644,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -657,7 +657,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -670,7 +670,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -683,7 +683,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -696,7 +696,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -709,7 +709,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -722,7 +722,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -735,7 +735,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -748,7 +748,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -761,7 +761,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -774,7 +774,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -787,7 +787,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -828,7 +828,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -844,7 +844,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -860,7 +860,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -876,7 +876,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -892,7 +892,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -908,7 +908,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -924,7 +924,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -940,7 +940,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -956,7 +956,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -972,7 +972,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -988,7 +988,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -1004,7 +1004,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -1048,7 +1048,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -1064,7 +1064,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -1080,7 +1080,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -1096,7 +1096,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -1112,7 +1112,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -1128,7 +1128,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -1144,7 +1144,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"50"
@@ -1160,7 +1160,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1176,7 +1176,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -1192,7 +1192,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -1208,7 +1208,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -1224,7 +1224,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -1268,7 +1268,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -1284,7 +1284,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -1300,7 +1300,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -1316,7 +1316,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -1332,7 +1332,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -1348,7 +1348,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -1364,7 +1364,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1380,7 +1380,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1396,7 +1396,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -1412,7 +1412,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -1428,7 +1428,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -1444,7 +1444,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -1494,7 +1494,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -1513,7 +1513,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -1532,7 +1532,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -1551,7 +1551,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"100"
@@ -1570,7 +1570,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -1589,7 +1589,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"100"
@@ -1608,7 +1608,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -1627,7 +1627,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1646,7 +1646,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"100"
@@ -1665,7 +1665,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -1684,7 +1684,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"100"
@@ -1703,7 +1703,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -1756,7 +1756,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -1775,7 +1775,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -1794,7 +1794,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -1813,7 +1813,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -1832,7 +1832,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -1851,7 +1851,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"100"
@@ -1870,7 +1870,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -1889,7 +1889,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -1908,7 +1908,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"100"
@@ -1927,7 +1927,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -1946,7 +1946,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"100"
@@ -1965,7 +1965,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -2012,7 +2012,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -2028,7 +2028,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -2044,7 +2044,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -2060,7 +2060,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -2076,7 +2076,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -2092,7 +2092,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
@@ -2111,7 +2111,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -2127,7 +2127,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2143,7 +2143,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"50"
@@ -2159,7 +2159,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2175,7 +2175,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"50"
@@ -2191,7 +2191,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -2235,7 +2235,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -2251,7 +2251,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -2267,7 +2267,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -2283,7 +2283,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -2299,7 +2299,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -2315,7 +2315,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -2331,7 +2331,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2347,7 +2347,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2363,7 +2363,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2379,7 +2379,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2395,7 +2395,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -2411,7 +2411,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -2455,7 +2455,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -2471,7 +2471,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -2487,7 +2487,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -2503,7 +2503,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"100"
@@ -2519,7 +2519,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -2535,7 +2535,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"100"
@@ -2551,7 +2551,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -2567,7 +2567,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -2583,7 +2583,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2599,7 +2599,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2615,7 +2615,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"100"
@@ -2631,7 +2631,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -2669,7 +2669,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -2682,7 +2682,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -2695,7 +2695,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -2708,7 +2708,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -2721,7 +2721,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -2734,7 +2734,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -2747,7 +2747,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"50"
@@ -2760,7 +2760,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"50"
@@ -2773,7 +2773,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2786,7 +2786,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2799,7 +2799,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -2812,7 +2812,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -2853,7 +2853,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -2869,7 +2869,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -2885,7 +2885,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -2901,7 +2901,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -2917,7 +2917,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -2933,7 +2933,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -2949,7 +2949,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2965,7 +2965,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -2981,7 +2981,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -2997,7 +2997,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3013,7 +3013,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -3029,7 +3029,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -3073,7 +3073,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -3089,7 +3089,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -3105,7 +3105,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -3121,7 +3121,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -3137,7 +3137,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -3153,7 +3153,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -3169,7 +3169,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3185,7 +3185,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3201,7 +3201,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3217,7 +3217,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3233,7 +3233,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -3249,7 +3249,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -3281,7 +3281,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -3291,7 +3291,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -3301,7 +3301,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -3311,7 +3311,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -3321,7 +3321,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -3331,7 +3331,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -3341,7 +3341,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3351,7 +3351,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3361,7 +3361,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3371,7 +3371,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3381,7 +3381,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -3391,7 +3391,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -3429,7 +3429,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -3445,7 +3445,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -3461,7 +3461,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -3477,7 +3477,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -3493,7 +3493,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -3509,7 +3509,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -3525,7 +3525,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3541,7 +3541,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3557,7 +3557,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3573,7 +3573,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3589,7 +3589,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -3605,7 +3605,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -3649,7 +3649,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -3665,7 +3665,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -3681,7 +3681,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -3697,7 +3697,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -3713,7 +3713,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"0"
@@ -3729,7 +3729,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"50"
@@ -3745,7 +3745,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3761,7 +3761,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3777,7 +3777,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3793,7 +3793,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -3809,7 +3809,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -3825,7 +3825,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -3869,7 +3869,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -3885,7 +3885,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -3901,7 +3901,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -3917,7 +3917,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -3933,7 +3933,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -3949,7 +3949,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -3965,7 +3965,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -3981,7 +3981,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -3997,7 +3997,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"100"
@@ -4013,7 +4013,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -4029,7 +4029,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -4045,7 +4045,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"50"
@@ -4089,7 +4089,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -4105,7 +4105,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -4121,7 +4121,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -4137,7 +4137,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -4153,7 +4153,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -4169,7 +4169,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -4185,7 +4185,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -4201,7 +4201,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -4217,7 +4217,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"100"
@@ -4233,7 +4233,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -4249,7 +4249,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"50"
@@ -4265,7 +4265,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
@@ -4309,7 +4309,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"100"
@@ -4325,7 +4325,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"100"
@@ -4341,7 +4341,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"100"
@@ -4357,7 +4357,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"50"
@@ -4373,7 +4373,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"100"
@@ -4389,7 +4389,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"0"
@@ -4405,7 +4405,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"100"
@@ -4420,9 +4420,6 @@
             },
             {
                "cells":[
-                  {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
-                  },
                   {
                      "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
@@ -4440,9 +4437,6 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
-                  },
-                  {
                      "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
@@ -4459,9 +4453,6 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
-                  },
-                  {
                      "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
@@ -4477,9 +4468,6 @@
             },
             {
                "cells":[
-                  {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
-                  },
                   {
                      "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
@@ -4496,9 +4484,6 @@
             },
             {
                "cells":[
-                  {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
-                  },
                   {
                      "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
@@ -4544,7 +4529,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to non-judicial government requests?"
+                     "value":"Does the company clearly disclose its process for responding to non-judicial government requests?"
                   },
                   {
                      "value":"0"
@@ -4560,7 +4545,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to court orders?"
+                     "value":"Does the company clearly disclose its process for responding to court orders?"
                   },
                   {
                      "value":"0"
@@ -4576,7 +4561,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
+                     "value":"Does the company clearly disclose its process for responding to government requests from foreign jurisdictions?"
                   },
                   {
                      "value":"0"
@@ -4592,7 +4577,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose its process for responding to requests made by private parties?"
+                     "value":"Does the company clearly disclose its process for responding to requests made by private parties?"
                   },
                   {
                      "value":"0"
@@ -4608,7 +4593,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
+                     "value":"Do the company’s explanations clearly disclose the legal basis under which it may comply with government requests?"
                   },
                   {
                      "value":"50"
@@ -4624,7 +4609,7 @@
             {
                "cells":[
                   {
-                     "values":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
+                     "value":"Do the company’s explanations clearly disclose the basis under which it may comply with requests from private parties?"
                   },
                   {
                      "value":"50"
@@ -4640,7 +4625,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on government requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -4656,7 +4641,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
+                     "value":"Does the company clearly disclose that it carries out due diligence on private requests before deciding how to respond?"
                   },
                   {
                      "value":"0"
@@ -4672,7 +4657,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -4688,7 +4673,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company commit to push back on inappropriate or overbroad private requests?"
+                     "value":"Does the company commit to push back on inappropriate or overbroad private requests?"
                   },
                   {
                      "value":"0"
@@ -4704,7 +4689,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for government requests?"
                   },
                   {
                      "value":"0"
@@ -4720,7 +4705,7 @@
             {
                "cells":[
                   {
-                     "values":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
+                     "value":"Does the company provide clear guidance or examples of implementation of its process for private requests?"
                   },
                   {
                      "value":"0"
