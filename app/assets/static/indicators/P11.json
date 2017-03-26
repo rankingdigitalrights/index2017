@@ -420,9 +420,6 @@
                      "value":"Does the company list the number of requests it receives for stored user information and for real-time communications access?"
                   },
                   {
-                     "value":"Does the company list the number of requests it receives for stored user information and for real-time communications access?"
-                  },
-                  {
                      "value":"50"
                   },
                   {
@@ -792,9 +789,6 @@
                      "value":"Does the company list the number of requests it receives for stored user information and for real-time communications access?"
                   },
                   {
-                     "value":"Does the company list the number of requests it receives for stored user information and for real-time communications access?"
-                  },
-                  {
                      "value":"0"
                   },
                   {
@@ -839,9 +833,6 @@
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company identify the specific legal authority or type of legal process through which law enforcement and national security demands are made?"
-                  },
                   {
                      "value":"Does the company identify the specific legal authority or type of legal process through which law enforcement and national security demands are made?"
                   },
@@ -2921,9 +2912,6 @@
             },
             {
                "cells":[
-                  {
-                     "value":"Does the company identify the specific legal authority or type of legal process through which law enforcement and national security demands are made?"
-                  },
                   {
                      "value":"Does the company identify the specific legal authority or type of legal process through which law enforcement and national security demands are made?"
                   },
