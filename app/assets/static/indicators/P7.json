@@ -5,7 +5,7 @@
    "companies":[
       {
          "name":"América Móvil",
-         "id":"americaMovil",
+         "id":"americamovil",
          "headers":[
             {
                "text":"Prepaid Mobile"
@@ -39,7 +39,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "50"
@@ -135,7 +135,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "50"
@@ -243,7 +243,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "0"
@@ -259,10 +259,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "100"
    },
@@ -331,10 +329,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -346,10 +342,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -361,10 +355,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "0"
    },
@@ -430,10 +422,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "50"
    },
@@ -448,10 +438,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -466,10 +454,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "0"
    },
@@ -544,10 +530,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -562,10 +546,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -580,10 +562,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "0"
    },
@@ -598,14 +578,32 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that targeted advertising is off by default?"
+                     "value":"Does the company clearly disclose that targeted advertising is off by default?"
+                  },
+                  {
+                     "value": "0"
+                  },
+                  {
+                     "value": "0"
+                  },
+                  {
+                     "value": "0"
                   }
                ]
             },
             {
                "cells":[
                   {
-                     "values":"(For mobile ecosystems) Does the company clearly disclose that it provides users with options to control the device?s geolocation functions?"
+                     "value":"(For mobile ecosystems) Does the company clearly disclose that it provides users with options to control the device?s geolocation functions?"
+                  },
+                  {
+                     "value": "0"
+                  },
+                  {
+                     "value": "0"
+                  },
+                  {
+                     "value": "0"
                   }
                ]
             }
@@ -640,10 +638,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company's collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -658,10 +654,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -676,10 +670,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "0"
    },
@@ -760,10 +752,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -781,10 +771,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -893,7 +881,7 @@
             {
                "cells":[
                      {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "0"
@@ -912,7 +900,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "50"
@@ -1016,10 +1004,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "50"
    },
@@ -1034,10 +1020,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -1052,10 +1036,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "100"
    },
@@ -1130,10 +1112,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "50"
    },
@@ -1148,10 +1128,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "50"
    },
@@ -1166,10 +1144,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "0"
    },
@@ -1244,7 +1220,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "50"
@@ -1260,7 +1236,7 @@
             {
                "cells":[
             {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information??"
    },
    {
       "value": "50"
@@ -1346,7 +1322,7 @@
             {
                "cells":[
                      {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "0"
@@ -1359,7 +1335,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "0"
@@ -1439,7 +1415,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "0"
@@ -1455,7 +1431,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "0"
@@ -1547,7 +1523,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "0"
@@ -1563,7 +1539,7 @@
             {
                "cells":[
                      {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "0"
@@ -1643,7 +1619,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "50"
@@ -1653,7 +1629,7 @@
             {
                "cells":[
                      {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "0"
@@ -1721,7 +1697,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "0"
@@ -1737,7 +1713,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "50"
@@ -1829,10 +1805,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -1847,10 +1821,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "0"
    },
@@ -1865,10 +1837,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "100"
    },
@@ -1943,7 +1913,7 @@
             {
                "cells":[
                      {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "50"
@@ -1959,7 +1929,7 @@
             {
                "cells":[
                      {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "50"
@@ -1982,7 +1952,7 @@
    },
    {
       "value": "0"
-   }, 
+   },
    {
       "value": "100"
    }
@@ -2051,7 +2021,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can control the company’s collection of this user information?"
    },
    {
       "value": "0"
@@ -2067,7 +2037,7 @@
             {
                "cells":[
                   {
-      "value": "For each type of user information the company collects"
+      "value": "For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
    },
    {
       "value": "0"
@@ -2159,10 +2129,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -2177,10 +2145,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "50"
    },
@@ -2195,10 +2161,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "100"
    },
@@ -2273,10 +2237,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can control the company?s collection of this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can control the company's collection of this user information?"
+                  },
    {
       "value": "0"
    },
@@ -2291,10 +2253,8 @@
             {
                "cells":[
                   {
-                     "values":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
-                  }, {
-      "value": "For each type of user information the company collects"
-   },
+                     "value":"For each type of user information the company collects, does the company clearly disclose whether users can delete this user information?"
+                  },
    {
       "value": "50"
    },
@@ -2309,10 +2269,8 @@
             {
                "cells":[
                   {
-                     "values":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-                  }, {
-      "value": "Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
-   },
+                     "value":"Does the company clearly disclose that it provides users with options to control how their user information is used for targeted advertising?"
+                  },
    {
       "value": "100"
    },
