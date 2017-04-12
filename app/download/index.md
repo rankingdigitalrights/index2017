@@ -11,7 +11,7 @@ intro:
  - The 2017 Report [pdf]({{ site.baseurl }}/assets/static/download/RDRindex2017report.pdf)
  - Indicators and research guidance [pdf]({{ site.baseurl }}/assets/static/download/RDRIndex2017methodology.pdf)
  - 4-page highlights [pdf]({{ site.baseurl }}/assets/static/download/RDR-4pager.pdf)
- -
+ -  
  
 Company Report Cards:
 
@@ -37,7 +37,7 @@ Company Report Cards:
  - Vodafone [pdf]({{ site.baseurl }}/assets/static/download/Vodafone.pdf)
  - Yahoo [pdf]({{ site.baseurl }}/assets/static/download/Yahoo.pdf)
  - Yandex [pdf]({{ site.baseurl }}/assets/static/download/Yandex.pdf)
- -
+ -  
  
 2015 Data and Report:
 
