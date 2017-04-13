@@ -13,7 +13,7 @@ intro:
  - 4-page highlights [pdf]({{ site.baseurl }}/assets/static/download/RDR-4pager.pdf)
  -    
 <br />
-**Company Report Cards:
+Company Report Cards:
 
  - América Móvil [pdf]({{ site.baseurl }}/assets/static/download/AmericaMovil.pdf)
  - Apple [pdf]({{ site.baseurl }}/assets/static/download/Apple.pdf)
@@ -39,7 +39,7 @@ intro:
  - Yandex [pdf]({{ site.baseurl }}/assets/static/download/Yandex.pdf)
  -    
 <br />
-**2015 Data and Report:
+2015 Data and Report:
 
  - 2015 Full data [excel]({{ site.baseurl }}/assets/static/download/RDRindex2015data.xlsx)
  - The 2015 Report [pdf]({{ site.baseurl }}/assets/static/download/RDRindex2015report.pdf)
