@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - '0.12'
-
+- '0.12'
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
@@ -13,16 +12,12 @@ cache:
   directories:
   - node_modules
   - bundle/cache
-
 before_install:
-- openssl aes-256-cbc -K $encrypted_17bff3baff3d_key -iv $encrypted_17bff3baff3d_iv
-  -in rdr.enc -out rdr -d
+- openssl aes-256-cbc -K $encrypted_19e529dd4059_key -iv $encrypted_19e529dd4059_iv -in rdr.enc -out rdr -d
 - chmod 400 rdr
 - chmod +x ./.build_scripts/deploy.sh
 - chmod +x ./.build_scripts/build.sh
-
 script:
 - "./.build_scripts/build.sh"
-
 after_success:
 - "./.build_scripts/deploy.sh"
