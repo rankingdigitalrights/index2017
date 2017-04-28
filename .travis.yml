@@ -7,14 +7,13 @@ env:
   - DEPLOY_BRANCH=master
   - BLUEHOST_USER=ranking5
   - BLUEHOST_PATH=rankingdigitalrights.org:public_html/index2017
-  - secure: nD0zmCKQR6iDCquiai2u0fcLu9BdD6RdzLbZPdlgy72HSwWouZXfvKoA0dvYvpWi0bYIlmAmThFDNGMfx2rzfWf0BQoOggc61lo6swdz5nndoUW7oud1+mlDPyuC+uH63we+x1w6XG92f7UyhO0THEGjzE8sh9Gt/GIU1knxPvO4Rnn/BYQ6JN6hoUVEPmXDpwwS6Kk5HEKxpAKuGDxWo274mg+ppEDLLDOo1P6OQSFFvhjeZjqGhSpmUb+dqcv0SAW7mKhhisK7ljJoRvdXRCWkCouZXWNtYN0VFbG5EMUPY1ucqm/hyb8nhp8/IzCJEmK57HnEUkOuosUTiTVZzel34hryAxV4ptw3PnMejNX0xm6yHuEV3e6T5gBF76VaEritBzgq8T95sojcKObCuvNaTWxegn+3FH/c9XqyITrLEkwFMF6d2XHefG810tctQFqizpkdAH8BYvB43FvtTlMDS8tOI+qYGpQUFB3xxCjrrawT8ABaGWtZ4VM5Xg8qbBvlmb03bOe1p0ra+SIPvle/35M0IbCn7E365xAsCCsRmmY156vOFPJvu/nXdxciqYbvlddtX4Xls9K9o1Yvys3+ykWLpaqHVmwjF7EFdjXP/UxZbcz9R2gverwL8qd5ie7Gi2bEF0MHq9qXVSzYWu09bVYZtw+raSrVBwKGQIc=
+  - secure: Q3860WD7PTOubMc7lNu5f2hJcFA9ezL4ZtqGmu9F/dECzZzEZ7ES+YYELSlVNv2YKNmVCWxIS50uQIxWEEx9LJnJ9SUROsJ0/KffnQUTy4ZC6zvOAJPrwuguSa0h3AvtCWVR1shCfspcifNvSvh5dgvZDXYOfkOUjBo/GebV472Fz+/4STwpZeS0jQFo3aombe1nLxfzWmDYoYvqe7oNfm7AshkCY7QRRMBlAWMDwiEqinQaD8jO2jnfOG33fZn0cnpY3IADteunY4o1AAaIw7bCLe2smqdKgbYkeoN3vGSsws4qEVOao46nb0hkIGX+y0CkyQJFBtVlCgAjF/omRu8SWX+4stXqU15HjTP7hYVkGmdY/S0FOP7nBdEh+Uu+KxA4T0Il8PjkTTi27CczRk/pizi1RsRvADUZ6P9y1RCfahKVPVTK42iAfwm/4BEvrjBVk9MrY2O/dp752RFx9fJEdFkGuzpVWH/ieW8ypUxmssyuMHNM7XCSRsJEGAn0D6CT4VJunUZWq873fH2iB+Lp71mVbUm0Q8u+hmrLU7rXsefotwP9MXEV1FgKwXw8aEvNa+k5dsu1dgqrQuKqoMoP/Afq4lsXsg7VUC575zQtzMpntjWPVxcPtNNyGWzpEqNEb85i7+p7cptkBDgQ98BTJRPzne1rLWfJONX2D/8=
 cache:
   directories:
   - node_modules
   - bundle/cache
 before_install:
-- openssl aes-256-cbc -K $encrypted_19e529dd4059_key -iv $encrypted_19e529dd4059_iv
-  -in rdr.enc -out rdr -d
+- openssl aes-256-cbc -k "$secure" -in rdr.enc -out rdr -d
 - chmod 400 rdr
 - chmod +x ./.build_scripts/deploy.sh
 - chmod +x ./.build_scripts/build.sh
