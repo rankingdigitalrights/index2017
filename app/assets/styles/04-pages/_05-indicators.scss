@@ -227,7 +227,7 @@
 						transform: none;
 				        }
 				        @include media(xlarge-up) {
-						transform: none;				 
+						transform: rotate(-35deg);
 				        }						
 					} 														
 				}
