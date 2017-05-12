@@ -1610,13 +1610,13 @@
          "id":"twitter",
          "headers":[
             {
+               "text":"Twitter"
+            },
+            {
                "text":"Vine"
             },
             {
                "text":"Periscope"
-            },
-            {
-               "text":"Twitter"
             }
          ],
          "average":[
