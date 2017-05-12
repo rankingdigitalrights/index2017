@@ -13,7 +13,8 @@ cache:
   - node_modules
   - bundle/cache
 before_install:
-- openssl aes-256-cbc -k $secure -in rdr.enc -out rdr -d
+- openssl aes-256-cbc -K $encrypted_19e529dd4059_key -iv $encrypted_19e529dd4059_iv
+  -in rdr.enc -out rdr -d
 - chmod 400 rdr
 - chmod +x ./.build_scripts/deploy.sh
 - chmod +x ./.build_scripts/build.sh
