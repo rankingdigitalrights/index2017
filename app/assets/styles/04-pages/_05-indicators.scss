@@ -221,10 +221,10 @@
 				        transform: rotate(-90deg);	
 				        }
 				        @include media(medium-up) {
-						transform: none;				  
+						transform: rotate(-35deg);				  
 				        }
 				        @include media(large-up) {
-						transform: none;
+						transform: rotate(-35deg);
 				        }
 				        @include media(xlarge-up) {
 						transform: rotate(-35deg);
