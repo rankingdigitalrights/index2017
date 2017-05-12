@@ -7,13 +7,14 @@ env:
   - DEPLOY_BRANCH=master
   - BLUEHOST_USER=ranking5
   - BLUEHOST_PATH=rankingdigitalrights.org:public_html/index2017
+  - secure: "sYAehhVHZQIbFAsBLwH9jkRORtnfYJSQUsvU55Il9LfSKWduyXfYehyUOgIVGiN0/KpN/qCg1q7QfjOw7FtJuYTqscCO5hEQ7sQ6kjdqjl9BTleASYi7c5TKaRQvUn6KprYd7xsvrX47hIAprk56eeXzn+kwgVlicLjSM5+fl6W2p43mLCZ6e/+fq3OL8t08ckgvsC4qLpbu8CPE1W+n2h9uZxQW/gpZRwF3WYjvqFIdY8Om1aoeB8NGd1incZLN0PxAToKC+gNve5zK9ADF8WpJazLNGU4prIrKqs7p8YU4QUusVAn7ajgZ/ksZAyFZ/VxltmmD4idokRpNxr5TthawrdX9dzRyRRFScq712ZMoaQC+3V1l73UOWWmE2kjRLh6UWuRrM+z94UVooUqazHFJzSNs/N7JvIsQXZ2JidsBuM469EMA8S/4ex4jwDQQFLTqZbsFhM+UI/a2XfCE6QYuYVhMYk8uBAiC4OIePJlKajWZjiTOWclyqLmIQp4gAnUj0OxuhYVYkxhTrcCjgoXWGH9iarsOvKdxRq2EaRL4gG6PR63rmDWSyIMvX+eHPxvAPoeREnq3bH+OnfUbWPuNmUteoJtQzIC+6iugacLB50Uo2x1YbhnQmXG7JfyNSqr4Nzh5dBMJYI+shnDIeeHEFf93WBqn7LO6jJI5W5g="
+
 cache:
   directories:
   - node_modules
   - bundle/cache
 before_install:
-- openssl aes-256-cbc -K $encrypted_19e529dd4059_key -iv $encrypted_19e529dd4059_iv
-  -in rdr.enc -out rdr -d
+- openssl aes-256-cbc -K $encrypted_19e529dd4059_key -iv $encrypted_19e529dd4059_iv -in rdr.enc -out rdr -d
 - chmod 400 rdr
 - chmod +x ./.build_scripts/deploy.sh
 - chmod +x ./.build_scripts/build.sh
