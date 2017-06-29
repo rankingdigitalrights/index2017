@@ -80,10 +80,10 @@ Company disclosure is inadequate across the board. Similar to the <a href="http:
 <p></p>
 <ul>
 <li><strong>Handling of user information is opaque. </strong>How and for what purpose is our information collected, shared, retained, and used? If somebody were to build a profile on us using this information, what would it look like? Companies don't disclose enough for users to understand risks and make informed choices.</li>
-</ul>
 <p></p>
 <p>The 2017 Index contains seven indicators measuring if and how clearly companies disclose what types of user information they collect, share, for what purpose, how they collect this information, and for how long they retain it. Indicators also look for companies to offer users options to control what is collected and to obtain all of the information a company holds on them. (For a detailed analysis see Section 6 of the <a href="https://rankingdigitalrights.org/download">full report</a>.)</p>
 <p> </p>
+</ul>
 <ul>
 <li><strong>Security commitments lack sufficient evidence.</strong> In order to trust a service, we need to know that credible efforts are being made to secure our information. Most companies communicate less about what they are doing to protect users' security than about what users should do to protect themselves. Disclosure about company policies for informing affected parties about data breaches was especially poor. (For a detailed analysis see Section 7 of the <a href="https://rankingdigitalrights.org/download">full report</a>.)</li>
 </ul>
