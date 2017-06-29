@@ -59,27 +59,21 @@ Company disclosure is inadequate across the board. Similar to the <a href="http:
 <ul>
 <li><strong>Mobile ecosystems: We don't know enough about the impact of smartphones on our digital rights. </strong>Smartphones are chokepoints for freedom of expression and gatekeepers for digital security. It is important that companies controlling mobile ecosystems have strong commitments and disclosed policies.</li>
 <p></p>
-<p>We evaluated three <a href="https://rankingdigitalrights.org/index2017/findings/mobileecosystems">mobile ecosystems</a>mobile ecosystems: Apple's iOS ecosystem, the Google Android mobile ecosystem, and Samsung's implementation of Android. All three offered poor disclosure about policies affecting freedom of expression and privacy. </p>
+<p>We evaluated three <a href="https://rankingdigitalrights.org/index2017/findings/mobileecosystems">mobile ecosystems</a>: Apple's iOS ecosystem, the Google Android mobile ecosystem, and Samsung's implementation of Android. All three offered poor disclosure about policies affecting freedom of expression and privacy. </p>
 <p></p>
 <p><strong>Google</strong> disclosed the most information across the board about policies and practices affecting Android smartphone users' freedom of expression and privacy. <strong>Apple</strong>'s iOS mobile ecosystem was most competitive on privacy-related disclosures and generally had better disclosure than<strong> Samsung</strong>-controlled Android devices. <a href="https://rankingdigitalrights.org/index2017/findings/mobileecosystems">Explore our in-depth analysis of mobile ecosystems. </a></p>
 </ul>
 <ul>
 <li><strong>Freedom of expression is getting short-changed. </strong>How do company actions affect our ability to publish, transmit, or access content? With a couple of notable exceptions, most companies disclosed much less information about policies that affect users' freedom of expression than about policies affecting privacy. Here is what that means in practice:</li>
-</ul>
 <ul>
 <li><strong>Third-party requests to restrict speech:</strong> Companies don't disclose enough about how they respond when governments and other parties ask them to block, delete, or otherwise restrict content or deactivate users' accounts. Companies are receiving growing numbers of requests not only from governments but from private organizations and individuals. If and how companies respond to and comply with these requests can have a critical impact on freedom of expression and on human rights more broadly. (For a detailed analysis see section 5.1 of the <a href="https://rankingdigitalrights.org/download">full report</a>.) </li>
-</ul>
 <p></p>
-<ul>
 <li><strong>Terms of service enforcement: </strong>Companies tell us almost nothing about when they remove content or restrict users' accounts for violating their rules. Through their terms of service and user agreements, companies set their own rules for what types of content or activities are prohibited on their services and platforms, and have their own internal systems and processes for enforcing these rules. Companies need to disclose more information about their enforcement processes and the volume and nature of content being removed. (For a detailed analysis see section 5.2 of the <a href="https://rankingdigitalrights.org/download">full report</a>.) </li>
-</ul>
 <p></p>
-<ul>
 <li><strong>Identity policies </strong>tied to government ID threaten freedom of expression. The ability to communicate anonymously is deemed <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/29/32">essential</a> to freedom of expression by many in the human rights community. Only four companies in the Index enable people to create accounts or use a service without providing information linked to government ID. (For a detailed analysis see section 5.3 of the <a href="https://rankingdigitalrights.org/download">full report</a>.) </li>
-</ul>
 <p></p>
-<ul>
 <li><strong>Network shutdowns:</strong> A growing number of governments are requiring telecommunications companies to shut down service either for a whole country or in a specific area for specified periods - and for a range of reasons. In 2016, the U.N. Human Rights Council <a href="http://ap.ohchr.org/documents/dpage_e.aspx?si=A/HRC/32/L.20">affirmed</a> that network shutdowns threaten freedom of expression and the right to access information, condemned them to be a violation of international human rights law and called on governments to refrain from taking these actions. Users are generally in the dark about why they are cut off. <a href="https://rankingdigitalrights.org/index2017/findings/networkshutdowns">Explore our in-depth analysis related to network shutdowns</a>. </li>
+</ul>
 </ul>
 <p></p>
 <ul>
