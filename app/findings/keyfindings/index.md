@@ -88,7 +88,7 @@ Company disclosure is inadequate across the board. Similar to the <a href="http:
 <li><strong>Security commitments lack sufficient evidence.</strong> In order to trust a service, we need to know that credible efforts are being made to secure our information. Most companies communicate less about what they are doing to protect users' security than about what users should do to protect themselves. Disclosure about company policies for informing affected parties about data breaches was especially poor. (For a detailed analysis see Section 7 of the <a href="https://rankingdigitalrights.org/index2017/download">full report</a>.)</li>
 </ul>
 <p></p>
-<h3>What is to be done?<h3> 
+<h3>What is to be done?</h3> 
 <p><a href="https://rankingdigitalrights.org/index2017/findings/recommendations">Read our recommendations</a>. </p>
 <p></p>
 <p><a href="https://rankingdigitalrights.org/index2017/download"><strong>Download the full report and analysis</strong></a>. </p>
