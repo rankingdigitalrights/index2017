@@ -25,7 +25,7 @@ published: true
 <li><strong>Commit to push back against excessively broad or extra-legal requests, including in a court of law</strong> while complying with bona fide requests to restrict speech or share user information within the bounds of the law. Companies should use every opportunity available to pressure governments to move away from mass surveillance and institute meaningful oversight over national security and law enforcement authorities.</li>
 </ul>
 <ul>
-<li><strong>Make clear to users what types of requests the company will - and will not - consider, from what types of parties. </strong>For example: some companies make clear that they will only accept government requests for user information via specified channels and that they will not respond to private requests. Other companies do not disclose any information about whether they may consider private requests. Without clear policy disclosure about the types of requests the company is willing to entertain, users will lack sufficient information about risks that they may take when using a service. </li>
+<li><strong>Make clear to users what types of requests the company will—and will not—consider, from what types of parties. </strong>For example: some companies make clear that they will only accept government requests for user information via specified channels and that they will not respond to private requests. Other companies do not disclose any information about whether they may consider private requests. Without clear policy disclosure about the types of requests the company is willing to entertain, users will lack sufficient information about risks that they may take when using a service. </li>
 </ul>
 <ul>
 <li><strong>Establish effective grievance and remedy mechanisms.</strong> Grievance mechanisms and remedy processes should be more prominently available to users. Companies should more clearly indicate that they accept concerns related to potential or actual violations of freedom of expression and privacy as part of these processes. Beyond this, disclosure pertaining to how complaints are processed, along with reporting on complaints and outcomes, would add considerable support to stakeholder perception that the mechanisms follow strong procedural principles and that the company takes its grievance and remedy mechanisms seriously.</li>
@@ -70,7 +70,7 @@ published: true
 		<li>Whether users have an option not to provide that information (P7); </li>
 		<li>Specifically, what information the company shares and with whom (P4);</li>
 		<li>Why the company shares that information (P5);</li>
-		<li>Whether -and the extent to which - users can control how their information is used (P7);</li>
+		<li>Whether—and the extent to which—users can control how their information is used (P7);</li>
 		<li>How long the company retains that information (P6);</li>
 		<li>Whether the user can access all public-facing and private user information a company holds about them (P8);</li>
 		<li>Whether and how the company destroys that information when users delete their accounts or cancel their service (P6). </li>
