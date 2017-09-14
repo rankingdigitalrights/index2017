@@ -40,7 +40,7 @@ Company disclosure is inadequate across the board. Similar to the <a href="http:
 <li><a href="https://rankingdigitalrights.org/index2017/companies/telefonica"><strong>Telefónica</strong></a>, which ranked third among telecommunications companies, led its category on several indicators. Most notably, it led all 22 companies in the entire Index for disclosure of how it responds to data breaches. The company's disclosure of policies related to network shutdowns was also among the more comprehensive across all telecommunications companies.</li>
 </ul>
 <p></p>
-<p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
+<p><a href="https://rankingdigitalrights.org/index2017/download"><strong>Download the full report and analysis</strong></a>. </p>
 <p></p>
 <h2>Key Lessons</h2>
 <p></p>
@@ -50,7 +50,7 @@ Company disclosure is inadequate across the board. Similar to the <a href="http:
 <p></p>
 <p>The <a href="https://rankingdigitalrights.org/index2017/indicators">2017 Index data</a> shows that GNI and TID member companies performed better on indicators in the <a href="https://rankingdigitalrights.org/index2017/categories/governance">Governance</a> category - measuring the institutionalization of corporate-level commitments to freedom of expression and privacy - than all other companies. However, in other areas of the Index, GNI or TID membership was not necessarily a predictor of strong performance. </p>
 <p></p>
-<p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
+<p><a href="https://rankingdigitalrights.org/index2017/download"><strong>Download the full report and analysis</strong></a>. </p>
 <p></p>
 <h2>Key Concerns</h2>
 <p></p>
@@ -88,6 +88,7 @@ Company disclosure is inadequate across the board. Similar to the <a href="http:
 <li><strong>Security commitments lack sufficient evidence.</strong> In order to trust a service, we need to know that credible efforts are being made to secure our information. Most companies communicate less about what they are doing to protect users' security than about what users should do to protect themselves. Disclosure about company policies for informing affected parties about data breaches was especially poor. (For a detailed analysis see Section 7 of the <a href="https://rankingdigitalrights.org/index2017/download">full report</a>.)</li>
 </ul>
 <p></p>
-<p>What is to be done? <a href="https://rankingdigitalrights.org/index2017/findings/recommendations">Read our recommendations</a>. </p>
+<h3>What is to be done?<h3> 
+<p><a href="https://rankingdigitalrights.org/index2017/findings/recommendations">Read our recommendations</a>. </p>
 <p></p>
-<p><a href="https://rankingdigitalrights.org/index2017/download">Download the full report and analysis</a>. </p>
+<p><a href="https://rankingdigitalrights.org/index2017/download"><strong>Download the full report and analysis</strong></a>. </p>
