@@ -71,3 +71,5 @@ We're using [semistandard](https://github.com/Flet/semistandard) for linting.
 - `npm run lint` - will run linter and warn of any errors.
 
 There are linting plugins for popular editors listed in the semistandard repo.
+
+## Test for the Pull request
