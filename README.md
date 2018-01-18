@@ -47,7 +47,7 @@ At times, it may be necessary to include options/variables specific to `producti
 - config/staging.js - overrides the production settings for staging server (basically Travis not on the DEPLOY branch)
 - config/local.js - local (development) overrides. This file is gitignored, so you can safely change it without polluting the repo.
 
-When developing locally with `gulp serve`, the default will be to use `production` (with overrides from `local.js`).  However, if you need to run with the staging settings, use: `DS_ENV=staging gulp serve` from the command line.
+When developing locally with `gulp serve`, the default will be to use `production` (with overrides from `local.js`).  However, if you need to run with the staging settings, use: `DS_ENV=staging gulp serve` from the command line..
 
 
 ### How scripts are built
