@@ -138,7 +138,7 @@ dropdownFn();
 
 })();
 
-$(window).load(function () {
+$(window).on('load', function () {
 
   // scroll to indicator
   var $root = $('html,body');
