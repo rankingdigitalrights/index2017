@@ -150,9 +150,12 @@ $(window).on('load', function () {
   }
 
   // share feature
-  document.getElementById('linkToCopy').innerHTML = window.location;
-  $('#CopyToClipboard').click(function () {
-    document.getElementById('linkToCopy').select();
-    document.execCommand('copy');
-  });
+  var linkToCopy = document.getElementById('linkToCopy');
+  if (linkToCopy) {
+    document.getElementById('linkToCopy').innerHTML = window.location;
+    $('#CopyToClipboard').click(function () {
+      document.getElementById('linkToCopy').select();
+      document.execCommand('copy');
+    });
+  }
 });
