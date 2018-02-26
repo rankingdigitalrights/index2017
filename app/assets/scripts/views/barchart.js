@@ -211,7 +211,7 @@ module.exports = BaseChart.extend({
               row += "<td class='cell--" + j + "'>" + cells[j].value + "</td>";
             }
             row += "</tr>";
-            $('#indicatorsTable > tbody:last-child').append(row);
+            $('#indicatorsTable:last-child').append(row);
           };
 
           // create average
