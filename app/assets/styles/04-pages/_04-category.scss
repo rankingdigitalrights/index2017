@@ -120,10 +120,10 @@
 							text {
 							transform: rotate(-90deg);
 						        @include media(small-up) {
-						        transform: rotate(-90deg);	
+						        transform: rotate(-90deg) translate(-10px);	
 						        }
 						        @include media(medium-up) {
-								transform: rotate(-35deg);				  
+								transform: rotate(-35deg) translate(-10px);				  
 						        }
 						        @include media(large-up) {
 								transform: rotate(-35deg);
