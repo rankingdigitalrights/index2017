@@ -68,8 +68,7 @@ module.exports = BaseChart.extend({
       .attr('indicator_id', indicator_id) // parameter for ajax calls
       .html(d => "→ " + d)
       .on('click', function (d) {
-        var href = d.toLowerCase().replace('&', '')
-          .replace('.', '').replace(' ', '').replace('é', 'e').replace('ó', 'o');
+        var href = d.toLowerCase().replace('&', '').replace('.', '').replace(' ', '').replace('é', 'e').replace('ó', 'o');
         if (indicator_id) {
           ajax_call(href, indicator_id);
         }
